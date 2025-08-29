@@ -1,0 +1,174 @@
+{{- /* Head custom content area start */ -}}
+{{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
+{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+{{- /* Head custom content area end */ -}}
+
+<style>
+/* Custom CSS for text wrapping around images */
+.img-wrap-left {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 300px;
+    clear: both;
+}
+
+.img-wrap-right {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 300px;
+    clear: both;
+}
+
+.img-wrap-center {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Responsive image wrapping */
+@media (max-width: 768px) {
+    .img-wrap-left,
+    .img-wrap-right {
+        float: none;
+        margin: 20px auto;
+        display: block;
+        max-width: 100%;
+    }
+}
+
+/* Clear floats after wrapped content */
+.clear-float::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Additional styling for wrapped images */
+.img-wrap-left img,
+.img-wrap-right img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-wrap-left img:hover,
+.img-wrap-right img:hover {
+    transform: scale(1.02);
+}
+
+/* Caption styling for wrapped images */
+.img-wrap-left figcaption,
+.img-wrap-right figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Tabs functionality */
+.tabs-container {
+  margin: 2rem 0;
+  border: 1px solid #e1e5e9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabs-nav {
+  display: flex;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e1e5e9;
+  overflow-x: auto;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c757d;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-button:hover {
+  background: #e9ecef;
+  color: #495057;
+}
+
+.tab-button.active {
+  background: white;
+  color: #007bff;
+  border-bottom-color: #007bff;
+}
+
+.tabs-content {
+  background: white;
+}
+
+.tab-panel {
+  display: none;
+  padding: 20px;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .tabs-nav {
+    flex-direction: column;
+  }
+  
+  .tab-button {
+    border-bottom: 1px solid #e1e5e9;
+    border-right: none;
+  }
+  
+  .tab-button.active {
+    border-bottom-color: #007bff;
+  }
+}
+</style>
+
+<script>
+function switchTab(containerId, tabIndex) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  
+  const buttons = container.querySelectorAll('.tab-button');
+  const panels = container.querySelectorAll('.tab-panel');
+  
+  // Remove active class from all buttons and panels
+  buttons.forEach(btn => btn.classList.remove('active'));
+  panels.forEach(panel => panel.classList.remove('active'));
+  
+  // Add active class to selected button and panel
+  if (buttons[tabIndex]) buttons[tabIndex].classList.add('active');
+  if (panels[tabIndex]) panels[tabIndex].classList.add('active');
+}
+
+// Initialize tabs when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  // Add click event listeners to all tab buttons
+  document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      const container = this.closest('.tabs-container');
+      const buttons = container.querySelectorAll('.tab-button');
+      const tabIndex = Array.from(buttons).indexOf(this);
+      const containerId = container.id;
+      
+      switchTab(containerId, tabIndex);
+    });
+  });
+});
+</script>

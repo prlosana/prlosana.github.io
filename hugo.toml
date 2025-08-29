@@ -1,0 +1,152 @@
+# config.toml
+baseURL = 'https://prlosana.github.io/'
+publishDir = 'docs'
+languageCode = 'en-us'
+title = 'Dr. Anasol Peña-Rios'
+theme = 'PaperMod'
+
+# Enable features
+enableGitInfo = false
+enableEmoji = true
+enableRobotsTXT = true
+
+# Build settings
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Main sections (for home page)
+mainSections = ["posts"]
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "bio"
+    name = "About Me"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 20
+  [[menu.main]]
+    identifier = "leadership"
+    name = "Leadership & Volunteering"
+    url = "/leadership/"
+    weight = 30
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 40
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 50
+
+# PaperMod theme configuration
+[params]
+  # Site description
+  description = "Dr. Anasol Peña-Rios"
+  
+  # Default theme mode
+  defaultTheme = "auto"
+  
+  # Show reading time
+  ShowReadingTime = true
+  
+  # Show word count
+  ShowWordCount = true
+  
+  # Show table of contents
+  ShowToc = true
+  
+  # Enable code copy button
+  ShowCodeCopyButtons = true
+  
+  # Enable social icons
+  ShowShareButtons = false
+  
+  # Enable search
+  ShowSearch = true
+  
+  # Enable comments
+  ShowComments = false
+  
+  # Enable related content
+  ShowRelatedContent = true
+  
+  # Enable breadcrumbs
+  ShowBreadCrumbs = true
+  
+  # Enable last modified
+  ShowLastMod = true
+  
+  # Enable author
+  ShowAuthor = true
+  
+  # Enable date
+  ShowDate = true
+  
+  # Enable categories
+  ShowCategories = true
+  
+  # Enable tags
+  ShowTags = true
+  
+  # Enable taxonomies
+  ShowTaxonomies = true
+  
+  # Enable archive
+  ShowArchive = true
+  
+  # Enable social icons in profile mode
+  ShowSocialIcons = true
+  
+  # Hide the "Powered by Hugo & PaperMod" footer
+  ShowPoweredBy = false
+  
+  # Enable profile mode
+  [params.profileMode]
+    enabled = false
+
+# Social icons
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/prlosana"
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "http://uk.linkedin.com/in/prlosana"
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/prlosana"
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:acpena@ieee.org"
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    noHl = false
+    style = "github"
+    tabWidth = 4
+    lineNos = true
+    lineNumbersInTable = true
+    guessSyntax = true
+
+# Permalinks
+[permalinks]
+  posts = "/posts/:year/:month/:day/:slug/"
+  pages = "/:slug/"

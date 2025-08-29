@@ -1,0 +1,59 @@
+{{ $id := .Get "id" | default (printf "tabs-%d" (now.UnixNano)) }}
+
+{{ $content := .Inner }}
+{{ $tabs := slice }}
+
+{{/* Parse the content to extract tabs */}}
+{{ $lines := split $content "\n" }}
+{{ $currentTab := dict }}
+{{ $inTab := false }}
+{{ $tabContent := "" }}
+
+{{ range $lines }}
+  {{ $line := trim . " " }}
+  {{ if hasPrefix $line "<!--tab:" }}
+    {{ if $inTab }}
+      {{ $currentTab = merge $currentTab (dict "content" $tabContent) }}
+      {{ $tabs = $tabs | append $currentTab }}
+    {{ end }}
+    {{ $inTab = true }}
+    {{ $title := replace $line "<!--tab:" "" }}
+    {{ $title = replace $title "-->" "" }}
+    {{ $title = trim $title " " }}
+    {{ $currentTab = dict "title" $title "content" "" }}
+    {{ $tabContent = "" }}
+  {{ else if and $inTab (hasPrefix $line "<!--endtab-->") }}
+    {{ $inTab = false }}
+    {{ $currentTab = merge $currentTab (dict "content" $tabContent) }}
+    {{ $tabs = $tabs | append $currentTab }}
+  {{ else if $inTab }}
+    {{ if ne $tabContent "" }}
+      {{ $tabContent = printf "%s\n%s" $tabContent $line }}
+    {{ else }}
+      {{ $tabContent = $line }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $inTab }}
+  {{ $currentTab = merge $currentTab (dict "content" $tabContent) }}
+  {{ $tabs = $tabs | append $currentTab }}
+{{ end }}
+
+<div class="tabs-container" id="{{ $id }}">
+  <div class="tabs-nav">
+    {{ range $index, $tab := $tabs }}
+      <button class="tab-button {{ if eq $index 0 }}active{{ end }}">
+        {{ $tab.title }}
+      </button>
+    {{ end }}
+  </div>
+  
+  <div class="tabs-content">
+    {{ range $index, $tab := $tabs }}
+      <div class="tab-panel {{ if eq $index 0 }}active{{ end }}">
+        {{ $tab.content | markdownify }}
+      </div>
+    {{ end }}
+  </div>
+</div>

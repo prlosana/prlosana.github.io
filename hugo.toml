@@ -133,11 +133,14 @@ mainSections = []
   ShowSocialIcons = true
   
   # Hide the "Powered by Hugo & PaperMod" footer
-  ShowPoweredBy = false
-  
-  # Enable profile mode
-  [params.profileMode]
-    enabled = false
+ShowPoweredBy = false
+
+# Google Analytics (GA4)
+googleAnalytics = "GT-MK4N6BD"
+
+# Enable profile mode
+[params.profileMode]
+  enabled = false
 
 # Social icons
 [[params.socialIcons]]

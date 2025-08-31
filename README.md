@@ -8,11 +8,12 @@ Your WordPress site has been successfully migrated to Hugo using the PaperMod th
 
 ## 📊 Site Overview
 
-- **Pages**: 31 total pages (including blog posts)
-- **Images**: 73 images migrated from WordPress
+- **Pages**: 34 total pages (including blog posts)
+- **Images**: 7 optimized images (unused images removed)
 - **Theme**: PaperMod (fast, clean, responsive)
 - **Performance**: Static site with fast loading times
 - **Security**: No database or PHP vulnerabilities
+- **Custom Features**: Custom tabs, consistent menu positioning, search functionality
 
 ## 🚀 Quick Start
 
@@ -36,6 +37,15 @@ Your WordPress site has been successfully migrated to Hugo using the PaperMod th
 
 **Note**: The `--config hugo.toml` flag is required to explicitly tell Hugo which configuration file to use.
 
+### ⚠️ IMPORTANT: Hugo Compilation Required
+
+**All changes you make to the site content, configuration, or templates MUST be compiled with Hugo before they will appear on GitHub Pages.**
+
+- **For local testing**: Use `hugo server -D --config hugo.toml` (automatic compilation)
+- **For production/GitHub Pages**: Use `hugo --config hugo.toml` to build the site
+- **After any changes**: Always run `hugo --config hugo.toml` before pushing to GitHub
+- **GitHub Pages only shows the compiled output** in the `public/` directory, not your source files
+
 ### Building for Production
 
 ```bash
@@ -51,20 +61,24 @@ prlosana-hugo/
 ├── content/           # All site content
 │   ├── _index.md     # BIO (main page)
 │   ├── contact.md    # Contact page
-│   ├── leadership-volunteering.md # Leadership & Volunteering page
+│   ├── leadership.md # Leadership & Volunteering page
 │   ├── projects.md   # Projects page
 │   ├── publications.md # Publications page
-│   └── posts/        # Blog posts (16 files)
+│   ├── search.md     # Search page
+│   └── posts/        # Blog posts (published and drafts)
+├── layouts/          # Custom templates
+│   ├── _default/     # Custom base templates
+│   ├── posts/        # Custom post templates
+│   └── partials/     # Custom partials (header, footer, etc.)
 ├── static/           # Static files (images, CSS, JS)
-│   └── images/       # All migrated images (73 files)
+│   └── images/       # Optimized images (7 files)
 ├── themes/           # Hugo themes
 │   └── PaperMod/     # PaperMod theme
 ├── hugo.toml         # Site configuration
-├── README.md         # This file
-└── MIGRATION-COMPLETE.md # Migration summary
+└── README.md         # This file
 ```
 
-## 🎨 Theme Features
+## 🎨 Theme Features & Customizations
 
 The [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod) provides:
 
@@ -72,9 +86,18 @@ The [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod) provides:
 - **Dark/Light mode** - Automatic theme switching
 - **Search functionality** - Built-in search with Fuse.js
 - **Responsive design** - Works perfectly on mobile devices
-- **Table of Contents** - Automatic generation for long posts
 - **Code highlighting** - Syntax highlighting for code blocks
 - **Social icons** - Easy social media integration
+
+### Custom Features Added:
+- **Custom tabs functionality** - Interactive tabs in Leadership page
+- **Consistent menu positioning** - Menu appears below title on all pages
+- **Clean footer** - Removed "Powered by Hugo & PaperMod" attribution
+- **Consistent backgrounds** - All pages use same white background in light theme
+- **Horizontal bars under H2 headings** - Visual enhancement for section headers
+- **Contact page icons** - Visual improvements to contact information
+- **Posts filtering** - Only published posts shown on posts page
+- **Clean home page** - Bio content only, no posts list
 
 ## 📝 Content Management
 
@@ -112,7 +135,8 @@ The main configuration is in `hugo.toml`. Key settings include:
 
 - Place images in `static/images/`
 - Reference them in content as `/images/filename.jpg`
-- All 73 images from your WordPress site have been migrated
+- Images have been optimized - only 7 essential images remain
+- Unused images were removed to improve site performance
 
 ## 📊 Migration Benefits Achieved
 
@@ -199,14 +223,15 @@ If changes aren't reflected in the browser:
 
 ## 🎯 Site Pages
 
-Your Hugo site includes all the original WordPress pages:
+Your Hugo site includes all the original WordPress pages plus enhancements:
 
-1. **BIO** (main page) - Your professional background and expertise
-2. **Publications** - Academic publications listing
-3. **Leadership & Volunteering** - Awards, honors, and leadership roles
+1. **BIO** (main page) - Your professional background and expertise (clean, no posts list)
+2. **Publications** - Academic publications in APA format
+3. **Leadership & Volunteering** - Awards, honors, and leadership roles with interactive tabs
 4. **Projects** - Research projects and PhD work
-5. **Contact** - All your contact information and profiles
-6. **Blog Posts** - 16 converted WordPress posts
+5. **Contact** - Contact information with visual icons
+6. **Posts** - Blog posts (published only, accessible via dedicated page)
+7. **Search** - Site-wide search functionality
 
 ## 🎉 Success Metrics
 
@@ -229,6 +254,7 @@ If you encounter issues:
 
 **Migration completed on**: January 2024  
 **Theme used**: PaperMod by Aditya Telange  
-**Total pages**: 31  
-**Total images**: 73  
-**Performance improvement**: Significant faster loading times
+**Total pages**: 34  
+**Total images**: 7 (optimized)  
+**Performance improvement**: Significant faster loading times  
+**Last updated**: January 2024

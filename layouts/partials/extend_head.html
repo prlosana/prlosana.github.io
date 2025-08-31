@@ -72,15 +72,15 @@
 /* Tabs functionality */
 .tabs-container {
   margin: 2rem 0;
-  border: 1px solid #e1e5e9;
+  border: 1px solid var(--entry);
   border-radius: 8px;
   overflow: hidden;
 }
 
 .tabs-nav {
   display: flex;
-  background: #f8f9fa;
-  border-bottom: 1px solid #e1e5e9;
+  background: var(--entry);
+  border-bottom: 1px solid var(--entry);
   overflow-x: auto;
 }
 
@@ -91,30 +91,31 @@
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  color: #6c757d;
+  color: var(--secondary);
   transition: all 0.2s ease;
   white-space: nowrap;
   border-bottom: 3px solid transparent;
 }
 
 .tab-button:hover {
-  background: #e9ecef;
-  color: #495057;
+  background: var(--entry);
+  color: var(--primary);
 }
 
 .tab-button.active {
-  background: white;
-  color: #007bff;
-  border-bottom-color: #007bff;
+  background: var(--theme);
+  color: var(--primary);
+  border-bottom-color: var(--primary);
 }
 
 .tabs-content {
-  background: white;
+  background: var(--theme);
 }
 
 .tab-panel {
   display: none;
   padding: 20px;
+  color: var(--content);
 }
 
 .tab-panel.active {
@@ -128,12 +129,12 @@
   }
   
   .tab-button {
-    border-bottom: 1px solid #e1e5e9;
+    border-bottom: 1px solid var(--entry);
     border-right: none;
   }
   
   .tab-button.active {
-    border-bottom-color: #007bff;
+    border-bottom-color: var(--primary);
   }
 }
 
@@ -216,6 +217,32 @@
   .contact-email {
     font-size: 1.1em;
     padding: 15px;
+  }
+}
+
+/* Horizontal bars under h2 headings (##) */
+h2 {
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+
+/* Responsive h2 bars */
+@media (max-width: 768px) {
+  h2::after {
+    width: 40px;
+    height: 2px;
   }
 }
 </style>

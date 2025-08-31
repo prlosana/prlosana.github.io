@@ -7,7 +7,19 @@ toc: false
 hideMeta: true
 ---
 
-## Awards and Honours
+### Strategic Leadership
+
+{{< tabs >}}
+<!--tab:Current-->
+- [Board of Directors Member](https://www.immersivelrn.org/about/leadership-board/) - Immersive Learning Research Network (non-profit)
+- [Board of Directors Member](https://ieee-edusociety.org/committee/committee-chairs-members) – Technical Committee on Immersive Learning Environments, IEEE Education Society (non-profit)
+- [Advisory Group Member](https://digitaltwinhub.co.uk/about/advisory-group/) – Digital Twin Hub (non-profit)
+- [Advisory Group Member](https://creative-science.org/about-csf/) - Creative Science Foundation (non-profit)
+- [Founding Partner & Member](https://www.women4ainnovation.org/about-us) - Women4AInnovation Futures (think-tank)
+<!--endtab-->
+{{< /tabs >}}
+
+### Awards and Honours
 
 {{< tabs >}}
 <!--tab:Current-->
@@ -55,19 +67,7 @@ hideMeta: true
 <!--endtab-->
 {{< /tabs >}}
 
-## Strategic Leadership
-
-{{< tabs >}}
-<!--tab:Current-->
-- [Board of Directors Member](https://www.immersivelrn.org/about/leadership-board/) - Immersive Learning Research Network (non-profit)
-- [Board of Directors Member](https://ieee-edusociety.org/committee/committee-chairs-members) – Technical Committee on Immersive Learning Environments, IEEE Education Society (non-profit)
-- [Advisory Group Member](https://digitaltwinhub.co.uk/about/advisory-group/) – Digital Twin Hub (non-profit)
-- [Advisory Group Member](https://creative-science.org/about-csf/) - Creative Science Foundation (non-profit)
-- [Founding Partner & Member](https://www.women4ainnovation.org/about-us) - Women4AInnovation Futures (think-tank)
-<!--endtab-->
-{{< /tabs >}}
-
-## Professional Memberships
+### Professional Memberships
 
 {{< tabs >}}
 <!--tab:Current-->
@@ -84,7 +84,7 @@ hideMeta: true
 <!--endtab-->
 {{< /tabs >}}
 
-## Grants and Funding
+### Grants and Funding
 
 {{< tabs >}}
 <!--tab:2020-->
@@ -108,7 +108,7 @@ hideMeta: true
 <!--endtab-->
 {{< /tabs >}}
 
-## Student Supervision
+### Student Supervision
 
 {{< tabs >}}
 <!--tab:Current-->
@@ -151,7 +151,7 @@ hideMeta: true
 
 {{< /tabs >}}
 
-## Editorial Work
+### Editorial Work
 
 {{< tabs >}}
 <!--tab:Current-->
@@ -166,7 +166,7 @@ hideMeta: true
 
 {{< /tabs >}}
 
-## Edited Publications
+### Edited Publications
 
 {{< tabs >}}
 <!--tab:2024-->
@@ -268,7 +268,7 @@ ISBN 978-1-61499-410-7 ¦[Link](http://repository.essex.ac.uk/14947/)
 
 {{< /tabs >}}
 
-## Organising Committee
+### Organising Committee
 
 {{< tabs >}}
 <!--tab:2023-->
@@ -369,7 +369,7 @@ Web Chair at the[ 2nd European Immersive Education Summit 2012 (EiED’12)](htt
 
 {{< /tabs >}}
 
-## Technical Program Committee / Reviewer
+### Technical Program Committee / Reviewer
 
 {{< tabs >}}
 <!--tab:2023-->
@@ -581,7 +581,7 @@ Creative Science Foundation
 
 {{< /tabs >}}
 
-## Invited Talks
+### Invited Talks
 
 {{< tabs >}}
 <!--tab:2024-->
@@ -621,152 +621,152 @@ Adastral Park, Ipswich, UK. 11 October 2023.
 
 <!--tab:2022-->
 Panellist at [IEEE EdSoc "Tomorrow’s Classroom Ecosystem" Webinar](https://ieee-edusociety.org/tomorrows-classroom-ecosystem-webinar)
-        
-        Panel organised as part of the IEEE Education Week 2022. Online. 05 April 2022.
 
-        Panellist at "Challenges and Opportunities With the Next Generation of Wearable Health
-                Solutions Designed With Digital Twins"
-        
-        Panel organised as part of the 23rd IEEE International Symposium on a World of Wireless, Mobile and Multimedia
-        Networks (WoWMoM). Belfast, NI. 14 June 2022.
+Panel organised as part of the IEEE Education Week 2022. Online. 05 April 2022.
 
-            ["Are Immersive Technologies the Future of Human Interactions?"](https://suffolkbusinessexpo.co.uk/schedule/technology-day/)
-        
-        Invited Speaker at the Festival of Suffolk 2022 - Technology Day. Ipswich, UK. 21 June 2022.
+Panellist at "Challenges and Opportunities With the Next Generation of Wearable Health
+Solutions Designed With Digital Twins"
 
-            "Digital
-                Twins, Immersive Technologies and the Workplace of the Future"
-        
-        Presentation at 1st Int. Workshop on Analytics, Learning & Collaboration in eXtended Reality (XR-WALK) at
-        2022 ACM Interactive Media Experiences (IMX) Conference. Aveiro, Portugal. 24 June 2022.
+Panel organised as part of the 23rd IEEE International Symposium on a World of Wireless, Mobile and Multimedia
+Networks (WoWMoM). Belfast, NI. 14 June 2022.
+
+["Are Immersive Technologies the Future of Human Interactions?"](https://suffolkbusinessexpo.co.uk/schedule/technology-day/)
+
+Invited Speaker at the Festival of Suffolk 2022 - Technology Day. Ipswich, UK. 21 June 2022.
+
+"Digital
+Twins, Immersive Technologies and the Workplace of the Future"
+
+Presentation at 1st Int. Workshop on Analytics, Learning & Collaboration in eXtended Reality (XR-WALK) at
+2022 ACM Interactive Media Experiences (IMX) Conference. Aveiro, Portugal. 24 June 2022.
 <!--endtab-->
 
 <!--tab:2021-->
 **“The Augmented Employee: Immersive Technologies in Field Service Operations”**
-        Invited seminar at the School of Computer Science & Engineering, University of Westminster, UK. Online.
-        February 24, 2021.
+Invited seminar at the School of Computer Science & Engineering, University of Westminster, UK. Online.
+February 24, 2021.
 
-        “AI and Immersive Technologies“
-        Guest lecture at the Department of Computer Science, University of Exeter, UK. Online. March 2, 2021.
+“AI and Immersive Technologies“
+Guest lecture at the Department of Computer Science, University of Exeter, UK. Online. March 2, 2021.
 
-        " [International Women's Day Celebrations](https://le.ac.uk/iwd/events/wednesday-10-march)"
-        
-        School of Informatics, University of Leicester, UK. Online. March 10, 2021.
+" [International Women's Day Celebrations](https://le.ac.uk/iwd/events/wednesday-10-march)"
 
-        " [Immersive Technologies in the Workplace](https://cambum.net/Inclusive_ARVR/)"
-        
-        Invited talk at the *ACM CHI 2021: Adaptive Accessible AR/VR Sytems* workshop. May 9, 2021.
+School of Informatics, University of Leicester, UK. Online. March 10, 2021.
 
-        " [Future Field and Network Operations](https://vimeo.com/547911996)"
-        
-        Invited talk at the first Essex BT/Openreach alumni meeting event, University of Essex, UK. Online. May 10,
-        2021.
+" [Immersive Technologies in the Workplace](https://cambum.net/Inclusive_ARVR/)"
 
-        " [AI, digital twins and immersive technologies](https://i-construct.org.uk/events/42)"
-        
-        I-Construct, Innovation Hub, UK. Online. May 19, 2021.
+Invited talk at the *ACM CHI 2021: Adaptive Accessible AR/VR Sytems* workshop. May 9, 2021.
+
+" [Future Field and Network Operations](https://vimeo.com/547911996)"
+
+Invited talk at the first Essex BT/Openreach alumni meeting event, University of Essex, UK. Online. May 10,
+2021.
+
+" [AI, digital twins and immersive technologies](https://i-construct.org.uk/events/42)"
+
+I-Construct, Innovation Hub, UK. Online. May 19, 2021.
 **"BT Labs: BT’s Research and Academic Collaboration"**
-        Wales Tech Week 2021, UK. Online. June 21, 2021.
+Wales Tech Week 2021, UK. Online. June 21, 2021.
 **"The journey from AI innovation to AI implementation: Barriers and enablers"**
-        
-        Panel discussion at the 63rd Annual Conference of the Operational Research Society. Online. September 13th,
-        2021.
+
+Panel discussion at the 63rd Annual Conference of the Operational Research Society. Online. September 13th,
+2021.
 <!--endtab-->
 
 <!--tab:2020-->
 **“The Augmented Employee: Immersive Technologies in Field Service Operations”**
-        Invited (online) talk at the Doctoral Program in Web Science and Technology (Programa do Retiro
-            Doutoral).  Universidad de Trás-os-Montes e Alto Douro (UTAD) & Universidade Aberta
-        (*UAb*), Lisbon, Portugal. June 30, 2020.
+Invited (online) talk at the Doctoral Program in Web Science and Technology (Programa do Retiro
+Doutoral).  Universidad de Trás-os-Montes e Alto Douro (UTAD) & Universidade Aberta
+(*UAb*), Lisbon, Portugal. June 30, 2020.
 
-        “ Challenges regarding Research in STEAM Areas during the Health
-                Emergency”
-        
-        Webinar organised by Gender Indicators and Statistics CDMX, Mexico. Online. August 28, 2020.
+“ Challenges regarding Research in STEAM Areas during the Health
+Emergency”
 
-        “ Digital Twins and Applications of Cross-Reality Interactions in
-                Field Service Operations”
-        
-        International Workshop on Cross-Reality (XR) Interaction. ACM Interactive Surfaces and Spaces (ISS 2020).
-        November 8th, 2020.
+Webinar organised by Gender Indicators and Statistics CDMX, Mexico. Online. August 28, 2020.
+
+“ Digital Twins and Applications of Cross-Reality Interactions in
+Field Service Operations”
+
+International Workshop on Cross-Reality (XR) Interaction. ACM Interactive Surfaces and Spaces (ISS 2020).
+November 8th, 2020.
 <!--endtab-->
 
 <!--tab:2019-->
 **“The Augmented Employee: Immersive Technologies in Field Service Operations”**
-        
-        Plenary talk at the 5th International Immersive Learning Research Network Conference (iLRN). London, UK.
-        June 24-27, 2019.
-**"Heads-Up, Hands-Free / Remote Collaboration”**
-        
-        Roundtable discussion at Enterprise Wearable Technology Summit 2019 (EWTS). Dallas, Tx.
-            September 17, 2019.
-**"Tecnologías Inmersivas en los Servicios de Campo”**
-        
-        Invited Talk as part of the Seminar Series on Artificial Intelligence and Social Issues.
-            Metropolitan Autonomous University (UAM). Mexico City, Mexico. September 26, 2019.
 
-        " New
-                perspectives on business challenges, funding opportunities and innovation (Expert Panel)”
-        
-        Expert panel to discuss new perspectives on business challenges, funding opportunities and
-            innovation, from companies including BT, Filament and Cloudfm alongside Essex academics. University of
-            Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester, UK. December 10,
-            2019.
+Plenary talk at the 5th International Immersive Learning Research Network Conference (iLRN). London, UK.
+June 24-27, 2019.
+**"Heads-Up, Hands-Free / Remote Collaboration”**
+
+Roundtable discussion at Enterprise Wearable Technology Summit 2019 (EWTS). Dallas, Tx.
+September 17, 2019.
+**"Tecnologías Inmersivas en los Servicios de Campo”**
+
+Invited Talk as part of the Seminar Series on Artificial Intelligence and Social Issues.
+Metropolitan Autonomous University (UAM). Mexico City, Mexico. September 26, 2019.
+
+" New
+perspectives on business challenges, funding opportunities and innovation (Expert Panel)”
+
+Expert panel to discuss new perspectives on business challenges, funding opportunities and
+innovation, from companies including BT, Filament and Cloudfm alongside Essex academics. University of
+Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester, UK. December 10,
+2019.
 <!--endtab-->
 
 <!--tab:2018-->
 **“Immersive Technologies in Field Service Operations”**
-        
-        Plenary talk at the II International Conference on Theoretical and Applied Computer Science and Engineering.
-        Istanbul, Turkey. June 29-30, 2018.
+
+Plenary talk at the II International Conference on Theoretical and Applied Computer Science and Engineering.
+Istanbul, Turkey. June 29-30, 2018.
 **"Immersive Technologies in Field Service Operations”**
-        
-        Invited talk at the 10th Computer Science and Electronic Engineering Conference (CEEC). University of
-        Essex, Colchester, UK. 19 Sept 2018.
+
+Invited talk at the 10th Computer Science and Electronic Engineering Conference (CEEC). University of
+Essex, Colchester, UK. 19 Sept 2018.
 <!--endtab-->
 
 <!--tab:2017-->
 **“Immersive Technologies in Field Service Operations”**
-        Presented at Ada Lovelace Day (Women in STEM). University of Essex, Colchester, UK. 10 Oct 2017.
+Presented at Ada Lovelace Day (Women in STEM). University of Essex, Colchester, UK. 10 Oct 2017.
 **"Challenges and Opportunities for KTP Associates"**
-        
-        Presented at the University of Essex' "Winter Celebration of KTP 2017". Wivenhoe House Hotel, Wivenhoe, UK. 12
-        Dec 2017.
+
+Presented at the University of Essex' "Winter Celebration of KTP 2017". Wivenhoe House Hotel, Wivenhoe, UK. 12
+Dec 2017.
 <!--endtab-->
 
 <!--tab:2016-->
 "Exploring Mixed Reality in Distributed Collaborative
-                    Learning Environments**"**
+Learning Environments**"**
 
-        Seminar presented at Middlesex University, UK. 10 Feb 2016.
+Seminar presented at Middlesex University, UK. 10 Feb 2016.
 
-            Invited
-                talk at the inauguration of the Tommy Flowers Institute
-        
-        Adastral Park, Ipswich, UK. September 2016.
+Invited
+talk at the inauguration of the Tommy Flowers Institute
+
+Adastral Park, Ipswich, UK. September 2016.
 <!--endtab-->
 
 <!--tab:2014-->
 "Mixed reality collaborative environments"
-            
-        Invited presentation at "Creativity, Ideas & Innovation" Workshop. The Business School - Canterbury
-        Christ Church University, UK. 18 Nov 2014.
+
+Invited presentation at "Creativity, Ideas & Innovation" Workshop. The Business School - Canterbury
+Christ Church University, UK. 18 Nov 2014.
 <!--endtab-->
 
 <!--tab:2013-->
 "Towards blended reality on collaborative laboratory activities using smart
-                objects"
+objects"
 
-        Invited talk at Espacios Educativos Especulares-EEE (Educational Reflected Spaces) Anual
-            Meeting. Universidad Carlos III de Madrid, Spain. 27-28 May 2013.¦ [Slides](http://es.slideshare.net/prlosana/uc3-m-presentation) ¦ [Photos](https://storify.com/dleony/project-eee-meeting-2013)
+Invited talk at Espacios Educativos Especulares-EEE (Educational Reflected Spaces) Anual
+Meeting. Universidad Carlos III de Madrid, Spain. 27-28 May 2013.¦ [Slides](http://es.slideshare.net/prlosana/uc3-m-presentation) ¦ [Photos](https://storify.com/dleony/project-eee-meeting-2013)
 
-    Invited as a Mixed-Reality Specialist/Consultor to MobileSummer 2013 (Mobiilikesäkoulu 2013). Mustiala Park,
-        Tammela, Finland. 23-24 May 2013.
+Invited as a Mixed-Reality Specialist/Consultor to MobileSummer 2013 (Mobiilikesäkoulu 2013). Mustiala Park,
+Tammela, Finland. 23-24 May 2013.
 <!--endtab-->
 
 {{< /tabs >}}
 
-## In The Media
+### In The Media
 
 {{< tabs >}}
 <!--tab:2023-->

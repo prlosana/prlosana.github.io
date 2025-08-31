@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dr. Anasol Peña-Rios</title>
-    <link>https://prlosana.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Dr. Anasol Peña-Rios</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Aug 2025 06:50:03 +0100</lastBuildDate>
-    <atom:link href="https://prlosana.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PhD Research</title>
-      <link>https://prlosana.github.io/phd_research/</link>
+      <link>http://localhost:1313/phd_research/</link>
       <pubDate>Thu, 28 Aug 2025 06:50:03 +0100</pubDate>
-      <guid>https://prlosana.github.io/phd_research/</guid>
+      <guid>http://localhost:1313/phd_research/</guid>
       <description>&lt;div class=&#34;img-wrap-left&#34;&gt;
-&lt;img src=&#34;https://prlosana.github.io/images/figure8a-300x225.jpg&#34; alt=&#34;PhD Research Environment&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/images/figure8a-300x225.jpg&#34; alt=&#34;PhD Research Environment&#34; /&gt;
 &lt;figcaption&gt;Mixed Reality Research Environment&lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;p&gt;My PhD entitled &lt;strong&gt;&amp;ldquo;Exploring Mixed Reality in Distributed Collaborative Learning Environments&amp;rdquo;&lt;/strong&gt; (2016) focused on possible interactions within a mixed reality distributed environment, with the aim to provide a platform to enable numerous real and virtual intelligent environments (across the world) to be connected together; changing perception of environments/spaces from one-dimensional (physical) to multi-dimensional (physical and virtual); and extending human capabilities into a computer-generated spaces able to reflect information in real time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://prlosana.github.io/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 26 Aug 2025 21:59:47 +0000</pubDate>
-      <guid>https://prlosana.github.io/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
 &lt;div class=&#34;contact-email&#34;&gt;
 &lt;strong&gt;acpena{at}ieee.org&lt;/strong&gt;
@@ -77,10 +77,110 @@
     </item>
     <item>
       <title>Leadership &amp; Volunteering</title>
-      <link>https://prlosana.github.io/leadership/</link>
+      <link>http://localhost:1313/leadership/</link>
       <pubDate>Tue, 26 Aug 2025 21:59:47 +0000</pubDate>
-      <guid>https://prlosana.github.io/leadership/</guid>
-      <description>&lt;h2 id=&#34;awards-and-honours&#34;&gt;Awards and Honours&lt;/h2&gt;
+      <guid>http://localhost:1313/leadership/</guid>
+      <description>&lt;h3 id=&#34;strategic-leadership&#34;&gt;Strategic Leadership&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+    
+    
+  
+
+  
+  
+
+
+
+
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1756619275184945000&#34;&gt;
+  &lt;div class=&#34;tabs-nav&#34;&gt;
+    
+      &lt;button class=&#34;tab-button active&#34;&gt;
+        Current
+      &lt;/button&gt;
+    
+  &lt;/div&gt;
+  
+  &lt;div class=&#34;tabs-content&#34;&gt;
+    
+      &lt;div class=&#34;tab-panel active&#34;&gt;
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.immersivelrn.org/about/leadership-board/&#34;&gt;Board of Directors Member&lt;/a&gt; - Immersive Learning Research Network (non-profit)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieee-edusociety.org/committee/committee-chairs-members&#34;&gt;Board of Directors Member&lt;/a&gt; – Technical Committee on Immersive Learning Environments, IEEE Education Society (non-profit)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://digitaltwinhub.co.uk/about/advisory-group/&#34;&gt;Advisory Group Member&lt;/a&gt; – Digital Twin Hub (non-profit)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://creative-science.org/about-csf/&#34;&gt;Advisory Group Member&lt;/a&gt; - Creative Science Foundation (non-profit)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.women4ainnovation.org/about-us&#34;&gt;Founding Partner &amp;amp; Member&lt;/a&gt; - Women4AInnovation Futures (think-tank)&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;awards-and-honours&#34;&gt;Awards and Honours&lt;/h3&gt;
 
 
 
@@ -407,7 +507,7 @@
 
 
 
-&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1756618351219508000&#34;&gt;
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1756619275185209000&#34;&gt;
   &lt;div class=&#34;tabs-nav&#34;&gt;
     
       &lt;button class=&#34;tab-button active&#34;&gt;
@@ -477,9 +577,9 @@ Winner at WeAreTechWomen&amp;rsquo;s TechWomen100 awards. November 2020.&lt;/li&
     </item>
     <item>
       <title>Peer-Reviewed Publications</title>
-      <link>https://prlosana.github.io/publications/</link>
+      <link>http://localhost:1313/publications/</link>
       <pubDate>Tue, 26 Aug 2025 21:59:47 +0000</pubDate>
-      <guid>https://prlosana.github.io/publications/</guid>
+      <guid>http://localhost:1313/publications/</guid>
       <description>&lt;h2 id=&#34;2025&#34;&gt;2025&lt;/h2&gt;
 &lt;h3 id=&#34;proceedings&#34;&gt;Proceedings&lt;/h3&gt;
 &lt;p&gt;Krüger, J., Pedrosa, D., Beck, D., Bourguet, M.-L., Dengel, A., Ghannam, R., Miller, A., Pena-Rios, A., &amp;amp; Richter, J. (Eds.). (2025). &lt;em&gt;Immersive Learning Research Network 10th International Conference, iLRN 2024, Revised Selected Papers&lt;/em&gt;. Springer. &lt;a href=&#34;https://link.springer.com/book/10.1007/978-3-031-80475-5&#34;&gt;https://link.springer.com/book/10.1007/978-3-031-80475-5&lt;/a&gt;&lt;/p&gt;
@@ -489,9 +589,9 @@ Winner at WeAreTechWomen&amp;rsquo;s TechWomen100 awards. November 2020.&lt;/li&
     </item>
     <item>
       <title>Projects</title>
-      <link>https://prlosana.github.io/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Tue, 26 Aug 2025 21:59:47 +0000</pubDate>
-      <guid>https://prlosana.github.io/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Personal Risk Management System Based on Autonomous Agents.

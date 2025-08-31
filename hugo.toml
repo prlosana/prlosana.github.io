@@ -19,8 +19,8 @@ buildExpired = false
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-# Main sections (for home page)
-mainSections = ["posts"]
+# Main sections (for home page) - empty to prevent posts on home page
+mainSections = []
 
 # Menu configuration
 [menu]
@@ -50,10 +50,15 @@ mainSections = ["posts"]
     url = "/contact/"
     weight = 50
   [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 60
+  [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 60
+    weight = 70
 
 # PaperMod theme configuration
 [params]

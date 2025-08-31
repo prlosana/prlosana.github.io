@@ -245,6 +245,35 @@ h2::after {
     height: 2px;
   }
 }
+
+/* Ensure consistent background color across all pages */
+body {
+  background: var(--theme) !important;
+}
+
+.main {
+  background: var(--theme) !important;
+}
+
+.list {
+  background: var(--theme) !important;
+}
+
+.post-single {
+  background: var(--theme) !important;
+}
+
+.post-entry {
+  background: var(--theme) !important;
+}
+
+/* Override any grey backgrounds to use theme color */
+[class*="bg-"] {
+  background: var(--theme) !important;
+}
+
+/* Hide "Powered by Hugo & PaperMod" text in footer */
+/* This CSS is no longer needed since we're using a custom footer template */
 </style>
 
 <script>

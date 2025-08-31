@@ -300,6 +300,35 @@ h2::after {
     height: 2px;
   }
 }
+
+ 
+body {
+  background: var(--theme) !important;
+}
+
+.main {
+  background: var(--theme) !important;
+}
+
+.list {
+  background: var(--theme) !important;
+}
+
+.post-single {
+  background: var(--theme) !important;
+}
+
+.post-entry {
+  background: var(--theme) !important;
+}
+
+ 
+[class*="bg-"] {
+  background: var(--theme) !important;
+}
+
+ 
+ 
 </style>
 
 <script>
@@ -405,6 +434,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 </a>
             </li>
             <li>
+                <a href="http://localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
@@ -412,7 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </ul>
     </nav>
 </header>
-<main class="main"> 
+<main class="main">
 <div class="post-content"><h1 id="about">About<a hidden class="anchor" aria-hidden="true" href="#about">#</a></h1>
 <p>Computer Scientist with extensive industry and technical expertise in technology, security, data, and strategy. I have 20+ years of diverse experience managing complex multidisciplinary projects and leading international teams in industry and academia. I deliver new solutions to business challenges, highlighting opportunities in areas that support strategic priorities and impact future business.</p>
 <p>I am a Distinguished Engineer and Research Manager at BT Research Labs (UK) and a Senior Member of the IEEE (SMIEEE). I hold a PhD in Computer Science and an MSc in Advanced Web Engineering from the University of Essex (UK), where I am an <a href="https://www.essex.ac.uk/people/penar50207/anasol-pena-rios">Honorary Senior Lecturer</a>. Before that, I completed a BEng in Information Technology at the Instituto Politécnico Nacional (Mexico).</p>
@@ -434,13 +468,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Dr. Anasol Peña-Rios</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+        <span>&copy; 2025 <a href="http://localhost:1313/">Dr. Anasol Peña-Rios</a></span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">

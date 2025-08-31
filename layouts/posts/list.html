@@ -1,0 +1,140 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  <div class="posts-list">
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ $publishedPosts := where $posts "Draft" false }}
+    
+    {{ if $publishedPosts }}
+        <div class="posts-grid">
+            {{ range $publishedPosts.ByDate.Reverse }}
+                <article class="post-entry">
+                    <header class="entry-header">
+                        <h2>
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </h2>
+                    </header>
+                    
+                    <div class="entry-content">
+                        {{ if .Summary }}
+                            <p>{{ .Summary }}</p>
+                        {{ else }}
+                            <p>{{ .Content | plainify | truncate 200 }}</p>
+                        {{ end }}
+                    </div>
+                    
+                    <footer class="entry-footer">
+                        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </time>
+                        
+                        {{ if .Params.categories }}
+                            <span class="categories">
+                                {{ range .Params.categories }}
+                                    <span class="category">{{ . }}</span>
+                                {{ end }}
+                            </span>
+                        {{ end }}
+                    </footer>
+                </article>
+            {{ end }}
+        </div>
+    {{ else }}
+        <p>No published posts found.</p>
+    {{ end }}
+  </div>
+
+  <style>
+  .posts-grid {
+      display: grid;
+      gap: 2rem;
+      margin-top: 2rem;
+  }
+
+  .post-entry {
+      border: 1px solid var(--entry);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: all 0.2s ease;
+  }
+
+  .post-entry:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+  }
+
+  .entry-header h2 {
+      margin: 0 0 1rem 0;
+      font-size: 1.5rem;
+  }
+
+  .entry-header h2 a {
+      color: var(--primary);
+      text-decoration: none;
+  }
+
+  .entry-header h2 a:hover {
+      text-decoration: underline;
+  }
+
+  .entry-content {
+      margin-bottom: 1rem;
+      color: var(--content);
+      line-height: 1.6;
+  }
+
+  .entry-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      color: var(--secondary);
+  }
+
+  .entry-footer time {
+      font-style: italic;
+  }
+
+  .categories {
+      display: flex;
+      gap: 0.5rem;
+  }
+
+  .category {
+      background: var(--entry);
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      font-size: 0.8rem;
+  }
+
+  @media (max-width: 768px) {
+      .entry-footer {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.5rem;
+      }
+  }
+  </style>
+</article>
+
+{{- end }}

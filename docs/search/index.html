@@ -298,6 +298,35 @@ h2::after {
     height: 2px;
   }
 }
+
+ 
+body {
+  background: var(--theme) !important;
+}
+
+.main {
+  background: var(--theme) !important;
+}
+
+.list {
+  background: var(--theme) !important;
+}
+
+.post-single {
+  background: var(--theme) !important;
+}
+
+.post-entry {
+  background: var(--theme) !important;
+}
+
+ 
+[class*="bg-"] {
+  background: var(--theme) !important;
+}
+
+ 
+ 
 </style>
 
 <script>
@@ -403,6 +432,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 </a>
             </li>
             <li>
+                <a href="http://localhost:1313/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span class="active">Search</span>
                 </a>
@@ -429,13 +463,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Dr. Anasol Peña-Rios</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+        <span>&copy; 2025 <a href="http://localhost:1313/">Dr. Anasol Peña-Rios</a></span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">

@@ -2,39 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ktp on Dr. Anasol Peña-Rios</title>
-    <link>http://localhost:1313/tags/ktp/</link>
+    <link>https://prlosana.github.io/tags/ktp/</link>
     <description>Recent content in Ktp on Dr. Anasol Peña-Rios</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Dec 2016 22:18:58 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ktp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://prlosana.github.io/tags/ktp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>University of Essex&#39; Knowledge Transfer Partnerships Awards 2016</title>
-      <link>http://localhost:1313/posts/2016/12/09/university-of-essex-knowledge-transfer-partnerships-awards-2016/</link>
+      <link>https://prlosana.github.io/posts/2016/12/09/university-of-essex-knowledge-transfer-partnerships-awards-2016/</link>
       <pubDate>Fri, 09 Dec 2016 22:18:58 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2016/12/09/university-of-essex-knowledge-transfer-partnerships-awards-2016/</guid>
+      <guid>https://prlosana.github.io/posts/2016/12/09/university-of-essex-knowledge-transfer-partnerships-awards-2016/</guid>
       <description>&lt;div class=&#34;img-wrap-left&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/images/9Dec-KTP.jpg&#34; alt=&#34;KTP Awards 2016&#34; /&gt;
+&lt;img src=&#34;https://prlosana.github.io/images/9Dec-KTP.jpg&#34; alt=&#34;KTP Awards 2016&#34; /&gt;
 &lt;figcaption&gt;KTP Awards 2016&lt;/figcaption&gt;
 &lt;/div&gt;
 &lt;p&gt;Knowledge Transfer Partnerships (KTP) is a three-way partnership between a business, an academic institution and a graduate. The central objective is to help businesses to improve their competitiveness and productivity through the better use of knowledge, technology and skills that reside within the UK knowledge base.&lt;/p&gt;
 &lt;p&gt;The 2016 Essex KTP awards were presented to the winners on 6th December by Prof Heather Laurie, Pro-Vice-Chancellor Research. Dr John Woods (CSEE) won the Best Academic award. Dr Anasol Pena Rios (CSEE) was awarded the Best KTP Associate award and Signal Media was awarded the best KTP partnership award.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Invited talk at Tommy Flowers Institute Launch</title>
-      <link>http://localhost:1313/posts/2016/09/04/invited-talk-at-tommy-flowers-institute-launch/</link>
-      <pubDate>Sun, 04 Sep 2016 23:26:24 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2016/09/04/invited-talk-at-tommy-flowers-institute-launch/</guid>
-      <description>&lt;div class=&#34;img-wrap-left&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/images/TFI_inauguration.jpg&#34; alt=&#34;Tommy Flowers Institute Launch&#34; /&gt;
-&lt;figcaption&gt;Tommy Flowers Institute Launch Presentation&lt;/figcaption&gt;
-&lt;/div&gt;
-&lt;p&gt;The Tommy Flowers Institute was launched on September 29, 2016 by British Telecom and partners to develop the ICT research leaders of the future. Based at Adastral Park near Ipswich, the Institute will support doctoral and post-doctoral researchers by exposing them to strategic industry challenges through a programme of conferences, targeted networking events and tailored support.&lt;/p&gt;
-&lt;div class=&#34;img-wrap-right&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/images/TFI_group.jpg&#34; alt=&#34;Tommy Flowers Institute Launch&#34; /&gt;
-&lt;figcaption&gt;Tommy Flowers Institute Launch Attendees&lt;/figcaption&gt;
-&lt;/div&gt;
-&lt;p&gt;The aim is for the Institute to be the major national centre for supporting the development of future leaders in ICT research by 2020. It will do this by bringing researchers together to collaborate across multiple academic disciplines – and by encouraging a seamless link between academia and industry.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

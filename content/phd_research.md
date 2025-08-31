@@ -1,13 +1,12 @@
 ---
-date: '2025-08-28T06:50:03+01:00'
-title: 'PhD Research'
-draft: 'false'
-type: 'page'
-toc: 'false'
-ShowShareButtons: 'false'
+date: 2025-08-28T06:50:03+01:00
+title: "PhD Research"
+draft: false
+type: page
+toc: false
+ShowShareButtons: false
+hideMeta: true
 ---
-
-# PhD Research
 
 <div class="img-wrap-left">
 <img src="/images/figure8a-300x225.jpg" alt="PhD Research Environment" />
@@ -60,9 +59,11 @@ This thesis submitted for the degree of **Doctor of Philosophy in Computer Scien
     - [Blending Realities to Create a Truly Global Workforce](https://phys.org/news/2015-04-blending-realities-global-workforce.html), Phys.org, 16 April 2015
     - Callaghan, V., (2015). [Creative Science Injecting Innovation into the IT Industry](https://doi.org/10.1093/itnow/bwv050). ITNOW. 57 (2), 52-55.
 
-## Demos & Presentations
+### Demos
 
-[![IMAGE ALT TEXT](/images/demo1.png)](https://youtu.be/rIjqUBvLQoo)
-[![IMAGE ALT TEXT](/images/demo2.png)](https://youtu.be/akKPHnDY9bw)
-[![IMAGE ALT TEXT](/images/demo3.png)](https://youtu.be/oTJRoRLae_8)
+{{< youtube rIjqUBvLQoo >}}
+{{< youtube akKPHnDY9bw >}}
+{{< youtube oTJRoRLae_8 >}}
+
+### Presentations
 [![IMAGE ALT TEXT](/images/demo4.png)](https://es.slideshare.net/slideshow/uc3-m-presentation/22262741)

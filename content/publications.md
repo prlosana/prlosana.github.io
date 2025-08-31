@@ -4,7 +4,7 @@ date: 2025-08-26T21:59:47
 draft: false
 type: "page"
 toc: false
-ShowShareButtons: false
+hideMeta: true
 ---
 
 ## 2025

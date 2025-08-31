@@ -13,8 +13,7 @@
       <link>https://prlosana.github.io/phd_research/</link>
       <pubDate>Thu, 28 Aug 2025 06:50:03 +0100</pubDate>
       <guid>https://prlosana.github.io/phd_research/</guid>
-      <description>&lt;h1 id=&#34;phd-research&#34;&gt;PhD Research&lt;/h1&gt;
-&lt;div class=&#34;img-wrap-left&#34;&gt;
+      <description>&lt;div class=&#34;img-wrap-left&#34;&gt;
 &lt;img src=&#34;https://prlosana.github.io/images/figure8a-300x225.jpg&#34; alt=&#34;PhD Research Environment&#34; /&gt;
 &lt;figcaption&gt;Mixed Reality Research Environment&lt;/figcaption&gt;
 &lt;/div&gt;
@@ -25,27 +24,56 @@
       <link>https://prlosana.github.io/contact/</link>
       <pubDate>Tue, 26 Aug 2025 21:59:47 +0000</pubDate>
       <guid>https://prlosana.github.io/contact/</guid>
-      <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;
-&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
-&lt;p&gt;acpena{at}ieee.org&lt;/p&gt;
+      <description>&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
+&lt;div class=&#34;contact-email&#34;&gt;
+&lt;strong&gt;acpena{at}ieee.org&lt;/strong&gt;
+&lt;/div&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;find-me-on&#34;&gt;Find me on&lt;/h2&gt;
-&lt;h3 id=&#34;academic-profiles&#34;&gt;Academic Profiles&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.essex.ac.uk/people/penar50207/anasol-pena-rios&#34;&gt;UoE Profile&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://scholar.google.com/citations?user=6-UsGYsAAAAJ&#34;&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.scopus.com/authid/detail.uri?authorId=36835270200&#34;&gt;Scopus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.webofscience.com/wos/author/record/527452&#34;&gt;Web of Science&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://orcid.org/0000-0001-7109-9501&#34;&gt;ORCID&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Anasol-Pena-Rios&#34;&gt;ResearchGate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://loop.frontiersin.org/people/1050127/overview&#34;&gt;Frontiers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sciprofiles.com/profile/prlosana&#34;&gt;SciProfile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;social-media&#34;&gt;Social Media&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://uk.linkedin.com/in/prlosana&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/prlosana&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/prlosana&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;div class=&#34;contact-section&#34;&gt;
+&lt;div class=&#34;contact-links&#34;&gt;
+&lt;a href=&#34;https://www.essex.ac.uk/people/penar50207/anasol-pena-rios&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;🏫&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;UoE Profile&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;http://scholar.google.com/citations?user=6-UsGYsAAAAJ&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;📚&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;Google Scholar&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://www.scopus.com/authid/detail.uri?authorId=36835270200&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;📖&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;Scopus&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://www.webofscience.com/wos/author/record/527452&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;🔬&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;Web of Science&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://orcid.org/0000-0001-7109-9501&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;🆔&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;ORCID&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://www.researchgate.net/profile/Anasol-Pena-Rios&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;🔬&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;ResearchGate&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://loop.frontiersin.org/people/1050127/overview&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;📰&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;Frontiers&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://sciprofiles.com/profile/prlosana&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;👤&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;SciProfile&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;http://uk.linkedin.com/in/prlosana&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;💼&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;LinkedIn&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://github.com/prlosana&#34; class=&#34;contact-link&#34;&gt;
+  &lt;span class=&#34;contact-link-icon&#34;&gt;💻&lt;/span&gt;
+  &lt;span class=&#34;contact-link-text&#34;&gt;GitHub&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     <item>
       <title>Leadership &amp; Volunteering</title>
@@ -379,7 +407,7 @@
 
 
 
-&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1756484025643025000&#34;&gt;
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1756618351219508000&#34;&gt;
   &lt;div class=&#34;tabs-nav&#34;&gt;
     
       &lt;button class=&#34;tab-button active&#34;&gt;

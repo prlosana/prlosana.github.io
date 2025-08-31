@@ -15,6 +15,10 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+# Output formats for search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 # Main sections (for home page)
 mainSections = ["posts"]
 
@@ -45,6 +49,11 @@ mainSections = ["posts"]
     name = "Contact"
     url = "/contact/"
     weight = 50
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 60
 
 # PaperMod theme configuration
 [params]
@@ -53,15 +62,18 @@ mainSections = ["posts"]
   
   # Default theme mode
   defaultTheme = "auto"
+
+  # To Hide meta elements : date, read-time, author and available-translations for page
+  hideMeta = true
   
   # Show reading time
-  ShowReadingTime = true
+  ShowReadingTime = false
   
   # Show word count
-  ShowWordCount = true
+  ShowWordCount = false
   
   # Show table of contents
-  ShowToc = true
+  ShowToc = false
   
   # Enable code copy button
   ShowCodeCopyButtons = true
@@ -72,23 +84,33 @@ mainSections = ["posts"]
   # Enable search
   ShowSearch = true
   
+  # Search configuration
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+  
   # Enable comments
   ShowComments = false
   
   # Enable related content
-  ShowRelatedContent = true
+  ShowRelatedContent = false
   
   # Enable breadcrumbs
   ShowBreadCrumbs = true
   
   # Enable last modified
-  ShowLastMod = true
+  ShowLastMod = false
   
   # Enable author
-  ShowAuthor = true
+  ShowAuthor = false
   
   # Enable date
-  ShowDate = true
+  ShowDate = false
   
   # Enable categories
   ShowCategories = true
@@ -119,9 +141,6 @@ mainSections = ["posts"]
 [[params.socialIcons]]
   name = "linkedin"
   url = "http://uk.linkedin.com/in/prlosana"
-[[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/prlosana"
 [[params.socialIcons]]
   name = "email"
   url = "mailto:acpena@ieee.org"

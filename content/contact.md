@@ -6,21 +6,19 @@ type: "page"
 toc: false
 hideMeta: true
 ---
+
 ## Email
 
 <div class="contact-email">
 <strong>acpena{at}ieee.org</strong>
 </div>
 
----
+## Academic Profiles
 
-## Find me on
-
-<div class="contact-section">
 <div class="contact-links">
 <a href="https://www.essex.ac.uk/people/penar50207/anasol-pena-rios" class="contact-link">
   <span class="contact-link-icon">🏫</span>
-  <span class="contact-link-text">UoE Profile</span>
+  <span class="contact-link-text">University of Essex Profile</span>
 </a>
 <a href="http://scholar.google.com/citations?user=6-UsGYsAAAAJ" class="contact-link">
   <span class="contact-link-icon">📚</span>
@@ -50,6 +48,11 @@ hideMeta: true
   <span class="contact-link-icon">👤</span>
   <span class="contact-link-text">SciProfile</span>
 </a>
+</div>
+
+## Professional Networks
+
+<div class="contact-links">
 <a href="http://uk.linkedin.com/in/prlosana" class="contact-link">
   <span class="contact-link-icon">💼</span>
   <span class="contact-link-text">LinkedIn</span>
@@ -58,5 +61,4 @@ hideMeta: true
   <span class="contact-link-icon">💻</span>
   <span class="contact-link-text">GitHub</span>
 </a>
-</div>
 </div>

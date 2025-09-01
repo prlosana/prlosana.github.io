@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Dr. Anasol Peña-Rios</title>
-    <link>https://prlosana.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Dr. Anasol Peña-Rios</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Aug 2017 22:47:53 +0000</lastBuildDate>
-    <atom:link href="https://prlosana.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PhD</title>
-      <link>https://prlosana.github.io/tags/phd/</link>
+      <link>http://localhost:1313/tags/phd/</link>
       <pubDate>Fri, 04 Aug 2017 22:47:53 +0000</pubDate>
-      <guid>https://prlosana.github.io/tags/phd/</guid>
+      <guid>http://localhost:1313/tags/phd/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>https://prlosana.github.io/tags/research/</link>
+      <link>http://localhost:1313/tags/research/</link>
       <pubDate>Fri, 04 Aug 2017 22:47:53 +0000</pubDate>
-      <guid>https://prlosana.github.io/tags/research/</guid>
+      <guid>http://localhost:1313/tags/research/</guid>
       <description></description>
     </item>
     <item>
       <title>University of Essex</title>
-      <link>https://prlosana.github.io/tags/university-of-essex/</link>
+      <link>http://localhost:1313/tags/university-of-essex/</link>
       <pubDate>Fri, 04 Aug 2017 22:47:53 +0000</pubDate>
-      <guid>https://prlosana.github.io/tags/university-of-essex/</guid>
+      <guid>http://localhost:1313/tags/university-of-essex/</guid>
       <description></description>
     </item>
     <item>
       <title>Awards</title>
-      <link>https://prlosana.github.io/tags/awards/</link>
-      <pubDate>Fri, 09 Dec 2016 22:18:58 +0000</pubDate>
-      <guid>https://prlosana.github.io/tags/awards/</guid>
+      <link>http://localhost:1313/tags/awards/</link>
+      <pubDate>Tue, 04 Jul 2017 22:01:44 +0000</pubDate>
+      <guid>http://localhost:1313/tags/awards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BT</title>
+      <link>http://localhost:1313/tags/bt/</link>
+      <pubDate>Tue, 04 Jul 2017 22:01:44 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bt/</guid>
       <description></description>
     </item>
     <item>
       <title>Ktp</title>
-      <link>https://prlosana.github.io/tags/ktp/</link>
+      <link>http://localhost:1313/tags/ktp/</link>
       <pubDate>Fri, 09 Dec 2016 22:18:58 +0000</pubDate>
-      <guid>https://prlosana.github.io/tags/ktp/</guid>
+      <guid>http://localhost:1313/tags/ktp/</guid>
       <description></description>
     </item>
   </channel>

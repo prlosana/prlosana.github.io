@@ -1,5 +1,5 @@
 ---
-title: "PhD Thesis abstract selected for publication at the IEEE Intelligent Informatics Bulletin"
+title: "PhD Thesis abstract selected for publication at the IEEE Intelligent Informatics Bulletin 2017"
 date: 2017-08-04T22:47:53
 draft: false
 toc: false

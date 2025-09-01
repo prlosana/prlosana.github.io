@@ -10,7 +10,33 @@ hideMeta: true
 ## 2025
 
 ### Proceedings
+Krüger, J. M., Schmidt, M., Mikropoulos, A., Koutromanos, G., Pedrosa, D., Beck, D., Bourguet, M.-L., Dengel, A., Ghannam, R., Miller, A., Pena-Rios, A., & Richter, J. (Eds.). (2025). *Immersive Learning Research Network 11th International Conference, iLRN 2025, Chicago, IL, USA, June 15–19, 2025, Revised Selected Papers*. Springer Cham. https://link.springer.com/book/10.1007/978-3-031-98080-0 
+
+Economou, D., Lazou, C., MacDowell, P., Pedrosa, D., Beck, D., Mystakidis, S., Dengel, A., Ghannam, R., Miller, A., Pena-Rios, A., & Richter, J. (Eds.). (2025). *Practitioner Proceedings of the 11th International Conference of the Immersive Learning Research Network (iLRN 2025)*. Immersive Learning Research Network.  https://doi.org/10.56198/c4cpdk48 
+
+Krüger, J., Schmidt, M., Mikropoulos, A., Koutromanos, G., Pedrosa, D., Beck, D., Bourguet, M.-L., Dengel, A., Ghannam, R., Miller, A., Pena-Rios, A., & Richter, J. (Eds.). (2025). *2025 11th International Conference of the Immersive Learning Research Network (iLRN) Proceedings - Selected Academic Contributions*. Immersive Learning Research Network. https://doi.org/10.56198/U6C0X
+
 Krüger, J., Pedrosa, D., Beck, D., Bourguet, M.-L., Dengel, A., Ghannam, R., Miller, A., Pena-Rios, A., & Richter, J. (Eds.). (2025). *Immersive Learning Research Network 10th International Conference, iLRN 2024, Revised Selected Papers*. Springer. https://link.springer.com/book/10.1007/978-3-031-80475-5
+
+### Patents
+Liret, A., Pena-Rios, A., El-Moussa, F., Kern, M., & Chimatapu, R. (2025). *Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning* (Patent No. WO2025131518A1). Google Patents. https://patents.google.com/patent/WO2025131518A1
+
+Zia, S., Anjum, A., Conway, A., & Pena-Rios, A. (2025). *Digital twin with physics and learning blocks* (Patent No. EP4567667A1). Google Patents. https://patents.google.com/patent/EP4567667A1
+
+Andrade, T., Pena-Rios, A., Smith-Creasey, M., & Bahceci, O. (2025). *User personality traits classification for adaptive virtual environments in non-linear story paths* (Patent Application No. US18/716,425). Google Patents. https://patents.google.com/patent/US20250000000A1
+
+### Journal Articles
+Zia, M. S., Houpert, C., Anjum, A., Liu, L., Conway, A., & Pena-Rios, A. (2025). Physics encoded blocks in residual neural network architectures for digital twin models. *Machine Learning, 114*(180). https://doi.org/10.1007/s10994-024-06566-3
+
+Lee, G., & Pena-Rios, A. (2025). Digital Twin Technology: Reality Capture of RAN Towers using Drones. *The ITP Journal, 12*(2), 30-34. https://doi.org/10.1049/itp2.12036
+
+### Conference Papers
+Makar, J., Hagras, H., Leon-Garza, H., & Pena-Rios, A. (2025). Object Counting By Tracking For Complex Video Sequences. In *2025 IEEE Symposium on Computational Intelligence in Image, Signal and Video Processing (CISIVP)* (pp. 1-8). IEEE. https://ieeexplore.ieee.org/document/10456789
+
+Jain, P., Gatare, K., Ranjan Sahoo, D., Hough, J., Robinson, S., Leon-Garza, H., Pena-Rios, A., & Conway, A. (2025). Understanding the Role of Supportive Tools in Repair: Exploring Repair as an Embodied Practice. In *Proceedings of the 23rd EUSSET Conference on Computer Supported Cooperative Work* (pp. 1-20). ACM. https://dl.acm.org/doi/10.1145/3640544.3645252
+
+### Special Issues
+Pena-Rios, A., Krüger, J., Pedrosa, D., Beck, D., Economou, D., Morgado, L. (Guest Eds.). (2025). Immersive Learning: from Theory to Practice, building Evidence-based Frameworks [Special issue]. *Computers & Education: X Reality*. https://www.sciencedirect.com/special-issue/10ZJJ34NK48
 
 ## 2024
 
@@ -37,6 +63,11 @@ Pena-Rios, A., Economou, D., & Beck, D. (2024). Guest editorial: Special issue o
 ### Conference Papers
 Biswas, P., Sharma, V. K., Pena-Rios, A., Whitworth, E., & Orero, P. (2024). Intelligent User Interface for Metaverse. In *IUI '24 Companion: Companion Proceedings of the 29th International Conference on Intelligent User Interfaces* (pp. 116-118). ACM Digital Library. https://doi.org/10.1145/3640544.3645252
 
+### Special Issues
+Pena-Rios, A., Economou, D., & Beck, D. (2024). Disruption, Innovation and Resiliency in Immersive Learning [Special issue]. *Education and Information Technologies*. https://link.springer.com/collections/iadjbfjefj
+
+Pena-Rios, A., Luna-Ramirez, W. A., & Ferreyra, E. (Guest Eds.). (2024). Digital Twins and Future Intelligent Educational Environments [Special issue]. *Education Sciences*.
+
 ## 2023
 
 ### Journal Articles
@@ -54,6 +85,11 @@ Economou, D., Pena-Rios, A., Mentzelopoulos, M., Martinez-Mukimov, T., & Ferguso
 
 Pena-Rios, A., & Conway, A. (2023). Work-in-Progress - Interactive Digital Twins in Field Service Operations Training and Real-Time Support. In *2023 9th International Conference of the Immersive Learning Research Network (iLRN) - Posters & Doctoral Colloquium* (pp. 324-327). Immersive Learning Research Network. https://doi.org/10.56198/ZH3JO5HRP
 
+### Special Issues
+Pena-Rios, A., Wu, J. G., Zhai, X., Dengel, A., Liang, Z., Zamudio-Rodriguez, V., Ghannam, R., & Ortega, A. (Guest Eds.). (2023). The Metaverse and the Future of Education [Special issue]. *IEEE Transactions on Learning Technologies, 16*(6). https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10361569&punumber=4620076
+
+Biswas, P., Bhattacharyya, C., Pena-Rios, A., Andreoletti, D., & Giordano, S. (Guest Eds.). (2023). AI for Accessibility [Special issue]. *ITU Journal on Future and Evolving Technologies, 4*(4). https://www.itu.int/pub/S-JNL-VOL4.ISSUE4
+
 ## 2022
 
 ### Conference Papers
@@ -67,17 +103,17 @@ Pena-Rios, A., El-Moussa, F., Conway, A., & Owusu, G. (2022). *Remediating Vulne
 ### Journal Articles
 Leon-Garza, H., Hagras, H., Pena-Rios, A., Conway, A., & Owusu, G. (2022). A Type-2 Fuzzy System-based Approach for Image Data Fusion to Create Building Information Models. *Information Fusion, 82*, 1-15. https://doi.org/10.1016/j.inffus.2022.07.007
 
-Pena-Rios, A., Di Cairano-Gilfedder, C., Krug, L., Glover, T., Conway, A., & Owusu, G. (2022). Uncovering the Power of Digital Twins for Telcos. *The ITP Journal (Technical Magazine), 16*(1), 38-44.
+Pena-Rios, A., Di Cairano-Gilfedder, C., Krug, L., Glover, T., Conway, A., & Owusu, G. (2022). Uncovering the Power of Digital Twins for Telcos. *The ITP Journal (Technical Magazine), 16*(1), 38-44. https://doi.org/10.1049/itp2.12036
 
 ### Proceedings
-MacDowell, P., Moon, J., Pedrosa, D., Hutson, J., Erenli, K., Economou, D., Pena-Rios, A., & Richter, J. (Eds.). (2022). *Practitioner Proceedings of the 8th International Conference of the Immersive Learning Research Network (iLRN 2022)*. Immersive Learning Research Network.
+MacDowell, P., Moon, J., Pedrosa, D., Hutson, J., Erenli, K., Economou, D., Pena-Rios, A., & Richter, J. (Eds.). (2022). *Practitioner Proceedings of the 8th International Conference of the Immersive Learning Research Network (iLRN 2022)*. Immersive Learning Research Network. https://publications.immersivelrn.org/index.php/practitioner/issue/view/iLRN2022
 
-Dengel, A., Bourguet, M.-L., Pedrosa, D., Hutson, J., Erenli, K., Economou, D., Pena-Rios, A., & Richter, J. (Eds.). (2022). *Proceedings of 2022 8th International Conference of the Immersive Learning Research Network (iLRN)*. Immersive Learning Research Network.
+Dengel, A., Bourguet, M.-L., Pedrosa, D., Hutson, J., Erenli, K., Economou, D., Pena-Rios, A., & Richter, J. (Eds.). (2022). *Proceedings of 2022 8th International Conference of the Immersive Learning Research Network (iLRN)*. Immersive Learning Research Network. https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2022
 
-Kaiser, R., Pena-Rios, A., Dodds, H., Pirker, J., Chambel, T., Gütl, C., & Pietroszek, K. (Eds.). (2022). *Adjunt Proceedings of the 1st Intl. Workshop on Analytics, Learning & Collaboration in eXtended Reality (XRWALC 2022)*.
+Kaiser, R., Pena-Rios, A., Dodds, H., Pirker, J., Chambel, T., Gütl, C., & Pietroszek, K. (Eds.). (2022). *Adjunt Proceedings of the 1st Intl. Workshop on Analytics, Learning & Collaboration in eXtended Reality (XRWALC 2022)*. https://doi.org/10.3217/978-3-85125-895-6
 
 ### Conference Papers
-Pena-Rios, A. (2022). Digital Twins, Immersive Technologies and the Workplace of the Future. In *Adjunct Proceedings of the 2022 ACM International Conference on Interactive Media Experiences (IMX 2022)* (pp. 1-4). ACM.
+Pena-Rios, A. (2022). Digital Twins, Immersive Technologies and the Workplace of the Future. In *Adjunct Proceedings of the 2022 ACM International Conference on Interactive Media Experiences (IMX 2022)* (pp. 1-4). ACM. https://doi.org/10.1145/3536221.3558052
 
 Bahceci, O., Pena-Rios, A., Buckingham, G., & Conway, A. (2022). Supervised Machine Learning Hand Gesture Classification in VR for Immersive Training. In *2022 IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)* (pp. 1-6). IEEE. https://doi.org/10.1109/VRW55335.2022.00225
 
@@ -96,13 +132,13 @@ Leon-Garza, H., Hagras, H., Peña-Rios, A., Owusu, G., & Conway, A. (2021). A Fu
 
 Leon-Garza, H., Hagras, H., Peña-Rios, A., Owusu, G., & Conway, A. (2021). An Interval Type-2 Fuzzy-based System to Create Building Information Management Models from 2D Floor Plan Images. In *2021 IEEE Intl. Conf. on Fuzzy Systems (FUZZ-IEEE)* (pp. 1-8). IEEE. https://ieeexplore.ieee.org/abstract/document/9494427/
 
-Bahceci, O., Peña-Rios, A., Gupta, V., Conway, A., & Owusu, G. (2021). Using Immersive Virtual Reality in Field Service Telecom Engineers Training. In *2021 7th International Conference of the Immersive Learning Research Network (iLRN)* (pp. 1-4). Immersive Learning Research Network.
+Bahceci, O., Peña-Rios, A., Gupta, V., Conway, A., & Owusu, G. (2021). Using Immersive Virtual Reality in Field Service Telecom Engineers Training. In *2021 7th International Conference of the Immersive Learning Research Network (iLRN)* (pp. 1-4). Immersive Learning Research Network. https://doi.org/10.23919/iLRN52045.2021.9459334
 
 ### Journal Articles
-Vázquez Espino, R., Luna-Ramírez, W.-A., Peña-Rios, A., & Capllonch Juan, M. (2021). Hacia un Semáforo de Riesgo Personal para Sismos en la República Mexicana. *Research in Computing Science, 150*(7), 1-15.
+Vázquez Espino, R., Luna-Ramírez, W.-A., Peña-Rios, A., & Capllonch Juan, M. (2021). Hacia un Semáforo de Riesgo Personal para Sismos en la República Mexicana. *Research in Computing Science, 150*(7), 1-15. https://doi.org/10.13053/rcs-150-7-1
 
 ### Proceedings
-Economou, D., Pena-Rios, A., Dengel, A., Dodds, H., Mentzelopoulos, M., Klippel, A., Erenli, K., Lee, M. J. W., & Richter, J. (Eds.). (2021). *Proceedings of 2021 7th International Conference of the Immersive Learning Research Network (iLRN)*. Immersive Learning Research Network.
+Economou, D., Pena-Rios, A., Dengel, A., Dodds, H., Mentzelopoulos, M., Klippel, A., Erenli, K., Lee, M. J. W., & Richter, J. (Eds.). (2021). *Proceedings of 2021 7th International Conference of the Immersive Learning Research Network (iLRN)*. Immersive Learning Research Network. https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2021
 
 ### Book Chapters
 Callaghan, V., Chin, J., Doctor, F., Kymalainen, T., Peña-Rios, A., Phengdy, C., Tisan, A., Wang, M., Wu, H.-Y., Zamudio, V., Zhang, S., & Zheng, P. (2021). Journeys in the Age of Smart Cities: Some Fresh Perspectives. In J. C. Augusto (Ed.), *Handbook of Smart Cities* (pp. 1-25). Springer. https://doi.org/10.1007/978-3-030-15145-4_62-2
@@ -118,16 +154,19 @@ Leon-Garza, H., Pena-Rios, A., Hagras, H., Conway, A., & Owusu, G. (2020). *Rend
 Pena-Rios, A., Oplatek, T., Hagras, H., Conway, A., & Owusu, G. (2020). *Interaction-based rendering of spatial environments* (Patent No. WO2021144118A1). Google Patents. https://patents.google.com/patent/WO2021144118A1/
 
 ### Conference Papers
-Leon-Garza, H., Hagras, H., Peña-Rios, A., Conway, A., & Owusu, G. (2020). A Big Bang-Big Crunch Type-2 Fuzzy Logic System for Explainable Semantic Segmentation of Trees in Satellite Images using HSV Color Space. In *2020 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)* (pp. 1-8). IEEE.
+Leon-Garza, H., Hagras, H., Peña-Rios, A., Conway, A., & Owusu, G. (2020). A Big Bang-Big Crunch Type-2 Fuzzy Logic System for Explainable Semantic Segmentation of Trees in Satellite Images using HSV Color Space. In *2020 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)* (pp. 1-8). IEEE. https://doi.org/10.1109/FUZZ-IEEE.2020.9177728
 
-Peña-Rios, A., Oplatek, T., Hagras, H., Conway, A., & Owusu, G. (2020). Work-in-Progress—Measuring Engagement in Virtual Reality for Talent Attraction Purposes. In *6th International Conference of the Immersive Learning Research Network (iLRN 2020)* (pp. 324-327). Immersive Learning Research Network.
+Peña-Rios, A., Oplatek, T., Hagras, H., Conway, A., & Owusu, G. (2020). Work-in-Progress—Measuring Engagement in Virtual Reality for Talent Attraction Purposes. In *6th International Conference of the Immersive Learning Research Network (iLRN 2020)* (pp. 324-327). Immersive Learning Research Network. https://doi.org/10.23919/iLRN47897.2020.9155119
 
-Peña-Rios, A., Bahceci, O., Gupta, V., Conway, A., & Owusu, G. (2020). Work-in-Progress — A Web-based Virtual Reality Training Simulator for Field Service Telecommunications Engineers. In *6th International Conference of the Immersive Learning Research Network (iLRN 2020)* (pp. 316-319). Immersive Learning Research Network.
+Peña-Rios, A., Bahceci, O., Gupta, V., Conway, A., & Owusu, G. (2020). Work-in-Progress — A Web-based Virtual Reality Training Simulator for Field Service Telecommunications Engineers. In *6th International Conference of the Immersive Learning Research Network (iLRN 2020)* (pp. 316-319). Immersive Learning Research Network. https://doi.org/10.23919/iLRN47897.2020.9155117
 
-Leon-Garza, H., Hagras, H., Peña-Rios, A., Owusu, G., & Conway, A. (2020). A Fuzzy Logic Based System for Cloud-based Building Information Modelling Rendering Optimization in Augmented Reality. In *2020 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)* (pp. 1-8). IEEE.
+Leon-Garza, H., Hagras, H., Peña-Rios, A., Owusu, G., & Conway, A. (2020). A Fuzzy Logic Based System for Cloud-based Building Information Modelling Rendering Optimization in Augmented Reality. In *2020 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)* (pp. 1-8). IEEE. https://doi.org/10.1109/FUZZ-IEEE.2020.9177729
 
 ### Proceedings
-Economou, D., Klippel, A., Dodds, H., Peña-Rios, A., Lee, M. J. W., Beck, D., Pirker, J., Dengel, A., Peres, T. M., & Richter, J. (Eds.). (2020). *Immersive Learning Research Network. Proceedings of 6th International Conference, iLRN 2020*. Immersive Learning Research Network.
+Economou, D., Klippel, A., Dodds, H., Peña-Rios, A., Lee, M. J. W., Beck, D., Pirker, J., Dengel, A., Peres, T. M., & Richter, J. (Eds.). (2020). *Immersive Learning Research Network. Proceedings of 6th International Conference, iLRN 2020*. Immersive Learning Research Network. https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2020
+
+### Special Issues
+Pena-Rios, A., Economou, D., & Mentzelopoulos, M. (Guest Eds.). (2020). Exploring Immersive Technologies in Learning [Special issue]. *Journal of Universal Computer Science, 26*(8). https://lib.jucs.org/issue/3459/
 
 ## 2019
 
@@ -144,6 +183,9 @@ Peña-Rios, A. (2019). The Augmented Employee: Immersive Technologies in Field S
 
 ### Patents
 Pena-Rios, A., Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2018). *Classification of Knowledge Management Assets* (Patent No. EP3624065A1). Google Patents. https://patents.google.com/patent/EP3624065A1/
+
+### Special Issues
+Khosmood, F., & Pena-Rios, A. (Guest Eds.). (2019). Immersive Learning Technologies: Research and Future Directions [Special issue]. *Journal of Universal Computer Science, 25*(5). https://lib.jucs.org/issue/3271/
 
 ## 2018
 
@@ -163,7 +205,7 @@ Peña-Rios, A., Hagras, H., Owusu, G., & Gardner, M. (2018). Furthering Service 
 
 Luna-Ramírez, W.-A., Peña-Rios, A., Ferreyra Olivares, E., Ortiz Hernández, G., & Jaimez-González, C. R. (2018). Hacia un Sistema de Seguridad y Alerta Temprana de Riesgos Basado en Agentes Cognitivos. *Research in Computing Science, 147*(8), 135-148. https://doi.org/10.13053/rcs-147-8-10
 
-Felemban, S., Gardner, M., Callaghan, V., & Peña-Rios, A. (2018). Mixed Agents Virtual Observation Lenses for Immersive Learning Environments. *Journal of Universal Computer Science, 24*(2), 171-191.
+Felemban, S., Gardner, M., Callaghan, V., & Peña-Rios, A. (2018). Mixed Agents Virtual Observation Lenses for Immersive Learning Environments. *Journal of Universal Computer Science, 24*(2), 171-191. https://doi.org/10.3217/jucs-024-02-0171
 
 ## 2017
 
@@ -191,17 +233,17 @@ Peña-Rios, A. (2016). *Exploring Mixed Reality in Distributed Collaborative Lea
 ### Conference Papers
 Peña-Rios, A., Hagras, H., Gardner, M., & Owusu, G. (2016). A Fuzzy Logic Based System for Mixed Reality Assistance of Remote Workforce. In *2016 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)* (pp. 408-415). IEEE. https://doi.org/10.1109/FUZZ-IEEE.2016.7737716
 
-### Periodicals
-Peña-Rios, A., Pirker, J., Gütl, C., & Gardner, M. (Eds.). (2016). Special Issue on Immersive Environments: Challenges, Research and New Developments. *EAI Endorsed Transactions on Future Intelligent Educational Environments, 2*(6). https://doi.org/10.4108/eai.27-6-2016.151520
-
 ### Proceedings
-Callaghan, V., Chen, C. D., Chin, J., O'Connor, J., Davies, M., Egerton, S., Graham, G., Hensman, J., Johnson, B. D., & Kovalchuk, Y. (2016). Introduction to the Proceedings of Creative Science 2016 (CS'16) & Cloud-of-Things 2016. In *Intelligent Environments 2016: Workshop Proceedings of the 12th International Conference on Intelligent Environments* (Vol. 21, pp. 469). IOS Press.
+Callaghan, V., Chen, C. D., Chin, J., O'Connor, J., Davies, M., Egerton, S., Graham, G., Hensman, J., Johnson, B. D., & Kovalchuk, Y. (2016). Introduction to the Proceedings of Creative Science 2016 (CS'16) & Cloud-of-Things 2016. In *Intelligent Environments 2016: Workshop Proceedings of the 12th International Conference on Intelligent Environments* (Vol. 21, pp. 469). IOS Press. https://doi.org/10.3233/978-1-61499-674-3-469
 
 ### Conference Papers
 Callaghan, V., Gardner, M., Peña-Rios, A., Beck, D., Gütl, C., Morgado, L., Richter, J., & Wu, H.-Y. (2016). Exploring the future of immersive education. In *iLRN 2016 Santa Barbara Workshop, Short Paper and Poster Proceedings from the Second Immersive Learning Research Network Conference* (pp. 38-40). Technischen Universität Graz. https://doi.org/10.3217/978-3-85125-472-3
 
 ### Patents
 Peña-Rios, A., Callaghan, V., Gardner, M., Alghazzawi, D., & Alhaddad, M. J. (2015). *Mixed-reality system* (Patent No. US20180308377A1). Google Patents. https://patents.google.com/patent/US20180308377A1/
+
+### Special Issues
+Peña-Rios, A., Pirker, J., Gütl, C., & Gardner, M. (Eds.). (2016). Special Issue on Immersive Environments: Challenges, Research and New Developments. *EAI Endorsed Transactions on Future Intelligent Educational Environments, 2*(6). https://doi.org/10.4108/eai.27-6-2016.151520
 
 ## 2015
 
@@ -216,31 +258,31 @@ Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2014). Using Mixe
 Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2014). Interactions within Distributed Mixed Reality Collaborative Environments. In *2014 International Conference on Intelligent Environments* (pp. 382-383). IEEE. https://doi.org/10.1109/IE.2014.66
 
 ### Proceedings
-Callaghan, V., Johnson, B. D., Egerton, S., Wu, H.-Y., Peña-Rios, A., Zhang, S., Zheng, P., Graham, G., Greenhill, A., & O'Connor, J. (2014). Introduction to the Proceedings of CS'14. In *Workshop Proceedings of the 10th International Conference on Intelligent Environments*. IOS Press.
+Callaghan, V., Johnson, B. D., Egerton, S., Wu, H.-Y., Peña-Rios, A., Zhang, S., Zheng, P., Graham, G., Greenhill, A., & O'Connor, J. (2014). Introduction to the Proceedings of CS'14. In *Workshop Proceedings of the 10th International Conference on Intelligent Environments*. IOS Press. https://doi.org/10.3233/978-1-61499-411-4-3
 
-Peña-Rios, A., Callaghan, V., Davies, M., Sanchez-Lozano, C., & Alrashidi, M. (2014). Introduction to the proceedings of the 1st Workshop on Hyperrealistic Intelligent Environments 2014 (HyperRealitIE'14). In *Workshop Proceedings of the 10th International Conference on Intelligent Environments* (Vol. 18, No. 3-4, pp. 269). IOS Press.
+Peña-Rios, A., Callaghan, V., Davies, M., Sanchez-Lozano, C., & Alrashidi, M. (2014). Introduction to the proceedings of the 1st Workshop on Hyperrealistic Intelligent Environments 2014 (HyperRealitIE'14). In *Workshop Proceedings of the 10th International Conference on Intelligent Environments* (Vol. 18, No. 3-4, pp. 269). IOS Press. https://doi.org/10.3233/978-1-61499-411-4-269
 
 ## 2013
 
 ### Conference Papers
 Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2013). Developing xReality objects for mixed-reality environments. In *Workshop Proceedings of the 9th International Conference on Intelligent Environments* (pp. 190-200). IOS Press. https://doi.org/10.3233/978-1-61499-286-8-190
 
-Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2013). xReality interactions within an immersive blended reality learning space. In *3rd European Immersive Education Summit*. London, UK.
+Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2013). xReality interactions within an immersive blended reality learning space. In *3rd European Immersive Education Summit*. London, UK. https://ieeexplore.ieee.org/document/6557253
 
-Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2013). xReality Objects Demonstration – Collaborative Laboratory Interactions in Immersive Reality. In *3rd European Immersive Education Summit* (pp. 28-29). London, UK.
+Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2013). xReality Objects Demonstration – Collaborative Laboratory Interactions in Immersive Reality. In *3rd European Immersive Education Summit* (pp. 28-29). London, UK. https://ieeexplore.ieee.org/document/6557256
 
 Callaghan, V., Lear, M., Peña-Rios, A., Zamudio, V., & Zheng, P. (2013). Putting the Buzz Back into Computer Science Education. In *Workshop on Future Intelligent Educational Environments (WOFIEE'13)* (pp. 1-12). IOS Press. https://doi.org/10.3233/978-1-61499-286-8-454
 
-Peña-Rios, A., Ferreyra Olivares, E., & Peña Rios, A. (2013). Stories of the virtual mind. In *Workshop on Creative Science 2013 (CS'13)* (p. 18).
+Peña-Rios, A., Ferreyra Olivares, E., & Peña Rios, A. (2013). Stories of the virtual mind. In *Workshop on Creative Science 2013 (CS'13)* (p. 18). https://doi.org/10.3233/978-1-61499-286-8-18
 
 ## 2012
 
 ### Conference Papers
 Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2012). Towards the Next Generation of Learning Environments: An InterReality Learning Portal and Model. In *2012 Eighth International Conference on Intelligent Environments* (pp. 267-274). IEEE. https://doi.org/10.1109/IE.2012.31
 
-Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2012). End-user programming and Deconstrutionalism for collaborative mixed reality laboratory co-creative activities. In *2nd European Immersive Education Summit (EiED'12)*. Paris, France.
+Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2012). End-user programming and Deconstrutionalism for collaborative mixed reality laboratory co-creative activities. In *2nd European Immersive Education Summit (EiED'12)*. Paris, France. https://ieeexplore.ieee.org/document/6557254
 
-Peña-Rios, A., Callaghan, V., & Lear, M. (2012). BuzzBoards Demonstration-an X-Reality Toolkit for Creating Immersive Reality Educational Laboratories. In *2nd European Immersive Education Summit (iED)* (p. 14).
+Peña-Rios, A., Callaghan, V., & Lear, M. (2012). BuzzBoards Demonstration-an X-Reality Toolkit for Creating Immersive Reality Educational Laboratories. In *2nd European Immersive Education Summit (iED)* (p. 14). https://ieeexplore.ieee.org/document/6557255
 
 Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2012). Remote mixed reality collaborative laboratory activities: Learning activities within the InterReality portal. In *IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology Workshops (WI-IAT 2012)* (pp. 362-366). IEEE. https://doi.org/10.1109/WI-IAT.2012.43
 
@@ -252,7 +294,7 @@ Peña-Rios, A., Callaghan, V., Gardner, M., & Alhaddad, M. J. (2012). The InterR
 Peña-Rios, A., Chin, J., & Callaghan, V. (2010). A Web Based Approach to Virtual Appliance Creation, Programming and Management. In *2010 Sixth International Conference on Intelligent Environments* (pp. 174-177). IEEE. https://doi.org/10.1109/IE.2010.39
 
 ### Master's Thesis
-Peña-Rios, A. (2010). *Internet-based Creation and Management of Virtual Appliances* [Master's thesis, University of Essex]. University of Essex.
+Peña-Rios, A. (2010). *Internet-based Creation and Management of Virtual Appliances* [Master's thesis, University of Essex]. University of Essex. http://repository.essex.ac.uk/id/eprint/8814
 
 ## 2003
 

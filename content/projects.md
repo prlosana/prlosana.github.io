@@ -7,13 +7,15 @@ toc: false
 hideMeta: true
 ---
 
-- Personal Risk Management System Based on Autonomous Agents. 
-    Universidad Autonoma Metropolitana, Mexico. Registration year: 2020. Duration: 36 months. [DCCD.TI.PI-64](http://dccd.cua.uam.mx/repositorio/doc/pi/PI_Sistema_de_gestion_de_riesgo.pdf).
-    [Website](http://bdi-dr.cua.uam.mx/)
+- **"Personal Risk Management System Based on Autonomous Agents" (Co-Investigator).**
+Universidad Autonoma Metropolitana, Mexico. Registration year: 2020. Duration: 36 months. [DCCD.TI.PI-64](http://dccd.cua.uam.mx/repositorio/doc/pi/PI_Sistema_de_gestion_de_riesgo.pdf).
+[Website](http://bdi-dr.cua.uam.mx/)
 
-- KTP Associate within the Technology Strategy Board (TSB) Knowledge Transfer Partnership (KTP) project between British Telecommunications PLC and the University of Essex to develop remote workforce management solutions and embed knowledge of advanced computational intelligence, intelligent environments and augmented reality. [KTP9985](http://info.ktponline.org.uk/action/details/partnership.aspx?id=9985).
+- **"Remote Workforce Management Solutions" (KTP Associate).**
+Knowledge Transfer Partnership (KTP) project between British Telecommunications PLC and the University of Essex to develop remote workforce management solutions and embed knowledge of advanced computational intelligence, intelligent environments and augmented reality. [KTP9985].
 
-- Doctoral researcher within the "Scale up Intelligent Environments" project, a 5-year joint project between the University of Essex, UK and King Abdulaziz University, KSA. Its purpose was to investigate the Scaling-Up of Intelligent Environments from the current small scale, beyond four walls to the large-scale.
+- **"Scale up Intelligent Environments" (PhD Researcher).**
+A 5-year joint project between the University of Essex, UK and King Abdulaziz University, KSA. Its purpose was to investigate the Scaling-Up of Intelligent Environments from the current small scale, beyond four walls to the large-scale.
 
 ## PhD Research
 

@@ -1,5 +1,5 @@
 # config.toml
-baseURL = 'https://prlosana.github.io/'
+baseURL = 'https://www.prlosana.com/'
 publishDir = 'docs'
 languageCode = 'en-us'
 title = 'Dr. Anasol Peña-Rios'

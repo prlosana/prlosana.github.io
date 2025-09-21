@@ -24,6 +24,7 @@ hideMeta: true
 <!--tab:Current-->
 - Distinguished Engineer (Tech Fellowship), BT Group, UK
 - [Honorary Senior Lecturer](https://www.essex.ac.uk/people/penar50207/anasol-pena-rios), University of Essex, UK
+- iLRN's [Circle of Scholars Member](https://www.immersivelrn.org/initiatives/circle-of-scholars/), The Immersive Learning Research Network, USA.
 <!--endtab-->
 
 <!--tab:2025-->

@@ -17,7 +17,9 @@ const sourceLinks = [
 
 <footer>
   <div class="footer-inner">
-    <ProfileLinks links={PROFILE.links} keys={footerLinks} />
+    {footerLinks.length > 0 && (
+      <ProfileLinks links={PROFILE.links} keys={footerLinks} />
+    )}
 
     <p>
       &copy; <span id="current-year"></span>

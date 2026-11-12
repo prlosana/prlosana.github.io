@@ -68,7 +68,7 @@ export const PROFILE: ProfileConfig = {
   linksPlacement: {
     header: false,
     about: ["github", "linkedin", "googleScholar", "orcid", "scopus", "researchgate"],
-    footer: ["email", "github", "linkedin", "googleScholar"],
+    footer: false,
   },
 }
 

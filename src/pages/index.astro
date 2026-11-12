@@ -3,15 +3,12 @@ import { getCollection } from "astro:content"
 
 import { PROFILE, SITE } from "@site-config"
 import { PostManager } from "@/lib/blog"
-import { loadSelectedPublications } from "@/lib/publications/loader"
 import { getLatestUpdates } from "@/lib/updates"
 import Layout from "@/layouts/Layout.astro"
 import Button from "@/components/base/Button.astro"
-import CardGroup from "@/components/base/card/CardGroup.astro"
 import PreviewCard from "@/components/blog/PreviewCard.astro"
 import Section from "@/components/layout/Section.astro"
 import Profile from "@/components/profile/Profile.astro"
-import PubCard from "@/components/publications/PubCard.astro"
 import ExperienceTimeline from "@/components/timeline/ExperienceTimeline.astro"
 import UpdatesInline from "@/components/timeline/UpdatesInline.astro"
 
@@ -30,7 +27,7 @@ const hasServices = servicesRaw().trim().length > 0
 const hasMisc = miscRaw().trim().length > 0
 
 const {
-  home: { careerHighlightCount, updateCount, publicationCount },
+  home: { careerHighlightCount, updateCount },
   blog: { featuredPostCount },
 } = SITE
 
@@ -42,10 +39,6 @@ const cvHref =
     : PROFILE.links.cv
 const renderedUpdates =
   updateCount > 0 ? await getLatestUpdates(updateCount) : []
-const selectedPublications =
-  publicationCount > 0
-    ? (await loadSelectedPublications()).slice(0, publicationCount)
-    : []
 
 // Blog
 const postManager = PostManager.getInstance()
@@ -65,16 +58,6 @@ const recentPostsMetadata = await Promise.all(
           renderedUpdates={renderedUpdates}
           itemClass="home-update-content"
         />
-      </Section>
-    )}
-
-  {selectedPublications.length > 0 && (
-      <Section title="Selected publications" moreLink="/publications">
-        <CardGroup class="selected-publications">
-          {selectedPublications.map((pub) => (
-            <PubCard pub={pub} filterableTags={false} />
-          ))}
-        </CardGroup>
       </Section>
     )}
 
@@ -126,10 +109,6 @@ const recentPostsMetadata = await Promise.all(
 </Layout>
 
 <style>
-  .selected-publications {
-    gap: var(--space-s);
-  }
-
   .latest-posts-list {
     display: flex;
     flex-direction: column;

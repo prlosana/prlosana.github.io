@@ -1,42 +1,42 @@
 /* ==========================================================================
-   Modern Academic Theme with Muted Sage & Warm Slate (PaperMod Extension)
+   Modern Academic Theme: Clean White & Royal Purple / True Black & Mint Green
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   M3 Design Tokens: Warm Alabaster Canvas & Muted Sage Accent Palette
+   Design Tokens: Light (Pure White & Purple) & Dark (True Black & Mint Green)
    -------------------------------------------------------------------------- */
 :root {
-  /* Scholarly Muted Sage & Slate Light Palette */
-  --md-sys-color-primary: #4A6B5D;
+  /* Light Theme: Crisp Pure White & Royal Purple (#6D28D9) */
+  --md-sys-color-primary: #6D28D9;
   --md-sys-color-on-primary: #ffffff;
-  --md-sys-color-primary-container: #E3ECE7;
-  --md-sys-color-on-primary-container: #1B2E25;
+  --md-sys-color-primary-container: #F3E8FF;
+  --md-sys-color-on-primary-container: #3B0764;
 
-  --md-sys-color-secondary: #576561;
+  --md-sys-color-secondary: #4B5563;
   --md-sys-color-on-secondary: #ffffff;
-  --md-sys-color-secondary-container: #E7EEEA;
-  --md-sys-color-on-secondary-container: #192320;
+  --md-sys-color-secondary-container: #F3F4F6;
+  --md-sys-color-on-secondary-container: #111827;
 
-  --md-sys-color-tertiary: #626059;
+  --md-sys-color-tertiary: #6B7280;
   --md-sys-color-on-tertiary: #ffffff;
-  --md-sys-color-tertiary-container: #ECEAE4;
-  --md-sys-color-on-tertiary-container: #1F1D18;
+  --md-sys-color-tertiary-container: #F9FAFB;
+  --md-sys-color-on-tertiary-container: #1F2937;
 
-  /* Warm Alabaster Surfaces */
-  --md-sys-color-surface: #F7F8F6;
-  --md-sys-color-surface-dim: #ECEEEA;
-  --md-sys-color-surface-bright: #FCFDFC;
+  /* Pure Crisp White Canvas */
+  --md-sys-color-surface: #FFFFFF;
+  --md-sys-color-surface-dim: #F9FAFB;
+  --md-sys-color-surface-bright: #FFFFFF;
   --md-sys-color-surface-container-lowest: #FFFFFF;
-  --md-sys-color-surface-container-low: #F3F5F2;
-  --md-sys-color-surface-container: #EEF0EC;
-  --md-sys-color-surface-container-high: #E7EAE5;
-  --md-sys-color-surface-container-highest: #E1E4DF;
+  --md-sys-color-surface-container-low: #F9FAFB;
+  --md-sys-color-surface-container: #F3F4F6;
+  --md-sys-color-surface-container-high: #E5E7EB;
+  --md-sys-color-surface-container-highest: #D1D5DB;
 
-  /* Deep Charcoal / Slate Text */
-  --md-sys-color-on-surface: #1E293B;
+  /* Deep Mineral Charcoal / Off-Black */
+  --md-sys-color-on-surface: #0F172A;
   --md-sys-color-on-surface-variant: #334155;
   --md-sys-color-outline: #64748B;
-  --md-sys-color-outline-variant: rgba(74, 107, 93, 0.12);
+  --md-sys-color-outline-variant: rgba(0, 0, 0, 0.08);
 
   /* Shape Tokens */
   --md-shape-corner-xs: 4px;
@@ -48,70 +48,70 @@
 
   /* Soft Ambient Shadows */
   --md-elevation-1: 0px 1px 3px 0px rgba(0, 0, 0, 0.04), 0px 1px 2px 0px rgba(0, 0, 0, 0.02);
-  --md-elevation-2: 0px 3px 8px 1px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
-  --md-elevation-3: 0px 6px 16px 2px rgba(0, 0, 0, 0.06), 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
+  --md-elevation-2: 0px 3px 8px 1px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+  --md-elevation-3: 0px 6px 16px 2px rgba(0, 0, 0, 0.08), 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
 
   /* Map PaperMod variables to Light Palette */
-  --theme: var(--md-sys-color-surface);
+  --theme: #FFFFFF;
   --entry: #FFFFFF;
   --primary: var(--md-sys-color-primary);
   --secondary: var(--md-sys-color-outline);
   --tertiary: var(--md-sys-color-outline-variant);
   --content: var(--md-sys-color-on-surface-variant);
-  --code-block-bg: #1e2025;
-  --code-bg: var(--md-sys-color-surface-container);
-  --border: var(--md-sys-color-outline-variant);
+  --code-block-bg: #111827;
+  --code-bg: #F3F4F6;
+  --border: rgba(0, 0, 0, 0.08);
   --radius: 12px;
 }
 
 .dark {
-  /* Scholarly Muted Sage & Deep Slate Dark Palette */
-  --md-sys-color-primary: #8EBAA8;
-  --md-sys-color-on-primary: #0F251C;
-  --md-sys-color-primary-container: #22382F;
-  --md-sys-color-on-primary-container: #D3E6DE;
+  /* Dark Theme: Deep True Black & Mint/Soft Green (#34D399) */
+  --md-sys-color-primary: #34D399;
+  --md-sys-color-on-primary: #022C22;
+  --md-sys-color-primary-container: #064E3B;
+  --md-sys-color-on-primary-container: #A7F3D0;
 
-  --md-sys-color-secondary: #B1C2BB;
-  --md-sys-color-on-secondary: #1F2C27;
-  --md-sys-color-secondary-container: #33423C;
-  --md-sys-color-on-secondary-container: #CCE0D8;
+  --md-sys-color-secondary: #9CA3AF;
+  --md-sys-color-on-secondary: #111827;
+  --md-sys-color-secondary-container: #1F2937;
+  --md-sys-color-on-secondary-container: #E5E7EB;
 
-  --md-sys-color-tertiary: #C6C4BC;
-  --md-sys-color-on-tertiary: #2F2D26;
-  --md-sys-color-tertiary-container: #46443D;
-  --md-sys-color-on-tertiary-container: #E4E1D8;
+  --md-sys-color-tertiary: #94A3B8;
+  --md-sys-color-on-tertiary: #0F172A;
+  --md-sys-color-tertiary-container: #1E293B;
+  --md-sys-color-on-tertiary-container: #CBD5E1;
 
-  /* Deep Quiet Slate Surfaces */
-  --md-sys-color-surface: #12161A;
-  --md-sys-color-surface-dim: #0F1216;
-  --md-sys-color-surface-bright: #293038;
-  --md-sys-color-surface-container-lowest: #0A0D10;
-  --md-sys-color-surface-container-low: #161A20;
-  --md-sys-color-surface-container: #1B2026;
-  --md-sys-color-surface-container-high: #242A32;
-  --md-sys-color-surface-container-highest: #2E3540;
+  /* Deep True Black Canvas */
+  --md-sys-color-surface: #000000;
+  --md-sys-color-surface-dim: #050505;
+  --md-sys-color-surface-bright: #1E1E1E;
+  --md-sys-color-surface-container-lowest: #000000;
+  --md-sys-color-surface-container-low: #0A0A0A;
+  --md-sys-color-surface-container: #111113;
+  --md-sys-color-surface-container-high: #1A1A1E;
+  --md-sys-color-surface-container-highest: #24242A;
 
-  /* Calibrated Soft Off-White Text */
-  --md-sys-color-on-surface: #F1F5F9;
-  --md-sys-color-on-surface-variant: #CBD5E1;
-  --md-sys-color-outline: #94A3B8;
-  --md-sys-color-outline-variant: rgba(142, 186, 168, 0.14);
+  /* Crisp Off-White Text */
+  --md-sys-color-on-surface: #F9FAFB;
+  --md-sys-color-on-surface-variant: #E5E7EB;
+  --md-sys-color-outline: #9CA3AF;
+  --md-sys-color-outline-variant: rgba(255, 255, 255, 0.1);
 
-  /* Ambient Shadows (Dark) */
-  --md-elevation-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.35), 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
-  --md-elevation-2: 0px 3px 8px 1px rgba(0, 0, 0, 0.40), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
-  --md-elevation-3: 0px 6px 16px 2px rgba(0, 0, 0, 0.45), 0px 2px 4px 0px rgba(0, 0, 0, 0.35);
+  /* Elevation Shadows (Dark) */
+  --md-elevation-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.7), 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  --md-elevation-2: 0px 3px 8px 1px rgba(0, 0, 0, 0.8), 0px 1px 3px 0px rgba(0, 0, 0, 0.6);
+  --md-elevation-3: 0px 6px 16px 2px rgba(0, 0, 0, 0.9), 0px 2px 4px 0px rgba(0, 0, 0, 0.7);
 
   /* Map PaperMod variables to Dark Palette */
-  --theme: var(--md-sys-color-surface);
-  --entry: #1A1F26;
+  --theme: #000000;
+  --entry: #0A0A0C;
   --primary: var(--md-sys-color-primary);
   --secondary: var(--md-sys-color-outline);
   --tertiary: var(--md-sys-color-outline-variant);
   --content: var(--md-sys-color-on-surface-variant);
-  --code-block-bg: var(--md-sys-color-surface-container-low);
-  --code-bg: var(--md-sys-color-surface-container-high);
-  --border: var(--md-sys-color-outline-variant);
+  --code-block-bg: #0A0A0C;
+  --code-bg: #141416;
+  --border: rgba(255, 255, 255, 0.08);
   --radius: 12px;
 }
 
@@ -149,16 +149,16 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(247, 248, 246, 0.85);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(74, 107, 93, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .dark .header {
-  background: rgba(18, 22, 26, 0.85);
-  border-bottom: 1px solid rgba(142, 186, 168, 0.1);
+  background: rgba(0, 0, 0, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .nav {
@@ -180,10 +180,10 @@ body {
 .logo a {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--md-sys-color-on-surface);
   text-decoration: none;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.02em;
   transition: color 0.15s ease;
 }
 
@@ -230,6 +230,11 @@ body {
   padding-bottom: calc(0.45rem - 2px);
 }
 
+.dark #menu li .active,
+.dark #menu li a.active {
+  box-shadow: 0 1px 8px -1px rgba(52, 211, 153, 0.35);
+}
+
 /* Theme Toggle Button */
 #theme-toggle {
   display: inline-flex;
@@ -247,11 +252,11 @@ body {
 
 #theme-toggle:hover {
   color: var(--md-sys-color-primary);
-  background-color: rgba(74, 107, 93, 0.08);
+  background-color: rgba(109, 40, 217, 0.08);
 }
 
 .dark #theme-toggle:hover {
-  background-color: rgba(142, 186, 168, 0.1);
+  background-color: rgba(52, 211, 153, 0.12);
 }
 
 #theme-toggle svg {
@@ -261,26 +266,26 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   Modern Academic Sans-Serif Typography
+   Modern Geometric / Neo-Grotesque Sans-Serif Typography
    -------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   color: var(--md-sys-color-on-surface);
 }
 
-/* Main H1 Title */
+/* Main H1 Title: Commanding, Tight Kerning */
 h1,
 .post-title {
-  font-size: 2.15rem;
-  font-weight: 600;
+  font-size: 2.25rem;
+  font-weight: 700;
   line-height: 1.25;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
   color: var(--md-sys-color-on-surface);
   margin-top: 1.75rem;
   margin-bottom: 1.25rem;
 }
 
-/* Clean H2 Section Headings */
+/* H2 Section Headings: Clean with Subtle Tracking */
 h2,
 .post-content h2 {
   position: relative;
@@ -295,7 +300,7 @@ h2,
   border-bottom: none;
 }
 
-/* Remove old heavy underline bar */
+/* Clean appearance without old heavy underline */
 .post-content h2::after {
   display: none !important;
 }
@@ -319,29 +324,29 @@ h3,
   color: var(--md-sys-color-on-surface-variant);
 }
 
-/* Subtle Sage-Toned Inline Links */
+/* Hyperlinks: Purple (Light) / Mint Green (Dark) */
 .post-content a {
   color: var(--md-sys-color-primary);
   text-decoration: underline;
-  text-decoration-color: rgba(74, 107, 93, 0.35);
+  text-decoration-color: rgba(109, 40, 217, 0.4);
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
   transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
 .post-content a:hover {
-  color: #385247;
-  text-decoration-color: var(--md-sys-color-primary);
+  color: #5B21B6;
+  text-decoration-color: #6D28D9;
 }
 
 .dark .post-content a {
   color: var(--md-sys-color-primary);
-  text-decoration-color: rgba(142, 186, 168, 0.4);
+  text-decoration-color: rgba(52, 211, 153, 0.4);
 }
 
 .dark .post-content a:hover {
-  color: #A3CCBC;
-  text-decoration-color: #8EBAA8;
+  color: #6EE7B7;
+  text-decoration-color: #34D399;
 }
 
 /* Heading Anchor Tags (#) */
@@ -369,7 +374,7 @@ h4 .anchor:hover {
 }
 
 /* --------------------------------------------------------------------------
-   Lists & Markdown Details (Research Areas)
+   Unordered Lists & Research Areas (Purple / Mint Bullets)
    -------------------------------------------------------------------------- */
 .post-content ul {
   margin-top: 0.5rem;
@@ -393,17 +398,73 @@ h4 .anchor:hover {
 hr,
 .post-content hr {
   border: 0;
-  border-top: 1px solid rgba(74, 107, 93, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
   margin: 3rem 0;
 }
 
 .dark hr,
 .dark .post-content hr {
-  border-top: 1px solid rgba(142, 186, 168, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /* --------------------------------------------------------------------------
-   Card Surfaces & Post Entries
+   Contact Social Icons (Only Icons, Adaptive Accents)
+   -------------------------------------------------------------------------- */
+.contact-social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--md-shape-corner-m, 12px);
+  background: var(--entry);
+  color: var(--md-sys-color-primary);
+  border: 1px solid var(--border);
+  box-shadow: var(--md-elevation-1);
+  text-decoration: none !important;
+  transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), 
+              box-shadow 0.2s ease, 
+              border-color 0.2s ease, 
+              background-color 0.2s ease,
+              color 0.2s ease;
+}
+
+.contact-icon-btn:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  background-color: var(--md-sys-color-primary);
+  border-color: var(--md-sys-color-primary);
+  box-shadow: var(--md-elevation-2);
+}
+
+.dark .contact-icon-btn:hover {
+  color: #000000;
+  background-color: var(--md-sys-color-primary);
+  border-color: var(--md-sys-color-primary);
+}
+
+.contact-icon-btn svg {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+  transition: transform 0.2s ease;
+}
+
+.contact-icon-btn:hover svg {
+  transform: scale(1.08);
+}
+
+/* --------------------------------------------------------------------------
+   Post Entries & Projects
    -------------------------------------------------------------------------- */
 .post-entry {
   background-color: var(--entry);
@@ -461,56 +522,6 @@ hr,
 }
 
 /* --------------------------------------------------------------------------
-   Contact Social Icons (Only icons, no descriptions)
-   -------------------------------------------------------------------------- */
-.contact-social-icons {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.65rem;
-  margin-top: 1.25rem;
-  margin-bottom: 2.5rem;
-}
-
-.contact-icon-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: var(--md-shape-corner-m, 12px);
-  background: var(--entry);
-  color: var(--md-sys-color-primary);
-  border: 1px solid var(--border);
-  box-shadow: var(--md-elevation-1);
-  text-decoration: none !important;
-  transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), 
-              box-shadow 0.2s ease, 
-              border-color 0.2s ease, 
-              background-color 0.2s ease,
-              color 0.2s ease;
-}
-
-.contact-icon-btn:hover {
-  transform: translateY(-2px);
-  color: var(--md-sys-color-on-primary);
-  background-color: var(--md-sys-color-primary);
-  border-color: var(--md-sys-color-primary);
-  box-shadow: var(--md-elevation-2);
-}
-
-.contact-icon-btn svg {
-  width: 22px;
-  height: 22px;
-  stroke: currentColor;
-  transition: transform 0.2s ease;
-}
-
-.contact-icon-btn:hover svg {
-  transform: scale(1.08);
-}
-
-/* --------------------------------------------------------------------------
    Segmented Tabs (Leadership)
    -------------------------------------------------------------------------- */
 .tabs-container {
@@ -546,8 +557,12 @@ hr,
 }
 
 .tab-button:hover {
-  background-color: rgba(74, 107, 93, 0.06);
+  background-color: rgba(109, 40, 217, 0.06);
   color: var(--md-sys-color-primary);
+}
+
+.dark .tab-button:hover {
+  background-color: rgba(52, 211, 153, 0.08);
 }
 
 .tab-button.active {
@@ -586,7 +601,11 @@ hr,
 
 .pub-search-wrapper input:focus {
   border-color: var(--md-sys-color-primary) !important;
-  box-shadow: 0 0 0 3px rgba(74, 107, 93, 0.15) !important;
+  box-shadow: 0 0 0 3px rgba(109, 40, 217, 0.15) !important;
+}
+
+.dark .pub-search-wrapper input:focus {
+  box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.2) !important;
 }
 
 .pub-download-btn {
@@ -601,8 +620,12 @@ hr,
 }
 
 .pub-download-btn:hover {
-  background-color: #385247 !important;
+  background-color: #5B21B6 !important;
   box-shadow: var(--md-elevation-2) !important;
+}
+
+.dark .pub-download-btn:hover {
+  background-color: #10B981 !important;
 }
 
 .pub-pill {
@@ -678,7 +701,11 @@ hr,
 
 #searchInput:focus {
   border-color: var(--md-sys-color-primary);
-  box-shadow: 0 0 0 3px rgba(74, 107, 93, 0.15);
+  box-shadow: 0 0 0 3px rgba(109, 40, 217, 0.15);
+}
+
+.dark #searchInput:focus {
+  box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.2);
 }
 
 /* --------------------------------------------------------------------------
@@ -687,10 +714,14 @@ hr,
 .footer {
   margin-top: 4rem;
   padding: 2rem var(--gap);
-  border-top: 1px solid rgba(74, 107, 93, 0.08);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
   color: var(--md-sys-color-outline);
   text-align: center;
   font-size: 0.85rem;
+}
+
+.dark .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .footer a {

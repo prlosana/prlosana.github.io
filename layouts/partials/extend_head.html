@@ -97,6 +97,7 @@ function switchTab(containerId, tabIndex) {
   if (buttons[tabIndex]) buttons[tabIndex].classList.add('active');
   if (panels[tabIndex]) panels[tabIndex].classList.add('active');
 }
+window.switchTab = switchTab;
 
 // Initialize tabs when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {

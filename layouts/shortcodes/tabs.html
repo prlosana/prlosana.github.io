@@ -43,7 +43,7 @@
 <div class="tabs-container" id="{{ $id }}">
   <div class="tabs-nav">
     {{ range $index, $tab := $tabs }}
-      <button class="tab-button {{ if eq $index 0 }}active{{ end }}">
+      <button type="button" class="tab-button {{ if eq $index 0 }}active{{ end }}" onclick="switchTab('{{ $id }}', {{ $index }})">
         {{ $tab.title }}
       </button>
     {{ end }}

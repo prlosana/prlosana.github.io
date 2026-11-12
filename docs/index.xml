@@ -99,10 +99,10 @@
 
 
 
-&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483151849579000&#34;&gt;
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483303818414000&#34;&gt;
   &lt;div class=&#34;tabs-nav&#34;&gt;
     
-      &lt;button class=&#34;tab-button active&#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button active&#34; onclick=&#34;switchTab(&#39;tabs-1794483303818414000&#39;,  0 )&#34;&gt;
         Current
       &lt;/button&gt;
     
@@ -493,46 +493,46 @@
 
 
 
-&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483151849705000&#34;&gt;
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483303818531000&#34;&gt;
   &lt;div class=&#34;tabs-nav&#34;&gt;
     
-      &lt;button class=&#34;tab-button active&#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button active&#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  0 )&#34;&gt;
         Current
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  1 )&#34;&gt;
         2025
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  2 )&#34;&gt;
         2024
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  3 )&#34;&gt;
         2023
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  4 )&#34;&gt;
         2020
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  5 )&#34;&gt;
         2018
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  6 )&#34;&gt;
         2016
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  7 )&#34;&gt;
         2015
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  8 )&#34;&gt;
         2014
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818531000&#39;,  9 )&#34;&gt;
         2001
       &lt;/button&gt;
     
@@ -740,14 +740,14 @@
 
 
 
-&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483151850066000&#34;&gt;
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483303818894000&#34;&gt;
   &lt;div class=&#34;tabs-nav&#34;&gt;
     
-      &lt;button class=&#34;tab-button active&#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button active&#34; onclick=&#34;switchTab(&#39;tabs-1794483303818894000&#39;,  0 )&#34;&gt;
         Current
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818894000&#39;,  1 )&#34;&gt;
         Past
       &lt;/button&gt;
     
@@ -937,22 +937,22 @@
 
 
 
-&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483151850169000&#34;&gt;
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483303818986000&#34;&gt;
   &lt;div class=&#34;tabs-nav&#34;&gt;
     
-      &lt;button class=&#34;tab-button active&#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button active&#34; onclick=&#34;switchTab(&#39;tabs-1794483303818986000&#39;,  0 )&#34;&gt;
         2020
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818986000&#39;,  1 )&#34;&gt;
         2009
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818986000&#39;,  2 )&#34;&gt;
         2011
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303818986000&#39;,  3 )&#34;&gt;
         2009
       &lt;/button&gt;
     
@@ -1297,14 +1297,14 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483151850307000&#34;&gt;
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483303819127000&#34;&gt;
   &lt;div class=&#34;tabs-nav&#34;&gt;
     
-      &lt;button class=&#34;tab-button active&#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button active&#34; onclick=&#34;switchTab(&#39;tabs-1794483303819127000&#39;,  0 )&#34;&gt;
         Current
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303819127000&#39;,  1 )&#34;&gt;
         Past
       &lt;/button&gt;
     
@@ -1530,14 +1530,14 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483151850680000&#34;&gt;
+&lt;div class=&#34;tabs-container&#34; id=&#34;tabs-1794483303819487000&#34;&gt;
   &lt;div class=&#34;tabs-nav&#34;&gt;
     
-      &lt;button class=&#34;tab-button active&#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button active&#34; onclick=&#34;switchTab(&#39;tabs-1794483303819487000&#39;,  0 )&#34;&gt;
         Current Appointments
       &lt;/button&gt;
     
-      &lt;button class=&#34;tab-button &#34;&gt;
+      &lt;button type=&#34;button&#34; class=&#34;tab-button &#34; onclick=&#34;switchTab(&#39;tabs-1794483303819487000&#39;,  1 )&#34;&gt;
         Past Appointments
       &lt;/button&gt;
     

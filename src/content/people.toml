@@ -1,0 +1,12 @@
+[anasol]
+id = "anasol"
+name = "Dr. Anasol Peña-Rios"
+bio = "Distinguished Engineer & Research Technical Manager"
+avatar = "/images/anasol.jpg"
+affiliation = "BT Research Labs & University of Essex"
+[anasol.links]
+email = "mailto:acpena@ieee.org"
+github = "https://github.com/prlosana"
+linkedin = "http://uk.linkedin.com/in/prlosana"
+googleScholar = "https://scholar.google.com/citations?user=6-UsGYsAAAAJ"
+orcid = "https://orcid.org/0000-0001-7109-9501"

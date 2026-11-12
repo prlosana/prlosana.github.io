@@ -1,0 +1,66 @@
+[
+  {
+    "id": "bt-distinguished-engineer",
+    "category": "research",
+    "title": "Distinguished Engineer & Research Technical Manager",
+    "org": "BT Research Labs",
+    "orgUrl": "https://www.bt.com",
+    "startDate": "2023-03",
+    "location": "Adastral Park, UK",
+    "description": "Leading research and technical strategy in digital twins, XR, and AI for field service operations and enterprise solutions."
+  },
+  {
+    "id": "essex-honorary-lecturer",
+    "category": "teaching",
+    "title": "Honorary Senior Lecturer",
+    "org": "University of Essex",
+    "orgUrl": "https://www.essex.ac.uk/people/penar50207/anasol-pena-rios",
+    "startDate": "2023-10",
+    "location": "Colchester, UK",
+    "description": "Honorary Senior Lecturer in the School of Computer Science and Electronic Engineering."
+  },
+  {
+    "id": "bt-senior-researcher",
+    "category": "research",
+    "title": "Senior Research Scientist & KTP Associate",
+    "org": "BT Group & University of Essex",
+    "orgUrl": "https://www.bt.com",
+    "startDate": "2016-04",
+    "endDate": "2023-02",
+    "location": "Adastral Park, UK",
+    "description": "Led Knowledge Transfer Partnership developing immersive technologies, computational intelligence, and augmented reality field force solutions."
+  },
+  {
+    "id": "essex-phd",
+    "category": "education",
+    "title": "PhD in Computer Science",
+    "org": "University of Essex",
+    "orgUrl": "https://www.essex.ac.uk",
+    "startDate": "2012-10",
+    "endDate": "2016-01",
+    "location": "Colchester, UK",
+    "description": "Doctoral research on 'Exploring Mixed Reality in Distributed Collaborative Learning Environments'. Co-supervised by Prof. Vic Callaghan and Dr. Michael Gardner."
+  },
+  {
+    "id": "essex-msc",
+    "category": "education",
+    "title": "MSc in Advanced Web Engineering",
+    "org": "University of Essex",
+    "orgUrl": "https://www.essex.ac.uk",
+    "startDate": "2009-09",
+    "endDate": "2010-09",
+    "location": "Colchester, UK",
+    "description": "Graduated with distinction. Thesis on Internet-based Creation and Management of Virtual Appliances."
+  },
+  {
+    "id": "ipn-beng",
+    "category": "education",
+    "title": "BEng in Information Technology",
+    "org": "Instituto Politécnico Nacional",
+    "orgUrl": "https://www.ipn.mx",
+    "startDate": "1999-09",
+    "endDate": "2004-06",
+    "location": "Mexico City, Mexico",
+    "description": "Undergraduate degree in Information Technology and Telematics."
+  }
+]

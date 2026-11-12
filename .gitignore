@@ -1,7 +1,7 @@
-# Hugo
-public/
-resources/
-.hugo_build.lock
+# Build & Cache
+dist/
+.astro/
+node_modules/
 
 # OS
 .DS_Store
@@ -15,10 +15,10 @@ Thumbs.db
 
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
 # Temporary files
 *.tmp
 *.temp
-
-# Hugo modules
-go.sum

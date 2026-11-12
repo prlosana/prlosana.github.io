@@ -1,0 +1,164 @@
+---
+import CommonLayout from "@/layouts/CommonLayout.astro"
+import Icon from "@/components/base/Icon.astro"
+
+const academicProfiles = [
+  {
+    name: "University of Essex Profile",
+    icon: "mingcute:mortarboard-line",
+    url: "https://www.essex.ac.uk/people/penar50207/anasol-pena-rios",
+    description: "Honorary Senior Lecturer",
+  },
+  {
+    name: "Google Scholar",
+    icon: "academicons:google-scholar",
+    url: "http://scholar.google.com/citations?user=6-UsGYsAAAAJ",
+    description: "Citations & Metrics",
+  },
+  {
+    name: "Scopus",
+    icon: "academicons:scopus",
+    url: "https://www.scopus.com/authid/detail.uri?authorId=36835270200",
+    description: "Author ID: 36835270200",
+  },
+  {
+    name: "ORCID",
+    icon: "academicons:orcid",
+    url: "https://orcid.org/0000-0001-7109-9501",
+    description: "0000-0001-7109-9501",
+  },
+  {
+    name: "ResearchGate",
+    icon: "academicons:researchgate",
+    url: "https://www.researchgate.net/profile/Anasol-Pena-Rios",
+    description: "Publications & Research",
+  },
+  {
+    name: "Web of Science",
+    icon: "academicons:clarivate",
+    url: "https://www.webofscience.com/wos/author/record/527452",
+    description: "Researcher Record",
+  },
+  {
+    name: "Frontiers",
+    icon: "mingcute:news-line",
+    url: "https://loop.frontiersin.org/people/1050127/overview",
+    description: "Review Editor Profile",
+  },
+  {
+    name: "SciProfiles",
+    icon: "mingcute:profile-line",
+    url: "https://sciprofiles.com/profile/prlosana",
+    description: "Academic Network",
+  },
+]
+
+const networks = [
+  {
+    name: "LinkedIn",
+    icon: "mingcute:linkedin-line",
+    url: "http://uk.linkedin.com/in/prlosana",
+    description: "uk.linkedin.com/in/prlosana",
+  },
+  {
+    name: "GitHub",
+    icon: "mingcute:github-line",
+    url: "https://github.com/prlosana",
+    description: "github.com/prlosana",
+  },
+]
+---
+
+<CommonLayout
+  title="Contact"
+  description="Contact information and academic profiles for Dr. Anasol Peña-Rios."
+  breadcrumbs={[{ label: "Contact", icon: "mingcute:mail-line" }]}
+  prose={false}
+>
+  <div class="space-y-10 pb-12">
+    <header class="mb-6">
+      <h1 class="text-3xl font-bold tracking-tight mb-2">Get in Touch</h1>
+      <p class="text-secondary text-base">
+        Feel free to reach out for research collaboration, advisory, or speaking opportunities.
+      </p>
+    </header>
+
+    <!-- Email Section -->
+    <section class="card border p-6 rounded-xl bg-card">
+      <h2 class="text-xl font-semibold mb-3 flex items-center gap-2">
+        <Icon name="mingcute:mail-send-line" class="size-5 text-primary" />
+        Email Address
+      </h2>
+      <p class="text-base mb-4">
+        Official correspondence:
+      </p>
+      <a
+        href="mailto:acpena@ieee.org"
+        class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
+      >
+        <Icon name="mingcute:mail-line" class="size-4" />
+        acpena@ieee.org
+      </a>
+    </section>
+
+    <!-- Academic Profiles -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-semibold flex items-center gap-2">
+        <Icon name="mingcute:mortarboard-line" class="size-5 text-primary" />
+        Academic Profiles
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {academicProfiles.map((p) => (
+          <a
+            href={p.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="card border p-4 rounded-xl flex items-start gap-4 hover:border-primary/50 transition-colors group"
+          >
+            <div class="p-2.5 rounded-lg bg-muted text-foreground group-hover:text-primary transition-colors">
+              <Icon name={p.icon} class="size-6" />
+            </div>
+            <div>
+              <div class="font-medium text-foreground group-hover:text-primary transition-colors">
+                {p.name}
+              </div>
+              <div class="text-sm text-secondary">
+                {p.description}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Professional Networks -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-semibold flex items-center gap-2">
+        <Icon name="mingcute:group-line" class="size-5 text-primary" />
+        Professional Networks
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {networks.map((n) => (
+          <a
+            href={n.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="card border p-4 rounded-xl flex items-start gap-4 hover:border-primary/50 transition-colors group"
+          >
+            <div class="p-2.5 rounded-lg bg-muted text-foreground group-hover:text-primary transition-colors">
+              <Icon name={n.icon} class="size-6" />
+            </div>
+            <div>
+              <div class="font-medium text-foreground group-hover:text-primary transition-colors">
+                {n.name}
+              </div>
+              <div class="text-sm text-secondary">
+                {n.description}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</CommonLayout>

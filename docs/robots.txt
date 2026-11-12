@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
-Sitemap: https://www.prlosana.com/sitemap.xml
+Allow: /
+
+Sitemap: https://www.prlosana.com/sitemap-index.xml

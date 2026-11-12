@@ -45,7 +45,7 @@
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('{{ $id }}', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -56,10 +56,10 @@
         <button type="button" 
                 role="tab"
                 id="tab-btn-{{ $id }}-{{ $index }}"
+                data-index="{{ $index }}"
                 aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
                 aria-controls="tab-panel-{{ $id }}-{{ $index }}"
-                class="tab-button {{ if eq $index 0 }}active{{ end }}" 
-                onclick="switchTab('{{ $id }}', {{ $index }})">
+                class="tab-button {{ if eq $index 0 }}active{{ end }}">
           {{ $tab.title }}
         </button>
       {{ end }}
@@ -68,7 +68,7 @@
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('{{ $id }}', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>

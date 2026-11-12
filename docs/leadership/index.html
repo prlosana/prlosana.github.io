@@ -72,6 +72,13 @@
   
   
     
+      
+    
+  
+
+  
+  
+    
     
     
   
@@ -109,11 +116,12 @@
     
       
         
-Board of Directors Member - Immersive Learning Research Network (non-profit)
-Board of Directors Member – Technical Committee on Immersive Learning Environments, IEEE Education Society (non-profit)
-Advisory Group Member – Digital Twin Hub (non-profit)
-Advisory Group Member - Creative Science Foundation (non-profit)
-Founding Partner &amp; Member - Women4AInnovation Futures (think-tank)
+Editorial Board Member, Institute of Telecommunications Professional (ITP) Journal
+Director of Publications &amp; Member of the Board of Directors, Immersive Learning Research Network (iLRN)
+Board Member, Technical Committee on Immersive Learning Environments, IEEE Education Society
+Advisory Group Member, Digital Twin Hub (DT Hub UK)
+Advisory Group Member, Creative Science Foundation (CSf)
+Founding Partner &amp; Member, Women4AInnovation Futures
 
 
       
@@ -277,20 +285,6 @@ Awards and Honours
   
   
     
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -341,48 +335,6 @@ Awards and Honours
   
     
       
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-    
-    
-  
-
-  
-  
-
-  
-  
-    
-    
-    
-    
-    
-    
     
   
 
@@ -529,10 +481,6 @@ Awards and Honours
         
       
         
-          2015
-        
-      
-        
           2014
         
       
@@ -562,64 +510,53 @@ iLRN&rsquo;s Circle of Scholars Member, The Immersive Learning Research Network,
     
       
         
-Women in IT Excellence Awards 2025 – Finalist (Transformation Leader of the Year). Computing’s Magazine, UK. November 2025.
-ITP Telecoms Awards 2025 – Finalist (Woman in Technology). The Institute of Telecommunication Professionals, UK. October 2025.
-&ldquo;Leardership in Innovation AI &amp; Technical Excellence&rdquo;. BT&rsquo;s Tech Fellowship Awards 2025. July 2025.
-&ldquo;Outstanding Board Service Award&rdquo;. 11th International Conference of the Immersive Learning Research Network. June 2025.
+Finalist: Transformation Leader of the Year, Computing Women in Tech Excellence Awards, UK (2025)
+Finalist: Woman in Technology, ITP Telecoms Awards, UK (2025)
+Leadership in Innovation, AI &amp; Technical Excellence Award, BT Group Tech Fellowship (2025)
+Outstanding Board Service Award, 11th International Conference of the Immersive Learning Research Network (2025)
 
 
       
     
       
         
-&lsquo;Infrastructure &amp; Space Management Digital Twin&rsquo; (Project), Finalist. AI Innovation category. The National AI Awards. September 2024.
+Finalist: AI Innovation (Infrastructure &amp; Space Management Digital Twin), The National AI Awards, UK (2024)
 
 
       
     
       
         
-Honorary Senior Lecturer, University of Essex, UK. October 2023.
-&ldquo;Outstanding Board Service Award&rdquo;. 9th International Conference of the Immersive Learning Research Network. June 2023.
-Distinguished Engineer (Tech Fellowship), BT Group, UK. March 2023.
+Outstanding Board Service Award, 9th International Conference of the Immersive Learning Research Network (2023)
 
 
       
     
       
         
-TechWomen100 awards 2020 – Winner. WeAreTechWomen’s TechWomen100 awards, UK. November 2020.
+Winner, WeAreTechWomen TechWomen100 Awards, UK (2020)
 
 
       
     
       
         
-Visiting Fellow, University of Essex, UK.
-Institute of Electrical and Electronics Engineers (IEEE) - Senior Member.
-‘Future Field Force Using Mixed Reality’ (Project) – Highly Commended. IET Innovation Awards (Information Technology) - Institute of Engineering and Technology (IET), UK. November 2018.
-Women in IT Excellence Awards 2018 – Finalist (Rising Star). Computing’s Magazine, UK. November 2018.
+Highly Commended: Information Technology (Future Field Force Using Mixed Reality), IET Innovation Awards, UK (2018)
+Finalist: Rising Star, Computing Women in Tech Excellence Awards, UK (2018)
 
 
       
     
       
         
-Best Knowledge Transfer Project Associate – Winner. KTP Awards 2016. The University of Essex, UK. December 2016.
+Winner: Best Knowledge Transfer Project Associate, KTP Awards, University of Essex, UK (2016)
 
 
       
     
       
         
-Research Fellow - BT Research Labs, UK
-
-
-      
-    
-      
-        
-Best Video Award. 10th International Conference on Intelligent Environments 2014 (IE’14), Shanghai, China; July 2014.
+Best Video Award, 10th International Conference on Intelligent Environments (IE&#39;14), Shanghai, China (2014)
 
 
       
@@ -741,6 +678,13 @@ Professional Memberships
   
   
     
+      
+    
+  
+
+  
+  
+    
     
     
   
@@ -782,20 +726,21 @@ Professional Memberships
     
       
         
-Institute of Electrical and Electronics Engineers (IEEE) - Senior Member
-Association for Learning Technology (ALT) - Associate Member
-Chartered Management Institute (CMI) – Affiliate
+Senior Member (SMIEEE), Institute of Electrical and Electronics Engineers (IEEE)
+Member (MITP), Institute of Telecommunications Professionals (ITP)
+Affiliate, Chartered Management Institute (CMI)
 
 
       
     
       
         
-Interaction Design Foundation - Member (2015-2018)
-British Computer Society (BCS) - Professional Member (MBCS) (2015-2019)
-Association for Computing Machinery (ACM) - Professional Member (2015-2019, 2021-2022)
-Chartered Management Institute (CMI) – Affiliate (2016-2020, 2025)
-Mexican Thematic Network for the Development and Incorporation of Educational Technology (RedLaTE), CONACyT, Mexico - Member (2017-2023)
+Professional Member (MBCS), British Computer Society (BCS) (2015–2019)
+Professional Member, Association for Computing Machinery (ACM) (2015–2019, 2021–2022)
+Associate Member, Association for Learning Technology (ALT)
+Member, Mexican Thematic Network for Educational Technology (RedLaTE), CONAHCYT (2017–2023)
+Affiliate, Chartered Management Institute (CMI) (2016-2020)
+Member, Interaction Design Foundation (IxDF) (2015–2018)
 
 
       
@@ -1823,11 +1768,21 @@ function initTabs() {
       updateTabsScrollButtons(container);
     }
     
+    
+    container.querySelectorAll('.tabs-scroll-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const offset = parseInt(this.getAttribute('data-scroll') || (this.classList.contains('tabs-scroll-prev') ? '-200' : '200'), 10);
+        scrollTabs(container.id, offset);
+      });
+    });
+
+    
     container.querySelectorAll('.tab-button').forEach(button => {
       button.addEventListener('click', function(e) {
         e.preventDefault();
-        const buttons = Array.from(container.querySelectorAll('.tab-button'));
-        const tabIndex = buttons.indexOf(this);
+        const attrIndex = this.getAttribute('data-index');
+        const tabIndex = attrIndex !== null ? parseInt(attrIndex, 10) : Array.from(container.querySelectorAll('.tab-button')).indexOf(this);
         if (tabIndex >= 0) {
           switchTab(container.id, tabIndex);
         }
@@ -1995,8 +1950,15 @@ window.addEventListener('resize', function() {
   
   
     
+      
+    
+  
+
+  
+  
     
     
+    
   
 
   
@@ -2005,12 +1967,12 @@ window.addEventListener('resize', function() {
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479921649000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268343106000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479921649000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -2020,11 +1982,11 @@ window.addEventListener('resize', function() {
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921649000-0"
+                id="tab-btn-tabs-1794487268343106000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479921649000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479921649000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268343106000-0"
+                class="tab-button active">
           Current
         </button>
       
@@ -2033,7 +1995,7 @@ window.addEventListener('resize', function() {
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479921649000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -2042,16 +2004,17 @@ window.addEventListener('resize', function() {
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479921649000-0"
+      <div id="tab-panel-tabs-1794487268343106000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921649000-0"
+           aria-labelledby="tab-btn-tabs-1794487268343106000-0"
            class="tab-panel active">
         <ul>
-<li><a href="https://www.immersivelrn.org/about/leadership-board/">Board of Directors Member</a> - Immersive Learning Research Network (non-profit)</li>
-<li><a href="https://ieee-edusociety.org/committee/committee-chairs-members">Board of Directors Member</a> – Technical Committee on Immersive Learning Environments, IEEE Education Society (non-profit)</li>
-<li><a href="https://digitaltwinhub.co.uk/about/advisory-group/">Advisory Group Member</a> – Digital Twin Hub (non-profit)</li>
-<li><a href="https://creative-science.org/about-csf/">Advisory Group Member</a> - Creative Science Foundation (non-profit)</li>
-<li><a href="https://www.women4ainnovation.org/about-us">Founding Partner &amp; Member</a> - Women4AInnovation Futures (think-tank)</li>
+<li><strong>Editorial Board Member</strong>, <a href="https://www.theitp.org/meet-the-team">Institute of Telecommunications Professional (ITP) Journal</a></li>
+<li><strong>Director of Publications &amp; Member of the Board of Directors</strong>, <a href="https://www.immersivelrn.org/about/leadership-board/">Immersive Learning Research Network (iLRN)</a></li>
+<li><strong>Board Member</strong>, <a href="https://ieee-edusociety.org/committee/committee-chairs-members">Technical Committee on Immersive Learning Environments</a>, <a href="https://ieee-edusociety.org/">IEEE Education Society</a></li>
+<li><strong>Advisory Group Member</strong>, <a href="https://digitaltwinhub.co.uk/about/advisory-group/">Digital Twin Hub (DT Hub UK)</a></li>
+<li><strong>Advisory Group Member</strong>, <a href="https://creative-science.org/about-csf/">Creative Science Foundation (CSf)</a></li>
+<li><strong>Founding Partner &amp; Member</strong>, <a href="https://www.women4ainnovation.org/about-us">Women4AInnovation Futures</a></li>
 </ul>
 
       </div>
@@ -2215,20 +2178,6 @@ window.addEventListener('resize', function() {
   
   
     
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -2272,20 +2221,6 @@ window.addEventListener('resize', function() {
     
     
     
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-      
     
   
 
@@ -2397,43 +2332,15 @@ window.addEventListener('resize', function() {
   
   
 
-  
-  
-    
-    
-    
-    
-    
-    
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-    
-    
-  
-
-  
-  
 
 
 
-
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479921844000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268343272000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479921844000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -2443,101 +2350,91 @@ window.addEventListener('resize', function() {
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-0"
+                id="tab-btn-tabs-1794487268343272000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479921844000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479921844000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-0"
+                class="tab-button active">
           Current
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-1"
+                id="tab-btn-tabs-1794487268343272000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-1"
+                class="tab-button ">
           2025
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-2"
+                id="tab-btn-tabs-1794487268343272000-2"
+                data-index="2"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-2"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  2 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-2"
+                class="tab-button ">
           2024
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-3"
+                id="tab-btn-tabs-1794487268343272000-3"
+                data-index="3"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-3"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  3 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-3"
+                class="tab-button ">
           2023
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-4"
+                id="tab-btn-tabs-1794487268343272000-4"
+                data-index="4"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-4"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  4 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-4"
+                class="tab-button ">
           2020
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-5"
+                id="tab-btn-tabs-1794487268343272000-5"
+                data-index="5"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-5"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  5 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-5"
+                class="tab-button ">
           2018
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-6"
+                id="tab-btn-tabs-1794487268343272000-6"
+                data-index="6"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-6"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  6 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-6"
+                class="tab-button ">
           2016
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-7"
+                id="tab-btn-tabs-1794487268343272000-7"
+                data-index="7"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-7"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  7 )">
-          2015
-        </button>
-      
-        <button type="button" 
-                role="tab"
-                id="tab-btn-tabs-1794484479921844000-8"
-                aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-8"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  8 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-7"
+                class="tab-button ">
           2014
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479921844000-9"
+                id="tab-btn-tabs-1794487268343272000-8"
+                data-index="8"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479921844000-9"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479921844000',  9 )">
+                aria-controls="tab-panel-tabs-1794487268343272000-8"
+                class="tab-button ">
           2001
         </button>
       
@@ -2546,7 +2443,7 @@ window.addEventListener('resize', function() {
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479921844000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -2555,9 +2452,9 @@ window.addEventListener('resize', function() {
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479921844000-0"
+      <div id="tab-panel-tabs-1794487268343272000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-0"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-0"
            class="tab-panel active">
         <ul>
 <li>Distinguished Engineer (Tech Fellowship), BT Group, UK</li>
@@ -2567,97 +2464,83 @@ window.addEventListener('resize', function() {
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479921844000-1"
+      <div id="tab-panel-tabs-1794487268343272000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-1"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-1"
            class="tab-panel ">
         <ul>
-<li>Women in IT Excellence Awards 2025 – Finalist (Transformation Leader of the Year). Computing’s Magazine, UK. November 2025.</li>
-<li>ITP Telecoms Awards 2025 – Finalist (Woman in Technology). The Institute of Telecommunication Professionals, UK. October 2025.</li>
-<li>&ldquo;Leardership in Innovation AI &amp; Technical Excellence&rdquo;. BT&rsquo;s Tech Fellowship Awards 2025. July 2025.</li>
-<li>&ldquo;Outstanding Board Service Award&rdquo;. 11th International Conference of the Immersive Learning Research Network. June 2025.</li>
+<li><strong>Finalist: Transformation Leader of the Year</strong>, <a href="https://womentechexcellence.co.uk/">Computing Women in Tech Excellence Awards</a>, UK (2025)</li>
+<li><strong>Finalist: Woman in Technology</strong>, <a href="https://www.theitp.org/annual-awards/">ITP Telecoms Awards</a>, UK (2025)</li>
+<li><strong>Leadership in Innovation, AI &amp; Technical Excellence Award</strong>, <a href="https://www.bt.com/">BT Group</a> Tech Fellowship (2025)</li>
+<li><strong>Outstanding Board Service Award</strong>, 11th International Conference of the <a href="https://immersivelrn.org/">Immersive Learning Research Network</a> (2025)</li>
 </ul>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479921844000-2"
+      <div id="tab-panel-tabs-1794487268343272000-2"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-2"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-2"
            class="tab-panel ">
         <ul>
-<li>&lsquo;Infrastructure &amp; Space Management Digital Twin&rsquo; (Project), Finalist. AI Innovation category. The National AI Awards. September 2024.</li>
+<li><strong>Finalist: AI Innovation (Infrastructure &amp; Space Management Digital Twin)</strong>, <a href="https://thenationalaiawards.com/">The National AI Awards</a>, UK (2024)</li>
 </ul>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479921844000-3"
+      <div id="tab-panel-tabs-1794487268343272000-3"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-3"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-3"
            class="tab-panel ">
         <ul>
-<li><a href="https://www.essex.ac.uk/people/penar50207/anasol-pena-rios">Honorary Senior Lecturer</a>, University of Essex, UK. October 2023.</li>
-<li>&ldquo;Outstanding Board Service Award&rdquo;. 9th International Conference of the Immersive Learning Research Network. June 2023.</li>
-<li>Distinguished Engineer (Tech Fellowship), BT Group, UK. March 2023.</li>
+<li><strong>Outstanding Board Service Award</strong>, 9th International Conference of the <a href="https://immersivelrn.org/">Immersive Learning Research Network</a> (2023)</li>
 </ul>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479921844000-4"
+      <div id="tab-panel-tabs-1794487268343272000-4"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-4"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-4"
            class="tab-panel ">
         <ul>
-<li>TechWomen100 awards 2020 – Winner. <a href="https://wearetechwomen.com/anasol-pena-rios-bt/">WeAreTechWomen’s TechWomen100 awards</a>, UK. November 2020.</li>
+<li><strong>Winner</strong>, <a href="https://wearetechwomen.com/anasol-pena-rios-bt/">WeAreTechWomen TechWomen100 Awards</a>, UK (2020)</li>
 </ul>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479921844000-5"
+      <div id="tab-panel-tabs-1794487268343272000-5"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-5"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-5"
            class="tab-panel ">
         <ul>
-<li>Visiting Fellow, University of Essex, UK.</li>
-<li>Institute of Electrical and Electronics Engineers (IEEE) - Senior Member.</li>
-<li>‘Future Field Force Using Mixed Reality’ (Project) – Highly Commended. <a href="http://www.ietinnovationawards.org/">IET Innovation Awards</a> (Information Technology) - Institute of Engineering and Technology (IET), UK. November 2018.</li>
-<li>Women in IT Excellence Awards 2018 – Finalist (Rising Star). Computing’s Magazine, UK. November 2018.</li>
+<li><strong>Highly Commended: Information Technology (Future Field Force Using Mixed Reality)</strong>, <a href="http://www.ietinnovationawards.org/">IET Innovation Awards</a>, UK (2018)</li>
+<li><strong>Finalist: Rising Star</strong>, <a href="https://womentechexcellence.co.uk/">Computing Women in Tech Excellence Awards</a>, UK (2018)</li>
 </ul>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479921844000-6"
+      <div id="tab-panel-tabs-1794487268343272000-6"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-6"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-6"
            class="tab-panel ">
         <ul>
-<li>Best Knowledge Transfer Project Associate – Winner. KTP Awards 2016. The University of Essex, UK. December 2016.</li>
+<li><strong>Winner: Best Knowledge Transfer Project Associate</strong>, KTP Awards, <a href="https://www.essex.ac.uk/">University of Essex</a>, UK (2016)</li>
 </ul>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479921844000-7"
+      <div id="tab-panel-tabs-1794487268343272000-7"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-7"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-7"
            class="tab-panel ">
         <ul>
-<li>Research Fellow - BT Research Labs, UK</li>
+<li><strong>Best Video Award</strong>, 10th International Conference on Intelligent Environments (IE'14), Shanghai, China (2014)</li>
 </ul>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479921844000-8"
+      <div id="tab-panel-tabs-1794487268343272000-8"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-8"
-           class="tab-panel ">
-        <ul>
-<li>Best Video Award. 10th International Conference on Intelligent Environments 2014 (IE’14), Shanghai, China; July 2014.</li>
-</ul>
-
-      </div>
-    
-      <div id="tab-panel-tabs-1794484479921844000-9"
-           role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479921844000-9"
+           aria-labelledby="tab-btn-tabs-1794487268343272000-8"
            class="tab-panel ">
         <ul>
 <li>Undergraduate Best Grades Award (2nd Semester). Instituto Politécnico Nacional, Mexico. January 2001.</li>
@@ -2775,8 +2658,15 @@ window.addEventListener('resize', function() {
   
   
     
+      
+    
+  
+
+  
+  
     
     
+    
   
 
   
@@ -2785,12 +2675,12 @@ window.addEventListener('resize', function() {
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479922453000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268343748000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479922453000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -2800,21 +2690,21 @@ window.addEventListener('resize', function() {
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479922453000-0"
+                id="tab-btn-tabs-1794487268343748000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479922453000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479922453000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268343748000-0"
+                class="tab-button active">
           Current
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479922453000-1"
+                id="tab-btn-tabs-1794487268343748000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479922453000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479922453000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268343748000-1"
+                class="tab-button ">
           Past
         </button>
       
@@ -2823,7 +2713,7 @@ window.addEventListener('resize', function() {
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479922453000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -2832,28 +2722,29 @@ window.addEventListener('resize', function() {
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479922453000-0"
+      <div id="tab-panel-tabs-1794487268343748000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479922453000-0"
+           aria-labelledby="tab-btn-tabs-1794487268343748000-0"
            class="tab-panel active">
         <ul>
-<li>Institute of Electrical and Electronics Engineers (IEEE) - Senior Member</li>
-<li>Association for Learning Technology (ALT) - Associate Member</li>
-<li>Chartered Management Institute (CMI) – Affiliate</li>
+<li><strong>Senior Member (SMIEEE)</strong>, <a href="https://www.ieee.org/">Institute of Electrical and Electronics Engineers (IEEE)</a></li>
+<li><strong>Member (MITP)</strong>, <a href="https://www.theitp.org/">Institute of Telecommunications Professionals (ITP)</a></li>
+<li><strong>Affiliate</strong>, <a href="https://www.managers.org.uk/">Chartered Management Institute (CMI)</a></li>
 </ul>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479922453000-1"
+      <div id="tab-panel-tabs-1794487268343748000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479922453000-1"
+           aria-labelledby="tab-btn-tabs-1794487268343748000-1"
            class="tab-panel ">
         <ul>
-<li>Interaction Design Foundation - Member (2015-2018)</li>
-<li>British Computer Society (BCS) - Professional Member (MBCS) (2015-2019)</li>
-<li>Association for Computing Machinery (ACM) - Professional Member (2015-2019, 2021-2022)</li>
-<li>Chartered Management Institute (CMI) – Affiliate (2016-2020, 2025)</li>
-<li>Mexican Thematic Network for the Development and Incorporation of Educational Technology (RedLaTE), CONACyT, Mexico - Member (2017-2023)</li>
+<li><strong>Professional Member (MBCS)</strong>, <a href="https://www.bcs.org/">British Computer Society (BCS)</a> (2015–2019)</li>
+<li><strong>Professional Member</strong>, <a href="https://www.acm.org/">Association for Computing Machinery (ACM)</a> (2015–2019, 2021–2022)</li>
+<li><strong>Associate Member</strong>, <a href="https://www.alt.ac.uk/">Association for Learning Technology (ALT)</a></li>
+<li><strong>Member</strong>, Mexican Thematic Network for Educational Technology (RedLaTE), <a href="https://conahcyt.mx/">CONAHCYT</a> (2017–2023)</li>
+<li><strong>Affiliate</strong>, <a href="https://www.managers.org.uk/">Chartered Management Institute (CMI)</a> (2016-2020)</li>
+<li><strong>Member</strong>, <a href="https://www.interaction-design.org/">Interaction Design Foundation (IxDF)</a> (2015–2018)</li>
 </ul>
 
       </div>
@@ -3020,12 +2911,12 @@ window.addEventListener('resize', function() {
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479922585000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268343915000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479922585000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -3035,41 +2926,41 @@ window.addEventListener('resize', function() {
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479922585000-0"
+                id="tab-btn-tabs-1794487268343915000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479922585000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479922585000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268343915000-0"
+                class="tab-button active">
           2020
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479922585000-1"
+                id="tab-btn-tabs-1794487268343915000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479922585000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479922585000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268343915000-1"
+                class="tab-button ">
           2009
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479922585000-2"
+                id="tab-btn-tabs-1794487268343915000-2"
+                data-index="2"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479922585000-2"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479922585000',  2 )">
+                aria-controls="tab-panel-tabs-1794487268343915000-2"
+                class="tab-button ">
           2011
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479922585000-3"
+                id="tab-btn-tabs-1794487268343915000-3"
+                data-index="3"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479922585000-3"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479922585000',  3 )">
+                aria-controls="tab-panel-tabs-1794487268343915000-3"
+                class="tab-button ">
           2009
         </button>
       
@@ -3078,7 +2969,7 @@ window.addEventListener('resize', function() {
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479922585000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -3087,9 +2978,9 @@ window.addEventListener('resize', function() {
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479922585000-0"
+      <div id="tab-panel-tabs-1794487268343915000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479922585000-0"
+           aria-labelledby="tab-btn-tabs-1794487268343915000-0"
            class="tab-panel active">
         <ul>
 <li><strong>Co-Investigator</strong>, &ldquo;Sistema de gestión de riesgo personal basado en agentes autónomos&rdquo;
@@ -3098,9 +2989,9 @@ window.addEventListener('resize', function() {
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479922585000-1"
+      <div id="tab-panel-tabs-1794487268343915000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479922585000-1"
+           aria-labelledby="tab-btn-tabs-1794487268343915000-1"
            class="tab-panel ">
         <ul>
 <li><strong>University of Essex Full PhD Studentship</strong>, University of Essex, UK. October 2009.
@@ -3109,9 +3000,9 @@ window.addEventListener('resize', function() {
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479922585000-2"
+      <div id="tab-panel-tabs-1794487268343915000-2"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479922585000-2"
+           aria-labelledby="tab-btn-tabs-1794487268343915000-2"
            class="tab-panel ">
         <ul>
 <li><strong>Santander Universities Scholarship</strong>. Santander Universities, UK. October 2009.
@@ -3120,9 +3011,9 @@ Merit-based mobility grant given by Santander Universities to international stud
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479922585000-3"
+      <div id="tab-panel-tabs-1794487268343915000-3"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479922585000-3"
+           aria-labelledby="tab-btn-tabs-1794487268343915000-3"
            class="tab-panel ">
         <ul>
 <li><strong>FIDERH - Central Bank of Mexico Studentship</strong>. Central Bank of Mexico, Mexico. October 2009.
@@ -3436,12 +3327,12 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479922881000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268344100000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479922881000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -3451,21 +3342,21 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479922881000-0"
+                id="tab-btn-tabs-1794487268344100000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479922881000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479922881000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268344100000-0"
+                class="tab-button active">
           Current
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479922881000-1"
+                id="tab-btn-tabs-1794487268344100000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479922881000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479922881000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268344100000-1"
+                class="tab-button ">
           Past
         </button>
       
@@ -3474,7 +3365,7 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479922881000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -3483,9 +3374,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479922881000-0"
+      <div id="tab-panel-tabs-1794487268344100000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479922881000-0"
+           aria-labelledby="tab-btn-tabs-1794487268344100000-0"
            class="tab-panel active">
         <ul>
 <li>Pranjal Jain, &ldquo;Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing&rdquo;, PhD in Computer Science, Swansea University, UK, 2026 (expected). (<strong>Industrial Supervisor</strong>)</li>
@@ -3496,9 +3387,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479922881000-1"
+      <div id="tab-panel-tabs-1794487268344100000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479922881000-1"
+           aria-labelledby="tab-btn-tabs-1794487268344100000-1"
            class="tab-panel ">
         <ul>
 <li>Jodi Bernhart, &ldquo;<em>Uses and benefits of AR in industrial settings</em>&rdquo;, MA in Learning Design and Technology,School of Journalism and Media Studies, San Diego State University, USA, 2017. (<strong>Co-Advisor</strong>)</li>
@@ -3707,12 +3598,12 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479923327000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268344583000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479923327000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -3722,21 +3613,21 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923327000-0"
+                id="tab-btn-tabs-1794487268344583000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479923327000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479923327000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268344583000-0"
+                class="tab-button active">
           Current Appointments
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923327000-1"
+                id="tab-btn-tabs-1794487268344583000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923327000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923327000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268344583000-1"
+                class="tab-button ">
           Past Appointments
         </button>
       
@@ -3745,7 +3636,7 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479923327000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -3754,9 +3645,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479923327000-0"
+      <div id="tab-panel-tabs-1794487268344583000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923327000-0"
+           aria-labelledby="tab-btn-tabs-1794487268344583000-0"
            class="tab-panel active">
         <ul>
 <li>Director of Publications at <a href="https://publications.immersivelrn.org/">The Immersive Learning Resarch Network</a>.</li>
@@ -3768,9 +3659,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923327000-1"
+      <div id="tab-panel-tabs-1794487268344583000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923327000-1"
+           aria-labelledby="tab-btn-tabs-1794487268344583000-1"
            class="tab-panel ">
         <ul>
 <li>
@@ -4291,12 +4182,12 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479923544000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268344827000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479923544000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -4306,121 +4197,121 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-0"
+                id="tab-btn-tabs-1794487268344827000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479923544000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479923544000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-0"
+                class="tab-button active">
           2023
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-1"
+                id="tab-btn-tabs-1794487268344827000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-1"
+                class="tab-button ">
           2022
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-2"
+                id="tab-btn-tabs-1794487268344827000-2"
+                data-index="2"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-2"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  2 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-2"
+                class="tab-button ">
           2021
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-3"
+                id="tab-btn-tabs-1794487268344827000-3"
+                data-index="3"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-3"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  3 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-3"
+                class="tab-button ">
           2020
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-4"
+                id="tab-btn-tabs-1794487268344827000-4"
+                data-index="4"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-4"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  4 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-4"
+                class="tab-button ">
           2019
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-5"
+                id="tab-btn-tabs-1794487268344827000-5"
+                data-index="5"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-5"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  5 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-5"
+                class="tab-button ">
           2018
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-6"
+                id="tab-btn-tabs-1794487268344827000-6"
+                data-index="6"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-6"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  6 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-6"
+                class="tab-button ">
           2017
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-7"
+                id="tab-btn-tabs-1794487268344827000-7"
+                data-index="7"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-7"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  7 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-7"
+                class="tab-button ">
           2016
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-8"
+                id="tab-btn-tabs-1794487268344827000-8"
+                data-index="8"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-8"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  8 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-8"
+                class="tab-button ">
           2015
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-9"
+                id="tab-btn-tabs-1794487268344827000-9"
+                data-index="9"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-9"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  9 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-9"
+                class="tab-button ">
           2014
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-10"
+                id="tab-btn-tabs-1794487268344827000-10"
+                data-index="10"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-10"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  10 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-10"
+                class="tab-button ">
           2013
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479923544000-11"
+                id="tab-btn-tabs-1794487268344827000-11"
+                data-index="11"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479923544000-11"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479923544000',  11 )">
+                aria-controls="tab-panel-tabs-1794487268344827000-11"
+                class="tab-button ">
           2012
         </button>
       
@@ -4429,7 +4320,7 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479923544000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -4438,9 +4329,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479923544000-0"
+      <div id="tab-panel-tabs-1794487268344827000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-0"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-0"
            class="tab-panel active">
         <ul>
 <li><strong>General Chair</strong> at the <a href="http://www.immersivelrn.org/ilrn2023">9th Immersive Learning Research Network Conference 2023 (iLRN'23)</a>, Online (18-20 May, 2023) and in Person in San Luis Obispo, California, USA (26-29 June, 2023).</li>
@@ -4448,9 +4339,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-1"
+      <div id="tab-panel-tabs-1794487268344827000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-1"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-1"
            class="tab-panel ">
         <ul>
 <li><strong>General Chair</strong> at the <a href="http://www.immersivelrn.org/ilrn2022">8th Immersive Learning Research Network Conference 2022 (iLRN'22)</a>, May 30, 2022 - June 4, 2022. Online and in Person in Vienna, Austria.</li>
@@ -4459,9 +4350,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-2"
+      <div id="tab-panel-tabs-1794487268344827000-2"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-2"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-2"
            class="tab-panel ">
         <ul>
 <li><strong>Publications Chair</strong> at the <a href="http://www.immersivelrn.org/ilrn2021/">Immersive Learning Research Network Conference 2021 (iLRN'21)</a>, Online.</li>
@@ -4471,9 +4362,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-3"
+      <div id="tab-panel-tabs-1794487268344827000-3"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-3"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-3"
            class="tab-panel ">
         <ul>
 <li><strong>Publications Chair</strong> at the <a href="http://www.immersivelrn.org/ilrn2020/">Immersive Learning Research Network Conference 2020 (iLRN'20)</a>, Online.</li>
@@ -4481,9 +4372,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-4"
+      <div id="tab-panel-tabs-1794487268344827000-4"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-4"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-4"
            class="tab-panel ">
         <ul>
 <li><strong>Publications Co-Chair &amp; Publicity Co-Director</strong> at the Immersive Learning Research Network Conference 2019 (iLRN'19), London, UK</li>
@@ -4491,9 +4382,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-5"
+      <div id="tab-panel-tabs-1794487268344827000-5"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-5"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-5"
            class="tab-panel ">
         <ul>
 <li><strong>Registration Chair &amp; Publications Co-Chair</strong> at the Immersive Learning Research Network Conference 2018 (iLRN'18), Montana, USA</li>
@@ -4502,9 +4393,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-6"
+      <div id="tab-panel-tabs-1794487268344827000-6"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-6"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-6"
            class="tab-panel ">
         <ul>
 <li><strong>Co-Organiser</strong> of the Special Session on Fuzzy Logic and Computational Intelligence applications for Computer-Supported Collaborative Work at the
@@ -4516,9 +4407,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-7"
+      <div id="tab-panel-tabs-1794487268344827000-7"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-7"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-7"
            class="tab-panel ">
         <ul>
 <li><strong>Special Sessions Chair</strong> at the 8th Computer Science and Electronic Engineering Conference 2016 (CEEC'16),Colchester, UK</li>
@@ -4529,9 +4420,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-8"
+      <div id="tab-panel-tabs-1794487268344827000-8"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-8"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-8"
            class="tab-panel ">
         <ul>
 <li><strong>Special Sessions Chair</strong> at the 7th Computer Science and Electronic Engineering Conference 2015 (CEEC'15), Colchester, UK</li>
@@ -4542,9 +4433,9 @@ Republic</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-9"
+      <div id="tab-panel-tabs-1794487268344827000-9"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-9"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-9"
            class="tab-panel ">
         <ul>
 <li><strong>Information Officer</strong> at the European Chapter of the MediaGrid Immersive Education Initiative (iED) - (From January 2012 until April 2014)</li>
@@ -4556,9 +4447,9 @@ Shanghai, China</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-10"
+      <div id="tab-panel-tabs-1794487268344827000-10"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-10"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-10"
            class="tab-panel ">
         <ul>
 <li><strong>Co-Organiser</strong> of the<a href="http://europe.immersiveeducation.org/events/ied-europe-summit-2013#committe"> 3rd European Immersive Education Summit 2013 (EiED’13)</a>, London, UK</li>
@@ -4566,9 +4457,9 @@ Shanghai, China</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479923544000-11"
+      <div id="tab-panel-tabs-1794487268344827000-11"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479923544000-11"
+           aria-labelledby="tab-btn-tabs-1794487268344827000-11"
            class="tab-panel ">
         <ul>
 <li><strong>Web Chair</strong> at the<a href="http://europe.immersiveeducation.org/events/ied-europe-summit-2013#committe"> 2nd European Immersive Education Summit 2012 (EiED’12)</a>, Paris, France</li>
@@ -5235,12 +5126,12 @@ Shanghai, China</li>
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479924108000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268345401000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479924108000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -5250,131 +5141,131 @@ Shanghai, China</li>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-0"
+                id="tab-btn-tabs-1794487268345401000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479924108000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479924108000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-0"
+                class="tab-button active">
           2023
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-1"
+                id="tab-btn-tabs-1794487268345401000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-1"
+                class="tab-button ">
           2022
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-2"
+                id="tab-btn-tabs-1794487268345401000-2"
+                data-index="2"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-2"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  2 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-2"
+                class="tab-button ">
           2021
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-3"
+                id="tab-btn-tabs-1794487268345401000-3"
+                data-index="3"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-3"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  3 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-3"
+                class="tab-button ">
           2020
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-4"
+                id="tab-btn-tabs-1794487268345401000-4"
+                data-index="4"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-4"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  4 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-4"
+                class="tab-button ">
           2019
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-5"
+                id="tab-btn-tabs-1794487268345401000-5"
+                data-index="5"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-5"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  5 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-5"
+                class="tab-button ">
           2018
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-6"
+                id="tab-btn-tabs-1794487268345401000-6"
+                data-index="6"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-6"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  6 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-6"
+                class="tab-button ">
           2017
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-7"
+                id="tab-btn-tabs-1794487268345401000-7"
+                data-index="7"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-7"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  7 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-7"
+                class="tab-button ">
           2016
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-8"
+                id="tab-btn-tabs-1794487268345401000-8"
+                data-index="8"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-8"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  8 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-8"
+                class="tab-button ">
           2015
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-9"
+                id="tab-btn-tabs-1794487268345401000-9"
+                data-index="9"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-9"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  9 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-9"
+                class="tab-button ">
           2014
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-10"
+                id="tab-btn-tabs-1794487268345401000-10"
+                data-index="10"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-10"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  10 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-10"
+                class="tab-button ">
           2013
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-11"
+                id="tab-btn-tabs-1794487268345401000-11"
+                data-index="11"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-11"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  11 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-11"
+                class="tab-button ">
           2012
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924108000-12"
+                id="tab-btn-tabs-1794487268345401000-12"
+                data-index="12"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924108000-12"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924108000',  12 )">
+                aria-controls="tab-panel-tabs-1794487268345401000-12"
+                class="tab-button ">
           2011
         </button>
       
@@ -5383,7 +5274,7 @@ Shanghai, China</li>
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479924108000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -5392,9 +5283,9 @@ Shanghai, China</li>
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479924108000-0"
+      <div id="tab-panel-tabs-1794487268345401000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-0"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-0"
            class="tab-panel active">
         <ul>
 <li>4th EAI International Conference on Technology, Innovation, Entrepreneurship and Education, Cambridge, UK – September 27-28, 2023.</li>
@@ -5402,9 +5293,9 @@ Shanghai, China</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-1"
+      <div id="tab-panel-tabs-1794487268345401000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-1"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-1"
            class="tab-panel ">
         <ul>
 <li>The 22nd IEEE International Conference on Advanced Learning Technologies (ICALT 2022) Bucharest, Romania – July 1-4, 2022.</li>
@@ -5412,9 +5303,9 @@ Shanghai, China</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-2"
+      <div id="tab-panel-tabs-1794487268345401000-2"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-2"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-2"
            class="tab-panel ">
         <ul>
 <li>Immersive Learning Research Network Conference 2021 (iLRN’21), Online – May 17-June 10, 2021.</li>
@@ -5424,9 +5315,9 @@ Shanghai, China</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-3"
+      <div id="tab-panel-tabs-1794487268345401000-3"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-3"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-3"
            class="tab-panel ">
         <ul>
 <li>Immersive Learning Research Network Conference 2020 (iLRN’20) Online – June 21-25, 2020.</li>
@@ -5436,9 +5327,9 @@ Shanghai, China</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-4"
+      <div id="tab-panel-tabs-1794487268345401000-4"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-4"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-4"
            class="tab-panel ">
         <ul>
 <li>Immersive Learning Research Network Conference 2019 (iLRN’19), London, UK – June 24-27, 2019.</li>
@@ -5449,9 +5340,9 @@ Shanghai, China</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-5"
+      <div id="tab-panel-tabs-1794487268345401000-5"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-5"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-5"
            class="tab-panel ">
         <ul>
 <li>10th Computer Science and Electronic Engineering Conference (CEEC 2018), Colchester, UK - 19-21 September 2018.</li>
@@ -5465,9 +5356,9 @@ Shanghai, China</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-6"
+      <div id="tab-panel-tabs-1794487268345401000-6"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-6"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-6"
            class="tab-panel ">
         <ul>
 <li>IEEE International Conference on Fuzzy Systems 2017 (FUZZ-IEEE'17), Naples, Italy - July 9-12, 2017.</li>
@@ -5482,9 +5373,9 @@ Atlanta, Georgia, USA - June 10-14, 2017.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-7"
+      <div id="tab-panel-tabs-1794487268345401000-7"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-7"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-7"
            class="tab-panel ">
         <ul>
 <li>8th Computer Science and Electronic Engineering Conference (CEEC 2016), Colchester, UK - 28-30 September 2016.</li>
@@ -5497,9 +5388,9 @@ Atlanta, Georgia, USA - June 10-14, 2017.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-8"
+      <div id="tab-panel-tabs-1794487268345401000-8"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-8"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-8"
            class="tab-panel ">
         <ul>
 <li>7th Computer Science and Electronic Engineering Conference (CEEC) 2015, Colchester, UK, September 2015.</li>
@@ -5510,9 +5401,9 @@ Atlanta, Georgia, USA - June 10-14, 2017.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-9"
+      <div id="tab-panel-tabs-1794487268345401000-9"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-9"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-9"
            class="tab-panel ">
         <ul>
 <li>6th Computer Science and Electronic Engineering Conference (CEEC) 2014, Colchester, UK, 25 – 26 September 2014.</li>
@@ -5525,9 +5416,9 @@ Atlanta, Georgia, USA - June 10-14, 2017.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-10"
+      <div id="tab-panel-tabs-1794487268345401000-10"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-10"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-10"
            class="tab-panel ">
         <ul>
 <li>The 2013 International Symposium on The Intelligent Campus (IC'13), Special Session: <em>Smart Learning for the Next Generation</em>. <a href="http://intelligentcampus.org/">Intelligent Campus Initiative</a>. United Arab Emirates, 24-25 November 2013.</li>
@@ -5540,9 +5431,9 @@ Europe. London, UK, 28-29 November 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-11"
+      <div id="tab-panel-tabs-1794487268345401000-11"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-11"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-11"
            class="tab-panel ">
         <ul>
 <li>The 2012 International Symposium on The Intelligent Campus (IC12) iCampus, Theme: <em>Intelligent Educational Environments for the Next Generation</em>. Intelligent Campus Initiative. Macau, China, 4 December 2012.</li>
@@ -5551,9 +5442,9 @@ Europe. London, UK, 28-29 November 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924108000-12"
+      <div id="tab-panel-tabs-1794487268345401000-12"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924108000-12"
+           aria-labelledby="tab-btn-tabs-1794487268345401000-12"
            class="tab-panel ">
         <ul>
 <li>2nd Annual International Creative Science Foundation (CSf) Conference, Creative Science Foundation (CSf). Nottingham, UK, 25-26 July 2011.</li>
@@ -6178,12 +6069,12 @@ Europe. London, UK, 28-29 November 2013.</li>
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479924795000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268346076000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479924795000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -6193,121 +6084,121 @@ Europe. London, UK, 28-29 November 2013.</li>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-0"
+                id="tab-btn-tabs-1794487268346076000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479924795000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479924795000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-0"
+                class="tab-button active">
           2025
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-1"
+                id="tab-btn-tabs-1794487268346076000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-1"
+                class="tab-button ">
           2024
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-2"
+                id="tab-btn-tabs-1794487268346076000-2"
+                data-index="2"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-2"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  2 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-2"
+                class="tab-button ">
           2023
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-3"
+                id="tab-btn-tabs-1794487268346076000-3"
+                data-index="3"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-3"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  3 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-3"
+                class="tab-button ">
           2022
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-4"
+                id="tab-btn-tabs-1794487268346076000-4"
+                data-index="4"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-4"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  4 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-4"
+                class="tab-button ">
           2021
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-5"
+                id="tab-btn-tabs-1794487268346076000-5"
+                data-index="5"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-5"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  5 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-5"
+                class="tab-button ">
           2020
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-6"
+                id="tab-btn-tabs-1794487268346076000-6"
+                data-index="6"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-6"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  6 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-6"
+                class="tab-button ">
           2019
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-7"
+                id="tab-btn-tabs-1794487268346076000-7"
+                data-index="7"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-7"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  7 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-7"
+                class="tab-button ">
           2018
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-8"
+                id="tab-btn-tabs-1794487268346076000-8"
+                data-index="8"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-8"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  8 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-8"
+                class="tab-button ">
           2017
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-9"
+                id="tab-btn-tabs-1794487268346076000-9"
+                data-index="9"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-9"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  9 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-9"
+                class="tab-button ">
           2016
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-10"
+                id="tab-btn-tabs-1794487268346076000-10"
+                data-index="10"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-10"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  10 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-10"
+                class="tab-button ">
           2014
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479924795000-11"
+                id="tab-btn-tabs-1794487268346076000-11"
+                data-index="11"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479924795000-11"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479924795000',  11 )">
+                aria-controls="tab-panel-tabs-1794487268346076000-11"
+                class="tab-button ">
           2013
         </button>
       
@@ -6316,7 +6207,7 @@ Europe. London, UK, 28-29 November 2013.</li>
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479924795000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -6325,9 +6216,9 @@ Europe. London, UK, 28-29 November 2013.</li>
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479924795000-0"
+      <div id="tab-panel-tabs-1794487268346076000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-0"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-0"
            class="tab-panel active">
         <ul>
 <li><strong>&ldquo;Beyond Reality: Exploring the Frontiers of Immersive Technologies&rdquo;</strong>, Tech Fellowship - Tech Talk Series, Online, 19-Feb-25</li>
@@ -6335,9 +6226,9 @@ Europe. London, UK, 28-29 November 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-1"
+      <div id="tab-panel-tabs-1794487268346076000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-1"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-1"
            class="tab-panel ">
         <ul>
 <li><strong>&ldquo;The Role of AI in Digital Twins&rdquo;</strong>, CSEE AI Symposium, University of Essex, 19-Apr-24</li>
@@ -6352,9 +6243,9 @@ Europe. London, UK, 28-29 November 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-2"
+      <div id="tab-panel-tabs-1794487268346076000-2"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-2"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-2"
            class="tab-panel ">
         <ul>
 <li>Panellist at <a href="https://atadastral.co.uk/bsw/2023/">&ldquo;Extended Reality Day - Live Q&amp;A&rdquo;</a>. Panel organised as part of BT&rsquo;s British Science Week 2023. Online. 14 March 2023.</li>
@@ -6366,9 +6257,9 @@ Europe. London, UK, 28-29 November 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-3"
+      <div id="tab-panel-tabs-1794487268346076000-3"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-3"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-3"
            class="tab-panel ">
         <ul>
 <li>Panellist at <a href="https://ieee-edusociety.org/tomorrows-classroom-ecosystem-webinar">IEEE EdSoc &ldquo;Tomorrow’s Classroom Ecosystem&rdquo; Webinar</a>. Panel organised as part of the IEEE Education Week 2022. Online. 05 April 2022.</li>
@@ -6379,9 +6270,9 @@ Europe. London, UK, 28-29 November 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-4"
+      <div id="tab-panel-tabs-1794487268346076000-4"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-4"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-4"
            class="tab-panel ">
         <ul>
 <li><strong>“The Augmented Employee: Immersive Technologies in Field Service Operations”</strong>. Invited seminar at the School of Computer Science &amp; Engineering, University of Westminster, UK. Online. February 24, 2021.</li>
@@ -6396,9 +6287,9 @@ Europe. London, UK, 28-29 November 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-5"
+      <div id="tab-panel-tabs-1794487268346076000-5"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-5"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-5"
            class="tab-panel ">
         <ul>
 <li><strong>“The Augmented Employee: Immersive Technologies in Field Service Operations”</strong>. Invited (online) talk at the Doctoral Program in Web Science and Technology (Programa do Retiro Doutoral).  Universidad de Trás-os-Montes e Alto Douro (UTAD) &amp; Universidade Aberta (<em>UAb</em>), Lisbon, Portugal. June 30, 2020.</li>
@@ -6408,9 +6299,9 @@ Europe. London, UK, 28-29 November 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-6"
+      <div id="tab-panel-tabs-1794487268346076000-6"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-6"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-6"
            class="tab-panel ">
         <ul>
 <li><strong>“The Augmented Employee: Immersive Technologies in Field Service Operations”</strong>. Plenary talk at the 5th International Immersive Learning Research Network Conference (iLRN). London, UK. June 24-27, 2019.</li>
@@ -6424,9 +6315,9 @@ Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-7"
+      <div id="tab-panel-tabs-1794487268346076000-7"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-7"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-7"
            class="tab-panel ">
         <ul>
 <li><strong>“Immersive Technologies in Field Service Operations”</strong>. Plenary talk at the II International Conference on Theoretical and Applied Computer Science and Engineering. Istanbul, Turkey. June 29-30, 2018.</li>
@@ -6435,9 +6326,9 @@ Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-8"
+      <div id="tab-panel-tabs-1794487268346076000-8"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-8"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-8"
            class="tab-panel ">
         <ul>
 <li><strong>“Immersive Technologies in Field Service Operations”</strong> Presented at Ada Lovelace Day (Women in STEM). University of Essex, Colchester, UK. 10 Oct 2017.</li>
@@ -6446,9 +6337,9 @@ Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-9"
+      <div id="tab-panel-tabs-1794487268346076000-9"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-9"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-9"
            class="tab-panel ">
         <ul>
 <li>&ldquo;Exploring Mixed Reality in Distributed Collaborative Learning Environments**&rdquo;**,Seminar presented at Middlesex University, UK. 10 Feb 2016.</li>
@@ -6457,9 +6348,9 @@ Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-10"
+      <div id="tab-panel-tabs-1794487268346076000-10"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-10"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-10"
            class="tab-panel ">
         <ul>
 <li>&ldquo;Mixed reality collaborative environments&rdquo;, Invited presentation at &ldquo;Creativity, Ideas &amp; Innovation&rdquo; Workshop. The Business School - Canterbury
@@ -6468,9 +6359,9 @@ Christ Church University, UK. 18 Nov 2014.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479924795000-11"
+      <div id="tab-panel-tabs-1794487268346076000-11"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479924795000-11"
+           aria-labelledby="tab-btn-tabs-1794487268346076000-11"
            class="tab-panel ">
         <ul>
 <li>&ldquo;Towards blended reality on collaborative laboratory activities using smart objects&rdquo;</li>
@@ -6913,12 +6804,12 @@ Tammela, Finland. 23-24 May 2013.</li>
 
 
 
-<div class="tabs-container m3-primary-tabs" id="tabs-1794484479925653000">
+<div class="tabs-container m3-primary-tabs" id="tabs-1794487268346779000">
   <div class="tabs-nav-wrapper">
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-prev" 
             aria-label="Scroll tabs left" 
-            onclick="scrollTabs('tabs-1794484479925653000', -200)">
+            data-scroll="-200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="15 18 9 12 15 6"></polyline>
       </svg>
@@ -6928,101 +6819,101 @@ Tammela, Finland. 23-24 May 2013.</li>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-0"
+                id="tab-btn-tabs-1794487268346779000-0"
+                data-index="0"
                 aria-selected="true"
-                aria-controls="tab-panel-tabs-1794484479925653000-0"
-                class="tab-button active" 
-                onclick="switchTab('tabs-1794484479925653000',  0 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-0"
+                class="tab-button active">
           2023
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-1"
+                id="tab-btn-tabs-1794487268346779000-1"
+                data-index="1"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-1"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  1 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-1"
+                class="tab-button ">
           2021
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-2"
+                id="tab-btn-tabs-1794487268346779000-2"
+                data-index="2"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-2"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  2 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-2"
+                class="tab-button ">
           2020
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-3"
+                id="tab-btn-tabs-1794487268346779000-3"
+                data-index="3"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-3"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  3 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-3"
+                class="tab-button ">
           2018
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-4"
+                id="tab-btn-tabs-1794487268346779000-4"
+                data-index="4"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-4"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  4 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-4"
+                class="tab-button ">
           2017
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-5"
+                id="tab-btn-tabs-1794487268346779000-5"
+                data-index="5"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-5"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  5 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-5"
+                class="tab-button ">
           2016
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-6"
+                id="tab-btn-tabs-1794487268346779000-6"
+                data-index="6"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-6"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  6 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-6"
+                class="tab-button ">
           2015
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-7"
+                id="tab-btn-tabs-1794487268346779000-7"
+                data-index="7"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-7"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  7 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-7"
+                class="tab-button ">
           2014
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-8"
+                id="tab-btn-tabs-1794487268346779000-8"
+                data-index="8"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-8"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  8 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-8"
+                class="tab-button ">
           2013
         </button>
       
         <button type="button" 
                 role="tab"
-                id="tab-btn-tabs-1794484479925653000-9"
+                id="tab-btn-tabs-1794487268346779000-9"
+                data-index="9"
                 aria-selected="false"
-                aria-controls="tab-panel-tabs-1794484479925653000-9"
-                class="tab-button " 
-                onclick="switchTab('tabs-1794484479925653000',  9 )">
+                aria-controls="tab-panel-tabs-1794487268346779000-9"
+                class="tab-button ">
           2004
         </button>
       
@@ -7031,7 +6922,7 @@ Tammela, Finland. 23-24 May 2013.</li>
     <button type="button" 
             class="tabs-scroll-btn tabs-scroll-next" 
             aria-label="Scroll tabs right" 
-            onclick="scrollTabs('tabs-1794484479925653000', 200)">
+            data-scroll="200">
       <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
@@ -7040,9 +6931,9 @@ Tammela, Finland. 23-24 May 2013.</li>
   
   <div class="tabs-content">
     
-      <div id="tab-panel-tabs-1794484479925653000-0"
+      <div id="tab-panel-tabs-1794487268346779000-0"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-0"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-0"
            class="tab-panel active">
         <ul>
 <li><a href="https://atadastral.co.uk/bsw/extended-reality/">&ldquo;Extended Reality Day&rdquo;</a>, Adastral Park - British Science Week 2023, BT Group. Online. 14 March 2023.</li>
@@ -7051,9 +6942,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-1"
+      <div id="tab-panel-tabs-1794487268346779000-1"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-1"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-1"
            class="tab-panel ">
         <ul>
 <li><strong>&ldquo;The Connected Campus: University of Warwick case study&rdquo;</strong> Interview at BT Enterprise. 09 January 2021.</li>
@@ -7063,9 +6954,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-2"
+      <div id="tab-panel-tabs-1794487268346779000-2"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-2"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-2"
            class="tab-panel ">
         <ul>
 <li>&ldquo;What Graduate Career opportunities are there in Innovation?&rdquo;, KTN-uk.org. 06 November 2020.</li>
@@ -7073,9 +6964,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-3"
+      <div id="tab-panel-tabs-1794487268346779000-3"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-3"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-3"
            class="tab-panel ">
         <ul>
 <li><strong>&ldquo;Augmented Reality in Field Engineering Services&rdquo;</strong> Interview broadcast at BBC One Look East News. 09 Feb 2018.</li>
@@ -7085,9 +6976,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-4"
+      <div id="tab-panel-tabs-1794487268346779000-4"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-4"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-4"
            class="tab-panel ">
         <ul>
 <li><strong>&ldquo;University of Essex and BT win global telecoms award&rdquo;</strong> Press release. University of Essex, UK. 07 June 2017.</li>
@@ -7097,9 +6988,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-5"
+      <div id="tab-panel-tabs-1794487268346779000-5"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-5"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-5"
            class="tab-panel ">
         <ul>
 <li><strong>&ldquo;FieldSchedule Virtual Coach&rdquo;</strong> Presentation at the 2016 BCS Real AI Competition. London, UK. 7 October 2016.</li>
@@ -7114,9 +7005,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-6"
+      <div id="tab-panel-tabs-1794487268346779000-6"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-6"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-6"
            class="tab-panel ">
         <ul>
 <li><a href="https://www1.essex.ac.uk/news/event.aspx?e_id=7570">&ldquo;Blending realities to create a truly global workforce&rdquo;</a> Press release. University of Essex, UK. 14 April 2015.</li>
@@ -7127,9 +7018,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-7"
+      <div id="tab-panel-tabs-1794487268346779000-7"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-7"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-7"
            class="tab-panel ">
         <ul>
 <li><a href="https://www.computer.org/csdl/mags/co/2014/05/mco2014050099.pdf">&ldquo;Science Fiction Prototyping: A New Doorway into Time&rdquo; (article)</a>. Brian David Johnson, Computer Magazine, IEEE Computer Society, May 2014.</li>
@@ -7138,9 +7029,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-8"
+      <div id="tab-panel-tabs-1794487268346779000-8"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-8"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-8"
            class="tab-panel ">
         <ul>
 <li><a href="http://www.embedded.com/design/mcus-processors-and-socs/4437441/Putting-the-Buzz-Back-into-Computer-Science-Education">&ldquo;Putting the Buzz Back into Computer Science Education&rdquo;</a> embedded.com, November 2013. [Last access: May 2015]</li>
@@ -7148,9 +7039,9 @@ Tammela, Finland. 23-24 May 2013.</li>
 
       </div>
     
-      <div id="tab-panel-tabs-1794484479925653000-9"
+      <div id="tab-panel-tabs-1794487268346779000-9"
            role="tabpanel"
-           aria-labelledby="tab-btn-tabs-1794484479925653000-9"
+           aria-labelledby="tab-btn-tabs-1794487268346779000-9"
            class="tab-panel ">
         <ul>
 <li><a href="https://youtu.be/Bor2Psrr6X4">&ldquo;Graphological System&rdquo;</a>. Interview broadcast at Mexican TV News’ national channel &ldquo;Canal Once&rdquo;, July 29th, 2004.</li>

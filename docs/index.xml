@@ -89,8 +89,15 @@
   
   
     
+      
+    
+  
+
+  
+  
     
     
+    
   
 
   
@@ -99,12 +106,12 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479921649000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794487268343106000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
             aria-label=&#34;Scroll tabs left&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479921649000&#39;, -200)&#34;&gt;
+            data-scroll=&#34;-200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -114,11 +121,11 @@
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921649000-0&#34;
+                id=&#34;tab-btn-tabs-1794487268343106000-0&#34;
+                data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921649000-0&#34;
-                class=&#34;tab-button active&#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921649000&#39;,  0 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343106000-0&#34;
+                class=&#34;tab-button active&#34;&gt;
           Current
         &lt;/button&gt;
       
@@ -127,7 +134,7 @@
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
             aria-label=&#34;Scroll tabs right&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479921649000&#39;, 200)&#34;&gt;
+            data-scroll=&#34;200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -136,16 +143,17 @@
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921649000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343106000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921649000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343106000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.immersivelrn.org/about/leadership-board/&#34;&gt;Board of Directors Member&lt;/a&gt; - Immersive Learning Research Network (non-profit)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ieee-edusociety.org/committee/committee-chairs-members&#34;&gt;Board of Directors Member&lt;/a&gt; – Technical Committee on Immersive Learning Environments, IEEE Education Society (non-profit)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://digitaltwinhub.co.uk/about/advisory-group/&#34;&gt;Advisory Group Member&lt;/a&gt; – Digital Twin Hub (non-profit)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://creative-science.org/about-csf/&#34;&gt;Advisory Group Member&lt;/a&gt; - Creative Science Foundation (non-profit)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.women4ainnovation.org/about-us&#34;&gt;Founding Partner &amp;amp; Member&lt;/a&gt; - Women4AInnovation Futures (think-tank)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editorial Board Member&lt;/strong&gt;, &lt;a href=&#34;https://www.theitp.org/meet-the-team&#34;&gt;Institute of Telecommunications Professional (ITP) Journal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Director of Publications &amp;amp; Member of the Board of Directors&lt;/strong&gt;, &lt;a href=&#34;https://www.immersivelrn.org/about/leadership-board/&#34;&gt;Immersive Learning Research Network (iLRN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Board Member&lt;/strong&gt;, &lt;a href=&#34;https://ieee-edusociety.org/committee/committee-chairs-members&#34;&gt;Technical Committee on Immersive Learning Environments&lt;/a&gt;, &lt;a href=&#34;https://ieee-edusociety.org/&#34;&gt;IEEE Education Society&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advisory Group Member&lt;/strong&gt;, &lt;a href=&#34;https://digitaltwinhub.co.uk/about/advisory-group/&#34;&gt;Digital Twin Hub (DT Hub UK)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advisory Group Member&lt;/strong&gt;, &lt;a href=&#34;https://creative-science.org/about-csf/&#34;&gt;Creative Science Foundation (CSf)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Founding Partner &amp;amp; Member&lt;/strong&gt;, &lt;a href=&#34;https://www.women4ainnovation.org/about-us&#34;&gt;Women4AInnovation Futures&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -309,20 +317,6 @@
   
   
     
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -366,20 +360,6 @@
     
     
     
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-      
     
   
 
@@ -491,43 +471,15 @@
   
   
 
-  
-  
-    
-    
-    
-    
-    
-    
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-    
-    
-  
-
-  
-  
 
 
 
-
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479921844000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794487268343272000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
             aria-label=&#34;Scroll tabs left&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479921844000&#39;, -200)&#34;&gt;
+            data-scroll=&#34;-200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -537,101 +489,91 @@
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-0&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-0&#34;
+                data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-0&#34;
-                class=&#34;tab-button active&#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  0 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-0&#34;
+                class=&#34;tab-button active&#34;&gt;
           Current
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-1&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-1&#34;
+                data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-1&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  1 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-1&#34;
+                class=&#34;tab-button &#34;&gt;
           2025
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-2&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-2&#34;
+                data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-2&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  2 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-2&#34;
+                class=&#34;tab-button &#34;&gt;
           2024
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-3&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-3&#34;
+                data-index=&#34;3&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-3&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  3 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-3&#34;
+                class=&#34;tab-button &#34;&gt;
           2023
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-4&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-4&#34;
+                data-index=&#34;4&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-4&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  4 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-4&#34;
+                class=&#34;tab-button &#34;&gt;
           2020
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-5&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-5&#34;
+                data-index=&#34;5&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-5&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  5 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-5&#34;
+                class=&#34;tab-button &#34;&gt;
           2018
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-6&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-6&#34;
+                data-index=&#34;6&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-6&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  6 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-6&#34;
+                class=&#34;tab-button &#34;&gt;
           2016
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-7&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-7&#34;
+                data-index=&#34;7&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-7&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  7 )&#34;&gt;
-          2015
-        &lt;/button&gt;
-      
-        &lt;button type=&#34;button&#34; 
-                role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-8&#34;
-                aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-8&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  8 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-7&#34;
+                class=&#34;tab-button &#34;&gt;
           2014
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479921844000-9&#34;
+                id=&#34;tab-btn-tabs-1794487268343272000-8&#34;
+                data-index=&#34;8&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479921844000-9&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  9 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343272000-8&#34;
+                class=&#34;tab-button &#34;&gt;
           2001
         &lt;/button&gt;
       
@@ -640,7 +582,7 @@
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
             aria-label=&#34;Scroll tabs right&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479921844000&#39;, 200)&#34;&gt;
+            data-scroll=&#34;200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -649,9 +591,9 @@
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Distinguished Engineer (Tech Fellowship), BT Group, UK&lt;/li&gt;
@@ -661,97 +603,83 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Women in IT Excellence Awards 2025 – Finalist (Transformation Leader of the Year). Computing’s Magazine, UK. November 2025.&lt;/li&gt;
-&lt;li&gt;ITP Telecoms Awards 2025 – Finalist (Woman in Technology). The Institute of Telecommunication Professionals, UK. October 2025.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Leardership in Innovation AI &amp;amp; Technical Excellence&amp;rdquo;. BT&amp;rsquo;s Tech Fellowship Awards 2025. July 2025.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Outstanding Board Service Award&amp;rdquo;. 11th International Conference of the Immersive Learning Research Network. June 2025.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finalist: Transformation Leader of the Year&lt;/strong&gt;, &lt;a href=&#34;https://womentechexcellence.co.uk/&#34;&gt;Computing Women in Tech Excellence Awards&lt;/a&gt;, UK (2025)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finalist: Woman in Technology&lt;/strong&gt;, &lt;a href=&#34;https://www.theitp.org/annual-awards/&#34;&gt;ITP Telecoms Awards&lt;/a&gt;, UK (2025)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leadership in Innovation, AI &amp;amp; Technical Excellence Award&lt;/strong&gt;, &lt;a href=&#34;https://www.bt.com/&#34;&gt;BT Group&lt;/a&gt; Tech Fellowship (2025)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outstanding Board Service Award&lt;/strong&gt;, 11th International Conference of the &lt;a href=&#34;https://immersivelrn.org/&#34;&gt;Immersive Learning Research Network&lt;/a&gt; (2025)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&amp;lsquo;Infrastructure &amp;amp; Space Management Digital Twin&amp;rsquo; (Project), Finalist. AI Innovation category. The National AI Awards. September 2024.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finalist: AI Innovation (Infrastructure &amp;amp; Space Management Digital Twin)&lt;/strong&gt;, &lt;a href=&#34;https://thenationalaiawards.com/&#34;&gt;The National AI Awards&lt;/a&gt;, UK (2024)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.essex.ac.uk/people/penar50207/anasol-pena-rios&#34;&gt;Honorary Senior Lecturer&lt;/a&gt;, University of Essex, UK. October 2023.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Outstanding Board Service Award&amp;rdquo;. 9th International Conference of the Immersive Learning Research Network. June 2023.&lt;/li&gt;
-&lt;li&gt;Distinguished Engineer (Tech Fellowship), BT Group, UK. March 2023.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outstanding Board Service Award&lt;/strong&gt;, 9th International Conference of the &lt;a href=&#34;https://immersivelrn.org/&#34;&gt;Immersive Learning Research Network&lt;/a&gt; (2023)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-4&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-4&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-4&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-4&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;TechWomen100 awards 2020 – Winner. &lt;a href=&#34;https://wearetechwomen.com/anasol-pena-rios-bt/&#34;&gt;WeAreTechWomen’s TechWomen100 awards&lt;/a&gt;, UK. November 2020.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Winner&lt;/strong&gt;, &lt;a href=&#34;https://wearetechwomen.com/anasol-pena-rios-bt/&#34;&gt;WeAreTechWomen TechWomen100 Awards&lt;/a&gt;, UK (2020)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-5&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-5&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-5&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-5&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Visiting Fellow, University of Essex, UK.&lt;/li&gt;
-&lt;li&gt;Institute of Electrical and Electronics Engineers (IEEE) - Senior Member.&lt;/li&gt;
-&lt;li&gt;‘Future Field Force Using Mixed Reality’ (Project) – Highly Commended. &lt;a href=&#34;http://www.ietinnovationawards.org/&#34;&gt;IET Innovation Awards&lt;/a&gt; (Information Technology) - Institute of Engineering and Technology (IET), UK. November 2018.&lt;/li&gt;
-&lt;li&gt;Women in IT Excellence Awards 2018 – Finalist (Rising Star). Computing’s Magazine, UK. November 2018.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Highly Commended: Information Technology (Future Field Force Using Mixed Reality)&lt;/strong&gt;, &lt;a href=&#34;http://www.ietinnovationawards.org/&#34;&gt;IET Innovation Awards&lt;/a&gt;, UK (2018)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finalist: Rising Star&lt;/strong&gt;, &lt;a href=&#34;https://womentechexcellence.co.uk/&#34;&gt;Computing Women in Tech Excellence Awards&lt;/a&gt;, UK (2018)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-6&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-6&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-6&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-6&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Best Knowledge Transfer Project Associate – Winner. KTP Awards 2016. The University of Essex, UK. December 2016.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Winner: Best Knowledge Transfer Project Associate&lt;/strong&gt;, KTP Awards, &lt;a href=&#34;https://www.essex.ac.uk/&#34;&gt;University of Essex&lt;/a&gt;, UK (2016)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-7&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-7&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-7&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-7&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Research Fellow - BT Research Labs, UK&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best Video Award&lt;/strong&gt;, 10th International Conference on Intelligent Environments (IE&#39;14), Shanghai, China (2014)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-8&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343272000-8&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-8&#34;
-           class=&#34;tab-panel &#34;&gt;
-        &lt;ul&gt;
-&lt;li&gt;Best Video Award. 10th International Conference on Intelligent Environments 2014 (IE’14), Shanghai, China; July 2014.&lt;/li&gt;
-&lt;/ul&gt;
-
-      &lt;/div&gt;
-    
-      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-9&#34;
-           role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-9&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343272000-8&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Undergraduate Best Grades Award (2nd Semester). Instituto Politécnico Nacional, Mexico. January 2001.&lt;/li&gt;
@@ -869,8 +797,15 @@
   
   
     
+      
+    
+  
+
+  
+  
     
     
+    
   
 
   
@@ -879,12 +814,12 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479922453000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794487268343748000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
             aria-label=&#34;Scroll tabs left&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479922453000&#39;, -200)&#34;&gt;
+            data-scroll=&#34;-200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -894,21 +829,21 @@
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479922453000-0&#34;
+                id=&#34;tab-btn-tabs-1794487268343748000-0&#34;
+                data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479922453000-0&#34;
-                class=&#34;tab-button active&#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479922453000&#39;,  0 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343748000-0&#34;
+                class=&#34;tab-button active&#34;&gt;
           Current
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479922453000-1&#34;
+                id=&#34;tab-btn-tabs-1794487268343748000-1&#34;
+                data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479922453000-1&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479922453000&#39;,  1 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343748000-1&#34;
+                class=&#34;tab-button &#34;&gt;
           Past
         &lt;/button&gt;
       
@@ -917,7 +852,7 @@
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
             aria-label=&#34;Scroll tabs right&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479922453000&#39;, 200)&#34;&gt;
+            data-scroll=&#34;200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -926,28 +861,29 @@
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479922453000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343748000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479922453000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343748000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Institute of Electrical and Electronics Engineers (IEEE) - Senior Member&lt;/li&gt;
-&lt;li&gt;Association for Learning Technology (ALT) - Associate Member&lt;/li&gt;
-&lt;li&gt;Chartered Management Institute (CMI) – Affiliate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Senior Member (SMIEEE)&lt;/strong&gt;, &lt;a href=&#34;https://www.ieee.org/&#34;&gt;Institute of Electrical and Electronics Engineers (IEEE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Member (MITP)&lt;/strong&gt;, &lt;a href=&#34;https://www.theitp.org/&#34;&gt;Institute of Telecommunications Professionals (ITP)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Affiliate&lt;/strong&gt;, &lt;a href=&#34;https://www.managers.org.uk/&#34;&gt;Chartered Management Institute (CMI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479922453000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343748000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479922453000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343748000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Interaction Design Foundation - Member (2015-2018)&lt;/li&gt;
-&lt;li&gt;British Computer Society (BCS) - Professional Member (MBCS) (2015-2019)&lt;/li&gt;
-&lt;li&gt;Association for Computing Machinery (ACM) - Professional Member (2015-2019, 2021-2022)&lt;/li&gt;
-&lt;li&gt;Chartered Management Institute (CMI) – Affiliate (2016-2020, 2025)&lt;/li&gt;
-&lt;li&gt;Mexican Thematic Network for the Development and Incorporation of Educational Technology (RedLaTE), CONACyT, Mexico - Member (2017-2023)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional Member (MBCS)&lt;/strong&gt;, &lt;a href=&#34;https://www.bcs.org/&#34;&gt;British Computer Society (BCS)&lt;/a&gt; (2015–2019)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional Member&lt;/strong&gt;, &lt;a href=&#34;https://www.acm.org/&#34;&gt;Association for Computing Machinery (ACM)&lt;/a&gt; (2015–2019, 2021–2022)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Associate Member&lt;/strong&gt;, &lt;a href=&#34;https://www.alt.ac.uk/&#34;&gt;Association for Learning Technology (ALT)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Member&lt;/strong&gt;, Mexican Thematic Network for Educational Technology (RedLaTE), &lt;a href=&#34;https://conahcyt.mx/&#34;&gt;CONAHCYT&lt;/a&gt; (2017–2023)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Affiliate&lt;/strong&gt;, &lt;a href=&#34;https://www.managers.org.uk/&#34;&gt;Chartered Management Institute (CMI)&lt;/a&gt; (2016-2020)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Member&lt;/strong&gt;, &lt;a href=&#34;https://www.interaction-design.org/&#34;&gt;Interaction Design Foundation (IxDF)&lt;/a&gt; (2015–2018)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -1114,12 +1050,12 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479922585000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794487268343915000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
             aria-label=&#34;Scroll tabs left&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479922585000&#39;, -200)&#34;&gt;
+            data-scroll=&#34;-200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -1129,41 +1065,41 @@
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479922585000-0&#34;
+                id=&#34;tab-btn-tabs-1794487268343915000-0&#34;
+                data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479922585000-0&#34;
-                class=&#34;tab-button active&#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479922585000&#39;,  0 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343915000-0&#34;
+                class=&#34;tab-button active&#34;&gt;
           2020
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479922585000-1&#34;
+                id=&#34;tab-btn-tabs-1794487268343915000-1&#34;
+                data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479922585000-1&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479922585000&#39;,  1 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343915000-1&#34;
+                class=&#34;tab-button &#34;&gt;
           2009
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479922585000-2&#34;
+                id=&#34;tab-btn-tabs-1794487268343915000-2&#34;
+                data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479922585000-2&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479922585000&#39;,  2 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343915000-2&#34;
+                class=&#34;tab-button &#34;&gt;
           2011
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479922585000-3&#34;
+                id=&#34;tab-btn-tabs-1794487268343915000-3&#34;
+                data-index=&#34;3&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479922585000-3&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479922585000&#39;,  3 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268343915000-3&#34;
+                class=&#34;tab-button &#34;&gt;
           2009
         &lt;/button&gt;
       
@@ -1172,7 +1108,7 @@
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
             aria-label=&#34;Scroll tabs right&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479922585000&#39;, 200)&#34;&gt;
+            data-scroll=&#34;200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -1181,9 +1117,9 @@
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479922585000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343915000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479922585000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343915000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Co-Investigator&lt;/strong&gt;, &amp;ldquo;Sistema de gestión de riesgo personal basado en agentes autónomos&amp;rdquo;
@@ -1192,9 +1128,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479922585000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343915000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479922585000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343915000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;University of Essex Full PhD Studentship&lt;/strong&gt;, University of Essex, UK. October 2009.
@@ -1203,9 +1139,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479922585000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343915000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479922585000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343915000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Santander Universities Scholarship&lt;/strong&gt;. Santander Universities, UK. October 2009.
@@ -1214,9 +1150,9 @@ Merit-based mobility grant given by Santander Universities to international stud
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479922585000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268343915000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479922585000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268343915000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;FIDERH - Central Bank of Mexico Studentship&lt;/strong&gt;. Central Bank of Mexico, Mexico. October 2009.
@@ -1530,12 +1466,12 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479922881000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794487268344100000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
             aria-label=&#34;Scroll tabs left&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479922881000&#39;, -200)&#34;&gt;
+            data-scroll=&#34;-200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -1545,21 +1481,21 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479922881000-0&#34;
+                id=&#34;tab-btn-tabs-1794487268344100000-0&#34;
+                data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479922881000-0&#34;
-                class=&#34;tab-button active&#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479922881000&#39;,  0 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268344100000-0&#34;
+                class=&#34;tab-button active&#34;&gt;
           Current
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479922881000-1&#34;
+                id=&#34;tab-btn-tabs-1794487268344100000-1&#34;
+                data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479922881000-1&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479922881000&#39;,  1 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268344100000-1&#34;
+                class=&#34;tab-button &#34;&gt;
           Past
         &lt;/button&gt;
       
@@ -1568,7 +1504,7 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
             aria-label=&#34;Scroll tabs right&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479922881000&#39;, 200)&#34;&gt;
+            data-scroll=&#34;200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -1577,9 +1513,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479922881000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268344100000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479922881000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268344100000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Pranjal Jain, &amp;ldquo;Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing&amp;rdquo;, PhD in Computer Science, Swansea University, UK, 2026 (expected). (&lt;strong&gt;Industrial Supervisor&lt;/strong&gt;)&lt;/li&gt;
@@ -1590,9 +1526,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479922881000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268344100000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479922881000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268344100000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Jodi Bernhart, &amp;ldquo;&lt;em&gt;Uses and benefits of AR in industrial settings&lt;/em&gt;&amp;rdquo;, MA in Learning Design and Technology,School of Journalism and Media Studies, San Diego State University, USA, 2017. (&lt;strong&gt;Co-Advisor&lt;/strong&gt;)&lt;/li&gt;
@@ -1801,12 +1737,12 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479923327000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794487268344583000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
             aria-label=&#34;Scroll tabs left&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479923327000&#39;, -200)&#34;&gt;
+            data-scroll=&#34;-200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -1816,21 +1752,21 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479923327000-0&#34;
+                id=&#34;tab-btn-tabs-1794487268344583000-0&#34;
+                data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479923327000-0&#34;
-                class=&#34;tab-button active&#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479923327000&#39;,  0 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268344583000-0&#34;
+                class=&#34;tab-button active&#34;&gt;
           Current Appointments
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794484479923327000-1&#34;
+                id=&#34;tab-btn-tabs-1794487268344583000-1&#34;
+                data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794484479923327000-1&#34;
-                class=&#34;tab-button &#34; 
-                onclick=&#34;switchTab(&#39;tabs-1794484479923327000&#39;,  1 )&#34;&gt;
+                aria-controls=&#34;tab-panel-tabs-1794487268344583000-1&#34;
+                class=&#34;tab-button &#34;&gt;
           Past Appointments
         &lt;/button&gt;
       
@@ -1839,7 +1775,7 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
             aria-label=&#34;Scroll tabs right&#34; 
-            onclick=&#34;scrollTabs(&#39;tabs-1794484479923327000&#39;, 200)&#34;&gt;
+            data-scroll=&#34;200&#34;&gt;
       &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
         &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
       &lt;/svg&gt;
@@ -1848,9 +1784,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479923327000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268344583000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479923327000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268344583000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Director of Publications at &lt;a href=&#34;https://publications.immersivelrn.org/&#34;&gt;The Immersive Learning Resarch Network&lt;/a&gt;.&lt;/li&gt;
@@ -1862,9 +1798,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484479923327000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794487268344583000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484479923327000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794487268344583000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;

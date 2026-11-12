@@ -10,11 +10,12 @@ hideMeta: true
 
 {{< tabs >}}
 <!--tab:Current-->
-- [Board of Directors Member](https://www.immersivelrn.org/about/leadership-board/) - Immersive Learning Research Network (non-profit)
-- [Board of Directors Member](https://ieee-edusociety.org/committee/committee-chairs-members) – Technical Committee on Immersive Learning Environments, IEEE Education Society (non-profit)
-- [Advisory Group Member](https://digitaltwinhub.co.uk/about/advisory-group/) – Digital Twin Hub (non-profit)
-- [Advisory Group Member](https://creative-science.org/about-csf/) - Creative Science Foundation (non-profit)
-- [Founding Partner & Member](https://www.women4ainnovation.org/about-us) - Women4AInnovation Futures (think-tank)
+- **Editorial Board Member**, [Institute of Telecommunications Professional (ITP) Journal](https://www.theitp.org/meet-the-team)
+- **Director of Publications & Member of the Board of Directors**, [Immersive Learning Research Network (iLRN)](https://www.immersivelrn.org/about/leadership-board/)
+- **Board Member**, [Technical Committee on Immersive Learning Environments](https://ieee-edusociety.org/committee/committee-chairs-members), [IEEE Education Society](https://ieee-edusociety.org/)
+- **Advisory Group Member**, [Digital Twin Hub (DT Hub UK)](https://digitaltwinhub.co.uk/about/advisory-group/)
+- **Advisory Group Member**, [Creative Science Foundation (CSf)](https://creative-science.org/about-csf/)
+- **Founding Partner & Member**, [Women4AInnovation Futures](https://www.women4ainnovation.org/about-us)
 <!--endtab-->
 {{< /tabs >}}
 
@@ -28,43 +29,35 @@ hideMeta: true
 <!--endtab-->
 
 <!--tab:2025-->
-- Women in IT Excellence Awards 2025 – Finalist (Transformation Leader of the Year). Computing’s Magazine, UK. November 2025.
-- ITP Telecoms Awards 2025 – Finalist (Woman in Technology). The Institute of Telecommunication Professionals, UK. October 2025.
-- "Leardership in Innovation AI & Technical Excellence". BT's Tech Fellowship Awards 2025. July 2025.
-- "Outstanding Board Service Award". 11th International Conference of the Immersive Learning Research Network. June 2025.
+- **Finalist: Transformation Leader of the Year**, [Computing Women in Tech Excellence Awards](https://womentechexcellence.co.uk/), UK (2025)
+- **Finalist: Woman in Technology**, [ITP Telecoms Awards](https://www.theitp.org/annual-awards/), UK (2025)
+- **Leadership in Innovation, AI & Technical Excellence Award**, [BT Group](https://www.bt.com/) Tech Fellowship (2025)
+- **Outstanding Board Service Award**, 11th International Conference of the [Immersive Learning Research Network](https://immersivelrn.org/) (2025)
 <!--endtab-->
 
 <!--tab:2024-->
-- 'Infrastructure & Space Management Digital Twin' (Project), Finalist. AI Innovation category. The National AI Awards. September 2024.
+- **Finalist: AI Innovation (Infrastructure & Space Management Digital Twin)**, [The National AI Awards](https://thenationalaiawards.com/), UK (2024)
 <!--endtab-->
 
 <!--tab:2023-->
-- [Honorary Senior Lecturer](https://www.essex.ac.uk/people/penar50207/anasol-pena-rios), University of Essex, UK. October 2023.
-- "Outstanding Board Service Award". 9th International Conference of the Immersive Learning Research Network. June 2023.
-- Distinguished Engineer (Tech Fellowship), BT Group, UK. March 2023.
+- **Outstanding Board Service Award**, 9th International Conference of the [Immersive Learning Research Network](https://immersivelrn.org/) (2023)
 <!--endtab-->
 
 <!--tab:2020-->
-- TechWomen100 awards 2020 – Winner. [WeAreTechWomen’s TechWomen100 awards](https://wearetechwomen.com/anasol-pena-rios-bt/), UK. November 2020.
+- **Winner**, [WeAreTechWomen TechWomen100 Awards](https://wearetechwomen.com/anasol-pena-rios-bt/), UK (2020)
 <!--endtab-->
 
 <!--tab:2018-->
-- Visiting Fellow, University of Essex, UK.
-- Institute of Electrical and Electronics Engineers (IEEE) - Senior Member.
-- ‘Future Field Force Using Mixed Reality’ (Project) – Highly Commended. [IET Innovation Awards](http://www.ietinnovationawards.org/) (Information Technology) - Institute of Engineering and Technology (IET), UK. November 2018.
-- Women in IT Excellence Awards 2018 – Finalist (Rising Star). Computing’s Magazine, UK. November 2018.
+- **Highly Commended: Information Technology (Future Field Force Using Mixed Reality)**, [IET Innovation Awards](http://www.ietinnovationawards.org/), UK (2018)
+- **Finalist: Rising Star**, [Computing Women in Tech Excellence Awards](https://womentechexcellence.co.uk/), UK (2018)
 <!--endtab-->
 
 <!--tab:2016-->
-- Best Knowledge Transfer Project Associate – Winner. KTP Awards 2016. The University of Essex, UK. December 2016.
-<!--endtab-->
-
-<!--tab:2015-->
-- Research Fellow - BT Research Labs, UK
+- **Winner: Best Knowledge Transfer Project Associate**, KTP Awards, [University of Essex](https://www.essex.ac.uk/), UK (2016)
 <!--endtab-->
 
 <!--tab:2014-->
-- Best Video Award. 10th International Conference on Intelligent Environments 2014 (IE’14), Shanghai, China; July 2014.
+- **Best Video Award**, 10th International Conference on Intelligent Environments (IE'14), Shanghai, China (2014)
 <!--endtab-->
 
 <!--tab:2001-->
@@ -76,17 +69,18 @@ hideMeta: true
 
 {{< tabs >}}
 <!--tab:Current-->
-- Institute of Electrical and Electronics Engineers (IEEE) - Senior Member
-- Association for Learning Technology (ALT) - Associate Member
-- Chartered Management Institute (CMI) – Affiliate
+- **Senior Member (SMIEEE)**, [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)
+- **Member (MITP)**, [Institute of Telecommunications Professionals (ITP)](https://www.theitp.org/)
+- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/)
 <!--endtab-->
 
 <!--tab:Past-->
-- Interaction Design Foundation - Member (2015-2018)
-- British Computer Society (BCS) - Professional Member (MBCS) (2015-2019)
-- Association for Computing Machinery (ACM) - Professional Member (2015-2019, 2021-2022)
-- Chartered Management Institute (CMI) – Affiliate (2016-2020, 2025)
-- Mexican Thematic Network for the Development and Incorporation of Educational Technology (RedLaTE), CONACyT, Mexico - Member (2017-2023)
+- **Professional Member (MBCS)**, [British Computer Society (BCS)](https://www.bcs.org/) (2015–2019)
+- **Professional Member**, [Association for Computing Machinery (ACM)](https://www.acm.org/) (2015–2019, 2021–2022)
+- **Associate Member**, [Association for Learning Technology (ALT)](https://www.alt.ac.uk/)
+- **Member**, Mexican Thematic Network for Educational Technology (RedLaTE), [CONAHCYT](https://conahcyt.mx/) (2017–2023)
+- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/) (2016-2020)
+- **Member**, [Interaction Design Foundation (IxDF)](https://www.interaction-design.org/) (2015–2018)
 <!--endtab-->
 {{< /tabs >}}
 

@@ -214,11 +214,21 @@ function initTabs() {
       updateTabsScrollButtons(container);
     }
     
+    
+    container.querySelectorAll('.tabs-scroll-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const offset = parseInt(this.getAttribute('data-scroll') || (this.classList.contains('tabs-scroll-prev') ? '-200' : '200'), 10);
+        scrollTabs(container.id, offset);
+      });
+    });
+
+    
     container.querySelectorAll('.tab-button').forEach(button => {
       button.addEventListener('click', function(e) {
         e.preventDefault();
-        const buttons = Array.from(container.querySelectorAll('.tab-button'));
-        const tabIndex = buttons.indexOf(this);
+        const attrIndex = this.getAttribute('data-index');
+        const tabIndex = attrIndex !== null ? parseInt(attrIndex, 10) : Array.from(container.querySelectorAll('.tab-button')).indexOf(this);
         if (tabIndex >= 0) {
           switchTab(container.id, tabIndex);
         }

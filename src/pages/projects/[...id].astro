@@ -68,6 +68,8 @@ const {
   release,
   types,
   skills,
+  role,
+  institution,
 } = project.data
 
 const links = getProjectLinks(code, doc, paper, url, release)
@@ -101,6 +103,8 @@ const rawMarkdown = project.body
         )}
     </div>
     <div class="project-meta-row">
+      {role && <Badge variant="outline">{role}</Badge>}
+      {institution && <span class="project-institution-badge">{institution}</span>}
       <DateRange
         fromDate={fromDate}
         toDate={toDate}

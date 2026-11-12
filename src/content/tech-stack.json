@@ -1,50 +1,54 @@
 {
-  "description": "Languages, frameworks, and infrastructure from my work.",
+  "description": "Technical domains, methodologies, and technologies from my research and engineering projects.",
   "groups": [
     {
-      "name": "Languages",
-      "icon": "mingcute:code-line",
-      "items": ["Python", "TypeScript", "JavaScript", "SQL", "Bash", "R"]
-    },
-    {
-      "name": "AI & ML",
+      "name": "Research & AI",
       "icon": "mingcute:ai-line",
       "items": [
-        "LLM",
-        "prompt engineering",
-        "evaluation",
-        "agents",
-        "RAG",
-        "Fine-tuning",
-        "PyTorch",
-        "Hugging Face ecosystem",
-        "Unsloth",
-        "Inspect AI"
+        "Mixed Reality",
+        "Augmented Reality",
+        "Intelligent Environments",
+        "Computational Intelligence",
+        "Type-2 Fuzzy Logic",
+        "Autonomous Agents",
+        "Human-Computer Interaction"
       ]
     },
     {
-      "name": "Backend & Data",
+      "name": "Platforms & Systems",
+      "icon": "mingcute:code-line",
+      "items": [
+        "Python",
+        "Linux",
+        "Raspberry Pi",
+        "C/C++",
+        "ROS",
+        "Git",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "name": "Hardware & IoT",
       "icon": "mingcute:server-line",
       "items": [
-        "FastAPI",
-        "Flask",
-        "Express.js",
-        "REST APIs",
-        "PostgreSQL",
-        "SQLite",
-        "ClickHouse",
-        "Prisma"
+        "Embedded Systems",
+        "I2C Protocol",
+        "Sensors & Actuators",
+        "Internet of Things (IoT)",
+        "Smart Campuses",
+        "BuzzBoards"
       ]
     },
     {
-      "name": "Frontend & Product",
-      "icon": "mingcute:layout-line",
-      "items": ["React", "Astro", "Next.js", "Tailwind CSS", "shadcn/ui"]
-    },
-    {
-      "name": "DevOps",
-      "icon": "mingcute:terminal-box-line",
-      "items": ["Git", "Docker", "CI/CD", "Vercel", "Railway"]
+      "name": "Innovation & R&D",
+      "icon": "mingcute:award-line",
+      "items": [
+        "Knowledge Transfer Partnerships",
+        "Field Force Management",
+        "Technology Strategy",
+        "Patents & IP",
+        "Applied Research"
+      ]
     }
   ]
 }

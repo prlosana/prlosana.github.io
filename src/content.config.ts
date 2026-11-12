@@ -73,10 +73,15 @@ const projects = defineCollection({
   loader: glob({ base: "./src/content/projects", pattern: "**/!(*README).md" }),
   schema: z
     .object({
-      title: z.string().max(75),
+      title: z.string().max(100),
       selected: z.boolean().default(false),
       fromDate: yearMonthDateSchema.optional(),
       toDate: yearMonthDateSchema.optional(),
+      role: z.string().optional(),
+      institution: z.string().optional(),
+      image: z.string().optional(),
+      imageAlt: z.string().optional(),
+      imageCaption: z.string().optional(),
       code: z.url().optional(),
       doc: z.url().optional(),
       paper: z.url().optional(),
@@ -87,7 +92,7 @@ const projects = defineCollection({
         .array(z.string().trim().min(1))
         .default([])
         .transform((arr) => dedupPreserveCase(arr)),
-      description: z.string().max(200).optional(),
+      description: z.string().optional(),
     })
     .refine(
       (data) => !data.fromDate || !data.toDate || data.toDate >= data.fromDate,

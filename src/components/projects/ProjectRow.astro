@@ -3,6 +3,7 @@ import type { CollectionEntry } from "astro:content"
 
 import { getProjectLinks } from "@/lib/projects"
 import { slugify } from "@/lib/string-manipulation"
+import Badge from "@/components/base/Badge.astro"
 import Icon from "@/components/base/Icon.astro"
 import Link from "@/components/base/Link.astro"
 
@@ -11,7 +12,22 @@ interface Props {
 }
 
 const { project } = Astro.props
-const { title, selected, code, doc, paper, url, release, skills } = project.data
+const {
+  title,
+  selected,
+  code,
+  doc,
+  paper,
+  url,
+  release,
+  skills,
+  role,
+  institution,
+  image,
+  imageAlt,
+  imageCaption,
+  description,
+} = project.data
 
 const links = getProjectLinks(code, doc, paper, url, release)
 
@@ -26,48 +42,147 @@ const titleHref = hasDetailPage ? `/projects/${project.id}` : primaryLink?.href
   class:list={["project-row", { "is-highlighted": selected }]}
   data-project-skills={skills.map((skill) => slugify(skill)).join(",")}
 >
-  <div class="project-row-head">
-    <h3 class="project-row-title">
-      {selected && <span class="sr-only">Featured project: </span>}
-      {titleHref ? (
-          <Link href={titleHref} underline>
-            {title}
-          </Link>
+  <div class="project-row-body">
+    {image && (
+      <figure class="project-figure">
+        {titleHref ? (
+          <a href={titleHref} class="project-figure-link">
+            <img src={image} alt={imageAlt || title} class="project-thumb" loading="lazy" />
+          </a>
         ) : (
-          title
+          <img src={image} alt={imageAlt || title} class="project-thumb" loading="lazy" />
         )}
-    </h3>
-    {links.length > 0 && (
-        <ul class="project-row-links">
-          {links.map(({ href, icon, label }) => (
-            <li>
-              <Link href={href} class="project-row-link">
-                <Icon name={icon} />
-                <span>{label}</span>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
-  </div>
-
-  {project.data.description && (
-      <p class="project-row-description">{project.data.description}</p>
+        {imageCaption && <figcaption class="project-caption">{imageCaption}</figcaption>}
+      </figure>
     )}
 
-  {skills.length > 0 && <p class="project-row-skills">{skills.join(" · ")}</p>}
+    <div class="project-main">
+      <div class="project-row-head">
+        <h3 class="project-row-title">
+          {selected && <span class="sr-only">Featured project: </span>}
+          {titleHref ? (
+              <Link href={titleHref} underline>
+                {title}
+              </Link>
+            ) : (
+              title
+            )}
+        </h3>
+
+        {role && (
+          <Badge variant="outline" class="project-role-badge">
+            {role}
+          </Badge>
+        )}
+
+        {links.length > 0 && (
+            <ul class="project-row-links">
+              {links.map(({ href, icon, label }) => (
+                <li>
+                  <Link href={href} class="project-row-link" external>
+                    <Icon name={icon} />
+                    <span>{label}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+      </div>
+
+      {institution && <p class="project-institution">{institution}</p>}
+
+      {description && (
+          <p class="project-row-description">{description}</p>
+        )}
+
+      {hasDetailPage && (
+        <p class="project-readmore">
+          <Link href={`/projects/${project.id}`} class="project-readmore-link">
+            Read more &rarr;
+          </Link>
+        </p>
+      )}
+
+      {skills.length > 0 && <p class="project-row-skills">{skills.join(" · ")}</p>}
+    </div>
+  </div>
 </article>
 
 <style>
   .project-row {
     display: flex;
     flex-direction: column;
-    gap: var(--space-3xs);
-    padding-block: var(--space-2xs);
+    padding-block: var(--space-s);
+    border-block-end: 1px solid color-mix(in oklab, var(--foreground) 10%, transparent);
+  }
+
+  .project-row:last-child {
+    border-block-end: none;
   }
 
   .project-row[hidden] {
     display: none;
+  }
+
+  .project-row-body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+  }
+
+  @media (min-width: 40rem) {
+    .project-row-body {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: var(--space-m);
+    }
+  }
+
+  .project-figure {
+    margin: 0;
+    flex-shrink: 0;
+    inline-size: 100%;
+    max-inline-size: 16rem;
+  }
+
+  @media (min-width: 40rem) {
+    .project-figure {
+      inline-size: 13rem;
+    }
+  }
+
+  .project-figure-link {
+    display: block;
+  }
+
+  .project-thumb {
+    inline-size: 100%;
+    height: auto;
+    border-radius: var(--radius-m, 0.5rem);
+    border: 1px solid color-mix(in oklab, var(--foreground) 15%, transparent);
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .project-figure-link:hover .project-thumb {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .project-caption {
+    font-size: var(--step--2);
+    color: var(--muted-foreground);
+    text-align: center;
+    margin-block-start: var(--space-3xs);
+    font-style: italic;
+  }
+
+  .project-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xs);
   }
 
   .project-row-head {
@@ -82,12 +197,22 @@ const titleHref = hasDetailPage ? `/projects/${project.id}` : primaryLink?.href
     margin: 0;
     font-size: var(--step-0);
     font-weight: var(--font-weight-medium);
-    line-height: calc(var(--leading-offset) + 1em);
+    line-height: calc(var(--leading-offset) + 1.2em);
   }
 
-  /* Featured rows get a star in the gutter rather than a badge, echoing the
-     one on section headings. Positioned absolutely so the marker never shifts
-     the title and every row keeps the same left edge to scan down. */
+  .project-role-badge {
+    font-size: var(--step--2);
+    font-weight: normal;
+  }
+
+  .project-institution {
+    margin: 0;
+    font-size: var(--step--1);
+    color: var(--muted-foreground);
+    font-weight: var(--font-weight-medium);
+  }
+
+  /* Featured rows get a star in the gutter */
   .project-row.is-highlighted .project-row-title::before {
     content: "";
     position: absolute;
@@ -142,15 +267,26 @@ const titleHref = hasDetailPage ? `/projects/${project.id}` : primaryLink?.href
 
   .project-row-description {
     margin: 0;
-    color: var(--muted-foreground);
+    color: var(--foreground);
     font-size: var(--step--1);
-    line-height: calc(var(--leading-offset) + 1em);
+    line-height: 1.5;
+  }
+
+  .project-readmore {
+    margin: 0;
+    font-size: var(--step--1);
+  }
+
+  .project-readmore-link {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: var(--font-weight-medium);
   }
 
   .project-row-skills {
     margin: 0;
     color: var(--muted-foreground);
-    font-size: var(--step--1);
-    opacity: 0.75;
+    font-size: var(--step--2);
+    opacity: 0.85;
   }
 </style>

@@ -461,50 +461,53 @@ hr,
 }
 
 /* --------------------------------------------------------------------------
-   Contact Page Components
+   Contact Social Icons (Only icons, no descriptions)
    -------------------------------------------------------------------------- */
-.contact-email {
-  background: var(--entry) !important;
-  color: var(--md-sys-color-on-surface) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: var(--radius) !important;
-  padding: 1.25rem 1.5rem !important;
-  text-align: center;
-  margin: 1.5rem 0 2rem 0 !important;
-  font-size: 1.05rem !important;
-  font-weight: 500 !important;
-  box-shadow: none !important;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+.contact-social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
 }
 
-.contact-email:hover {
-  border-color: var(--md-sys-color-primary) !important;
-  box-shadow: 0 2px 10px rgba(74, 107, 93, 0.08) !important;
-}
-
-.contact-links {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 0.85rem;
-  margin-top: 1rem;
-}
-
-.contact-link {
-  background: var(--entry) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: var(--radius) !important;
-  padding: 0.85rem 1.15rem !important;
-  color: var(--md-sys-color-on-surface) !important;
-  box-shadow: none !important;
+.contact-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--md-shape-corner-m, 12px);
+  background: var(--entry);
+  color: var(--md-sys-color-primary);
+  border: 1px solid var(--border);
+  box-shadow: var(--md-elevation-1);
   text-decoration: none !important;
-  transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease !important;
+  transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), 
+              box-shadow 0.2s ease, 
+              border-color 0.2s ease, 
+              background-color 0.2s ease,
+              color 0.2s ease;
 }
 
-.contact-link:hover {
-  transform: translateY(-1px) !important;
-  border-color: var(--md-sys-color-primary) !important;
-  box-shadow: 0 3px 10px rgba(74, 107, 93, 0.08) !important;
-  color: var(--md-sys-color-primary) !important;
+.contact-icon-btn:hover {
+  transform: translateY(-2px);
+  color: var(--md-sys-color-on-primary);
+  background-color: var(--md-sys-color-primary);
+  border-color: var(--md-sys-color-primary);
+  box-shadow: var(--md-elevation-2);
+}
+
+.contact-icon-btn svg {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+  transition: transform 0.2s ease;
+}
+
+.contact-icon-btn:hover svg {
+  transform: scale(1.08);
 }
 
 /* --------------------------------------------------------------------------

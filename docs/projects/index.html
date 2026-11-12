@@ -22,7 +22,7 @@ Knowledge Transfer Partnership (KTP) project between British Telecommunications 
 A 5-year joint project between the University of Essex, UK and King Abdulaziz University, KSA. Its purpose was to investigate the Scaling-Up of Intelligent Environments from the current small scale, beyond four walls to the large-scale.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/projects/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.316644e3ab4e285a4b3e71d1c3c188c10b4707d9de922ee15cb0a3fbdbdaef99.css" integrity="sha256-MWZE46tOKFpLPnHRw8GIwQtHB9neki7hXLCj&#43;9va75k=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b3af704325957ed8b19cfc69b003dc52595a1d4c8ec7d7fe7c1199edaf009180.css" integrity="sha256-s69wQyWVftixnPxpsAPcUllaHUyOx9f&#43;fBGZ7a8AkYA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -545,6 +545,18 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
     overflow: hidden;
   }
 
+  .post-entry .entry-content {
+    display: block !important;
+    overflow: visible !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: unset !important;
+    max-height: none !important;
+    margin-block-end: 1rem;
+    color: var(--content);
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+
   .post-entry .entry-content::after {
     content: "";
     display: table;
@@ -553,7 +565,9 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
 
   .post-entry .img-wrap-left,
   .post-entry .img-wrap-right {
-    max-width: 200px;
+    float: left;
+    max-width: 240px;
+    width: auto;
     margin: 0 1.25rem 1rem 0;
   }
 
@@ -561,8 +575,10 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
   .post-entry .img-wrap-right img {
     border-radius: var(--md-shape-corner-m, 12px);
     box-shadow: var(--md-elevation-1, 0 1px 3px rgba(0, 0, 0, 0.1));
-    max-width: 100%;
+    width: 100%;
+    max-height: 200px;
     height: auto;
+    object-fit: contain;
     display: block;
   }
 
@@ -593,13 +609,6 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
 
   .entry-header h2 a:hover {
     text-decoration: underline;
-  }
-
-  .entry-content {
-    margin-block-end: 1rem;
-    color: var(--content);
-    line-height: 1.6;
-    font-size: 0.95rem;
   }
 
   .entry-footer {

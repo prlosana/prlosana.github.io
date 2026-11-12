@@ -323,6 +323,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
 }
 
+.post-entry .entry-content {
+  display: block !important;
+  overflow: visible !important;
+  -webkit-line-clamp: unset !important;
+  -webkit-box-orient: unset !important;
+  max-height: none !important;
+}
+
 /* Post Metadata & Breadcrumbs */
 .post-meta {
   color: var(--md-sys-color-on-surface-variant);

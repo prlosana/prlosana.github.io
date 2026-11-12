@@ -14,7 +14,7 @@
   <div class="pub-toolbar">
     <div class="pub-meta-line">
       <span class="pub-count-badge">📚 {{ site.Data.publications.summary.total_publications }} Publications ({{ site.Data.publications.summary.earliest_year }}–{{ site.Data.publications.summary.latest_year }})</span>
-      <a href="/publications.bib" class="pub-download-btn" download>📥 Download .bib</a>
+      <a href="/publications.bib" class="pub-download-btn" download>📥 Download BibLaTeX (.bib)</a>
     </div>
 
     <div class="pub-search-wrapper">
@@ -43,7 +43,7 @@
         <h3 class="pub-cat-heading">{{ .name }}</h3>
         <ol class="pub-list">
           {{ range .entries }}
-          <li class="pub-item" data-category="{{ .category }}" data-year="{{ .year }}" data-search="{{ lower .title }} {{ lower .author }} {{ lower .fields.publisher }} {{ lower .fields.journal }} {{ lower .fields.booktitle }} {{ .year }} {{ lower .category }}">
+          <li class="pub-item" data-category="{{ .category }}" data-year="{{ .year }}" data-search="{{ lower .title }} {{ lower .author }} {{ lower .fields.publisher }} {{ lower .fields.journal }} {{ lower .fields.journaltitle }} {{ lower .fields.booktitle }} {{ .year }} {{ lower .category }}">
             <div class="pub-citation">
               {{ .citation_html | safeHTML }}
             </div>
@@ -55,12 +55,12 @@
               {{ if and .url (ne .url .doi_url) }}
               <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn-link">{{ if eq .category "Patents" }}Patent{{ else }}Link{{ end }}</a>
               {{ end }}
-              <button type="button" class="pub-btn pub-btn-bib" onclick="toggleBib('{{ .key }}')">BibTeX</button>
+              <button type="button" class="pub-btn pub-btn-bib" onclick="toggleBib('{{ .key }}')">BibLaTeX</button>
             </div>
 
             <div id="bib-{{ .key }}" class="pub-bibtex-block" style="display: none;">
               <pre><code>{{ .raw_bib }}</code></pre>
-              <button type="button" class="pub-copy-btn" onclick="copyBibText('{{ .key }}', this)">Copy BibTeX</button>
+              <button type="button" class="pub-copy-btn" onclick="copyBibText('{{ .key }}', this)">Copy BibLaTeX</button>
             </div>
           </li>
           {{ end }}

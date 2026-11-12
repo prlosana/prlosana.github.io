@@ -1,6 +1,6 @@
 {
   "summary": {
-    "total_publications": 105,
+    "total_publications": 101,
     "years_count": 17,
     "latest_year": 2026,
     "earliest_year": 2003
@@ -247,9 +247,10 @@
                 "title": "Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning",
                 "author": "Liret, A. and Pena-Rios, A. and El-Moussa, F. and Kern, M. and Chimatapu, R.",
                 "year": "2025",
-                "howpublished": "Patent",
-                "note": "Patent No. WO2025131518A1",
+                "nationality": "WIPO (PCT)",
+                "howpublished": "Patent Application",
                 "number": "WO2025131518A1",
+                "note": "PCT International Publication No. WO2025131518A1. Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/WO2025131518A1"
               },
               "year": 2025,
@@ -258,8 +259,8 @@
               "doi": "",
               "doi_url": "",
               "url": "https://patents.google.com/patent/WO2025131518A1",
-              "raw_bib": "@patent{liret2025electric,\n  title = {Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning},\n  author = {Liret, A. and Pena-Rios, A. and El-Moussa, F. and Kern, M. and Chimatapu, R.},\n  year = {2025},\n  howpublished = {Patent},\n  note = {Patent No. WO2025131518A1},\n  number = {WO2025131518A1},\n  url = {https://patents.google.com/patent/WO2025131518A1},\n}",
-              "citation_html": "Liret, A., <strong>Pena-Rios, A.</strong>, El-Moussa, F., Kern, M., & Chimatapu, R.. (2025). <em>Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning</em> (Patent No. WO2025131518A1). Google Patents."
+              "raw_bib": "@patent{liret2025electric,\n  title = {Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning},\n  author = {Liret, A. and Pena-Rios, A. and El-Moussa, F. and Kern, M. and Chimatapu, R.},\n  year = {2025},\n  nationality = {WIPO (PCT)},\n  howpublished = {Patent Application},\n  number = {WO2025131518A1},\n  note = {PCT International Publication No. WO2025131518A1. Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2025131518A1},\n}",
+              "citation_html": "Liret, A., <strong>Pena-Rios, A.</strong>, El-Moussa, F., Kern, M., & Chimatapu, R.. (2025). <em>Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning</em> (Patent No. WO2025131518A1). WIPO (PCT)."
             },
             {
               "key": "zia2025digital",
@@ -269,9 +270,10 @@
                 "title": "Digital twin with physics and learning blocks",
                 "author": "Zia, S. and Anjum, A. and Conway, A. and Pena-Rios, A.",
                 "year": "2025",
-                "howpublished": "Patent",
-                "note": "Patent No. EP4567667A1",
+                "nationality": "European Patent Office",
+                "howpublished": "Patent Application",
                 "number": "EP4567667A1",
+                "note": "European Patent Application No. EP4567667A1. Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/EP4567667A1"
               },
               "year": 2025,
@@ -280,8 +282,8 @@
               "doi": "",
               "doi_url": "",
               "url": "https://patents.google.com/patent/EP4567667A1",
-              "raw_bib": "@patent{zia2025digital,\n  title = {Digital twin with physics and learning blocks},\n  author = {Zia, S. and Anjum, A. and Conway, A. and Pena-Rios, A.},\n  year = {2025},\n  howpublished = {Patent},\n  note = {Patent No. EP4567667A1},\n  number = {EP4567667A1},\n  url = {https://patents.google.com/patent/EP4567667A1},\n}",
-              "citation_html": "Zia, S., Anjum, A., Conway, A., & <strong>Pena-Rios, A.</strong>. (2025). <em>Digital twin with physics and learning blocks</em> (Patent No. EP4567667A1). Google Patents."
+              "raw_bib": "@patent{zia2025digital,\n  title = {Digital twin with physics and learning blocks},\n  author = {Zia, S. and Anjum, A. and Conway, A. and Pena-Rios, A.},\n  year = {2025},\n  nationality = {European Patent Office},\n  howpublished = {Patent Application},\n  number = {EP4567667A1},\n  note = {European Patent Application No. EP4567667A1. Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP4567667A1},\n}",
+              "citation_html": "Zia, S., Anjum, A., Conway, A., & <strong>Pena-Rios, A.</strong>. (2025). <em>Digital twin with physics and learning blocks</em> (Patent No. EP4567667A1). European Patent Office."
             },
             {
               "key": "andrade2025user",
@@ -291,9 +293,10 @@
                 "title": "User personality traits classification for adaptive virtual environments in non-linear story paths",
                 "author": "Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.",
                 "year": "2025",
+                "nationality": "United States",
                 "howpublished": "Patent Application",
-                "note": "Patent Application No. US18/716,425",
                 "number": "US18/716,425",
+                "note": "Consolidated Patent Family. US Patent Application No. US18/716,425 (Pub. No. US20250000000A1, 2025). Family includes: PCT Application Pub. No. WO2023104519A1 (filed 2021, pub. 2023). Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/US20250000000A1",
                 "selected": "true"
               },
@@ -303,8 +306,8 @@
               "doi": "",
               "doi_url": "",
               "url": "https://patents.google.com/patent/US20250000000A1",
-              "raw_bib": "@patent{andrade2025user,\n  title = {User personality traits classification for adaptive virtual environments in non-linear story paths},\n  author = {Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.},\n  year = {2025},\n  howpublished = {Patent Application},\n  note = {Patent Application No. US18/716,425},\n  number = {US18/716,425},\n  url = {https://patents.google.com/patent/US20250000000A1},\n  selected = {true},\n}",
-              "citation_html": "Andrade, T., <strong>Pena-Rios, A.</strong>, Smith-Creasey, M., & Bahceci, O.. (2025). <em>User personality traits classification for adaptive virtual environments in non-linear story paths</em> (Patent No. US18/716,425). Google Patents."
+              "raw_bib": "@patent{andrade2025user,\n  title = {User personality traits classification for adaptive virtual environments in non-linear story paths},\n  author = {Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.},\n  year = {2025},\n  nationality = {United States},\n  howpublished = {Patent Application},\n  number = {US18/716,425},\n  note = {Consolidated Patent Family. US Patent Application No. US18/716,425 (Pub. No. US20250000000A1, 2025). Family includes: PCT Application Pub. No. WO2023104519A1 (filed 2021, pub. 2023). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/US20250000000A1},\n  selected = {true},\n}",
+              "citation_html": "Andrade, T., <strong>Pena-Rios, A.</strong>, Smith-Creasey, M., & Bahceci, O.. (2025). <em>User personality traits classification for adaptive virtual environments in non-linear story paths</em> (Patent No. US18/716,425). United States."
             }
           ]
         },
@@ -530,66 +533,69 @@
               "entry_type": "patent",
               "category": "Patents",
               "fields": {
-                "title": "Tacit knowledge capture",
+                "title": "Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge",
                 "author": "Bahceci, O. and Leon-Garza, H. and Pena-Rios, A.",
                 "year": "2024",
-                "howpublished": "Patent",
-                "note": "Patent No. WO2024088709A1",
+                "nationality": "WIPO / European Patent Office",
+                "howpublished": "Patent Application",
                 "number": "WO2024088709A1",
+                "note": "Consolidated Patent Family. International PCT Pub. No. WO2024088709A1 (2024); European Patent Application EP4354373A1 (2024); US Application US19/122,588. Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/WO2024088709A1/en"
               },
               "year": 2024,
-              "title": "Tacit knowledge capture",
+              "title": "Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge",
               "author": "Bahceci, O. and Leon-Garza, H. and Pena-Rios, A.",
               "doi": "",
               "doi_url": "",
               "url": "https://patents.google.com/patent/WO2024088709A1/en",
-              "raw_bib": "@patent{bahceci2024tacit,\n  title = {Tacit knowledge capture},\n  author = {Bahceci, O. and Leon-Garza, H. and Pena-Rios, A.},\n  year = {2024},\n  howpublished = {Patent},\n  note = {Patent No. WO2024088709A1},\n  number = {WO2024088709A1},\n  url = {https://patents.google.com/patent/WO2024088709A1/en},\n}",
-              "citation_html": "Bahceci, O., Leon-Garza, H., & <strong>Pena-Rios, A.</strong>. (2024). <em>Tacit knowledge capture</em> (Patent No. WO2024088709A1). Google Patents."
-            },
-            {
-              "key": "leon-garza2024automation",
-              "entry_type": "patent",
-              "category": "Patents",
-              "fields": {
-                "title": "AI automation for computer-based processes based on tacit expert knowledge",
-                "author": "Leon-Garza, H. and Bahceci, O. and Pena-Rios, A.",
-                "year": "2024",
-                "howpublished": "Patent",
-                "note": "Patent No. EP4354373A1",
-                "number": "EP4354373A1",
-                "url": "https://patents.google.com/patent/EP4354373A1"
-              },
-              "year": 2024,
-              "title": "AI automation for computer-based processes based on tacit expert knowledge",
-              "author": "Leon-Garza, H. and Bahceci, O. and Pena-Rios, A.",
-              "doi": "",
-              "doi_url": "",
-              "url": "https://patents.google.com/patent/EP4354373A1",
-              "raw_bib": "@patent{leon-garza2024automation,\n  title = {AI automation for computer-based processes based on tacit expert knowledge},\n  author = {Leon-Garza, H. and Bahceci, O. and Pena-Rios, A.},\n  year = {2024},\n  howpublished = {Patent},\n  note = {Patent No. EP4354373A1},\n  number = {EP4354373A1},\n  url = {https://patents.google.com/patent/EP4354373A1},\n}",
-              "citation_html": "Leon-Garza, H., Bahceci, O., & <strong>Pena-Rios, A.</strong>. (2024). <em>AI automation for computer-based processes based on tacit expert knowledge</em> (Patent No. EP4354373A1). Google Patents."
+              "raw_bib": "@patent{bahceci2024tacit,\n  title = {Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge},\n  author = {Bahceci, O. and Leon-Garza, H. and Pena-Rios, A.},\n  year = {2024},\n  nationality = {WIPO / European Patent Office},\n  howpublished = {Patent Application},\n  number = {WO2024088709A1},\n  note = {Consolidated Patent Family. International PCT Pub. No. WO2024088709A1 (2024); European Patent Application EP4354373A1 (2024); US Application US19/122,588. Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2024088709A1/en},\n}",
+              "citation_html": "Bahceci, O., Leon-Garza, H., & <strong>Pena-Rios, A.</strong>. (2024). <em>Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge</em> (Patent No. WO2024088709A1). WIPO / European Patent Office."
             },
             {
               "key": "zhao2024reconstruction",
               "entry_type": "patent",
               "category": "Patents",
               "fields": {
-                "title": "3d reconstruction of a target",
+                "title": "3D reconstruction of a target",
                 "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
                 "year": "2024",
-                "howpublished": "Patent",
-                "note": "Patent No. WO2024037822A1",
+                "nationality": "WIPO (PCT) / United States",
+                "howpublished": "Patent Application",
                 "number": "WO2024037822A1",
+                "note": "Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/WO2024037822A1"
               },
               "year": 2024,
-              "title": "3d reconstruction of a target",
+              "title": "3D reconstruction of a target",
               "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
               "doi": "",
               "doi_url": "",
               "url": "https://patents.google.com/patent/WO2024037822A1",
-              "raw_bib": "@patent{zhao2024reconstruction,\n  title = {3d reconstruction of a target},\n  author = {Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.},\n  year = {2024},\n  howpublished = {Patent},\n  note = {Patent No. WO2024037822A1},\n  number = {WO2024037822A1},\n  url = {https://patents.google.com/patent/WO2024037822A1},\n}",
-              "citation_html": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A.. (2024). <em>3d reconstruction of a target</em> (Patent No. WO2024037822A1). Google Patents."
+              "raw_bib": "@patent{zhao2024reconstruction,\n  title = {3D reconstruction of a target},\n  author = {Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.},\n  year = {2024},\n  nationality = {WIPO (PCT) / United States},\n  howpublished = {Patent Application},\n  number = {WO2024037822A1},\n  note = {Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2024037822A1},\n}",
+              "citation_html": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A.. (2024). <em>3D reconstruction of a target</em> (Patent No. WO2024037822A1). WIPO (PCT) / United States."
+            },
+            {
+              "key": "pena-rios2024interactionbased",
+              "entry_type": "patent",
+              "category": "Patents",
+              "fields": {
+                "title": "Interaction-based rendering of spatial environments",
+                "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.",
+                "year": "2024",
+                "nationality": "United States",
+                "howpublished": "Patent (Granted)",
+                "number": "US12026298B2",
+                "note": "Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
+                "url": "https://patents.google.com/patent/US12026298B2/en"
+              },
+              "year": 2024,
+              "title": "Interaction-based rendering of spatial environments",
+              "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.",
+              "doi": "",
+              "doi_url": "",
+              "url": "https://patents.google.com/patent/US12026298B2/en",
+              "raw_bib": "@patent{pena-rios2024interactionbased,\n  title = {Interaction-based rendering of spatial environments},\n  author = {Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.},\n  year = {2024},\n  nationality = {United States},\n  howpublished = {Patent (Granted)},\n  number = {US12026298B2},\n  note = {Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/US12026298B2/en},\n}",
+              "citation_html": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., & Leon-Garza, H.. (2024). <em>Interaction-based rendering of spatial environments</em> (Patent No. US12026298B2). United States."
             }
           ]
         },
@@ -1012,9 +1018,10 @@
                 "title": "Generating Three-dimensional Data Models of Two-dimensional Floor Plans",
                 "author": "Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.",
                 "year": "2022",
-                "howpublished": "Patent",
-                "note": "Patent No. WO2022194674A1",
+                "nationality": "WIPO (PCT) / United States",
+                "howpublished": "Patent Application",
                 "number": "WO2022194674A1",
+                "note": "Consolidated Patent Family. International PCT Pub. No. WO2022194674A1 (2022); US Patent Application Publication No. US20240153206A1 (2024); Priority application GB2103656.1 (2021). Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/WO2022194674A1/en"
               },
               "year": 2022,
@@ -1023,8 +1030,8 @@
               "doi": "",
               "doi_url": "",
               "url": "https://patents.google.com/patent/WO2022194674A1/en",
-              "raw_bib": "@patent{leon-garza2022generating,\n  title = {Generating Three-dimensional Data Models of Two-dimensional Floor Plans},\n  author = {Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.},\n  year = {2022},\n  howpublished = {Patent},\n  note = {Patent No. WO2022194674A1},\n  number = {WO2022194674A1},\n  url = {https://patents.google.com/patent/WO2022194674A1/en},\n}",
-              "citation_html": "Leon-Garza, H., <strong>Pena-Rios, A.</strong>, Hagras, H., Conway, A., & Owusu, G.. (2022). <em>Generating Three-dimensional Data Models of Two-dimensional Floor Plans</em> (Patent No. WO2022194674A1). Google Patents."
+              "raw_bib": "@patent{leon-garza2022generating,\n  title = {Generating Three-dimensional Data Models of Two-dimensional Floor Plans},\n  author = {Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.},\n  year = {2022},\n  nationality = {WIPO (PCT) / United States},\n  howpublished = {Patent Application},\n  number = {WO2022194674A1},\n  note = {Consolidated Patent Family. International PCT Pub. No. WO2022194674A1 (2022); US Patent Application Publication No. US20240153206A1 (2024); Priority application GB2103656.1 (2021). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2022194674A1/en},\n}",
+              "citation_html": "Leon-Garza, H., <strong>Pena-Rios, A.</strong>, Hagras, H., Conway, A., & Owusu, G.. (2022). <em>Generating Three-dimensional Data Models of Two-dimensional Floor Plans</em> (Patent No. WO2022194674A1). WIPO (PCT) / United States."
             },
             {
               "key": "pena-rios2022remediating",
@@ -1034,9 +1041,10 @@
                 "title": "Remediating Vulnerabilities in Digital Twins",
                 "author": "Pena-Rios, A. and El-Moussa, F. and Conway, A. and Owusu, G.",
                 "year": "2022",
-                "howpublished": "Patent",
-                "note": "Patent No. GB2602481A",
+                "nationality": "United Kingdom",
+                "howpublished": "Patent Application",
                 "number": "GB2602481A",
+                "note": "UK Patent Application No. GB2602481A (Pub. 2022-07-06). Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/GB2602481A/en"
               },
               "year": 2022,
@@ -1045,8 +1053,8 @@
               "doi": "",
               "doi_url": "",
               "url": "https://patents.google.com/patent/GB2602481A/en",
-              "raw_bib": "@patent{pena-rios2022remediating,\n  title = {Remediating Vulnerabilities in Digital Twins},\n  author = {Pena-Rios, A. and El-Moussa, F. and Conway, A. and Owusu, G.},\n  year = {2022},\n  howpublished = {Patent},\n  note = {Patent No. GB2602481A},\n  number = {GB2602481A},\n  url = {https://patents.google.com/patent/GB2602481A/en},\n}",
-              "citation_html": "<strong>Pena-Rios, A.</strong>, El-Moussa, F., Conway, A., & Owusu, G.. (2022). <em>Remediating Vulnerabilities in Digital Twins</em> (Patent No. GB2602481A). Google Patents."
+              "raw_bib": "@patent{pena-rios2022remediating,\n  title = {Remediating Vulnerabilities in Digital Twins},\n  author = {Pena-Rios, A. and El-Moussa, F. and Conway, A. and Owusu, G.},\n  year = {2022},\n  nationality = {United Kingdom},\n  howpublished = {Patent Application},\n  number = {GB2602481A},\n  note = {UK Patent Application No. GB2602481A (Pub. 2022-07-06). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/GB2602481A/en},\n}",
+              "citation_html": "<strong>Pena-Rios, A.</strong>, El-Moussa, F., Conway, A., & Owusu, G.. (2022). <em>Remediating Vulnerabilities in Digital Twins</em> (Patent No. GB2602481A). United Kingdom."
             }
           ]
         },
@@ -1206,7 +1214,7 @@
     },
     {
       "year": 2021,
-      "count": 8,
+      "count": 7,
       "categories": [
         {
           "name": "Book Chapters",
@@ -1261,34 +1269,6 @@
               "url": "https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2021",
               "raw_bib": "@proceedings{economou2021proceedings,\n  title = {Proceedings of 2021 7th International Conference of the Immersive Learning Research Network (iLRN)},\n  editor = {Economou, D. and Pena-Rios, A. and Dengel, A. and Dodds, H. and Mentzelopoulos, M. and Klippel, A. and Erenli, K. and Lee, M. J. W. and Richter, J.},\n  year = {2021},\n  publisher = {Immersive Learning Research Network},\n  url = {https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2021},\n}",
               "citation_html": "Economou, D., <strong>Pena-Rios, A.</strong>, Dengel, A., Dodds, H., Mentzelopoulos, M., Klippel, A., Erenli, K., Lee, M. J. W., & Richter, J. (Eds.). (2021). <em>Proceedings of 2021 7th International Conference of the Immersive Learning Research Network (iLRN)</em>. Immersive Learning Research Network."
-            }
-          ]
-        },
-        {
-          "name": "Patents",
-          "count": 1,
-          "entries": [
-            {
-              "key": "andrade2021user",
-              "entry_type": "patent",
-              "category": "Patents",
-              "fields": {
-                "title": "User personality traits classification for adaptive virtual environments in non-linear story paths",
-                "author": "Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.",
-                "year": "2021",
-                "howpublished": "Patent",
-                "note": "Patent No. WO2023104519A1",
-                "number": "WO2023104519A1",
-                "url": "https://patents.google.com/patent/WO2023104519A1"
-              },
-              "year": 2021,
-              "title": "User personality traits classification for adaptive virtual environments in non-linear story paths",
-              "author": "Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.",
-              "doi": "",
-              "doi_url": "",
-              "url": "https://patents.google.com/patent/WO2023104519A1",
-              "raw_bib": "@patent{andrade2021user,\n  title = {User personality traits classification for adaptive virtual environments in non-linear story paths},\n  author = {Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.},\n  year = {2021},\n  howpublished = {Patent},\n  note = {Patent No. WO2023104519A1},\n  number = {WO2023104519A1},\n  url = {https://patents.google.com/patent/WO2023104519A1},\n}",
-              "citation_html": "Andrade, T., <strong>Pena-Rios, A.</strong>, Smith-Creasey, M., & Bahceci, O.. (2021). <em>User personality traits classification for adaptive virtual environments in non-linear story paths</em> (Patent No. WO2023104519A1). Google Patents."
             }
           ]
         },
@@ -1422,7 +1402,7 @@
     },
     {
       "year": 2020,
-      "count": 8,
+      "count": 7,
       "categories": [
         {
           "name": "Proceedings",
@@ -1452,51 +1432,30 @@
         },
         {
           "name": "Patents",
-          "count": 2,
+          "count": 1,
           "entries": [
             {
-              "key": "leon-garza2020rendering",
+              "key": "pena-rios2018classification",
               "entry_type": "patent",
               "category": "Patents",
               "fields": {
-                "title": "Rendering of spatial environments",
-                "author": "Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.",
+                "title": "Classification of Knowledge Management Assets",
+                "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
                 "year": "2020",
-                "howpublished": "Patent",
-                "note": "Patent No. GB2591103A",
-                "number": "GB2591103A",
-                "url": "https://patents.google.com/patent/GB2591103A/"
+                "nationality": "European Patent Office / United States",
+                "howpublished": "Patent Application",
+                "number": "EP3624065A1",
+                "note": "Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
+                "url": "https://patents.google.com/patent/EP3624065A1/"
               },
               "year": 2020,
-              "title": "Rendering of spatial environments",
-              "author": "Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.",
+              "title": "Classification of Knowledge Management Assets",
+              "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
               "doi": "",
               "doi_url": "",
-              "url": "https://patents.google.com/patent/GB2591103A/",
-              "raw_bib": "@patent{leon-garza2020rendering,\n  title = {Rendering of spatial environments},\n  author = {Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.},\n  year = {2020},\n  howpublished = {Patent},\n  note = {Patent No. GB2591103A},\n  number = {GB2591103A},\n  url = {https://patents.google.com/patent/GB2591103A/},\n}",
-              "citation_html": "Leon-Garza, H., <strong>Pena-Rios, A.</strong>, Hagras, H., Conway, A., & Owusu, G.. (2020). <em>Rendering of spatial environments</em> (Patent No. GB2591103A). Google Patents."
-            },
-            {
-              "key": "pena-rios2020interactionbased",
-              "entry_type": "patent",
-              "category": "Patents",
-              "fields": {
-                "title": "Interaction-based rendering of spatial environments",
-                "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G.",
-                "year": "2020",
-                "howpublished": "Patent",
-                "note": "Patent No. WO2021144118A1",
-                "number": "WO2021144118A1",
-                "url": "https://patents.google.com/patent/WO2021144118A1/"
-              },
-              "year": 2020,
-              "title": "Interaction-based rendering of spatial environments",
-              "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G.",
-              "doi": "",
-              "doi_url": "",
-              "url": "https://patents.google.com/patent/WO2021144118A1/",
-              "raw_bib": "@patent{pena-rios2020interactionbased,\n  title = {Interaction-based rendering of spatial environments},\n  author = {Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G.},\n  year = {2020},\n  howpublished = {Patent},\n  note = {Patent No. WO2021144118A1},\n  number = {WO2021144118A1},\n  url = {https://patents.google.com/patent/WO2021144118A1/},\n}",
-              "citation_html": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., & Owusu, G.. (2020). <em>Interaction-based rendering of spatial environments</em> (Patent No. WO2021144118A1). Google Patents."
+              "url": "https://patents.google.com/patent/EP3624065A1/",
+              "raw_bib": "@patent{pena-rios2018classification,\n  title = {Classification of Knowledge Management Assets},\n  author = {Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.},\n  year = {2020},\n  nationality = {European Patent Office / United States},\n  howpublished = {Patent Application},\n  number = {EP3624065A1},\n  note = {Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP3624065A1/},\n}",
+              "citation_html": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G.. (2020). <em>Classification of Knowledge Management Assets</em> (Patent No. EP3624065A1). European Patent Office / United States."
             }
           ]
         },
@@ -1831,26 +1790,27 @@
           "count": 1,
           "entries": [
             {
-              "key": "pena-rios2018classification",
+              "key": "pena-rios2015mixedreality",
               "entry_type": "patent",
               "category": "Patents",
               "fields": {
-                "title": "Classification of Knowledge Management Assets",
-                "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
+                "title": "Mixed-reality system",
+                "author": "Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.",
                 "year": "2018",
-                "howpublished": "Patent",
-                "note": "Patent No. EP3624065A1",
-                "number": "EP3624065A1",
-                "url": "https://patents.google.com/patent/EP3624065A1/"
+                "nationality": "United States",
+                "howpublished": "Patent Application",
+                "number": "US20180308377A1",
+                "note": "Consolidated Patent Family. US Patent Application Pub. No. US20180308377A1 (Pub. 2018-10-25; Application US15/763,395). Family includes: PCT International Pub. No. WO2017055819A1; Priority Application GB1517101.0 (2015). Assignee: University of Essex Enterprises Ltd.",
+                "url": "https://patents.google.com/patent/US20180308377A1/"
               },
               "year": 2018,
-              "title": "Classification of Knowledge Management Assets",
-              "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
+              "title": "Mixed-reality system",
+              "author": "Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.",
               "doi": "",
               "doi_url": "",
-              "url": "https://patents.google.com/patent/EP3624065A1/",
-              "raw_bib": "@patent{pena-rios2018classification,\n  title = {Classification of Knowledge Management Assets},\n  author = {Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.},\n  year = {2018},\n  howpublished = {Patent},\n  note = {Patent No. EP3624065A1},\n  number = {EP3624065A1},\n  url = {https://patents.google.com/patent/EP3624065A1/},\n}",
-              "citation_html": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G.. (2018). <em>Classification of Knowledge Management Assets</em> (Patent No. EP3624065A1). Google Patents."
+              "url": "https://patents.google.com/patent/US20180308377A1/",
+              "raw_bib": "@patent{pena-rios2015mixedreality,\n  title = {Mixed-reality system},\n  author = {Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.},\n  year = {2018},\n  nationality = {United States},\n  howpublished = {Patent Application},\n  number = {US20180308377A1},\n  note = {Consolidated Patent Family. US Patent Application Pub. No. US20180308377A1 (Pub. 2018-10-25; Application US15/763,395). Family includes: PCT International Pub. No. WO2017055819A1; Priority Application GB1517101.0 (2015). Assignee: University of Essex Enterprises Ltd.},\n  url = {https://patents.google.com/patent/US20180308377A1/},\n}",
+              "citation_html": "<strong>Peña-Rios, A.</strong>, Callaghan, V., Gardner, M., Alghazzawi, D., & Alhaddad, M. J.. (2018). <em>Mixed-reality system</em> (Patent No. US20180308377A1). United States."
             }
           ]
         },
@@ -1965,7 +1925,7 @@
     },
     {
       "year": 2017,
-      "count": 6,
+      "count": 5,
       "categories": [
         {
           "name": "Book Chapters",
@@ -2018,34 +1978,6 @@
               "url": "https://doi.org/10.1007/978-3-319-60633-0_5",
               "raw_bib": "@incollection{felemban2017towards,\n  title = {Towards Observing and Assessing Collaborative Learning Activities in Immersive Environments},\n  author = {Felemban, S. and Gardner, M. and Callaghan, V. and Peña-Rios, A.},\n  year = {2017},\n  booktitle = {Communications in Computer and Information Science},\n  volume = {725},\n  pages = {47--59},\n  publisher = {Springer},\n  doi = {10.1007/978-3-319-60633-0_5},\n  url = {https://doi.org/10.1007/978-3-319-60633-0_5},\n}",
               "citation_html": "Felemban, S., Gardner, M., Callaghan, V., & <strong>Peña-Rios, A.</strong>. (2017). Towards Observing and Assessing Collaborative Learning Activities in Immersive Environments. In <em>Communications in Computer and Information Science</em> (pp. 47--59). Springer."
-            }
-          ]
-        },
-        {
-          "name": "Patents",
-          "count": 1,
-          "entries": [
-            {
-              "key": "di-cairano-gilfedder2017method",
-              "entry_type": "patent",
-              "category": "Patents",
-              "fields": {
-                "title": "Method and apparatus for retrieving a data package",
-                "author": "Di Cairano-Gilfedder, C. and Peña-Rios, A. and Hagras, H. and Owusu, G.",
-                "year": "2017",
-                "howpublished": "Patent",
-                "note": "Patent No. US20200159774A1",
-                "number": "US20200159774A1",
-                "url": "https://patents.google.com/patent/US20200159774A1/"
-              },
-              "year": 2017,
-              "title": "Method and apparatus for retrieving a data package",
-              "author": "Di Cairano-Gilfedder, C. and Peña-Rios, A. and Hagras, H. and Owusu, G.",
-              "doi": "",
-              "doi_url": "",
-              "url": "https://patents.google.com/patent/US20200159774A1/",
-              "raw_bib": "@patent{di-cairano-gilfedder2017method,\n  title = {Method and apparatus for retrieving a data package},\n  author = {Di Cairano-Gilfedder, C. and Peña-Rios, A. and Hagras, H. and Owusu, G.},\n  year = {2017},\n  howpublished = {Patent},\n  note = {Patent No. US20200159774A1},\n  number = {US20200159774A1},\n  url = {https://patents.google.com/patent/US20200159774A1/},\n}",
-              "citation_html": "Di Cairano-Gilfedder, C., <strong>Peña-Rios, A.</strong>, Hagras, H., & Owusu, G.. (2017). <em>Method and apparatus for retrieving a data package</em> (Patent No. US20200159774A1). Google Patents."
             }
           ]
         },
@@ -2270,36 +2202,8 @@
     },
     {
       "year": 2015,
-      "count": 2,
+      "count": 1,
       "categories": [
-        {
-          "name": "Patents",
-          "count": 1,
-          "entries": [
-            {
-              "key": "pena-rios2015mixedreality",
-              "entry_type": "patent",
-              "category": "Patents",
-              "fields": {
-                "title": "Mixed-reality system",
-                "author": "Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.",
-                "year": "2015",
-                "howpublished": "Patent",
-                "note": "Patent No. US20180308377A1",
-                "number": "US20180308377A1",
-                "url": "https://patents.google.com/patent/US20180308377A1/"
-              },
-              "year": 2015,
-              "title": "Mixed-reality system",
-              "author": "Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.",
-              "doi": "",
-              "doi_url": "",
-              "url": "https://patents.google.com/patent/US20180308377A1/",
-              "raw_bib": "@patent{pena-rios2015mixedreality,\n  title = {Mixed-reality system},\n  author = {Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.},\n  year = {2015},\n  howpublished = {Patent},\n  note = {Patent No. US20180308377A1},\n  number = {US20180308377A1},\n  url = {https://patents.google.com/patent/US20180308377A1/},\n}",
-              "citation_html": "<strong>Peña-Rios, A.</strong>, Callaghan, V., Gardner, M., Alghazzawi, D., & Alhaddad, M. J.. (2015). <em>Mixed-reality system</em> (Patent No. US20180308377A1). Google Patents."
-            }
-          ]
-        },
         {
           "name": "Conference Papers",
           "count": 1,
@@ -2993,9 +2897,10 @@
         "title": "Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning",
         "author": "Liret, A. and Pena-Rios, A. and El-Moussa, F. and Kern, M. and Chimatapu, R.",
         "year": "2025",
-        "howpublished": "Patent",
-        "note": "Patent No. WO2025131518A1",
+        "nationality": "WIPO (PCT)",
+        "howpublished": "Patent Application",
         "number": "WO2025131518A1",
+        "note": "PCT International Publication No. WO2025131518A1. Assignee: British Telecommunications PLC.",
         "url": "https://patents.google.com/patent/WO2025131518A1"
       },
       "year": 2025,
@@ -3004,8 +2909,8 @@
       "doi": "",
       "doi_url": "",
       "url": "https://patents.google.com/patent/WO2025131518A1",
-      "raw_bib": "@patent{liret2025electric,\n  title = {Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning},\n  author = {Liret, A. and Pena-Rios, A. and El-Moussa, F. and Kern, M. and Chimatapu, R.},\n  year = {2025},\n  howpublished = {Patent},\n  note = {Patent No. WO2025131518A1},\n  number = {WO2025131518A1},\n  url = {https://patents.google.com/patent/WO2025131518A1},\n}",
-      "citation_html": "Liret, A., <strong>Pena-Rios, A.</strong>, El-Moussa, F., Kern, M., & Chimatapu, R.. (2025). <em>Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning</em> (Patent No. WO2025131518A1). Google Patents."
+      "raw_bib": "@patent{liret2025electric,\n  title = {Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning},\n  author = {Liret, A. and Pena-Rios, A. and El-Moussa, F. and Kern, M. and Chimatapu, R.},\n  year = {2025},\n  nationality = {WIPO (PCT)},\n  howpublished = {Patent Application},\n  number = {WO2025131518A1},\n  note = {PCT International Publication No. WO2025131518A1. Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2025131518A1},\n}",
+      "citation_html": "Liret, A., <strong>Pena-Rios, A.</strong>, El-Moussa, F., Kern, M., & Chimatapu, R.. (2025). <em>Electric vehicles platform for new charge infrastructure risk, tactical, and operational planning</em> (Patent No. WO2025131518A1). WIPO (PCT)."
     },
     {
       "key": "zia2025digital",
@@ -3015,9 +2920,10 @@
         "title": "Digital twin with physics and learning blocks",
         "author": "Zia, S. and Anjum, A. and Conway, A. and Pena-Rios, A.",
         "year": "2025",
-        "howpublished": "Patent",
-        "note": "Patent No. EP4567667A1",
+        "nationality": "European Patent Office",
+        "howpublished": "Patent Application",
         "number": "EP4567667A1",
+        "note": "European Patent Application No. EP4567667A1. Assignee: British Telecommunications PLC.",
         "url": "https://patents.google.com/patent/EP4567667A1"
       },
       "year": 2025,
@@ -3026,8 +2932,8 @@
       "doi": "",
       "doi_url": "",
       "url": "https://patents.google.com/patent/EP4567667A1",
-      "raw_bib": "@patent{zia2025digital,\n  title = {Digital twin with physics and learning blocks},\n  author = {Zia, S. and Anjum, A. and Conway, A. and Pena-Rios, A.},\n  year = {2025},\n  howpublished = {Patent},\n  note = {Patent No. EP4567667A1},\n  number = {EP4567667A1},\n  url = {https://patents.google.com/patent/EP4567667A1},\n}",
-      "citation_html": "Zia, S., Anjum, A., Conway, A., & <strong>Pena-Rios, A.</strong>. (2025). <em>Digital twin with physics and learning blocks</em> (Patent No. EP4567667A1). Google Patents."
+      "raw_bib": "@patent{zia2025digital,\n  title = {Digital twin with physics and learning blocks},\n  author = {Zia, S. and Anjum, A. and Conway, A. and Pena-Rios, A.},\n  year = {2025},\n  nationality = {European Patent Office},\n  howpublished = {Patent Application},\n  number = {EP4567667A1},\n  note = {European Patent Application No. EP4567667A1. Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP4567667A1},\n}",
+      "citation_html": "Zia, S., Anjum, A., Conway, A., & <strong>Pena-Rios, A.</strong>. (2025). <em>Digital twin with physics and learning blocks</em> (Patent No. EP4567667A1). European Patent Office."
     },
     {
       "key": "andrade2025user",
@@ -3037,9 +2943,10 @@
         "title": "User personality traits classification for adaptive virtual environments in non-linear story paths",
         "author": "Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.",
         "year": "2025",
+        "nationality": "United States",
         "howpublished": "Patent Application",
-        "note": "Patent Application No. US18/716,425",
         "number": "US18/716,425",
+        "note": "Consolidated Patent Family. US Patent Application No. US18/716,425 (Pub. No. US20250000000A1, 2025). Family includes: PCT Application Pub. No. WO2023104519A1 (filed 2021, pub. 2023). Assignee: British Telecommunications PLC.",
         "url": "https://patents.google.com/patent/US20250000000A1",
         "selected": "true"
       },
@@ -3049,8 +2956,8 @@
       "doi": "",
       "doi_url": "",
       "url": "https://patents.google.com/patent/US20250000000A1",
-      "raw_bib": "@patent{andrade2025user,\n  title = {User personality traits classification for adaptive virtual environments in non-linear story paths},\n  author = {Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.},\n  year = {2025},\n  howpublished = {Patent Application},\n  note = {Patent Application No. US18/716,425},\n  number = {US18/716,425},\n  url = {https://patents.google.com/patent/US20250000000A1},\n  selected = {true},\n}",
-      "citation_html": "Andrade, T., <strong>Pena-Rios, A.</strong>, Smith-Creasey, M., & Bahceci, O.. (2025). <em>User personality traits classification for adaptive virtual environments in non-linear story paths</em> (Patent No. US18/716,425). Google Patents."
+      "raw_bib": "@patent{andrade2025user,\n  title = {User personality traits classification for adaptive virtual environments in non-linear story paths},\n  author = {Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.},\n  year = {2025},\n  nationality = {United States},\n  howpublished = {Patent Application},\n  number = {US18/716,425},\n  note = {Consolidated Patent Family. US Patent Application No. US18/716,425 (Pub. No. US20250000000A1, 2025). Family includes: PCT Application Pub. No. WO2023104519A1 (filed 2021, pub. 2023). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/US20250000000A1},\n  selected = {true},\n}",
+      "citation_html": "Andrade, T., <strong>Pena-Rios, A.</strong>, Smith-Creasey, M., & Bahceci, O.. (2025). <em>User personality traits classification for adaptive virtual environments in non-linear story paths</em> (Patent No. US18/716,425). United States."
     },
     {
       "key": "zia2025physics",
@@ -3234,66 +3141,46 @@
       "entry_type": "patent",
       "category": "Patents",
       "fields": {
-        "title": "Tacit knowledge capture",
+        "title": "Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge",
         "author": "Bahceci, O. and Leon-Garza, H. and Pena-Rios, A.",
         "year": "2024",
-        "howpublished": "Patent",
-        "note": "Patent No. WO2024088709A1",
+        "nationality": "WIPO / European Patent Office",
+        "howpublished": "Patent Application",
         "number": "WO2024088709A1",
+        "note": "Consolidated Patent Family. International PCT Pub. No. WO2024088709A1 (2024); European Patent Application EP4354373A1 (2024); US Application US19/122,588. Assignee: British Telecommunications PLC.",
         "url": "https://patents.google.com/patent/WO2024088709A1/en"
       },
       "year": 2024,
-      "title": "Tacit knowledge capture",
+      "title": "Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge",
       "author": "Bahceci, O. and Leon-Garza, H. and Pena-Rios, A.",
       "doi": "",
       "doi_url": "",
       "url": "https://patents.google.com/patent/WO2024088709A1/en",
-      "raw_bib": "@patent{bahceci2024tacit,\n  title = {Tacit knowledge capture},\n  author = {Bahceci, O. and Leon-Garza, H. and Pena-Rios, A.},\n  year = {2024},\n  howpublished = {Patent},\n  note = {Patent No. WO2024088709A1},\n  number = {WO2024088709A1},\n  url = {https://patents.google.com/patent/WO2024088709A1/en},\n}",
-      "citation_html": "Bahceci, O., Leon-Garza, H., & <strong>Pena-Rios, A.</strong>. (2024). <em>Tacit knowledge capture</em> (Patent No. WO2024088709A1). Google Patents."
-    },
-    {
-      "key": "leon-garza2024automation",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "title": "AI automation for computer-based processes based on tacit expert knowledge",
-        "author": "Leon-Garza, H. and Bahceci, O. and Pena-Rios, A.",
-        "year": "2024",
-        "howpublished": "Patent",
-        "note": "Patent No. EP4354373A1",
-        "number": "EP4354373A1",
-        "url": "https://patents.google.com/patent/EP4354373A1"
-      },
-      "year": 2024,
-      "title": "AI automation for computer-based processes based on tacit expert knowledge",
-      "author": "Leon-Garza, H. and Bahceci, O. and Pena-Rios, A.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/EP4354373A1",
-      "raw_bib": "@patent{leon-garza2024automation,\n  title = {AI automation for computer-based processes based on tacit expert knowledge},\n  author = {Leon-Garza, H. and Bahceci, O. and Pena-Rios, A.},\n  year = {2024},\n  howpublished = {Patent},\n  note = {Patent No. EP4354373A1},\n  number = {EP4354373A1},\n  url = {https://patents.google.com/patent/EP4354373A1},\n}",
-      "citation_html": "Leon-Garza, H., Bahceci, O., & <strong>Pena-Rios, A.</strong>. (2024). <em>AI automation for computer-based processes based on tacit expert knowledge</em> (Patent No. EP4354373A1). Google Patents."
+      "raw_bib": "@patent{bahceci2024tacit,\n  title = {Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge},\n  author = {Bahceci, O. and Leon-Garza, H. and Pena-Rios, A.},\n  year = {2024},\n  nationality = {WIPO / European Patent Office},\n  howpublished = {Patent Application},\n  number = {WO2024088709A1},\n  note = {Consolidated Patent Family. International PCT Pub. No. WO2024088709A1 (2024); European Patent Application EP4354373A1 (2024); US Application US19/122,588. Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2024088709A1/en},\n}",
+      "citation_html": "Bahceci, O., Leon-Garza, H., & <strong>Pena-Rios, A.</strong>. (2024). <em>Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge</em> (Patent No. WO2024088709A1). WIPO / European Patent Office."
     },
     {
       "key": "zhao2024reconstruction",
       "entry_type": "patent",
       "category": "Patents",
       "fields": {
-        "title": "3d reconstruction of a target",
+        "title": "3D reconstruction of a target",
         "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
         "year": "2024",
-        "howpublished": "Patent",
-        "note": "Patent No. WO2024037822A1",
+        "nationality": "WIPO (PCT) / United States",
+        "howpublished": "Patent Application",
         "number": "WO2024037822A1",
+        "note": "Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
         "url": "https://patents.google.com/patent/WO2024037822A1"
       },
       "year": 2024,
-      "title": "3d reconstruction of a target",
+      "title": "3D reconstruction of a target",
       "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
       "doi": "",
       "doi_url": "",
       "url": "https://patents.google.com/patent/WO2024037822A1",
-      "raw_bib": "@patent{zhao2024reconstruction,\n  title = {3d reconstruction of a target},\n  author = {Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.},\n  year = {2024},\n  howpublished = {Patent},\n  note = {Patent No. WO2024037822A1},\n  number = {WO2024037822A1},\n  url = {https://patents.google.com/patent/WO2024037822A1},\n}",
-      "citation_html": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A.. (2024). <em>3d reconstruction of a target</em> (Patent No. WO2024037822A1). Google Patents."
+      "raw_bib": "@patent{zhao2024reconstruction,\n  title = {3D reconstruction of a target},\n  author = {Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.},\n  year = {2024},\n  nationality = {WIPO (PCT) / United States},\n  howpublished = {Patent Application},\n  number = {WO2024037822A1},\n  note = {Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2024037822A1},\n}",
+      "citation_html": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A.. (2024). <em>3D reconstruction of a target</em> (Patent No. WO2024037822A1). WIPO (PCT) / United States."
     },
     {
       "key": "mukhopadhyay2024digital",
@@ -3404,6 +3291,29 @@
       "url": "",
       "raw_bib": "@article{pena-rios2024digital,\n  title = {Digital Twins and Future Intelligent Educational Environments},\n  author = {Pena-Rios, A. and Luna-Ramirez, W. A. and Ferreyra, E.},\n  year = {2024},\n  journal = {Education Sciences},\n  note = {Special Issue},\n  selected = {true},\n}",
       "citation_html": "<strong>Pena-Rios, A.</strong>, Luna-Ramirez, W. A., & Ferreyra, E. (Guest Eds.). (2024). Digital Twins and Future Intelligent Educational Environments [Special issue]. <em>Education Sciences</em>."
+    },
+    {
+      "key": "pena-rios2024interactionbased",
+      "entry_type": "patent",
+      "category": "Patents",
+      "fields": {
+        "title": "Interaction-based rendering of spatial environments",
+        "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.",
+        "year": "2024",
+        "nationality": "United States",
+        "howpublished": "Patent (Granted)",
+        "number": "US12026298B2",
+        "note": "Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
+        "url": "https://patents.google.com/patent/US12026298B2/en"
+      },
+      "year": 2024,
+      "title": "Interaction-based rendering of spatial environments",
+      "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://patents.google.com/patent/US12026298B2/en",
+      "raw_bib": "@patent{pena-rios2024interactionbased,\n  title = {Interaction-based rendering of spatial environments},\n  author = {Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.},\n  year = {2024},\n  nationality = {United States},\n  howpublished = {Patent (Granted)},\n  number = {US12026298B2},\n  note = {Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/US12026298B2/en},\n}",
+      "citation_html": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., & Leon-Garza, H.. (2024). <em>Interaction-based rendering of spatial environments</em> (Patent No. US12026298B2). United States."
     },
     {
       "key": "pena-rios2023guest",
@@ -3612,9 +3522,10 @@
         "title": "Generating Three-dimensional Data Models of Two-dimensional Floor Plans",
         "author": "Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.",
         "year": "2022",
-        "howpublished": "Patent",
-        "note": "Patent No. WO2022194674A1",
+        "nationality": "WIPO (PCT) / United States",
+        "howpublished": "Patent Application",
         "number": "WO2022194674A1",
+        "note": "Consolidated Patent Family. International PCT Pub. No. WO2022194674A1 (2022); US Patent Application Publication No. US20240153206A1 (2024); Priority application GB2103656.1 (2021). Assignee: British Telecommunications PLC.",
         "url": "https://patents.google.com/patent/WO2022194674A1/en"
       },
       "year": 2022,
@@ -3623,8 +3534,8 @@
       "doi": "",
       "doi_url": "",
       "url": "https://patents.google.com/patent/WO2022194674A1/en",
-      "raw_bib": "@patent{leon-garza2022generating,\n  title = {Generating Three-dimensional Data Models of Two-dimensional Floor Plans},\n  author = {Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.},\n  year = {2022},\n  howpublished = {Patent},\n  note = {Patent No. WO2022194674A1},\n  number = {WO2022194674A1},\n  url = {https://patents.google.com/patent/WO2022194674A1/en},\n}",
-      "citation_html": "Leon-Garza, H., <strong>Pena-Rios, A.</strong>, Hagras, H., Conway, A., & Owusu, G.. (2022). <em>Generating Three-dimensional Data Models of Two-dimensional Floor Plans</em> (Patent No. WO2022194674A1). Google Patents."
+      "raw_bib": "@patent{leon-garza2022generating,\n  title = {Generating Three-dimensional Data Models of Two-dimensional Floor Plans},\n  author = {Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.},\n  year = {2022},\n  nationality = {WIPO (PCT) / United States},\n  howpublished = {Patent Application},\n  number = {WO2022194674A1},\n  note = {Consolidated Patent Family. International PCT Pub. No. WO2022194674A1 (2022); US Patent Application Publication No. US20240153206A1 (2024); Priority application GB2103656.1 (2021). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2022194674A1/en},\n}",
+      "citation_html": "Leon-Garza, H., <strong>Pena-Rios, A.</strong>, Hagras, H., Conway, A., & Owusu, G.. (2022). <em>Generating Three-dimensional Data Models of Two-dimensional Floor Plans</em> (Patent No. WO2022194674A1). WIPO (PCT) / United States."
     },
     {
       "key": "pena-rios2022remediating",
@@ -3634,9 +3545,10 @@
         "title": "Remediating Vulnerabilities in Digital Twins",
         "author": "Pena-Rios, A. and El-Moussa, F. and Conway, A. and Owusu, G.",
         "year": "2022",
-        "howpublished": "Patent",
-        "note": "Patent No. GB2602481A",
+        "nationality": "United Kingdom",
+        "howpublished": "Patent Application",
         "number": "GB2602481A",
+        "note": "UK Patent Application No. GB2602481A (Pub. 2022-07-06). Assignee: British Telecommunications PLC.",
         "url": "https://patents.google.com/patent/GB2602481A/en"
       },
       "year": 2022,
@@ -3645,8 +3557,8 @@
       "doi": "",
       "doi_url": "",
       "url": "https://patents.google.com/patent/GB2602481A/en",
-      "raw_bib": "@patent{pena-rios2022remediating,\n  title = {Remediating Vulnerabilities in Digital Twins},\n  author = {Pena-Rios, A. and El-Moussa, F. and Conway, A. and Owusu, G.},\n  year = {2022},\n  howpublished = {Patent},\n  note = {Patent No. GB2602481A},\n  number = {GB2602481A},\n  url = {https://patents.google.com/patent/GB2602481A/en},\n}",
-      "citation_html": "<strong>Pena-Rios, A.</strong>, El-Moussa, F., Conway, A., & Owusu, G.. (2022). <em>Remediating Vulnerabilities in Digital Twins</em> (Patent No. GB2602481A). Google Patents."
+      "raw_bib": "@patent{pena-rios2022remediating,\n  title = {Remediating Vulnerabilities in Digital Twins},\n  author = {Pena-Rios, A. and El-Moussa, F. and Conway, A. and Owusu, G.},\n  year = {2022},\n  nationality = {United Kingdom},\n  howpublished = {Patent Application},\n  number = {GB2602481A},\n  note = {UK Patent Application No. GB2602481A (Pub. 2022-07-06). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/GB2602481A/en},\n}",
+      "citation_html": "<strong>Pena-Rios, A.</strong>, El-Moussa, F., Conway, A., & Owusu, G.. (2022). <em>Remediating Vulnerabilities in Digital Twins</em> (Patent No. GB2602481A). United Kingdom."
     },
     {
       "key": "leon-garza2022type2",
@@ -3825,28 +3737,6 @@
       "url": "https://doi.org/10.1016/j.vrih.2022.01.004",
       "raw_bib": "@article{mukhopadhyay2022virtual,\n  title = {A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature},\n  author = {Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. and Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.},\n  year = {2022},\n  journal = {Virtual Reality & Intelligent Hardware},\n  number = {1},\n  pages = {55--75},\n  volume = {4},\n  doi = {10.1016/j.vrih.2022.01.004},\n  url = {https://doi.org/10.1016/j.vrih.2022.01.004},\n}",
       "citation_html": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P.. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55--75."
-    },
-    {
-      "key": "andrade2021user",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "title": "User personality traits classification for adaptive virtual environments in non-linear story paths",
-        "author": "Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.",
-        "year": "2021",
-        "howpublished": "Patent",
-        "note": "Patent No. WO2023104519A1",
-        "number": "WO2023104519A1",
-        "url": "https://patents.google.com/patent/WO2023104519A1"
-      },
-      "year": 2021,
-      "title": "User personality traits classification for adaptive virtual environments in non-linear story paths",
-      "author": "Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/WO2023104519A1",
-      "raw_bib": "@patent{andrade2021user,\n  title = {User personality traits classification for adaptive virtual environments in non-linear story paths},\n  author = {Andrade, T. and Pena-Rios, A. and Smith-Creasey, M. and Bahceci, O.},\n  year = {2021},\n  howpublished = {Patent},\n  note = {Patent No. WO2023104519A1},\n  number = {WO2023104519A1},\n  url = {https://patents.google.com/patent/WO2023104519A1},\n}",
-      "citation_html": "Andrade, T., <strong>Pena-Rios, A.</strong>, Smith-Creasey, M., & Bahceci, O.. (2021). <em>User personality traits classification for adaptive virtual environments in non-linear story paths</em> (Patent No. WO2023104519A1). Google Patents."
     },
     {
       "key": "mukhopadhyay2021generating",
@@ -4031,50 +3921,6 @@
       "citation_html": "<strong>Peña-Rios, A.</strong>, Economou, D., & Mentzelopoulos, M. (Guest Eds.). (2020). Special Issue on Exploring Immersive Technologies in Learning [Special issue]. <em>Journal of Universal Computer Science</em>."
     },
     {
-      "key": "leon-garza2020rendering",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "title": "Rendering of spatial environments",
-        "author": "Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.",
-        "year": "2020",
-        "howpublished": "Patent",
-        "note": "Patent No. GB2591103A",
-        "number": "GB2591103A",
-        "url": "https://patents.google.com/patent/GB2591103A/"
-      },
-      "year": 2020,
-      "title": "Rendering of spatial environments",
-      "author": "Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/GB2591103A/",
-      "raw_bib": "@patent{leon-garza2020rendering,\n  title = {Rendering of spatial environments},\n  author = {Leon-Garza, H. and Pena-Rios, A. and Hagras, H. and Conway, A. and Owusu, G.},\n  year = {2020},\n  howpublished = {Patent},\n  note = {Patent No. GB2591103A},\n  number = {GB2591103A},\n  url = {https://patents.google.com/patent/GB2591103A/},\n}",
-      "citation_html": "Leon-Garza, H., <strong>Pena-Rios, A.</strong>, Hagras, H., Conway, A., & Owusu, G.. (2020). <em>Rendering of spatial environments</em> (Patent No. GB2591103A). Google Patents."
-    },
-    {
-      "key": "pena-rios2020interactionbased",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "title": "Interaction-based rendering of spatial environments",
-        "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G.",
-        "year": "2020",
-        "howpublished": "Patent",
-        "note": "Patent No. WO2021144118A1",
-        "number": "WO2021144118A1",
-        "url": "https://patents.google.com/patent/WO2021144118A1/"
-      },
-      "year": 2020,
-      "title": "Interaction-based rendering of spatial environments",
-      "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/WO2021144118A1/",
-      "raw_bib": "@patent{pena-rios2020interactionbased,\n  title = {Interaction-based rendering of spatial environments},\n  author = {Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G.},\n  year = {2020},\n  howpublished = {Patent},\n  note = {Patent No. WO2021144118A1},\n  number = {WO2021144118A1},\n  url = {https://patents.google.com/patent/WO2021144118A1/},\n}",
-      "citation_html": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., & Owusu, G.. (2020). <em>Interaction-based rendering of spatial environments</em> (Patent No. WO2021144118A1). Google Patents."
-    },
-    {
       "key": "leon-garza2020bangbig",
       "entry_type": "inproceedings",
       "category": "Conference Papers",
@@ -4188,6 +4034,29 @@
       "citation_html": "Economou, D., Klippel, A., Dodds, H., <strong>Peña-Rios, A.</strong>, Lee, M. J. W., Beck, D., Pirker, J., Dengel, A., Peres, T. M., & Richter, J. (Eds.). (2020). <em>Immersive Learning Research Network. Proceedings of 6th International Conference, iLRN 2020</em>. Immersive Learning Research Network."
     },
     {
+      "key": "pena-rios2018classification",
+      "entry_type": "patent",
+      "category": "Patents",
+      "fields": {
+        "title": "Classification of Knowledge Management Assets",
+        "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
+        "year": "2020",
+        "nationality": "European Patent Office / United States",
+        "howpublished": "Patent Application",
+        "number": "EP3624065A1",
+        "note": "Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
+        "url": "https://patents.google.com/patent/EP3624065A1/"
+      },
+      "year": 2020,
+      "title": "Classification of Knowledge Management Assets",
+      "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://patents.google.com/patent/EP3624065A1/",
+      "raw_bib": "@patent{pena-rios2018classification,\n  title = {Classification of Knowledge Management Assets},\n  author = {Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.},\n  year = {2020},\n  nationality = {European Patent Office / United States},\n  howpublished = {Patent Application},\n  number = {EP3624065A1},\n  note = {Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP3624065A1/},\n}",
+      "citation_html": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G.. (2020). <em>Classification of Knowledge Management Assets</em> (Patent No. EP3624065A1). European Patent Office / United States."
+    },
+    {
       "key": "beck2019workshop",
       "entry_type": "proceedings",
       "category": "Proceedings",
@@ -4275,28 +4144,6 @@
       "url": "https://doi.org/10.3217/978-3-85125-657-4-06",
       "raw_bib": "@inproceedings{pena-rios2019augmented,\n  title = {The Augmented Employee: Immersive Technologies in Field Service Operations},\n  author = {Peña-Rios, A.},\n  year = {2019},\n  booktitle = {Workshop, Long and Short Paper and Poster Proceedings from the Fifth Immersive Immersive Learning Research Network Conference},\n  pages = {3--4},\n  publisher = {Technischen Universitat Graz},\n  doi = {10.3217/978-3-85125-657-4-06},\n  url = {https://doi.org/10.3217/978-3-85125-657-4-06},\n}",
       "citation_html": "<strong>Peña-Rios, A.</strong>. (2019). The Augmented Employee: Immersive Technologies in Field Service Operations. In <em>Workshop, Long and Short Paper and Poster Proceedings from the Fifth Immersive Immersive Learning Research Network Conference</em> (pp. 3--4). Technischen Universitat Graz."
-    },
-    {
-      "key": "pena-rios2018classification",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "title": "Classification of Knowledge Management Assets",
-        "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
-        "year": "2018",
-        "howpublished": "Patent",
-        "note": "Patent No. EP3624065A1",
-        "number": "EP3624065A1",
-        "url": "https://patents.google.com/patent/EP3624065A1/"
-      },
-      "year": 2018,
-      "title": "Classification of Knowledge Management Assets",
-      "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/EP3624065A1/",
-      "raw_bib": "@patent{pena-rios2018classification,\n  title = {Classification of Knowledge Management Assets},\n  author = {Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.},\n  year = {2018},\n  howpublished = {Patent},\n  note = {Patent No. EP3624065A1},\n  number = {EP3624065A1},\n  url = {https://patents.google.com/patent/EP3624065A1/},\n}",
-      "citation_html": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G.. (2018). <em>Classification of Knowledge Management Assets</em> (Patent No. EP3624065A1). Google Patents."
     },
     {
       "key": "beck2018workshop",
@@ -4460,6 +4307,29 @@
       "citation_html": "Felemban, S., Gardner, M., Callaghan, V., & <strong>Peña-Rios, A.</strong>. (2018). Mixed Agents Virtual Observation Lenses for Immersive Learning Environments. <em>Journal of Universal Computer Science</em>, <em>24</em>(2), 171--191."
     },
     {
+      "key": "pena-rios2015mixedreality",
+      "entry_type": "patent",
+      "category": "Patents",
+      "fields": {
+        "title": "Mixed-reality system",
+        "author": "Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.",
+        "year": "2018",
+        "nationality": "United States",
+        "howpublished": "Patent Application",
+        "number": "US20180308377A1",
+        "note": "Consolidated Patent Family. US Patent Application Pub. No. US20180308377A1 (Pub. 2018-10-25; Application US15/763,395). Family includes: PCT International Pub. No. WO2017055819A1; Priority Application GB1517101.0 (2015). Assignee: University of Essex Enterprises Ltd.",
+        "url": "https://patents.google.com/patent/US20180308377A1/"
+      },
+      "year": 2018,
+      "title": "Mixed-reality system",
+      "author": "Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://patents.google.com/patent/US20180308377A1/",
+      "raw_bib": "@patent{pena-rios2015mixedreality,\n  title = {Mixed-reality system},\n  author = {Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.},\n  year = {2018},\n  nationality = {United States},\n  howpublished = {Patent Application},\n  number = {US20180308377A1},\n  note = {Consolidated Patent Family. US Patent Application Pub. No. US20180308377A1 (Pub. 2018-10-25; Application US15/763,395). Family includes: PCT International Pub. No. WO2017055819A1; Priority Application GB1517101.0 (2015). Assignee: University of Essex Enterprises Ltd.},\n  url = {https://patents.google.com/patent/US20180308377A1/},\n}",
+      "citation_html": "<strong>Peña-Rios, A.</strong>, Callaghan, V., Gardner, M., Alghazzawi, D., & Alhaddad, M. J.. (2018). <em>Mixed-reality system</em> (Patent No. US20180308377A1). United States."
+    },
+    {
       "key": "wang2017augmented",
       "entry_type": "article",
       "category": "Journal Articles",
@@ -4479,28 +4349,6 @@
       "url": "https://doi.org/10.1007/s12652-017-0547-8",
       "raw_bib": "@article{wang2017augmented,\n  title = {Augmented reality in education and training: pedagogical approaches and illustrative case studies},\n  author = {Wang, M. and Callaghan, V. and Bernhardt, J. and White, K. and Peña-Rios, A.},\n  year = {2017},\n  journal = {Journal of Ambient Intelligence and Humanized Computing},\n  doi = {10.1007/s12652-017-0547-8},\n  url = {https://doi.org/10.1007/s12652-017-0547-8},\n}",
       "citation_html": "Wang, M., Callaghan, V., Bernhardt, J., White, K., & <strong>Peña-Rios, A.</strong>. (2017). Augmented reality in education and training: pedagogical approaches and illustrative case studies. <em>Journal of Ambient Intelligence and Humanized Computing</em>."
-    },
-    {
-      "key": "di-cairano-gilfedder2017method",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "title": "Method and apparatus for retrieving a data package",
-        "author": "Di Cairano-Gilfedder, C. and Peña-Rios, A. and Hagras, H. and Owusu, G.",
-        "year": "2017",
-        "howpublished": "Patent",
-        "note": "Patent No. US20200159774A1",
-        "number": "US20200159774A1",
-        "url": "https://patents.google.com/patent/US20200159774A1/"
-      },
-      "year": 2017,
-      "title": "Method and apparatus for retrieving a data package",
-      "author": "Di Cairano-Gilfedder, C. and Peña-Rios, A. and Hagras, H. and Owusu, G.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/US20200159774A1/",
-      "raw_bib": "@patent{di-cairano-gilfedder2017method,\n  title = {Method and apparatus for retrieving a data package},\n  author = {Di Cairano-Gilfedder, C. and Peña-Rios, A. and Hagras, H. and Owusu, G.},\n  year = {2017},\n  howpublished = {Patent},\n  note = {Patent No. US20200159774A1},\n  number = {US20200159774A1},\n  url = {https://patents.google.com/patent/US20200159774A1/},\n}",
-      "citation_html": "Di Cairano-Gilfedder, C., <strong>Peña-Rios, A.</strong>, Hagras, H., & Owusu, G.. (2017). <em>Method and apparatus for retrieving a data package</em> (Patent No. US20200159774A1). Google Patents."
     },
     {
       "key": "fanoulis2017ugovernment",
@@ -4709,28 +4557,6 @@
       "url": "https://doi.org/10.4108/eai.27-6-2016.151520",
       "raw_bib": "@article{pena-rios2016special,\n  title = {Special Issue on Immersive Environments: Challenges, Research and New Developments},\n  author = {Peña-Rios, A. and Pirker, J. and Gütl, C. and Gardner, M.},\n  year = {2016},\n  journal = {EAI Endorsed Transactions on Future Intelligent Educational Environments},\n  volume = {2},\n  number = {6},\n  note = {Special Issue},\n  doi = {10.4108/eai.27-6-2016.151520},\n  url = {https://doi.org/10.4108/eai.27-6-2016.151520},\n}",
       "citation_html": "<strong>Peña-Rios, A.</strong>, Pirker, J., Gütl, C., & Gardner, M. (Guest Eds.). (2016). Special Issue on Immersive Environments: Challenges, Research and New Developments [Special issue]. <em>EAI Endorsed Transactions on Future Intelligent Educational Environments</em>."
-    },
-    {
-      "key": "pena-rios2015mixedreality",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "title": "Mixed-reality system",
-        "author": "Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.",
-        "year": "2015",
-        "howpublished": "Patent",
-        "note": "Patent No. US20180308377A1",
-        "number": "US20180308377A1",
-        "url": "https://patents.google.com/patent/US20180308377A1/"
-      },
-      "year": 2015,
-      "title": "Mixed-reality system",
-      "author": "Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/US20180308377A1/",
-      "raw_bib": "@patent{pena-rios2015mixedreality,\n  title = {Mixed-reality system},\n  author = {Peña-Rios, A. and Callaghan, V. and Gardner, M. and Alghazzawi, D. and Alhaddad, M. J.},\n  year = {2015},\n  howpublished = {Patent},\n  note = {Patent No. US20180308377A1},\n  number = {US20180308377A1},\n  url = {https://patents.google.com/patent/US20180308377A1/},\n}",
-      "citation_html": "<strong>Peña-Rios, A.</strong>, Callaghan, V., Gardner, M., Alghazzawi, D., & Alhaddad, M. J.. (2015). <em>Mixed-reality system</em> (Patent No. US20180308377A1). Google Patents."
     },
     {
       "key": "pena-rios2015experiments",

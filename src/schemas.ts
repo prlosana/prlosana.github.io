@@ -172,9 +172,9 @@ export const ProfileConfigSchema = z.object({
   /**
    * How you want the world to know about you.
    * Short biography, tagline, or job title and affiliations
-   * Max 50 characters
+   * Max 100 characters
    */
-  tagline: z.string().max(50),
+  tagline: z.string().max(100),
   /** required: Main email address */
   email: z.email(),
   /** optional: Geographic location (city, state, country) */

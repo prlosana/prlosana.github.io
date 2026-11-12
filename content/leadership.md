@@ -1,12 +1,12 @@
 ---
-title: "Leadership & Volunteering"
+title: "Leadership & Service"
 date: 2025-08-26T21:59:47
 draft: false
 toc: false
 hideMeta: true
 ---
 
-### Strategic Leadership
+### Strategic Leadership & Governance
 
 {{< tabs >}}
 <!--tab:Current-->
@@ -19,7 +19,7 @@ hideMeta: true
 <!--endtab-->
 {{< /tabs >}}
 
-### Awards and Honours
+### Awards & Honours
 
 {{< tabs >}}
 <!--tab:Current-->
@@ -65,121 +65,31 @@ hideMeta: true
 <!--endtab-->
 {{< /tabs >}}
 
-### Professional Memberships
-
-{{< tabs >}}
-<!--tab:Current-->
-- **Senior Member (SMIEEE)**, [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)
-- **Member (MITP)**, [Institute of Telecommunications Professionals (ITP)](https://www.theitp.org/)
-- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/)
-<!--endtab-->
-
-<!--tab:Past-->
-- **Professional Member (MBCS)**, [British Computer Society (BCS)](https://www.bcs.org/) (2015–2019)
-- **Professional Member**, [Association for Computing Machinery (ACM)](https://www.acm.org/) (2015–2019, 2021–2022)
-- **Associate Member**, [Association for Learning Technology (ALT)](https://www.alt.ac.uk/)
-- **Member**, Mexican Thematic Network for Educational Technology (RedLaTE), [CONAHCYT](https://conahcyt.mx/) (2017–2023)
-- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/) (2016-2020)
-- **Member**, [Interaction Design Foundation (IxDF)](https://www.interaction-design.org/) (2015–2018)
-<!--endtab-->
-{{< /tabs >}}
-
-### Grants and Funding
-
-{{< tabs >}}
-<!--tab:2020-->
-- **Co-Investigator**, "Sistema de gestión de riesgo personal basado en agentes autónomos"
-30 Oct 2020 – 29 Oct 2023 Acuerdo DCCD.CD.06.12.20. Universidad Autónoma Metropolitana (UAM), Mexico.
-<!--endtab-->
-
-<!--tab:2009-->
-- **University of Essex Full PhD Studentship**, University of Essex, UK. October 2009.
-4-year fully-funded PhD studentship within the Intelligent Environments Group (IEG) working for the Scale-Up joint project between the University of Essex (UK) and King Abdulaziz University (KSA).
-<!--endtab-->
-
-<!--tab:2011-->
-- **Santander Universities Scholarship**. Santander Universities, UK. October 2009.
-Merit-based mobility grant given by Santander Universities to international students for postgraduate courses at a university within the Santander Universities network.
-<!--endtab-->
-
-<!--tab:2009-->
-- **FIDERH - Central Bank of Mexico Studentship**. Central Bank of Mexico, Mexico. October 2009.
-Educational loan scheme for postgraduate studies awarded based on demonstrated academic/professional merit as determined by FIDERH scholarship committee. FIDERH is a Federal Trust managed by the Central Bank of Mexico, which for over 40 years has been supporting graduate studies.
-<!--endtab-->
-{{< /tabs >}}
-
-### Student Supervision
-
-{{< tabs >}}
-<!--tab:Current-->
-- Pranjal Jain, "Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing", PhD in Computer Science, Swansea University, UK, 2026 (expected). (**Industrial Supervisor**)
-- Shima YekkehbashHeidari, *"Exploring intelligent immersive systems for field service operations*", PhD in  Management and Business, Cardiff Business School, Cardiff University, UK, 2026 (expected). (**Industrial Supervisor**)
-- Saad Zia, PhD in Computer Science, University of Leicester, UK, 2025. (**Industrial Supervisor**)
-- Umer Iqbal, PhD in Computer Science, University of Leicester, UK, 2026. (**Industrial Supervisor**)
-<!--endtab-->
-
-<!--tab:Past-->
-- Jodi Bernhart, "*Uses and benefits of AR in industrial settings*", MA in Learning Design and Technology,School of Journalism and Media Studies, San Diego State University, USA, 2017. (**Co-Advisor**)
-- Kevin White, "*Uses and benefits of AR in industrial settings*", MA in Learning Design and Technology, School of Journalism and Media Studies, San Diego State University, USA, 2017. (**Co-Advisor**)
-- Kyung Hee Cho, "*A Web-Based Knowledge Management System for BT*", MSc in Advanced Computer Science,School of Computer Science and Electronic Engineering, University of Essex, UK, 2017. (**Industrial Project Supervisor**)
-- Tomas Oplatek, "*An Immersive Virtual Reality Lobby for Mobile Training*", MSc in Computer Games, School of Computer Science and Electronic Engineering, University of Essex, UK, 2018. (**Industrial Project Supervisor**)
-- Alexandros Katsiamakas, "*Immersive Maps for Field Engineers*", MSc in Computer Games, School of Computer Science and Electronic Engineering, University of Essex, UK, 2018. (**Industrial Project Supervisor**)
-- Athar Mushtaq, "*Case Study - Digital Twin: Transforming Asset-Intensive Industry*", MBA, Business School, Cardiff University, UK, 2019. (**Industrial Project Supervisor**)
-- Parastoo Azizinezhad, "*Smart Object Detection using AR*", MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2020. (**Industrial Project Supervisor**)
-- Mart van Saane, "*A Web VR Visualisation Tool for Construction 4.0*", MSc in Computer Games, School of Computer Science and Electronic Engineering, University of Essex, UK, 2021. (**Industrial Project Supervisor**)
-- Jorge Luis Meneses Vargas, *BEng in Information Technologies and Systems*, Information Technology and Systems Department, Universidad Autónoma Metropolitana, Mexico, 2021. (**Co-Advisor**)
-- Rodrigo Vázquez Espino, *BEng in Information Technologies and Systems*, Information Technology and Systems Department, Universidad Autónoma Metropolitana, Mexico, 2021. (**Co-Advisor**)
-- Ozkan Bahceci, "*Supervised Machine Learning Hand Gesture Classification in Virtual Reality*", MSc in Data Science, University of Exeter, UK, 2022. (**Industrial Supervisor**)
-- Hugo León Garza, "*Exploiting Mixed Reality Technology for Network Design*", PhD in Computer Science, University of Essex, UK, 2023. (**Industrial Supervisor**)
-- Ben Newman, "*Device Agnostic Multiuser Collaboration Platform for Digital Twin Consolidation*", BSc Digital and Technology Solutions Degree Apprenticeship, Exeter University, UK, 2023. (**Industrial Supervisor**)
-- Abhishek Kumar, "*A Study of Deep Learning Methods for Human Activity Recognition*", MTech in Data Science and Business Analytics, Indian Institute of Science, India, 2023. (**Industrial Project Supervisor**)
-- Haziq Arbab, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2023. (**Industrial Project Supervisor**)
-- Zi-Chuan Zhao, "*Digital Twins for Asset Monitoring and Advanced Simulation*", PhD in Computer Science, University of Essex, UK, 2025. (**Industrial Project Supervisor**)
-- Adham Aboulkheir, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2024. (**Industrial Project Supervisor**)
-- Bahaaeldin Hassan, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2024. (**Industrial Project Supervisor**)
-- Daniel Nunes Lopez, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2024. (**Industrial Project Supervisor**)
-- Jera Makar, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2024. (**Industrial Project Supervisor**)
-- Kirollos Hanna, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2024. (**Industrial Project Supervisor**)
-- Oreanu Olayemi, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2024. (**Industrial Project Supervisor**)
-- Saeed Abokhatwa, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2024. (**Industrial Project Supervisor**)
-- Aly Konsowa, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2025. (**Industrial Project Supervisor**)
-- Melissa Turk, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2025. (**Industrial Project Supervisor**)
-- Can Kocyigitoglu, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2025. (**Industrial Project Supervisor**)
-- Mark Hanna, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2025. (**Industrial Project Supervisor**)
-- Amer Haitham Ahmed Harfoush, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2025. (**Industrial Project Supervisor**)
-- Yahia M I M I Mady, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2025. (**Industrial Project Supervisor**)
-- Mazen Mohmed Nasr Mohamed Ahmed, MSc in Intelligent Systems and Robotics, School of Computer Science and Electronic Engineering, University of Essex, UK, 2025. (**Industrial Project Supervisor**)
-<!--endtab-->
-
-{{< /tabs >}}
-
-### Editorial Work
+### Editorial & Scholarly Review
 
 {{< tabs >}}
 <!--tab:Current Appointments-->
-- Director of Publications at [The Immersive Learning Resarch Network](https://publications.immersivelrn.org/).
-- [Editorial Board Member](https://eudl.eu/journal/el) of EAI Endorsed Transactions on e-Learning (Journal)
-- [Review Editor](https://loop.frontiersin.org/people/1050127/overview) for Frontiers in Computer Science (Human-Media Interaction) and Frontiers in Virtual Reality (Virtual Reality in Industry) (Journals)
-- **Guest Editor**, [Computers & Education: X Reality](https://www.sciencedirect.com/special-issue/10ZJJ34NK48) (Journal). Special Issue: "Immersive Learning: from Theory to Practice, building Evidence-based Frameworks", 2025.  
-- **Guest Editor**, [Frontiers in Human Dynamics](https://www.frontiersin.org/research-topics/38740/multimodality-in-immersive-technologies-for-remote-working) (Journal). Thematic issue on "Multimodality in Immersive Technologies for Remote Working", 2025.
+- **Director of Publications**, [Immersive Learning Research Network (iLRN)](https://immersivelrn.org/)
+- **Editorial Board Member**, [*EAI Endorsed Transactions on e-Learning*](https://publications.eai.eu/index.php/el)
+- **Review Editor**, [*Frontiers in Computer Science*](https://www.frontiersin.org/journals/computer-science) (Human-Media Interaction) & [*Frontiers in Virtual Reality*](https://www.frontiersin.org/journals/virtual-reality) (Virtual Reality in Industry)
 <!--endtab-->
 
 <!--tab:Past Appointments-->
-- **Publications Editor** of the 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018 Immersive Learning Research Network Conference Proceedings.
-
-- **Guest Editor**, [Education Sciences](https://www.mdpi.com/journal/education/special_issues/digital_twins_educational_environments) (Journal). Special Issue: "Digital Twins and Future Intelligent Educational Environments", 2024.
-- **Guest Editor**, [Education and Information Technologies](https://link.springer.com/collections/iadjbfjefj) (Journal). Special Issue: "Disruption, Innovation and Resiliency in Immersive Learning", 2024.
-- **Guest Editor**, [IEEE Transactions on Learning Technologies](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10361569&punumber=4620076) (Journal). Special Issue: "The Metaverse and the Future of Education", 2023.
-- **Guest Editor**, [ITU Journal on Future and Evolving Technologies](https://www.itu.int/pub/S-JNL-VOL4.ISSUE4) (Journal). Special Issue: "AI for Accessibility", 2023.
-- **Guest Editor**, [Journal of Universal Computer Science](https://lib.jucs.org/issue/3459/) (Journal). Special Issue: "Exploring Immersive Technologies in Learning", 2020.
-- **Guest Editor**, [Journal of Universal Computer Science](https://lib.jucs.org/issue/3271/) (Journal). Special Issue: "Immersive Learning Technologies: Research and Future Directions", 2019.
-- **Guest Editor**, [EAI Endorsed Transactions on Future Intelligent Educational Environments](https://doi.org/10.4108/eai.27-6-2016.151520) (Journal). Special Issue: "Immersive Environments: Challenges, Research and New Developments", 2016.
-- **Associate Editor** for MERLOT (Multimedia Educational Resource for Learning and Online Teaching) Computer Science Task Force (2016-2017)
+- **Publications & Proceedings Editor**, [*iLRN Conference Proceedings*](https://publications.immersivelrn.org/) (2018–2026)
+- **Guest Editor**, [*Computers & Education: X Reality*](https://www.sciencedirect.com/journal/computers-and-education-x-reality), Special Issue: ["Immersive Learning: from Theory to Practice, building Evidence-based Frameworks"](https://www.sciencedirect.com/special-issue/10ZJJ34NK48) (2025)
+- **Guest Editor**, [*Frontiers in Human Dynamics*](https://www.frontiersin.org/journals/human-dynamics), Thematic Issue: ["Multimodality in Immersive Technologies for Remote Working"](https://www.frontiersin.org/research-topics/38740/multimodality-in-immersive-technologies-for-remote-working) (2025)
+- **Guest Editor**, [*Education Sciences*](https://www.mdpi.com/journal/education), Special Issue: ["Digital Twins and Future Intelligent Educational Environments"](https://www.mdpi.com/journal/education/special_issues/education_enviroment) (2024)
+- **Guest Editor**, [*Education and Information Technologies*](https://link.springer.com/journal/10639), Special Issue: ["Disruption, Innovation and Resiliency in Immersive Learning"](https://link.springer.com/journal/10639) (2024)
+- **Guest Editor**, [*IEEE Transactions on Learning Technologies*](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4620076), Special Issue: ["The Metaverse and the Future of Education"](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4620076) (2023)
+- **Guest Editor**, [*ITU Journal on Future and Evolving Technologies*](https://www.itu.int/en/journal/j-fet/Pages/default.aspx), Special Issue: "AI for Accessibility" (2023)
+- **Guest Editor**, [*Journal of Universal Computer Science*](https://www.jucs.org/), Special Issues on Immersive Technologies (2019, 2020)
+- **Guest Editor**, [*EAI Endorsed Transactions on Future Intelligent Educational Environments*](https://publications.eai.eu/) (2016)
+- **Associate Editor**, [MERLOT](https://www.merlot.org/) Computer Science Task Force (2016–2017)
 <!--endtab-->
 
 {{< /tabs >}}
 
-### Organising Committee
+### Conference Organisation & Programme Committees
 
 {{< tabs >}}
 <!--tab:2023-->
@@ -248,6 +158,131 @@ Shanghai, China
 - **Web Chair** at the[ 2nd European Immersive Education Summit 2012 (EiED’12)](http://europe.immersiveeducation.org/events/ied-europe-summit-2013#committe), Paris, France
 <!--endtab-->
 
+{{< /tabs >}}
+
+### Professional Affiliations & Senior Memberships
+
+{{< tabs >}}
+<!--tab:Current-->
+- **Senior Member (SMIEEE)**, [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/) (2018–Present)
+- **Member (MITP)**, [Institute of Telecommunications Professionals (ITP)](https://www.theitp.org/)(2026–Present)
+- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/) (2025–Present)
+<!--endtab-->
+
+<!--tab:Past-->
+- **Professional Member (MBCS)**, [British Computer Society (BCS)](https://www.bcs.org/) (2015–2019)
+- **Professional Member**, [Association for Computing Machinery (ACM)](https://www.acm.org/) (2015–2019, 2021–2022)
+- **Associate Member**, [Association for Learning Technology (ALT)](https://www.alt.ac.uk/) (2020–2023)
+- **Member**, Mexican Thematic Network for Educational Technology (RedLaTE), [CONAHCYT](https://conahcyt.mx/) (2017–2023)
+- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/) (2016-2020)
+- **Member**, [Interaction Design Foundation (IxDF)](https://www.interaction-design.org/) (2015–2018)
+<!--endtab-->
+{{< /tabs >}}
+
+### Research Supervision & Mentorship
+
+{{< primary-tabs >}}
+
+<!--primary-tab:Doctoral Dissertations (PhD)-->
+{{< secondary-tabs >}}
+<!--tab:Current-->
+- **Pranjal Jain**, *“Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing”*, PhD in Computer Science, Swansea University, UK (Expected 2026). *(Industrial Supervisor)*
+- **Shima Yekkehbash Heidari**, *“Exploring Intelligent Immersive Systems for Field Service Operations”*, PhD in Management and Business, Cardiff Business School, Cardiff University, UK (Expected 2026). *(Industrial Supervisor)*
+- **Umer Iqbal**, PhD in Computer Science, University of Leicester, UK (Expected 2026). *(Industrial Supervisor)*
+<!--endtab-->
+
+<!--tab:Completed-->
+- **Zi-Chuan Zhao**, *“Digital Twins for Asset Monitoring and Advanced Simulation”*, PhD in Computer Science, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Saad Zia**, PhD in Computer Science, University of Leicester, UK (2025). *(Industrial Supervisor)*
+- **Hugo León Garza**, *“Exploiting Mixed Reality Technology for Network Design”*, PhD in Computer Science, University of Essex, UK (2023). *(Industrial Supervisor)*
+<!--endtab-->
+{{< /secondary-tabs >}}
+<!--endprimary-tab-->
+
+<!--primary-tab:Postgraduate & Master’s Dissertations (MSc, MBA, MA, MTech)-->
+{{< secondary-tabs >}}
+<!--tab:2025-->
+- **Amer Haitham Ahmed Harfoush**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Aly Konsowa**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Can Kocyigitoglu**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Mark Hanna**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Mazen Mohmed Nasr Mohamed Ahmed**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Melissa Turk**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Yahia M. I. M. I. Mady**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2024-->
+- **Adham Aboulkheir**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Bahaaeldin Hassan**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Daniel Nunes Lopez**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Jera Makar**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Kirollos Hanna**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Oreanu Olayemi**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Saeed Abokhatwa**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2023-->
+- **Abhishek Kumar**, *“A Study of Deep Learning Methods for Human Activity Recognition”*, MTech in Data Science and Business Analytics, Indian Institute of Science, India (2023). *(Industrial Supervisor)*
+- **Haziq Arbab**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2023). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2022-->
+- **Ozkan Bahceci**, *“Supervised Machine Learning Hand Gesture Classification in Virtual Reality”*, MSc in Data Science, University of Exeter, UK (2022). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2021-->
+- **Mart van Saane**, *“A Web VR Visualisation Tool for Construction 4.0”*, MSc in Computer Games, University of Essex, UK (2021). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2020-->
+- **Parastoo Azizinezhad**, *“Smart Object Detection Using AR”*, MSc in Intelligent Systems and Robotics, University of Essex, UK (2020). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2019-->
+- **Athar Mushtaq**, *“Case Study — Digital Twin: Transforming Asset-Intensive Industry”*, MBA, Business School, Cardiff University, UK (2019). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2018-->
+- **Alexandros Katsiamakas**, *“Immersive Maps for Field Engineers”*, MSc in Computer Games, University of Essex, UK (2018). *(Industrial Supervisor)*
+- **Tomas Oplatek**, *“An Immersive Virtual Reality Lobby for Mobile Training”*, MSc in Computer Games, University of Essex, UK (2018). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2017-->
+- **Jodi Bernhart**, *“Uses and Benefits of AR in Industrial Settings”*, MA in Learning Design and Technology, San Diego State University, USA (2017). *(Co-Advisor)*
+- **Kevin White**, *“Uses and Benefits of AR in Industrial Settings”*, MA in Learning Design and Technology, San Diego State University, USA (2017). *(Co-Advisor)*
+- **Kyung Hee Cho**, *“A Web-Based Knowledge Management System for BT”*, MSc in Advanced Computer Science, University of Essex, UK (2017). *(Industrial Supervisor)*
+<!--endtab-->
+{{< /secondary-tabs >}}
+<!--endprimary-tab-->
+
+<!--primary-tab:Undergraduate & Degree Apprenticeships (BSc, BEng)-->
+{{< secondary-tabs >}}
+<!--tab:2023-->
+- **Ben Newman**, *“Device Agnostic Multiuser Collaboration Platform for Digital Twin Consolidation”*, BSc Digital and Technology Solutions Degree Apprenticeship, University of Exeter, UK (2023). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2021-->
+- **Jorge Luis Meneses Vargas**, BEng in Information Technologies and Systems, Universidad Autónoma Metropolitana, Mexico (2021). *(Co-Advisor)*
+- **Rodrigo Vázquez Espino**, BEng in Information Technologies and Systems, Universidad Autónoma Metropolitana, Mexico (2021). *(Co-Advisor)*
+<!--endtab-->
+{{< /secondary-tabs >}}
+<!--endprimary-tab-->
+
+{{< /primary-tabs >}}
+
+### Grants, Fellowships & Funding
+
+{{< tabs >}}
+<!--tab:2020-->
+- **Co-Investigator**, "Sistema de gestión de riesgo personal basado en agentes autónomos"
+30 Oct 2020 – 29 Oct 2023 Acuerdo DCCD.CD.06.12.20. Universidad Autónoma Metropolitana (UAM), Mexico.
+<!--endtab-->
+
+<!--tab:2009-->
+- **University of Essex Full PhD Studentship**, University of Essex, UK. October 2009.
+4-year fully-funded PhD studentship within the Intelligent Environments Group (IEG) working for the Scale-Up joint project between the University of Essex (UK) and King Abdulaziz University (KSA).
+<!--endtab-->
+
+<!--tab:2011-->
+- **Santander Universities Scholarship**. Santander Universities, UK. October 2009.
+Merit-based mobility grant given by Santander Universities to international students for postgraduate courses at a university within the Santander Universities network.
+<!--endtab-->
+
+<!--tab:2009-->
+- **FIDERH - Central Bank of Mexico Studentship**. Central Bank of Mexico, Mexico. October 2009.
+Educational loan scheme for postgraduate studies awarded based on demonstrated academic/professional merit as determined by FIDERH scholarship committee. FIDERH is a Federal Trust managed by the Central Bank of Mexico, which for over 40 years has been supporting graduate studies.
+<!--endtab-->
 {{< /tabs >}}
 
 ### Technical Program Committee / Reviewer

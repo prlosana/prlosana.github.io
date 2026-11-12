@@ -725,6 +725,76 @@ hr,
 }
 
 /* --------------------------------------------------------------------------
+   Material Design 3 Secondary Scrollable Tabs (Nested in Primary Tabs)
+   -------------------------------------------------------------------------- */
+.m3-secondary-tabs {
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.m3-secondary-tabs .tabs-nav-wrapper {
+  border-bottom: 1px solid var(--border);
+  padding: 0.25rem 0;
+}
+
+.m3-secondary-tabs .tabs-nav {
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+}
+
+.m3-secondary-tabs .tab-button {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.825rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--md-sys-color-outline);
+  transition: all 0.15s ease;
+}
+
+.m3-secondary-tabs .tab-button::after {
+  display: none;
+}
+
+.m3-secondary-tabs .tab-button:hover {
+  background-color: rgba(109, 40, 217, 0.05);
+  border-color: rgba(109, 40, 217, 0.3);
+  color: var(--md-sys-color-primary);
+}
+
+.dark .m3-secondary-tabs .tab-button:hover {
+  background-color: rgba(52, 211, 153, 0.08);
+  border-color: rgba(52, 211, 153, 0.3);
+}
+
+.m3-secondary-tabs .tab-button.active {
+  background-color: rgba(109, 40, 217, 0.12);
+  color: #6D28D9;
+  border-color: rgba(109, 40, 217, 0.45);
+  font-weight: 600;
+}
+
+.dark .m3-secondary-tabs .tab-button.active {
+  background-color: rgba(52, 211, 153, 0.15);
+  color: #34D399;
+  border-color: rgba(52, 211, 153, 0.45);
+}
+
+.m3-secondary-tabs .tabs-scroll-btn {
+  width: 36px;
+}
+
+.m3-secondary-tabs .tabs-scroll-btn svg {
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+}
+
+.m3-secondary-tabs .tabs-content {
+  padding: 0.5rem 0 0 0;
+}
+
+/* --------------------------------------------------------------------------
    Publications Page Enhancements
    -------------------------------------------------------------------------- */
 .pub-toolbar {

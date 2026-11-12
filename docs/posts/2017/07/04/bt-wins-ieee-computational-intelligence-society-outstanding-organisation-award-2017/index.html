@@ -15,7 +15,7 @@ Research teams from the University of Essex and British Telecom were awarded the
 The University of Essex team included Professor Hani Hagras, Dr Anasol Pena-Rios and Emmanuel Ferreyra. The BT team was led by Professor Gilbert Owusu, and included Dr Anne Liret, Dr Ahmed Mohammed and Andy Starkey.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/2017/07/04/bt-wins-ieee-computational-intelligence-society-outstanding-organisation-award-2017/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a1501d7068c8290e2ed3affc7371e53d6e61124e6eb4a352e54bbf399b3d5735.css" integrity="sha256-oVAdcGjIKQ4u06/8c3HlPW5hEk5utKNS5Uu/OZs9VzU=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c8d7ca41e8bc760f5b0a5ebead5aab5caefc1edaa6aae6014a7fe891cea3e6ec.css" integrity="sha256-yNfKQei8dg9bCl6&#43;rVqrXK78HtqmquYBSn/okc6j5uw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -144,8 +144,12 @@ function switchTab(containerId, tabIndex) {
   const container = document.getElementById(containerId);
   if (!container) return;
   
-  const buttons = container.querySelectorAll('.tab-button');
-  const panels = container.querySelectorAll('.tab-panel');
+  const nav = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-nav') || container.querySelector('.tabs-nav');
+  const content = container.querySelector(':scope > .tabs-content') || container.querySelector('.tabs-content');
+  if (!nav || !content) return;
+
+  const buttons = Array.from(nav.querySelectorAll(':scope > .tab-button'));
+  const panels = Array.from(content.querySelectorAll(':scope > .tab-panel'));
   
   buttons.forEach((btn, idx) => {
     const isActive = (idx === tabIndex);
@@ -154,7 +158,13 @@ function switchTab(containerId, tabIndex) {
   });
   
   panels.forEach((panel, idx) => {
-    panel.classList.toggle('active', idx === tabIndex);
+    const isActive = (idx === tabIndex);
+    panel.classList.toggle('active', isActive);
+    if (isActive) {
+      panel.querySelectorAll('.tabs-container').forEach(nested => {
+        setTimeout(() => updateTabsScrollButtons(nested), 60);
+      });
+    }
   });
   
   if (buttons[tabIndex]) {
@@ -167,7 +177,7 @@ window.switchTab = switchTab;
 function scrollTabs(containerId, offset) {
   const container = document.getElementById(containerId);
   if (!container) return;
-  const nav = container.querySelector('.tabs-nav');
+  const nav = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-nav') || container.querySelector('.tabs-nav');
   if (nav) {
     nav.scrollBy({ left: offset, behavior: 'smooth' });
     setTimeout(() => updateTabsScrollButtons(container), 300);
@@ -177,9 +187,9 @@ window.scrollTabs = scrollTabs;
 
 function updateTabsScrollButtons(container) {
   if (!container) return;
-  const nav = container.querySelector('.tabs-nav');
-  const prevBtn = container.querySelector('.tabs-scroll-prev');
-  const nextBtn = container.querySelector('.tabs-scroll-next');
+  const nav = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-nav') || container.querySelector('.tabs-nav');
+  const prevBtn = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-scroll-prev');
+  const nextBtn = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-scroll-next');
   if (!nav || !prevBtn || !nextBtn) return;
 
   const maxScrollLeft = nav.scrollWidth - nav.clientWidth;
@@ -201,7 +211,7 @@ window.updateTabsScrollButtons = updateTabsScrollButtons;
 
 function initTabs() {
   document.querySelectorAll('.tabs-container').forEach(container => {
-    const nav = container.querySelector('.tabs-nav');
+    const nav = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-nav') || container.querySelector('.tabs-nav');
     if (nav) {
       nav.addEventListener('scroll', () => {
         updateTabsScrollButtons(container);
@@ -210,7 +220,7 @@ function initTabs() {
     }
     
     
-    container.querySelectorAll('.tabs-scroll-btn').forEach(btn => {
+    container.querySelectorAll(':scope > .tabs-nav-wrapper > .tabs-scroll-btn').forEach(btn => {
       btn.addEventListener('click', function(e) {
         e.preventDefault();
         const offset = parseInt(this.getAttribute('data-scroll') || (this.classList.contains('tabs-scroll-prev') ? '-200' : '200'), 10);
@@ -219,16 +229,18 @@ function initTabs() {
     });
 
     
-    container.querySelectorAll('.tab-button').forEach(button => {
-      button.addEventListener('click', function(e) {
-        e.preventDefault();
-        const attrIndex = this.getAttribute('data-index');
-        const tabIndex = attrIndex !== null ? parseInt(attrIndex, 10) : Array.from(container.querySelectorAll('.tab-button')).indexOf(this);
-        if (tabIndex >= 0) {
-          switchTab(container.id, tabIndex);
-        }
+    if (nav) {
+      nav.querySelectorAll(':scope > .tab-button').forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const attrIndex = this.getAttribute('data-index');
+          const tabIndex = attrIndex !== null ? parseInt(attrIndex, 10) : Array.from(nav.querySelectorAll(':scope > .tab-button')).indexOf(this);
+          if (tabIndex >= 0) {
+            switchTab(container.id, tabIndex);
+          }
+        });
       });
-    });
+    }
   });
 }
 

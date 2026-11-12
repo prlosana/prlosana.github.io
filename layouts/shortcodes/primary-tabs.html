@@ -1,0 +1,88 @@
+{{ $id := .Get "id" | default (printf "ptabs-%d" (now.UnixNano)) }}
+
+{{ $content := .Inner }}
+{{ $tabs := slice }}
+
+{{/* Parse the content to extract primary tabs */}}
+{{ $lines := split $content "\n" }}
+{{ $currentTab := dict }}
+{{ $inTab := false }}
+{{ $tabContent := "" }}
+
+{{ range $lines }}
+  {{ $line := trim . " " }}
+  {{ if hasPrefix $line "<!--primary-tab:" }}
+    {{ if $inTab }}
+      {{ $currentTab = merge $currentTab (dict "content" $tabContent) }}
+      {{ $tabs = $tabs | append $currentTab }}
+    {{ end }}
+    {{ $inTab = true }}
+    {{ $title := replace $line "<!--primary-tab:" "" }}
+    {{ $title = replace $title "-->" "" }}
+    {{ $title = trim $title " " }}
+    {{ $currentTab = dict "title" $title "content" "" }}
+    {{ $tabContent = "" }}
+  {{ else if and $inTab (hasPrefix $line "<!--endprimary-tab-->") }}
+    {{ $inTab = false }}
+    {{ $currentTab = merge $currentTab (dict "content" $tabContent) }}
+    {{ $tabs = $tabs | append $currentTab }}
+  {{ else if $inTab }}
+    {{ if ne $tabContent "" }}
+      {{ $tabContent = printf "%s\n%s" $tabContent $line }}
+    {{ else }}
+      {{ $tabContent = $line }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $inTab }}
+  {{ $currentTab = merge $currentTab (dict "content" $tabContent) }}
+  {{ $tabs = $tabs | append $currentTab }}
+{{ end }}
+
+<div class="tabs-container m3-primary-tabs" id="{{ $id }}">
+  <div class="tabs-nav-wrapper">
+    <button type="button" 
+            class="tabs-scroll-btn tabs-scroll-prev" 
+            aria-label="Scroll tabs left" 
+            data-scroll="-200">
+      <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+
+    <div class="tabs-nav" role="tablist" aria-label="Research Supervision Categories">
+      {{ range $index, $tab := $tabs }}
+        <button type="button" 
+                role="tab"
+                id="tab-btn-{{ $id }}-{{ $index }}"
+                data-index="{{ $index }}"
+                aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+                aria-controls="tab-panel-{{ $id }}-{{ $index }}"
+                class="tab-button m3-primary-tab {{ if eq $index 0 }}active{{ end }}">
+          {{ $tab.title }}
+        </button>
+      {{ end }}
+    </div>
+
+    <button type="button" 
+            class="tabs-scroll-btn tabs-scroll-next" 
+            aria-label="Scroll tabs right" 
+            data-scroll="200">
+      <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+  </div>
+  
+  <div class="tabs-content">
+    {{ range $index, $tab := $tabs }}
+      <div id="tab-panel-{{ $id }}-{{ $index }}"
+           role="tabpanel"
+           aria-labelledby="tab-btn-{{ $id }}-{{ $index }}"
+           class="tab-panel m3-primary-panel {{ if eq $index 0 }}active{{ end }}">
+        {{ $tab.content | safeHTML }}
+      </div>
+    {{ end }}
+  </div>
+</div>

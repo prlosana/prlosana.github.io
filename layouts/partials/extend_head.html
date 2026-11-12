@@ -86,8 +86,12 @@ function switchTab(containerId, tabIndex) {
   const container = document.getElementById(containerId);
   if (!container) return;
   
-  const buttons = container.querySelectorAll('.tab-button');
-  const panels = container.querySelectorAll('.tab-panel');
+  const nav = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-nav') || container.querySelector('.tabs-nav');
+  const content = container.querySelector(':scope > .tabs-content') || container.querySelector('.tabs-content');
+  if (!nav || !content) return;
+
+  const buttons = Array.from(nav.querySelectorAll(':scope > .tab-button'));
+  const panels = Array.from(content.querySelectorAll(':scope > .tab-panel'));
   
   buttons.forEach((btn, idx) => {
     const isActive = (idx === tabIndex);
@@ -96,7 +100,13 @@ function switchTab(containerId, tabIndex) {
   });
   
   panels.forEach((panel, idx) => {
-    panel.classList.toggle('active', idx === tabIndex);
+    const isActive = (idx === tabIndex);
+    panel.classList.toggle('active', isActive);
+    if (isActive) {
+      panel.querySelectorAll('.tabs-container').forEach(nested => {
+        setTimeout(() => updateTabsScrollButtons(nested), 60);
+      });
+    }
   });
   
   if (buttons[tabIndex]) {
@@ -109,7 +119,7 @@ window.switchTab = switchTab;
 function scrollTabs(containerId, offset) {
   const container = document.getElementById(containerId);
   if (!container) return;
-  const nav = container.querySelector('.tabs-nav');
+  const nav = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-nav') || container.querySelector('.tabs-nav');
   if (nav) {
     nav.scrollBy({ left: offset, behavior: 'smooth' });
     setTimeout(() => updateTabsScrollButtons(container), 300);
@@ -119,9 +129,9 @@ window.scrollTabs = scrollTabs;
 
 function updateTabsScrollButtons(container) {
   if (!container) return;
-  const nav = container.querySelector('.tabs-nav');
-  const prevBtn = container.querySelector('.tabs-scroll-prev');
-  const nextBtn = container.querySelector('.tabs-scroll-next');
+  const nav = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-nav') || container.querySelector('.tabs-nav');
+  const prevBtn = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-scroll-prev');
+  const nextBtn = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-scroll-next');
   if (!nav || !prevBtn || !nextBtn) return;
 
   const maxScrollLeft = nav.scrollWidth - nav.clientWidth;
@@ -143,7 +153,7 @@ window.updateTabsScrollButtons = updateTabsScrollButtons;
 
 function initTabs() {
   document.querySelectorAll('.tabs-container').forEach(container => {
-    const nav = container.querySelector('.tabs-nav');
+    const nav = container.querySelector(':scope > .tabs-nav-wrapper > .tabs-nav') || container.querySelector('.tabs-nav');
     if (nav) {
       nav.addEventListener('scroll', () => {
         updateTabsScrollButtons(container);
@@ -152,7 +162,7 @@ function initTabs() {
     }
     
     // Scroll arrow buttons
-    container.querySelectorAll('.tabs-scroll-btn').forEach(btn => {
+    container.querySelectorAll(':scope > .tabs-nav-wrapper > .tabs-scroll-btn').forEach(btn => {
       btn.addEventListener('click', function(e) {
         e.preventDefault();
         const offset = parseInt(this.getAttribute('data-scroll') || (this.classList.contains('tabs-scroll-prev') ? '-200' : '200'), 10);
@@ -161,16 +171,18 @@ function initTabs() {
     });
 
     // Tab buttons
-    container.querySelectorAll('.tab-button').forEach(button => {
-      button.addEventListener('click', function(e) {
-        e.preventDefault();
-        const attrIndex = this.getAttribute('data-index');
-        const tabIndex = attrIndex !== null ? parseInt(attrIndex, 10) : Array.from(container.querySelectorAll('.tab-button')).indexOf(this);
-        if (tabIndex >= 0) {
-          switchTab(container.id, tabIndex);
-        }
+    if (nav) {
+      nav.querySelectorAll(':scope > .tab-button').forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const attrIndex = this.getAttribute('data-index');
+          const tabIndex = attrIndex !== null ? parseInt(attrIndex, 10) : Array.from(nav.querySelectorAll(':scope > .tab-button')).indexOf(this);
+          if (tabIndex >= 0) {
+            switchTab(container.id, tabIndex);
+          }
+        });
       });
-    });
+    }
   });
 }
 

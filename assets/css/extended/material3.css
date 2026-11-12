@@ -532,22 +532,98 @@ hr,
   overflow: visible;
 }
 
+.tabs-nav-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid var(--border);
+}
+
 .tabs-nav {
   display: flex;
   position: relative;
   width: 100%;
   background: transparent;
-  border-bottom: 1px solid var(--border);
+  border-bottom: none;
   padding: 0;
   gap: 0.25rem;
   overflow-x: auto;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 .tabs-nav::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
+}
+
+/* Scroll Arrow Indicators */
+.tabs-scroll-btn {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 44px;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 5;
+  padding: 0;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.tabs-scroll-btn svg {
+  display: block;
+  width: 26px;
+  height: 26px;
+  padding: 4px;
+  color: var(--md-sys-color-primary);
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  transition: all 0.15s ease;
+}
+
+.tabs-scroll-btn:hover svg {
+  background: var(--md-sys-color-primary);
+  color: #FFFFFF;
+  border-color: var(--md-sys-color-primary);
+  transform: scale(1.1);
+}
+
+.dark .tabs-scroll-btn:hover svg {
+  color: #000000;
+}
+
+.tabs-scroll-prev {
+  left: 0;
+  background: linear-gradient(to right, var(--theme) 45%, rgba(255, 255, 255, 0) 100%);
+  justify-content: flex-start;
+  padding-left: 2px;
+}
+
+.dark .tabs-scroll-prev {
+  background: linear-gradient(to right, var(--theme) 45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.tabs-scroll-next {
+  right: 0;
+  background: linear-gradient(to left, var(--theme) 45%, rgba(255, 255, 255, 0) 100%);
+  justify-content: flex-end;
+  padding-right: 2px;
+}
+
+.dark .tabs-scroll-next {
+  background: linear-gradient(to left, var(--theme) 45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.tabs-scroll-btn.visible {
+  display: flex;
 }
 
 .tab-button {

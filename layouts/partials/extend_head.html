@@ -101,23 +101,80 @@ function switchTab(containerId, tabIndex) {
   
   if (buttons[tabIndex]) {
     buttons[tabIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+    setTimeout(() => updateTabsScrollButtons(container), 350);
   }
 }
 window.switchTab = switchTab;
 
-// Initialize tabs when DOM is loaded
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.tab-button').forEach(button => {
-    button.addEventListener('click', function(e) {
-      e.preventDefault();
-      const container = this.closest('.tabs-container');
-      if (!container) return;
-      const buttons = Array.from(container.querySelectorAll('.tab-button'));
-      const tabIndex = buttons.indexOf(this);
-      if (tabIndex >= 0) {
-        switchTab(container.id, tabIndex);
-      }
+function scrollTabs(containerId, offset) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  const nav = container.querySelector('.tabs-nav');
+  if (nav) {
+    nav.scrollBy({ left: offset, behavior: 'smooth' });
+    setTimeout(() => updateTabsScrollButtons(container), 300);
+  }
+}
+window.scrollTabs = scrollTabs;
+
+function updateTabsScrollButtons(container) {
+  if (!container) return;
+  const nav = container.querySelector('.tabs-nav');
+  const prevBtn = container.querySelector('.tabs-scroll-prev');
+  const nextBtn = container.querySelector('.tabs-scroll-next');
+  if (!nav || !prevBtn || !nextBtn) return;
+
+  const maxScrollLeft = nav.scrollWidth - nav.clientWidth;
+  const isOverflowing = maxScrollLeft > 3;
+
+  if (!isOverflowing) {
+    prevBtn.classList.remove('visible');
+    nextBtn.classList.remove('visible');
+    return;
+  }
+
+  // Left arrow visible if scrolled past start
+  prevBtn.classList.toggle('visible', nav.scrollLeft > 4);
+
+  // Right arrow visible if not reached end
+  nextBtn.classList.toggle('visible', nav.scrollLeft < maxScrollLeft - 4);
+}
+window.updateTabsScrollButtons = updateTabsScrollButtons;
+
+function initTabs() {
+  document.querySelectorAll('.tabs-container').forEach(container => {
+    const nav = container.querySelector('.tabs-nav');
+    if (nav) {
+      nav.addEventListener('scroll', () => {
+        updateTabsScrollButtons(container);
+      }, { passive: true });
+      updateTabsScrollButtons(container);
+    }
+    
+    container.querySelectorAll('.tab-button').forEach(button => {
+      button.addEventListener('click', function(e) {
+        e.preventDefault();
+        const buttons = Array.from(container.querySelectorAll('.tab-button'));
+        const tabIndex = buttons.indexOf(this);
+        if (tabIndex >= 0) {
+          switchTab(container.id, tabIndex);
+        }
+      });
     });
   });
+}
+
+// Initialize tabs when DOM is loaded and on window resize/load
+document.addEventListener('DOMContentLoaded', function() {
+  initTabs();
+  setTimeout(initTabs, 200);
+});
+
+window.addEventListener('load', function() {
+  initTabs();
+});
+
+window.addEventListener('resize', function() {
+  document.querySelectorAll('.tabs-container').forEach(updateTabsScrollButtons);
 });
 </script>

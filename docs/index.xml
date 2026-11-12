@@ -99,26 +99,46 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484082346202000&#34;&gt;
-  &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346202000-0&#34;
-              aria-selected=&#34;true&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346202000-0&#34;
-              class=&#34;tab-button active&#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346202000&#39;,  0 )&#34;&gt;
-        Current
-      &lt;/button&gt;
-    
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479921649000&#34;&gt;
+  &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
+            aria-label=&#34;Scroll tabs left&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479921649000&#39;, -200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921649000-0&#34;
+                aria-selected=&#34;true&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921649000-0&#34;
+                class=&#34;tab-button active&#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921649000&#39;,  0 )&#34;&gt;
+          Current
+        &lt;/button&gt;
+      
+    &lt;/div&gt;
+
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
+            aria-label=&#34;Scroll tabs right&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479921649000&#39;, 200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
   &lt;/div&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346202000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921649000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346202000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921649000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.immersivelrn.org/about/leadership-board/&#34;&gt;Board of Directors Member&lt;/a&gt; - Immersive Learning Research Network (non-profit)&lt;/li&gt;
@@ -502,116 +522,136 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484082346370000&#34;&gt;
-  &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-0&#34;
-              aria-selected=&#34;true&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-0&#34;
-              class=&#34;tab-button active&#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  0 )&#34;&gt;
-        Current
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-1&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-1&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  1 )&#34;&gt;
-        2025
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-2&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-2&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  2 )&#34;&gt;
-        2024
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-3&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-3&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  3 )&#34;&gt;
-        2023
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-4&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-4&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  4 )&#34;&gt;
-        2020
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-5&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-5&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  5 )&#34;&gt;
-        2018
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-6&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-6&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  6 )&#34;&gt;
-        2016
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-7&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-7&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  7 )&#34;&gt;
-        2015
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-8&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-8&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  8 )&#34;&gt;
-        2014
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346370000-9&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346370000-9&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346370000&#39;,  9 )&#34;&gt;
-        2001
-      &lt;/button&gt;
-    
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479921844000&#34;&gt;
+  &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
+            aria-label=&#34;Scroll tabs left&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479921844000&#39;, -200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-0&#34;
+                aria-selected=&#34;true&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-0&#34;
+                class=&#34;tab-button active&#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  0 )&#34;&gt;
+          Current
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-1&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-1&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  1 )&#34;&gt;
+          2025
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-2&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-2&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  2 )&#34;&gt;
+          2024
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-3&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-3&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  3 )&#34;&gt;
+          2023
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-4&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-4&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  4 )&#34;&gt;
+          2020
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-5&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-5&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  5 )&#34;&gt;
+          2018
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-6&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-6&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  6 )&#34;&gt;
+          2016
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-7&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-7&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  7 )&#34;&gt;
+          2015
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-8&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-8&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  8 )&#34;&gt;
+          2014
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479921844000-9&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479921844000-9&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479921844000&#39;,  9 )&#34;&gt;
+          2001
+        &lt;/button&gt;
+      
+    &lt;/div&gt;
+
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
+            aria-label=&#34;Scroll tabs right&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479921844000&#39;, 200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
   &lt;/div&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Distinguished Engineer (Tech Fellowship), BT Group, UK&lt;/li&gt;
@@ -621,9 +661,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Women in IT Excellence Awards 2025 – Finalist (Transformation Leader of the Year). Computing’s Magazine, UK. November 2025.&lt;/li&gt;
@@ -634,9 +674,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&amp;lsquo;Infrastructure &amp;amp; Space Management Digital Twin&amp;rsquo; (Project), Finalist. AI Innovation category. The National AI Awards. September 2024.&lt;/li&gt;
@@ -644,9 +684,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.essex.ac.uk/people/penar50207/anasol-pena-rios&#34;&gt;Honorary Senior Lecturer&lt;/a&gt;, University of Essex, UK. October 2023.&lt;/li&gt;
@@ -656,9 +696,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-4&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-4&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-4&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-4&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;TechWomen100 awards 2020 – Winner. &lt;a href=&#34;https://wearetechwomen.com/anasol-pena-rios-bt/&#34;&gt;WeAreTechWomen’s TechWomen100 awards&lt;/a&gt;, UK. November 2020.&lt;/li&gt;
@@ -666,9 +706,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-5&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-5&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-5&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-5&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Visiting Fellow, University of Essex, UK.&lt;/li&gt;
@@ -679,9 +719,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-6&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-6&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-6&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-6&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Best Knowledge Transfer Project Associate – Winner. KTP Awards 2016. The University of Essex, UK. December 2016.&lt;/li&gt;
@@ -689,9 +729,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-7&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-7&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-7&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-7&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Research Fellow - BT Research Labs, UK&lt;/li&gt;
@@ -699,9 +739,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-8&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-8&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-8&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-8&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Best Video Award. 10th International Conference on Intelligent Environments 2014 (IE’14), Shanghai, China; July 2014.&lt;/li&gt;
@@ -709,9 +749,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346370000-9&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479921844000-9&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346370000-9&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479921844000-9&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Undergraduate Best Grades Award (2nd Semester). Instituto Politécnico Nacional, Mexico. January 2001.&lt;/li&gt;
@@ -839,36 +879,56 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484082346830000&#34;&gt;
-  &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346830000-0&#34;
-              aria-selected=&#34;true&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346830000-0&#34;
-              class=&#34;tab-button active&#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346830000&#39;,  0 )&#34;&gt;
-        Current
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346830000-1&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346830000-1&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346830000&#39;,  1 )&#34;&gt;
-        Past
-      &lt;/button&gt;
-    
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479922453000&#34;&gt;
+  &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
+            aria-label=&#34;Scroll tabs left&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479922453000&#39;, -200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479922453000-0&#34;
+                aria-selected=&#34;true&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479922453000-0&#34;
+                class=&#34;tab-button active&#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479922453000&#39;,  0 )&#34;&gt;
+          Current
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479922453000-1&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479922453000-1&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479922453000&#39;,  1 )&#34;&gt;
+          Past
+        &lt;/button&gt;
+      
+    &lt;/div&gt;
+
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
+            aria-label=&#34;Scroll tabs right&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479922453000&#39;, 200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
   &lt;/div&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346830000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479922453000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346830000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479922453000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Institute of Electrical and Electronics Engineers (IEEE) - Senior Member&lt;/li&gt;
@@ -878,9 +938,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346830000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479922453000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346830000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479922453000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Interaction Design Foundation - Member (2015-2018)&lt;/li&gt;
@@ -1054,56 +1114,76 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484082346943000&#34;&gt;
-  &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346943000-0&#34;
-              aria-selected=&#34;true&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346943000-0&#34;
-              class=&#34;tab-button active&#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346943000&#39;,  0 )&#34;&gt;
-        2020
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346943000-1&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346943000-1&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346943000&#39;,  1 )&#34;&gt;
-        2009
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346943000-2&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346943000-2&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346943000&#39;,  2 )&#34;&gt;
-        2011
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082346943000-3&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082346943000-3&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082346943000&#39;,  3 )&#34;&gt;
-        2009
-      &lt;/button&gt;
-    
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479922585000&#34;&gt;
+  &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
+            aria-label=&#34;Scroll tabs left&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479922585000&#39;, -200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479922585000-0&#34;
+                aria-selected=&#34;true&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479922585000-0&#34;
+                class=&#34;tab-button active&#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479922585000&#39;,  0 )&#34;&gt;
+          2020
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479922585000-1&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479922585000-1&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479922585000&#39;,  1 )&#34;&gt;
+          2009
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479922585000-2&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479922585000-2&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479922585000&#39;,  2 )&#34;&gt;
+          2011
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479922585000-3&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479922585000-3&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479922585000&#39;,  3 )&#34;&gt;
+          2009
+        &lt;/button&gt;
+      
+    &lt;/div&gt;
+
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
+            aria-label=&#34;Scroll tabs right&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479922585000&#39;, 200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
   &lt;/div&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346943000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479922585000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346943000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479922585000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Co-Investigator&lt;/strong&gt;, &amp;ldquo;Sistema de gestión de riesgo personal basado en agentes autónomos&amp;rdquo;
@@ -1112,9 +1192,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346943000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479922585000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346943000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479922585000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;University of Essex Full PhD Studentship&lt;/strong&gt;, University of Essex, UK. October 2009.
@@ -1123,9 +1203,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346943000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479922585000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346943000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479922585000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Santander Universities Scholarship&lt;/strong&gt;. Santander Universities, UK. October 2009.
@@ -1134,9 +1214,9 @@ Merit-based mobility grant given by Santander Universities to international stud
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082346943000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479922585000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082346943000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479922585000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;FIDERH - Central Bank of Mexico Studentship&lt;/strong&gt;. Central Bank of Mexico, Mexico. October 2009.
@@ -1450,36 +1530,56 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484082347120000&#34;&gt;
-  &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082347120000-0&#34;
-              aria-selected=&#34;true&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082347120000-0&#34;
-              class=&#34;tab-button active&#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082347120000&#39;,  0 )&#34;&gt;
-        Current
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082347120000-1&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082347120000-1&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082347120000&#39;,  1 )&#34;&gt;
-        Past
-      &lt;/button&gt;
-    
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479922881000&#34;&gt;
+  &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
+            aria-label=&#34;Scroll tabs left&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479922881000&#39;, -200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479922881000-0&#34;
+                aria-selected=&#34;true&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479922881000-0&#34;
+                class=&#34;tab-button active&#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479922881000&#39;,  0 )&#34;&gt;
+          Current
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479922881000-1&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479922881000-1&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479922881000&#39;,  1 )&#34;&gt;
+          Past
+        &lt;/button&gt;
+      
+    &lt;/div&gt;
+
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
+            aria-label=&#34;Scroll tabs right&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479922881000&#39;, 200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
   &lt;/div&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082347120000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479922881000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082347120000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479922881000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Pranjal Jain, &amp;ldquo;Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing&amp;rdquo;, PhD in Computer Science, Swansea University, UK, 2026 (expected). (&lt;strong&gt;Industrial Supervisor&lt;/strong&gt;)&lt;/li&gt;
@@ -1490,9 +1590,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082347120000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479922881000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082347120000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479922881000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Jodi Bernhart, &amp;ldquo;&lt;em&gt;Uses and benefits of AR in industrial settings&lt;/em&gt;&amp;rdquo;, MA in Learning Design and Technology,School of Journalism and Media Studies, San Diego State University, USA, 2017. (&lt;strong&gt;Co-Advisor&lt;/strong&gt;)&lt;/li&gt;
@@ -1701,36 +1801,56 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484082347493000&#34;&gt;
-  &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082347493000-0&#34;
-              aria-selected=&#34;true&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082347493000-0&#34;
-              class=&#34;tab-button active&#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082347493000&#39;,  0 )&#34;&gt;
-        Current Appointments
-      &lt;/button&gt;
-    
-      &lt;button type=&#34;button&#34; 
-              role=&#34;tab&#34;
-              id=&#34;tab-btn-tabs-1794484082347493000-1&#34;
-              aria-selected=&#34;false&#34;
-              aria-controls=&#34;tab-panel-tabs-1794484082347493000-1&#34;
-              class=&#34;tab-button &#34; 
-              onclick=&#34;switchTab(&#39;tabs-1794484082347493000&#39;,  1 )&#34;&gt;
-        Past Appointments
-      &lt;/button&gt;
-    
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794484479923327000&#34;&gt;
+  &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
+            aria-label=&#34;Scroll tabs left&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479923327000&#39;, -200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479923327000-0&#34;
+                aria-selected=&#34;true&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479923327000-0&#34;
+                class=&#34;tab-button active&#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479923327000&#39;,  0 )&#34;&gt;
+          Current Appointments
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794484479923327000-1&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794484479923327000-1&#34;
+                class=&#34;tab-button &#34; 
+                onclick=&#34;switchTab(&#39;tabs-1794484479923327000&#39;,  1 )&#34;&gt;
+          Past Appointments
+        &lt;/button&gt;
+      
+    &lt;/div&gt;
+
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
+            aria-label=&#34;Scroll tabs right&#34; 
+            onclick=&#34;scrollTabs(&#39;tabs-1794484479923327000&#39;, 200)&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
   &lt;/div&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082347493000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479923327000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082347493000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479923327000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;Director of Publications at &lt;a href=&#34;https://publications.immersivelrn.org/&#34;&gt;The Immersive Learning Resarch Network&lt;/a&gt;.&lt;/li&gt;
@@ -1742,9 +1862,9 @@ Educational loan scheme for postgraduate studies awarded based on demonstrated a
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794484082347493000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794484479923327000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794484082347493000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794484479923327000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;

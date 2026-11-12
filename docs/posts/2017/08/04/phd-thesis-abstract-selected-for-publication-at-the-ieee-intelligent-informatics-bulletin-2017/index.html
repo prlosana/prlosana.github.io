@@ -12,7 +12,7 @@ My PhD research explored possible interactions using a novel mixed reality fr
 The thesis reported on evaluations performed with students from eight different universities in six countries, namely China, Malaysia, Mexico, UAE, USA and UK; providing an important insight to the role of social interactions in distance learning, and demonstrating that the inclusion of a physical component made a positive difference to students’ learning experience, supporting the use of mixed reality objects in educational activities. ">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/2017/08/04/phd-thesis-abstract-selected-for-publication-at-the-ieee-intelligent-informatics-bulletin-2017/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.7cae2af5f3615be5c9ff18bcbbfce28a7de69eb38f61c8ffdb92446e0b7637c0.css" integrity="sha256-fK4q9fNhW&#43;XJ/xi8u/ziin3mnrOPYcj/25JEbgt2N8A=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1501d7068c8290e2ed3affc7371e53d6e61124e6eb4a352e54bbf399b3d5735.css" integrity="sha256-oVAdcGjIKQ4u06/8c3HlPW5hEk5utKNS5Uu/OZs9VzU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -156,24 +156,81 @@ function switchTab(containerId, tabIndex) {
   
   if (buttons[tabIndex]) {
     buttons[tabIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+    setTimeout(() => updateTabsScrollButtons(container), 350);
   }
 }
 window.switchTab = switchTab;
 
+function scrollTabs(containerId, offset) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  const nav = container.querySelector('.tabs-nav');
+  if (nav) {
+    nav.scrollBy({ left: offset, behavior: 'smooth' });
+    setTimeout(() => updateTabsScrollButtons(container), 300);
+  }
+}
+window.scrollTabs = scrollTabs;
 
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.tab-button').forEach(button => {
-    button.addEventListener('click', function(e) {
-      e.preventDefault();
-      const container = this.closest('.tabs-container');
-      if (!container) return;
-      const buttons = Array.from(container.querySelectorAll('.tab-button'));
-      const tabIndex = buttons.indexOf(this);
-      if (tabIndex >= 0) {
-        switchTab(container.id, tabIndex);
-      }
+function updateTabsScrollButtons(container) {
+  if (!container) return;
+  const nav = container.querySelector('.tabs-nav');
+  const prevBtn = container.querySelector('.tabs-scroll-prev');
+  const nextBtn = container.querySelector('.tabs-scroll-next');
+  if (!nav || !prevBtn || !nextBtn) return;
+
+  const maxScrollLeft = nav.scrollWidth - nav.clientWidth;
+  const isOverflowing = maxScrollLeft > 3;
+
+  if (!isOverflowing) {
+    prevBtn.classList.remove('visible');
+    nextBtn.classList.remove('visible');
+    return;
+  }
+
+  
+  prevBtn.classList.toggle('visible', nav.scrollLeft > 4);
+
+  
+  nextBtn.classList.toggle('visible', nav.scrollLeft < maxScrollLeft - 4);
+}
+window.updateTabsScrollButtons = updateTabsScrollButtons;
+
+function initTabs() {
+  document.querySelectorAll('.tabs-container').forEach(container => {
+    const nav = container.querySelector('.tabs-nav');
+    if (nav) {
+      nav.addEventListener('scroll', () => {
+        updateTabsScrollButtons(container);
+      }, { passive: true });
+      updateTabsScrollButtons(container);
+    }
+    
+    container.querySelectorAll('.tab-button').forEach(button => {
+      button.addEventListener('click', function(e) {
+        e.preventDefault();
+        const buttons = Array.from(container.querySelectorAll('.tab-button'));
+        const tabIndex = buttons.indexOf(this);
+        if (tabIndex >= 0) {
+          switchTab(container.id, tabIndex);
+        }
+      });
     });
   });
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  initTabs();
+  setTimeout(initTabs, 200);
+});
+
+window.addEventListener('load', function() {
+  initTabs();
+});
+
+window.addEventListener('resize', function() {
+  document.querySelectorAll('.tabs-container').forEach(updateTabsScrollButtons);
 });
 </script>
 

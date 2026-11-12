@@ -11,23 +11,21 @@ aliases:
 
 # About
 
-Computer Scientist with extensive industry and technical expertise in technology, security, data, and strategy. I have 20+ years of diverse experience managing complex multidisciplinary projects and leading international teams in industry and academia. I deliver new solutions to business challenges, highlighting opportunities in areas that support strategic priorities and impact future business.
+I am a Computer Scientist, Distinguished Engineer, and Research Technical Manager at BT Research Labs, as well as an [Honorary Senior Lecturer](https://www.essex.ac.uk/people/penar50207/anasol-pena-rios) at the University of Essex and a Senior Member of the IEEE (SMIEEE).
 
-I am a Distinguished Engineer and Research Technical Manager at BT Research Labs (UK) and a Senior Member of the IEEE (SMIEEE). I hold a PhD in Computer Science and an MSc in Advanced Web Engineering from the University of Essex (UK), where I am an [Honorary Senior Lecturer](https://www.essex.ac.uk/people/penar50207/anasol-pena-rios). Before that, I completed a BEng in Information Technology at the Instituto Politécnico Nacional (Mexico).
+With over two decades of international experience bridging industrial R&D and academia, my work focuses on translating frontier technologies into scalable, strategic solutions. My research spans cyber-physical systems, digital twins, mixed reality (XR), and artificial intelligence, with a particular focus on human-computer interaction and collaborative technologies.
 
-I have produced multiple [patents](https://patents.google.com/?inventor=anasol&oq=anasol) and [peer-reviewed publications](https://scholar.google.com/citations?user=6-UsGYsAAAAJ&hl=en). In 2020, I received the TechWomen100 Award and was shortlisted for the Computing Women in Tech Excellence Awards in 2018 (Rising Star) and 2025 (Transfornation Leader of the Year), as well as for the ITP 2025 Awards (Woman in Technology). My areas of expertise include digital twins, XR (mixed reality, augmented reality, virtual reality), artificial intelligence, internet-of-things, ambient intelligence, human-computer interfaces, and cyber-physical systems. I am also interested in remote collaborative work, technology-enhanced learning, innovation, and the idea-generation process. I volunteer and organise conferences, workshops, and journals on these topics.
+I hold a PhD in Computer Science and an MSc in Advanced Web Engineering from the University of Essex, following a BEng in Information Technology from the Instituto Politécnico Nacional (Mexico). Over the course of my career, I have authored more than 100 [peer-reviewed academic publications](https://scholar.google.com/citations?user=6-UsGYsAAAAJ&hl=en) and hold multiple granted [patents](https://patents.google.com/?inventor=anasol&oq=anasol). My contributions have been recognised across the UK technology sector, including the TechWomen100 Award, alongside multiple nominations for the Computing Women in Tech Excellence Awards (Rising Star in 2018; Transformation Leader of the Year in 2025) and the ITP Woman in Technology Award (2025).
 
-I sit on the Executive Board of two non-profits: [Immersive Learning Research Network (iLRN)](https://immersivelrn.org/) and the [Technical Committee on Immersive Learning Environments](https://ieee-edusociety.org/technical-committee/tc-ile) (IEEE Education Society), where I contribute to leading their strategic goals into actionable recommendations. I am also part of the [Advisory Group of the DT Hub](https://digitaltwinhub.co.uk/about/advisory-group/) initiative (UK), a knowledge-sharing community supported by the Catapult Network (InnovateUK/UKRI) and working in collaboration with the UK Government's Department for Business, Energy, and Industrial Strategy (BEIS) and I am and advisor at the [Creative Science Foundation (CSf)](https://creative-science.org/).
+Alongside research, I actively contribute to academic governance and technology policy. I serve on as a Non-Executive Director of the [Immersive Learning Research Network (iLRN)](https://immersivelrn.org/) and the IEEE Education Society’s [Technical Committee on Immersive Learning Environments](https://ieee-edusociety.org/technical-committee/tc-ile). In addition, I contribute as an advisor to the [Creative Science Foundation (CSf)](https://creative-science.org/) and serve on the [Advisory Group for the UK Digital Twin Hub (DT Hub)](https://digitaltwinhub.co.uk/about/advisory-group/), an initiative supported by Innovate UK / UKRI working in collaboration with the Department for Business and Trade (formerly BEIS). I also regularly co-organise international conferences, academic workshops, and special journal issues in these fields.
 
 ## Research Areas
 
-- Digital twins
-- XR (mixed reality, augmented reality, virtual reality)
-- Artificial intelligence
-- Internet-of-things
-- Ambient intelligence
-- Human-computer interaction (including Interfaces and Human-AI Interaction)
-- Cyber-physical systems
+- Digital Twins & Cyber-Physical Systems
+- Extended Reality (XR: AR / VR / MR)
+- Artificial Intelligence & Human-AI Interaction
+- Internet of Things (IoT) & Ambient Intelligence
+- Remote Collaborative Work & Technology-Enhanced Learning
 
 # Contact
 

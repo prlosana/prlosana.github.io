@@ -1,199 +1,221 @@
 # Dr. Anasol Peña-Rios - Academic Website
 
-This is the Hugo-based website for Dr. Anasol Peña-Rios, successfully migrated from WordPress for better performance, security, and maintainability.
+This is the Hugo-based personal and academic portfolio website for **Dr. Anasol Peña-Rios**, built with Hugo (Extended), the PaperMod theme, Material Design 3 design enhancements, and an automated BibLaTeX publications pipeline.
+
+---
 
 ## 📊 Site Overview
 
-- **Migration completed on**: September 2025  
-- **Theme used**: PaperMod by Aditya Telange  
-- **Total pages**: 34  
-- **Total images**: 7 (optimized)  
-- **Performance improvement**: Static site with fast loading times
-- **Security**: No database or PHP vulnerabilities
-- **Custom Features**: Custom tabs, consistent menu positioning, search functionality
+- **Static Site Generator**: [Hugo](https://gohugo.io/) (Extended)
+- **Theme**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod) with Material Design 3 styling
+- **Hosting / Deployment**: GitHub Pages (served directly from the `/docs` directory on branch `main`)
+- **Package Management**: `pnpm`
+- **Publications Engine**: BibLaTeX (`static/publications.bib`) compiled via Python to multi-style JSON citations
+- **Navigation Structure**:
+  - **About Me (`/`)**: Professional biography, research highlights, and integrated Contact section
+  - **Publications (`/publications/`)**: Interactive list with multi-style citations (APA, IEEE, Harvard, ACM, Chicago, MLA), category filtering, search, and patent status chips
+  - **Leadership & Volunteering (`/leadership/`)**: Interactive tabbed view of leadership roles, honours, awards, and community service
+  - **Projects (`/projects/`)**: Research initiatives, PhD work, and consolidated Posts section with compact card summaries
+  - **Search (`/search/`)**: Real-time client-side search powered by Fuse.js
+
+---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Hugo installed (Extended version recommended)
-- Git
 
-### Development
+1. **Hugo Extended** (v0.120+ recommended)
+   - macOS: `brew install hugo`
+2. **Node.js & pnpm**
+   - Node.js (v18+)
+   - `corepack enable` or `npm install -g pnpm`
+3. **Python 3** (for the publications pipeline)
+   - Standard Python 3.8+ (no external pip dependencies required)
 
-1. **Navigate to the site directory**:
+### Local Development
+
+1. **Clone and navigate to the directory**:
    ```bash
+   git clone https://github.com/prlosana/prlosana-hugo.git
    cd prlosana-hugo
    ```
 
-2. **Start the development server**:
+2. **Start the local development server**:
    ```bash
-   hugo server -D --config hugo.toml
+   pnpm dev
    ```
+   *(This automatically compiles `static/publications.bib` and starts Hugo server with drafts enabled).*
 
-3. **View the site**: Open http://localhost:1313 in your browser
+3. **View the site**:
+   Open [http://localhost:1313](http://localhost:1313) in your browser. All menu links use site-relative paths so browsing works locally without redirecting to the live domain.
 
-**Note**: The `--config hugo.toml` flag is required to explicitly tell Hugo which configuration file to use.
+---
 
-### ⚠️ IMPORTANT: Hugo Compilation Required
-
-**All changes you make to the site content, configuration, or templates MUST be compiled with Hugo before they will appear on GitHub Pages.**
-
-- **For local testing**: Use `hugo server -D --config hugo.toml` (automatic compilation)
-- **For production/GitHub Pages**: Use `hugo --config hugo.toml` to build the site
-- **After any changes**: Always run `hugo --config hugo.toml` before pushing to GitHub
-- **GitHub Pages only shows the compiled output** in the `public/` directory, not your source files
+## 🛠️ Build & Deployment
 
 ### Building for Production
 
+GitHub Pages serves the compiled website directly from the `/docs` directory.
+
+To build the complete website for production:
 ```bash
-hugo
+pnpm build
+```
+This runs:
+1. `python3 scripts/build_publications.py` to compile `static/publications.bib` into `data/publications.json`.
+2. `hugo --minify` to generate the static files into `docs/`.
+
+### Deployment to GitHub Pages
+
+1. Build the production files:
+   ```bash
+   pnpm build
+   ```
+2. Commit and push changes:
+   ```bash
+   git add -A
+   git commit -m "Deploy update"
+   git push origin main
+   ```
+3. GitHub Pages is configured in repo settings:
+   - **Source**: Deploy from a branch
+   - **Branch**: `main`
+   - **Folder**: `/docs`
+
+---
+
+## 📚 Managing Publications (`publications.bib`)
+
+The single source of truth for all publications is [`static/publications.bib`](static/publications.bib).
+
+### 1. Adding or Editing Entries
+
+Simply open `static/publications.bib` in your editor and add standard BibLaTeX entries (`@article`, `@inproceedings`, `@book`, `@incollection`, `@patent`, etc.).
+
+#### Example: Regular Publication
+```biblatex
+@article{penarios2024collaborative,
+  author    = {Peña-Rios, Anasol and Callaghan, Victor and Gardner, Michael},
+  title     = {Collaborative Learning in Mixed Reality Environments},
+  journal   = {IEEE Transactions on Learning Technologies},
+  year      = {2024},
+  volume    = {17},
+  number    = {2},
+  pages     = {120--134},
+  doi       = {10.1109/TLT.2024.1234567}
+}
 ```
 
-The built site will be in the `public/` directory.
+#### Example: Patents & Patent Applications
+The publications page automatically renders patent status chips (`Granted Patent` vs `Patent Application`) and displays patent notes:
+```biblatex
+@patent{penarios2024fieldforce,
+  author    = {Peña-Rios, Anasol and Hagras, Hani and Owusu, Gilbert},
+  title     = {System and Method for Intelligent Workforce Scheduling in Mixed Reality},
+  type      = {patent},
+  number    = {US 11,234,567 B2},
+  date      = {2024-05-14},
+  year      = {2024},
+  holder    = {British Telecommunications plc},
+  doi       = {10.1234/patent.567},
+  note      = {Granted patent covering distributed AI algorithms for enterprise workforce optimization.}
+}
+```
+* **Patent Type**:
+  - `type = {patent}`: Renders as **Granted Patent** (green chip)
+  - `type = {patentapp}` or `type = {patentus}`: Renders as **Patent Application** (blue chip)
+* **Patent Note**: Text in `note = {...}` is rendered in an informational note box directly below the citation.
+
+### 2. Compiling the Publications List
+
+Whenever you edit `static/publications.bib`, run:
+```bash
+pnpm bib
+```
+or rebuild the entire site with `pnpm build`.
+
+The script parses BibLaTeX entries and generates ready-to-render citations across six standard citation formats:
+- **APA** (default)
+- **IEEE**
+- **Harvard**
+- **ACM**
+- **Chicago**
+- **MLA**
+
+Users can interactively switch citation formats on the Publications page using the format dropdown selector.
+
+---
 
 ## 📁 Project Structure
 
 ```
 prlosana-hugo/
-├── content/           # All site content
-│   ├── _index.md     # BIO (main page)
-│   ├── contact.md    # Contact page
-│   ├── leadership.md # Leadership & Volunteering page
-│   ├── projects.md   # Projects page
-│   ├── publications.md # Publications page
-│   ├── search.md     # Search page
-│   └── posts/        # Blog posts (published and drafts)
-├── layouts/          # Custom templates
-│   ├── _default/     # Custom base templates
-│   ├── posts/        # Custom post templates
-│   └── partials/     # Custom partials (header, footer, etc.)
-├── static/           # Static files (images, CSS, JS)
-│   └── images/       # Optimized images (7 files)
-├── themes/           # Hugo themes
-│   └── PaperMod/     # PaperMod theme
-├── hugo.toml         # Site configuration
-└── README.md         # This file
+├── assets/                 # Custom asset pipeline
+│   └── css/extended/
+│       └── material3.css   # Material Design 3 theme extensions & chips
+├── content/                # Content markdown files
+│   ├── _index.md           # About Me (Home) page with integrated Contact section
+│   ├── leadership.md       # Leadership & Volunteering content
+│   ├── projects.md         # Projects page content
+│   ├── publications.md     # Publications page entrypoint
+│   ├── search.md           # Search page entrypoint
+│   └── posts/              # Published & historical blog posts
+├── data/
+│   └── publications.json   # Generated multi-style publications dataset
+├── docs/                   # Production build directory (served by GitHub Pages)
+├── layouts/                # Hugo template overrides
+│   ├── _default/
+│   │   ├── baseof.html     # Base HTML layout
+│   │   ├── projects.html   # Projects page layout with consolidated Posts section
+│   │   └── publications.html # Interactive BibLaTeX publications page layout
+│   └── partials/           # Header, footer, and menu partials
+├── scripts/
+│   └── build_publications.py # BibLaTeX parser & citation generator
+├── static/                 # Static assets copied directly to docs/
+│   ├── images/             # Images and figures
+│   └── publications.bib    # Source of truth BibLaTeX file
+├── themes/
+│   └── PaperMod/           # Submodule/vendor PaperMod theme
+├── hugo.toml               # Hugo site configuration
+├── package.json            # NPM scripts & metadata
+└── README.md               # Project documentation
 ```
 
-## 🎨 Theme Features & Customizations
-
-The [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod) provides:
-
-- **Fast, clean design** - Optimized for academic sites
-- **Dark/Light mode** - Automatic theme switching
-- **Search functionality** - Built-in search with Fuse.js
-- **Responsive design** - Works perfectly on mobile devices
-- **Code highlighting** - Syntax highlighting for code blocks
-- **Social icons** - Easy social media integration
-
-### Custom Features Added:
-- **Custom tabs functionality** - Interactive tabs in Leadership page
-- **Consistent menu positioning** - Menu appears below title on all pages
-- **Clean footer** - Removed "Powered by Hugo & PaperMod" attribution
-- **Consistent backgrounds** - All pages use same white background in light theme
-- **Horizontal bars under H2 headings** - Visual enhancement for section headers
-- **Contact page icons** - Visual improvements to contact information
-- **Posts filtering** - Only published posts shown on posts page
-- **Clean home page** - Bio content only, no posts list
-
-## 📝 Content Management
-
-### Creating New Pages
-```bash
-hugo new my-page.md
-```
-
-### Creating New Blog Posts
-```bash
-hugo new posts/my-new-post.md
-```
-
-### Content Structure
-Each content file should have front matter at the top:
-```yaml
 ---
-title: "Page Title"
-date: 2024-01-01
-draft: false
-description: "Page description"
+
+## 🎨 Design & Customizations
+
+1. **Integrated Contact Section**:
+   - The contact page was consolidated directly into the bottom of the Home page ([`content/_index.md`](content/_index.md)).
+   - Features social profile links (GitHub, LinkedIn, ResearchGate, Google Scholar), email, and contact info without requiring a separate page.
+
+2. **Consolidated Projects & Posts**:
+   - Blog posts are consolidated at the bottom of the Projects page ([`content/projects.md`](content/projects.md) / [`layouts/_default/projects.html`](layouts/_default/projects.html)).
+   - Post cards feature compact summary teasers (`line-clamp: 3`), clean titles, and fully uncropped thumbnails (`object-fit: contain; max-height: 115px;`).
+
+3. **Material Design 3 Styling**:
+   - Surface elevation, assist chips, and pill filters.
+   - Full dark/light mode compatibility.
+   - Clean DOI buttons with raw URLs stripped in favor of interactive chips.
+
+4. **Standards Compatibility**:
+   - Modern CSS standards compliant (`line-clamp` paired with `-webkit-line-clamp`).
+   - Clean mobile-responsive layouts across all breakpoints.
+
 ---
-```
 
-## 🔧 Configuration
+## 🔧 Useful Scripts Reference
 
-The main configuration is in `hugo.toml`. Key settings include:
-- Site title and description
-- Menu structure (BIO, Publications, Leadership & Volunteering, Projects, Contact)
-- Theme parameters
-- Social media links
-- SEO settings
+| Command | Action |
+|---|---|
+| `pnpm dev` | Compile publications + run local development server with live reload |
+| `pnpm build` | Compile publications + build production static site to `docs/` |
+| `pnpm bib` | Compile `static/publications.bib` into `data/publications.json` |
+| `hugo server -D` | Run Hugo development server directly |
+| `hugo --minify` | Run Hugo build directly |
 
-## 🖼️ Images and Media
+---
 
-- Place images in `static/images/`
-- Reference them in content as `/images/filename.jpg`
-- Images have been optimized - only 7 essential images remain
-- Unused images were removed to improve site performance
+## 📄 License
 
-## 🚀 Deployment
-
-### GitHub Pages
-1. Push the repository to GitHub
-2. Enable GitHub Pages in repository settings
-3. Set the source to the `main` branch and `/docs` folder
-4. Update `hugo.toml` to set `publishDir = "docs"`
-
-## 🔧 Available Commands
-
-```bash
-# Start development server with explicit config (recommended)
-hugo server -D --config hugo.toml
-
-# Start development server with cache disabled (for testing)
-hugo server -D --config hugo.toml --disableFastRender --ignoreCache
-
-# Build site for production
-hugo --config hugo.toml
-
-# Create new blog post
-hugo new posts/my-new-post.md
-
-# Create new page
-hugo new my-page.md
-
-# Convert more WordPress content (if needed)
-./convert-wordpress-content.sh
-```
-
-## 🔧 Troubleshooting
-
-### Hugo Server Issues
-
-If you encounter the error "Unable to locate config file or config directory":
-1. **Always use the explicit config flag**: `hugo server -D --config hugo.toml`
-2. **Clear Hugo cache**: `rm -rf resources .hugo_build.lock public`
-3. **Kill existing processes**: `pkill -f "hugo server"`
-4. **Restart with clean slate**: `hugo server -D --config hugo.toml`
-
-### Browser Caching Issues
-
-If changes aren't reflected in the browser:
-1. **Hard refresh**: `Ctrl+Shift+R` (Windows) or `Cmd+Shift+R` (Mac)
-2. **Developer Tools**: Right-click refresh → "Empty Cache and Hard Reload"
-3. **Use cache-disabled server**: `hugo server -D --config hugo.toml --disableFastRender --ignoreCache`
-
-## 📚 Documentation
-
-- **Hugo Documentation**: https://gohugo.io/documentation/
-- **PaperMod Theme**: https://github.com/adityatelange/hugo-PaperMod
-- **GitHub Pages**: https://pages.github.com/
-
-## 🎯 Site Pages
-
-1. **BIO** (main page) - Your professional background and expertise (clean, no posts list)
-2. **Publications** - Academic publications in APA format
-3. **Leadership & Volunteering** - Awards, honors, and leadership roles with interactive tabs
-4. **Projects** - Research projects and PhD work
-5. **Contact** - Contact information with visual icons
-6. **Posts** - Blog posts (published only, accessible via dedicated page)
-7. **Search** - Site-wide search functionality
+Content © Dr. Anasol Peña-Rios. Code and templates licensed under the [MIT License](LICENSE).

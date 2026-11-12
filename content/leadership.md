@@ -338,14 +338,15 @@ hideMeta: true
 <!--primary-tab:Doctoral Dissertations (PhD)-->
 {{< secondary-tabs >}}
 <!--tab:Current-->
-- **Pranjal Jain**, *“Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing”*, PhD in Computer Science, Swansea University, UK (Expected 2026). *(Industrial Supervisor)*
-- **Shima Yekkehbash Heidari**, *“Exploring Intelligent Immersive Systems for Field Service Operations”*, PhD in Management and Business, Cardiff Business School, Cardiff University, UK (Expected 2026). *(Industrial Supervisor)*
-- **Umer Iqbal**, PhD in Computer Science, University of Leicester, UK (Expected 2026). *(Industrial Supervisor)*
+- **Pranjal Jain**, *“Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing”*, PhD in Computer Science, Swansea University, UK (Expected 2027). *(Industrial Supervisor)*
+- **Shima Yekkehbash Heidari**, *“Exploring Intelligent Immersive Systems for Field Service Operations”*, PhD in Management and Business, Cardiff Business School, Cardiff University, UK (Expected 2027). *(Industrial Supervisor)*
+- **Umer Iqbal**, PhD in Computer Science, University of Leicester, UK (Expected 2027). *(Industrial Supervisor)*
+- **Ali Haider**, PhD in Computer Science, University of Leicester, UK (Expected 2028). *(Industrial Supervisor)*
 <!--endtab-->
 
 <!--tab:Completed-->
+- **Saad Zia**, PhD in Computer Science, University of Leicester, UK (2026). *(Industrial Supervisor)*
 - **Zi-Chuan Zhao**, *“Digital Twins for Asset Monitoring and Advanced Simulation”*, PhD in Computer Science, University of Essex, UK (2025). *(Industrial Supervisor)*
-- **Saad Zia**, PhD in Computer Science, University of Leicester, UK (2025). *(Industrial Supervisor)*
 - **Hugo León Garza**, [*“An Explainable AI Approach to Process Data in Mixed Reality Environments for Field Service Operations”*](https://repository.essex.ac.uk/35929/), PhD in Computer Science, University of Essex Repository, UK (2023). *(Industrial Supervisor)*
 <!--endtab-->
 {{< /secondary-tabs >}}
@@ -353,6 +354,14 @@ hideMeta: true
 
 <!--primary-tab:Master’s Dissertations (MSc, MBA, MA, MTech)-->
 {{< secondary-tabs >}}
+<!--tab:2026-->
+- **Ana Gonzalez Alcocer**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2026). *(Industrial Supervisor)*
+- **Moustafa Abouelkheir**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2026). *(Industrial Supervisor)*
+- **Malak Sheat**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2026). *(Industrial Supervisor)*
+- **Aly Khalil**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2026). *(Industrial Supervisor)*
+- **Noureldin Abdelhafez**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2026). *(Industrial Supervisor)*
+<!--endtab-->
+
 <!--tab:2025-->
 - **Amer Haitham Ahmed Harfoush**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
 - **Aly Konsowa**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*

@@ -10,7 +10,7 @@
 <meta name="description" content="Dr. Anasol Peña-Rios">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/tags/university-of-essex/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.614f0b5ea50a63d9ee738b1826df490a2cca3722dd9e5d4c7d56cd3d88e26a4d.css" integrity="sha256-YU8LXqUKY9nuc4sYJt9JCizKNyLdnl1MfVbNPYjiak0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7cae2af5f3615be5c9ff18bcbbfce28a7de69eb38f61c8ffdb92446e0b7637c0.css" integrity="sha256-fK4q9fNhW&#43;XJ/xi8u/ziin3mnrOPYcj/25JEbgt2N8A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -143,29 +143,34 @@ function switchTab(containerId, tabIndex) {
   const buttons = container.querySelectorAll('.tab-button');
   const panels = container.querySelectorAll('.tab-panel');
   
+  buttons.forEach((btn, idx) => {
+    const isActive = (idx === tabIndex);
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+  });
   
-  buttons.forEach(btn => btn.classList.remove('active'));
-  panels.forEach(panel => panel.classList.remove('active'));
+  panels.forEach((panel, idx) => {
+    panel.classList.toggle('active', idx === tabIndex);
+  });
   
-  
-  if (buttons[tabIndex]) buttons[tabIndex].classList.add('active');
-  if (panels[tabIndex]) panels[tabIndex].classList.add('active');
+  if (buttons[tabIndex]) {
+    buttons[tabIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+  }
 }
 window.switchTab = switchTab;
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  
   document.querySelectorAll('.tab-button').forEach(button => {
     button.addEventListener('click', function(e) {
       e.preventDefault();
-      
       const container = this.closest('.tabs-container');
-      const buttons = container.querySelectorAll('.tab-button');
-      const tabIndex = Array.from(buttons).indexOf(this);
-      const containerId = container.id;
-      
-      switchTab(containerId, tabIndex);
+      if (!container) return;
+      const buttons = Array.from(container.querySelectorAll('.tab-button'));
+      const tabIndex = buttons.indexOf(this);
+      if (tabIndex >= 0) {
+        switchTab(container.id, tabIndex);
+      }
     });
   });
 });

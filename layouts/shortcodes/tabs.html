@@ -40,10 +40,16 @@
   {{ $tabs = $tabs | append $currentTab }}
 {{ end }}
 
-<div class="tabs-container" id="{{ $id }}">
-  <div class="tabs-nav">
+<div class="tabs-container m3-primary-tabs" id="{{ $id }}">
+  <div class="tabs-nav" role="tablist" aria-label="Sections">
     {{ range $index, $tab := $tabs }}
-      <button type="button" class="tab-button {{ if eq $index 0 }}active{{ end }}" onclick="switchTab('{{ $id }}', {{ $index }})">
+      <button type="button" 
+              role="tab"
+              id="tab-btn-{{ $id }}-{{ $index }}"
+              aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+              aria-controls="tab-panel-{{ $id }}-{{ $index }}"
+              class="tab-button {{ if eq $index 0 }}active{{ end }}" 
+              onclick="switchTab('{{ $id }}', {{ $index }})">
         {{ $tab.title }}
       </button>
     {{ end }}
@@ -51,7 +57,10 @@
   
   <div class="tabs-content">
     {{ range $index, $tab := $tabs }}
-      <div class="tab-panel {{ if eq $index 0 }}active{{ end }}">
+      <div id="tab-panel-{{ $id }}-{{ $index }}"
+           role="tabpanel"
+           aria-labelledby="tab-btn-{{ $id }}-{{ $index }}"
+           class="tab-panel {{ if eq $index 0 }}active{{ end }}">
         {{ $tab.content | markdownify }}
       </div>
     {{ end }}

@@ -11,8 +11,51 @@
       "count": 5,
       "categories": [
         {
+          "name": "Patents",
+          "count": 1,
+          "entries": [
+            {
+              "key": "zhao2026reconstruction",
+              "entry_type": "patent",
+              "category": "Patents",
+              "fields": {
+                "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
+                "title": "3D reconstruction of a target",
+                "type": "patent",
+                "location": "European Patent Office",
+                "number": "EP4573522B1",
+                "date": "2026-05-13",
+                "holder": "British Telecommunications PLC",
+                "note": "Consolidated Patent Family. Granted European Patent No. EP4573522B1 (Granted 2026-05-13). Family includes: International PCT Pub. No. WO2024037822A1 (2024); European Application EP4573522A1; US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
+                "url": "https://patents.google.com/patent/EP4573522B1/en"
+              },
+              "year": 2026,
+              "title": "3D reconstruction of a target",
+              "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
+              "doi": "",
+              "doi_url": "",
+              "url": "https://patents.google.com/patent/EP4573522B1/en",
+              "patent_status": {
+                "status": "granted",
+                "label": "Granted Patent",
+                "term": "Patent"
+              },
+              "note": "Consolidated Patent Family. Granted European Patent No. EP4573522B1 (Granted 2026-05-13). Family includes: International PCT Pub. No. WO2024037822A1 (2024); European Application EP4573522A1; US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
+              "raw_bib": "@patent{zhao2026reconstruction,\n  author = {Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.},\n  title = {3D reconstruction of a target},\n  type = {patent},\n  location = {European Patent Office},\n  number = {EP4573522B1},\n  date = {2026-05-13},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. Granted European Patent No. EP4573522B1 (Granted 2026-05-13). Family includes: International PCT Pub. No. WO2024037822A1 (2024); European Application EP4573522A1; US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP4573522B1/en},\n}",
+              "citations": {
+                "apa": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A. (2026). <em>3D reconstruction of a target</em> (Patent No. EP4573522B1). European Patent Office.",
+                "ieee": "Z.-C. Zhao, <strong>A. Pena-Rios</strong>, A. Clark, and A. Conway, \"3D reconstruction of a target,\" European Patent Office Patent EP4573522B1, 2026.",
+                "harvard": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A. and Conway, A. (2026) <em>3D reconstruction of a target</em>. European Patent Office Patent EP4573522B1.",
+                "acm": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., and Conway, A. 2026. 3D reconstruction of a target. European Patent Office Patent EP4573522B1.",
+                "chicago": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., and Conway, A. 2026. <em>3D reconstruction of a target</em>. European Patent Office Patent EP4573522B1."
+              },
+              "citation_html": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A. (2026). <em>3D reconstruction of a target</em> (Patent No. EP4573522B1). European Patent Office."
+            }
+          ]
+        },
+        {
           "name": "Journal Articles",
-          "count": 2,
+          "count": 1,
           "entries": [
             {
               "key": "mady2026fuzzy",
@@ -45,40 +88,6 @@
                 "chicago": "Mady, Y., Hagras, H., Leon-Garza, H., and <strong>Pena-Rios, A.</strong> 2026. \"A fuzzy logic based generative explainable AI for automated video auditing.\" <em>Journal of Ambient Intelligence and Humanized Computing</em>: 1–17."
               },
               "citation_html": "Mady, Y., Hagras, H., Leon-Garza, H., & <strong>Pena-Rios, A.</strong> (2026). A fuzzy logic based generative explainable AI for automated video auditing. <em>Journal of Ambient Intelligence and Humanized Computing</em>, 1–17."
-            },
-            {
-              "key": "ibanez2026augmented",
-              "entry_type": "article",
-              "category": "Journal Articles",
-              "fields": {
-                "author": "Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ram\\'on and Delgado Kloos, Carlos",
-                "title": "Augmented Reality Trends in Education",
-                "journaltitle": "Immersive Learning Research - Academic",
-                "date": "2026",
-                "volume": "1",
-                "number": "2",
-                "pages": "181",
-                "publisher": "Immersive Learning Research Network",
-                "doi": "10.56198/1301",
-                "url": "https://publications.immersivelrn.org/academic/article/view/1301"
-              },
-              "year": 2026,
-              "title": "Augmented Reality Trends in Education",
-              "author": "Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ram\\'on and Delgado Kloos, Carlos",
-              "doi": "10.56198/1301",
-              "doi_url": "https://doi.org/10.56198/1301",
-              "url": "https://publications.immersivelrn.org/academic/article/view/1301",
-              "patent_status": null,
-              "note": "",
-              "raw_bib": "@article{ibanez2026augmented,\n  author = {Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ram\\'on and Delgado Kloos, Carlos},\n  title = {Augmented Reality Trends in Education},\n  journaltitle = {Immersive Learning Research - Academic},\n  date = {2026},\n  volume = {1},\n  number = {2},\n  pages = {181},\n  publisher = {Immersive Learning Research Network},\n  doi = {10.56198/1301},\n  url = {https://publications.immersivelrn.org/academic/article/view/1301},\n}",
-              "citations": {
-                "apa": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., & Delgado Kloos, C. (2026). Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em>, <em>1</em>(2), 181.",
-                "ieee": "M. B. Ibáñez, Á. Di Serio, M. L. Barrón, <strong>A. Peña-Rios</strong>, R. Zatarain Cabada, and C. Delgado Kloos, \"Augmented Reality Trends in Education,\" <em>Immersive Learning Research - Academic</em>, vol. 1, no. 2, pp. 181, 2026.",
-                "harvard": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R. and Delgado Kloos, C. (2026) 'Augmented Reality Trends in Education', <em>Immersive Learning Research - Academic</em>, 1(2), pp. 181.",
-                "acm": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., and Delgado Kloos, C. 2026. Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em> 1, 2 (2026), 181.",
-                "chicago": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., and Delgado Kloos, C. 2026. \"Augmented Reality Trends in Education.\" <em>Immersive Learning Research - Academic</em> 1 (2): 181."
-              },
-              "citation_html": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., & Delgado Kloos, C. (2026). Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em>, <em>1</em>(2), 181."
             }
           ]
         },
@@ -623,7 +632,7 @@
     },
     {
       "year": 2024,
-      "count": 11,
+      "count": 10,
       "categories": [
         {
           "name": "Books",
@@ -727,7 +736,7 @@
         },
         {
           "name": "Patents",
-          "count": 3,
+          "count": 2,
           "entries": [
             {
               "key": "bahceci2024tacit",
@@ -767,43 +776,6 @@
               "citation_html": "Bahceci, O., Leon-Garza, H., & <strong>Pena-Rios, A.</strong> (2024). <em>Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge</em> (Patent Application No. WO2024088709A1). WIPO / European Patent Office."
             },
             {
-              "key": "zhao2024reconstruction",
-              "entry_type": "patent",
-              "category": "Patents",
-              "fields": {
-                "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
-                "title": "3D reconstruction of a target",
-                "type": "patentapp",
-                "location": "WIPO (PCT) / United States",
-                "number": "WO2024037822A1",
-                "date": "2024",
-                "holder": "British Telecommunications PLC",
-                "note": "Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
-                "url": "https://patents.google.com/patent/WO2024037822A1"
-              },
-              "year": 2024,
-              "title": "3D reconstruction of a target",
-              "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
-              "doi": "",
-              "doi_url": "",
-              "url": "https://patents.google.com/patent/WO2024037822A1",
-              "patent_status": {
-                "status": "application",
-                "label": "Patent Application",
-                "term": "Patent Application"
-              },
-              "note": "Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
-              "raw_bib": "@patent{zhao2024reconstruction,\n  author = {Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.},\n  title = {3D reconstruction of a target},\n  type = {patentapp},\n  location = {WIPO (PCT) / United States},\n  number = {WO2024037822A1},\n  date = {2024},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2024037822A1},\n}",
-              "citations": {
-                "apa": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A. (2024). <em>3D reconstruction of a target</em> (Patent Application No. WO2024037822A1). WIPO (PCT) / United States.",
-                "ieee": "Z.-C. Zhao, <strong>A. Pena-Rios</strong>, A. Clark, and A. Conway, \"3D reconstruction of a target,\" WIPO (PCT) / United States Patent Application WO2024037822A1, 2024.",
-                "harvard": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A. and Conway, A. (2024) <em>3D reconstruction of a target</em>. WIPO (PCT) / United States Patent Application WO2024037822A1.",
-                "acm": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., and Conway, A. 2024. 3D reconstruction of a target. WIPO (PCT) / United States Patent Application WO2024037822A1.",
-                "chicago": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., and Conway, A. 2024. <em>3D reconstruction of a target</em>. WIPO (PCT) / United States Patent Application WO2024037822A1."
-              },
-              "citation_html": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A. (2024). <em>3D reconstruction of a target</em> (Patent Application No. WO2024037822A1). WIPO (PCT) / United States."
-            },
-            {
               "key": "pena-rios2024interactionbased",
               "entry_type": "patent",
               "category": "Patents",
@@ -815,7 +787,7 @@
                 "number": "US12026298B2",
                 "date": "2024-07-02",
                 "holder": "British Telecommunications PLC",
-                "note": "Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
+                "note": "Consolidated Patent Family. Granted U.S. Patent No. 12,026,298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/US12026298B2/en"
               },
               "year": 2024,
@@ -829,8 +801,8 @@
                 "label": "Granted Patent",
                 "term": "Patent"
               },
-              "note": "Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
-              "raw_bib": "@patent{pena-rios2024interactionbased,\n  author = {Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.},\n  title = {Interaction-based rendering of spatial environments},\n  type = {patent},\n  location = {United States},\n  number = {US12026298B2},\n  date = {2024-07-02},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/US12026298B2/en},\n}",
+              "note": "Consolidated Patent Family. Granted U.S. Patent No. 12,026,298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
+              "raw_bib": "@patent{pena-rios2024interactionbased,\n  author = {Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.},\n  title = {Interaction-based rendering of spatial environments},\n  type = {patent},\n  location = {United States},\n  number = {US12026298B2},\n  date = {2024-07-02},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. Granted U.S. Patent No. 12,026,298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/US12026298B2/en},\n}",
               "citations": {
                 "apa": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., & Leon-Garza, H. (2024). <em>Interaction-based rendering of spatial environments</em> (Patent No. US12026298B2). United States.",
                 "ieee": "<strong>A. Pena-Rios</strong>, T. Oplatek, H. Hagras, A. Conway, G. Owusu, and H. Leon-Garza, \"Interaction-based rendering of spatial environments,\" United States Patent US12026298B2, 2024.",
@@ -1546,7 +1518,7 @@
               "entry_type": "article",
               "category": "Journal Articles",
               "fields": {
-                "author": "Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. and Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.",
+                "author": "Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.",
                 "title": "A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature",
                 "journaltitle": "Virtual Reality & Intelligent Hardware",
                 "date": "2022",
@@ -1558,21 +1530,21 @@
               },
               "year": 2022,
               "title": "A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature",
-              "author": "Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. and Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.",
+              "author": "Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.",
               "doi": "10.1016/j.vrih.2022.01.004",
               "doi_url": "https://doi.org/10.1016/j.vrih.2022.01.004",
               "url": "https://doi.org/10.1016/j.vrih.2022.01.004",
               "patent_status": null,
               "note": "",
-              "raw_bib": "@article{mukhopadhyay2022virtual,\n  author = {Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. and Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.},\n  title = {A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature},\n  journaltitle = {Virtual Reality & Intelligent Hardware},\n  date = {2022},\n  volume = {4},\n  number = {1},\n  pages = {55–75},\n  doi = {10.1016/j.vrih.2022.01.004},\n  url = {https://doi.org/10.1016/j.vrih.2022.01.004},\n}",
+              "raw_bib": "@article{mukhopadhyay2022virtual,\n  author = {Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.},\n  title = {A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature},\n  journaltitle = {Virtual Reality & Intelligent Hardware},\n  date = {2022},\n  volume = {4},\n  number = {1},\n  pages = {55–75},\n  doi = {10.1016/j.vrih.2022.01.004},\n  url = {https://doi.org/10.1016/j.vrih.2022.01.004},\n}",
               "citations": {
-                "apa": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55–75.",
-                "ieee": "A. Mukhopadhyay, G. S. R. Reddy, K. P. S. Saluja, S. Ghosh, L. R. D. Murthy, <strong>A. Peña-Rios</strong>, G. Gopal, and P. Biswas, \"A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature,\" <em>Virtual Reality & Intelligent Hardware</em>, vol. 4, no. 1, pp. 55–75, 2022.",
-                "harvard": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G. and Biswas, P. (2022) 'A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature', <em>Virtual Reality & Intelligent Hardware</em>, 4(1), pp. 55–75.",
-                "acm": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., and Biswas, P. 2022. A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em> 4, 1 (2022), 55–75.",
-                "chicago": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., and Biswas, P. 2022. \"A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature.\" <em>Virtual Reality & Intelligent Hardware</em> 4 (1): 55–75."
+                "apa": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55–75.",
+                "ieee": "A. Mukhopadhyay, G. S. R. Reddy, K. P. S. Saluja, S. M. L. R. D. Ghosh, <strong>A. Peña-Rios</strong>, G. Gopal, and P. Biswas, \"A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature,\" <em>Virtual Reality & Intelligent Hardware</em>, vol. 4, no. 1, pp. 55–75, 2022.",
+                "harvard": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G. and Biswas, P. (2022) 'A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature', <em>Virtual Reality & Intelligent Hardware</em>, 4(1), pp. 55–75.",
+                "acm": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., and Biswas, P. 2022. A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em> 4, 1 (2022), 55–75.",
+                "chicago": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., and Biswas, P. 2022. \"A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature.\" <em>Virtual Reality & Intelligent Hardware</em> 4 (1): 55–75."
               },
-              "citation_html": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55–75."
+              "citation_html": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55–75."
             }
           ]
         },
@@ -1981,18 +1953,18 @@
           "count": 1,
           "entries": [
             {
-              "key": "pena-rios2018classification",
+              "key": "pena-rios2020classification",
               "entry_type": "patent",
               "category": "Patents",
               "fields": {
                 "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
                 "title": "Classification of Knowledge Management Assets",
-                "type": "patentapp",
-                "location": "European Patent Office / United States",
-                "number": "EP3624065A1",
-                "date": "2020-03-18",
+                "type": "patent",
+                "location": "European Patent Office",
+                "number": "EP3624065B1",
+                "date": "2020",
                 "holder": "British Telecommunications PLC",
-                "note": "Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
+                "note": "Consolidated Patent Family. Granted European Patent No. EP3624065B1 (Application EP3624065A1, Pub. 2020-03-18). US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
                 "url": "https://patents.google.com/patent/EP3624065A1/"
               },
               "year": 2020,
@@ -2002,20 +1974,20 @@
               "doi_url": "",
               "url": "https://patents.google.com/patent/EP3624065A1/",
               "patent_status": {
-                "status": "application",
-                "label": "Patent Application",
-                "term": "Patent Application"
+                "status": "granted",
+                "label": "Granted Patent",
+                "term": "Patent"
               },
-              "note": "Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
-              "raw_bib": "@patent{pena-rios2018classification,\n  author = {Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.},\n  title = {Classification of Knowledge Management Assets},\n  type = {patentapp},\n  location = {European Patent Office / United States},\n  number = {EP3624065A1},\n  date = {2020-03-18},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP3624065A1/},\n}",
+              "note": "Consolidated Patent Family. Granted European Patent No. EP3624065B1 (Application EP3624065A1, Pub. 2020-03-18). US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
+              "raw_bib": "@patent{pena-rios2020classification,\n  author = {Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.},\n  title = {Classification of Knowledge Management Assets},\n  type = {patent},\n  location = {European Patent Office},\n  number = {EP3624065B1},\n  date = {2020},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. Granted European Patent No. EP3624065B1 (Application EP3624065A1, Pub. 2020-03-18). US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP3624065A1/},\n}",
               "citations": {
-                "apa": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2020). <em>Classification of Knowledge Management Assets</em> (Patent Application No. EP3624065A1). European Patent Office / United States.",
-                "ieee": "<strong>A. Pena-Rios</strong>, C. Di Cairano-Gilfedder, H. Hagras, and G. Owusu, \"Classification of Knowledge Management Assets,\" European Patent Office / United States Patent Application EP3624065A1, 2020.",
-                "harvard": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H. and Owusu, G. (2020) <em>Classification of Knowledge Management Assets</em>. European Patent Office / United States Patent Application EP3624065A1.",
-                "acm": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., and Owusu, G. 2020. Classification of Knowledge Management Assets. European Patent Office / United States Patent Application EP3624065A1.",
-                "chicago": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., and Owusu, G. 2020. <em>Classification of Knowledge Management Assets</em>. European Patent Office / United States Patent Application EP3624065A1."
+                "apa": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2020). <em>Classification of Knowledge Management Assets</em> (Patent No. EP3624065B1). European Patent Office.",
+                "ieee": "<strong>A. Pena-Rios</strong>, C. Di Cairano-Gilfedder, H. Hagras, and G. Owusu, \"Classification of Knowledge Management Assets,\" European Patent Office Patent EP3624065B1, 2020.",
+                "harvard": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H. and Owusu, G. (2020) <em>Classification of Knowledge Management Assets</em>. European Patent Office Patent EP3624065B1.",
+                "acm": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., and Owusu, G. 2020. Classification of Knowledge Management Assets. European Patent Office Patent EP3624065B1.",
+                "chicago": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., and Owusu, G. 2020. <em>Classification of Knowledge Management Assets</em>. European Patent Office Patent EP3624065B1."
               },
-              "citation_html": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2020). <em>Classification of Knowledge Management Assets</em> (Patent Application No. EP3624065A1). European Patent Office / United States."
+              "citation_html": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2020). <em>Classification of Knowledge Management Assets</em> (Patent No. EP3624065B1). European Patent Office."
             }
           ]
         },
@@ -2647,7 +2619,7 @@
     },
     {
       "year": 2017,
-      "count": 5,
+      "count": 6,
       "categories": [
         {
           "name": "Book Chapters",
@@ -2723,7 +2695,7 @@
         },
         {
           "name": "Journal Articles",
-          "count": 1,
+          "count": 2,
           "entries": [
             {
               "key": "wang2017augmented",
@@ -2754,6 +2726,40 @@
                 "chicago": "Wang, M., Callaghan, V., Bernhardt, J., White, K., and <strong>Peña-Rios, A.</strong> 2017. \"Augmented reality in education and training: pedagogical approaches and illustrative case studies.\" <em>Journal of Ambient Intelligence and Humanized Computing</em>."
               },
               "citation_html": "Wang, M., Callaghan, V., Bernhardt, J., White, K., & <strong>Peña-Rios, A.</strong> (2017). Augmented reality in education and training: pedagogical approaches and illustrative case studies. <em>Journal of Ambient Intelligence and Humanized Computing</em>."
+            },
+            {
+              "key": "ibanez2017augmented",
+              "entry_type": "article",
+              "category": "Journal Articles",
+              "fields": {
+                "author": "Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ramón and Delgado Kloos, Carlos",
+                "title": "Augmented Reality Trends in Education",
+                "journaltitle": "Immersive Learning Research - Academic",
+                "date": "2017",
+                "volume": "1",
+                "number": "2",
+                "pages": "181",
+                "publisher": "Immersive Learning Research Network",
+                "doi": "10.56198/1301",
+                "url": "https://publications.immersivelrn.org/academic/article/view/1301"
+              },
+              "year": 2017,
+              "title": "Augmented Reality Trends in Education",
+              "author": "Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ramón and Delgado Kloos, Carlos",
+              "doi": "10.56198/1301",
+              "doi_url": "https://doi.org/10.56198/1301",
+              "url": "https://publications.immersivelrn.org/academic/article/view/1301",
+              "patent_status": null,
+              "note": "",
+              "raw_bib": "@article{ibanez2017augmented,\n  author = {Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ramón and Delgado Kloos, Carlos},\n  title = {Augmented Reality Trends in Education},\n  journaltitle = {Immersive Learning Research - Academic},\n  date = {2017},\n  volume = {1},\n  number = {2},\n  pages = {181},\n  publisher = {Immersive Learning Research Network},\n  doi = {10.56198/1301},\n  url = {https://publications.immersivelrn.org/academic/article/view/1301},\n}",
+              "citations": {
+                "apa": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., & Delgado Kloos, C. (2017). Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em>, <em>1</em>(2), 181.",
+                "ieee": "M. B. Ibáñez, Á. Di Serio, M. L. Barrón, <strong>A. Peña-Rios</strong>, R. Zatarain Cabada, and C. Delgado Kloos, \"Augmented Reality Trends in Education,\" <em>Immersive Learning Research - Academic</em>, vol. 1, no. 2, pp. 181, 2017.",
+                "harvard": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R. and Delgado Kloos, C. (2017) 'Augmented Reality Trends in Education', <em>Immersive Learning Research - Academic</em>, 1(2), pp. 181.",
+                "acm": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., and Delgado Kloos, C. 2017. Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em> 1, 2 (2017), 181.",
+                "chicago": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., and Delgado Kloos, C. 2017. \"Augmented Reality Trends in Education.\" <em>Immersive Learning Research - Academic</em> 1 (2): 181."
+              },
+              "citation_html": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., & Delgado Kloos, C. (2017). Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em>, <em>1</em>(2), 181."
             }
           ]
         },
@@ -3811,38 +3817,41 @@
       "citation_html": "Iqbal, U., Anjum, A., Conway, A. S., Kern, M., & <strong>Pena-Rios, A.</strong> (2026). Network Digital Twin for Congestion-Aware Predictive Traffic Routing using Graph MPNNs."
     },
     {
-      "key": "ibanez2026augmented",
-      "entry_type": "article",
-      "category": "Journal Articles",
+      "key": "zhao2026reconstruction",
+      "entry_type": "patent",
+      "category": "Patents",
       "fields": {
-        "author": "Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ram\\'on and Delgado Kloos, Carlos",
-        "title": "Augmented Reality Trends in Education",
-        "journaltitle": "Immersive Learning Research - Academic",
-        "date": "2026",
-        "volume": "1",
-        "number": "2",
-        "pages": "181",
-        "publisher": "Immersive Learning Research Network",
-        "doi": "10.56198/1301",
-        "url": "https://publications.immersivelrn.org/academic/article/view/1301"
+        "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
+        "title": "3D reconstruction of a target",
+        "type": "patent",
+        "location": "European Patent Office",
+        "number": "EP4573522B1",
+        "date": "2026-05-13",
+        "holder": "British Telecommunications PLC",
+        "note": "Consolidated Patent Family. Granted European Patent No. EP4573522B1 (Granted 2026-05-13). Family includes: International PCT Pub. No. WO2024037822A1 (2024); European Application EP4573522A1; US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
+        "url": "https://patents.google.com/patent/EP4573522B1/en"
       },
       "year": 2026,
-      "title": "Augmented Reality Trends in Education",
-      "author": "Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ram\\'on and Delgado Kloos, Carlos",
-      "doi": "10.56198/1301",
-      "doi_url": "https://doi.org/10.56198/1301",
-      "url": "https://publications.immersivelrn.org/academic/article/view/1301",
-      "patent_status": null,
-      "note": "",
-      "raw_bib": "@article{ibanez2026augmented,\n  author = {Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ram\\'on and Delgado Kloos, Carlos},\n  title = {Augmented Reality Trends in Education},\n  journaltitle = {Immersive Learning Research - Academic},\n  date = {2026},\n  volume = {1},\n  number = {2},\n  pages = {181},\n  publisher = {Immersive Learning Research Network},\n  doi = {10.56198/1301},\n  url = {https://publications.immersivelrn.org/academic/article/view/1301},\n}",
-      "citations": {
-        "apa": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., & Delgado Kloos, C. (2026). Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em>, <em>1</em>(2), 181.",
-        "ieee": "M. B. Ibáñez, Á. Di Serio, M. L. Barrón, <strong>A. Peña-Rios</strong>, R. Zatarain Cabada, and C. Delgado Kloos, \"Augmented Reality Trends in Education,\" <em>Immersive Learning Research - Academic</em>, vol. 1, no. 2, pp. 181, 2026.",
-        "harvard": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R. and Delgado Kloos, C. (2026) 'Augmented Reality Trends in Education', <em>Immersive Learning Research - Academic</em>, 1(2), pp. 181.",
-        "acm": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., and Delgado Kloos, C. 2026. Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em> 1, 2 (2026), 181.",
-        "chicago": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., and Delgado Kloos, C. 2026. \"Augmented Reality Trends in Education.\" <em>Immersive Learning Research - Academic</em> 1 (2): 181."
+      "title": "3D reconstruction of a target",
+      "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://patents.google.com/patent/EP4573522B1/en",
+      "patent_status": {
+        "status": "granted",
+        "label": "Granted Patent",
+        "term": "Patent"
       },
-      "citation_html": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., & Delgado Kloos, C. (2026). Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em>, <em>1</em>(2), 181."
+      "note": "Consolidated Patent Family. Granted European Patent No. EP4573522B1 (Granted 2026-05-13). Family includes: International PCT Pub. No. WO2024037822A1 (2024); European Application EP4573522A1; US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
+      "raw_bib": "@patent{zhao2026reconstruction,\n  author = {Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.},\n  title = {3D reconstruction of a target},\n  type = {patent},\n  location = {European Patent Office},\n  number = {EP4573522B1},\n  date = {2026-05-13},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. Granted European Patent No. EP4573522B1 (Granted 2026-05-13). Family includes: International PCT Pub. No. WO2024037822A1 (2024); European Application EP4573522A1; US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP4573522B1/en},\n}",
+      "citations": {
+        "apa": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A. (2026). <em>3D reconstruction of a target</em> (Patent No. EP4573522B1). European Patent Office.",
+        "ieee": "Z.-C. Zhao, <strong>A. Pena-Rios</strong>, A. Clark, and A. Conway, \"3D reconstruction of a target,\" European Patent Office Patent EP4573522B1, 2026.",
+        "harvard": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A. and Conway, A. (2026) <em>3D reconstruction of a target</em>. European Patent Office Patent EP4573522B1.",
+        "acm": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., and Conway, A. 2026. 3D reconstruction of a target. European Patent Office Patent EP4573522B1.",
+        "chicago": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., and Conway, A. 2026. <em>3D reconstruction of a target</em>. European Patent Office Patent EP4573522B1."
+      },
+      "citation_html": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A. (2026). <em>3D reconstruction of a target</em> (Patent No. EP4573522B1). European Patent Office."
     },
     {
       "key": "kruger2025immersive",
@@ -4362,41 +4371,41 @@
       "citation_html": "Bahceci, O., Leon-Garza, H., & <strong>Pena-Rios, A.</strong> (2024). <em>Tacit knowledge capture and AI automation for computer-based processes based on tacit expert knowledge</em> (Patent Application No. WO2024088709A1). WIPO / European Patent Office."
     },
     {
-      "key": "zhao2024reconstruction",
+      "key": "pena-rios2024interactionbased",
       "entry_type": "patent",
       "category": "Patents",
       "fields": {
-        "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
-        "title": "3D reconstruction of a target",
-        "type": "patentapp",
-        "location": "WIPO (PCT) / United States",
-        "number": "WO2024037822A1",
-        "date": "2024",
+        "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.",
+        "title": "Interaction-based rendering of spatial environments",
+        "type": "patent",
+        "location": "United States",
+        "number": "US12026298B2",
+        "date": "2024-07-02",
         "holder": "British Telecommunications PLC",
-        "note": "Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
-        "url": "https://patents.google.com/patent/WO2024037822A1"
+        "note": "Consolidated Patent Family. Granted U.S. Patent No. 12,026,298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
+        "url": "https://patents.google.com/patent/US12026298B2/en"
       },
       "year": 2024,
-      "title": "3D reconstruction of a target",
-      "author": "Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.",
+      "title": "Interaction-based rendering of spatial environments",
+      "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.",
       "doi": "",
       "doi_url": "",
-      "url": "https://patents.google.com/patent/WO2024037822A1",
+      "url": "https://patents.google.com/patent/US12026298B2/en",
       "patent_status": {
-        "status": "application",
-        "label": "Patent Application",
-        "term": "Patent Application"
+        "status": "granted",
+        "label": "Granted Patent",
+        "term": "Patent"
       },
-      "note": "Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.",
-      "raw_bib": "@patent{zhao2024reconstruction,\n  author = {Zhao, Z.-C. and Pena-Rios, A. and Clark, A. and Conway, A.},\n  title = {3D reconstruction of a target},\n  type = {patentapp},\n  location = {WIPO (PCT) / United States},\n  number = {WO2024037822A1},\n  date = {2024},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. International PCT Pub. No. WO2024037822A1 (2024); US Patent Application Publication No. US20260045031A1 (2026). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/WO2024037822A1},\n}",
+      "note": "Consolidated Patent Family. Granted U.S. Patent No. 12,026,298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
+      "raw_bib": "@patent{pena-rios2024interactionbased,\n  author = {Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.},\n  title = {Interaction-based rendering of spatial environments},\n  type = {patent},\n  location = {United States},\n  number = {US12026298B2},\n  date = {2024-07-02},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. Granted U.S. Patent No. 12,026,298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/US12026298B2/en},\n}",
       "citations": {
-        "apa": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A. (2024). <em>3D reconstruction of a target</em> (Patent Application No. WO2024037822A1). WIPO (PCT) / United States.",
-        "ieee": "Z.-C. Zhao, <strong>A. Pena-Rios</strong>, A. Clark, and A. Conway, \"3D reconstruction of a target,\" WIPO (PCT) / United States Patent Application WO2024037822A1, 2024.",
-        "harvard": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A. and Conway, A. (2024) <em>3D reconstruction of a target</em>. WIPO (PCT) / United States Patent Application WO2024037822A1.",
-        "acm": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., and Conway, A. 2024. 3D reconstruction of a target. WIPO (PCT) / United States Patent Application WO2024037822A1.",
-        "chicago": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., and Conway, A. 2024. <em>3D reconstruction of a target</em>. WIPO (PCT) / United States Patent Application WO2024037822A1."
+        "apa": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., & Leon-Garza, H. (2024). <em>Interaction-based rendering of spatial environments</em> (Patent No. US12026298B2). United States.",
+        "ieee": "<strong>A. Pena-Rios</strong>, T. Oplatek, H. Hagras, A. Conway, G. Owusu, and H. Leon-Garza, \"Interaction-based rendering of spatial environments,\" United States Patent US12026298B2, 2024.",
+        "harvard": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G. and Leon-Garza, H. (2024) <em>Interaction-based rendering of spatial environments</em>. United States Patent US12026298B2.",
+        "acm": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., and Leon-Garza, H. 2024. Interaction-based rendering of spatial environments. United States Patent US12026298B2.",
+        "chicago": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., and Leon-Garza, H. 2024. <em>Interaction-based rendering of spatial environments</em>. United States Patent US12026298B2."
       },
-      "citation_html": "Zhao, Z.-C., <strong>Pena-Rios, A.</strong>, Clark, A., & Conway, A. (2024). <em>3D reconstruction of a target</em> (Patent Application No. WO2024037822A1). WIPO (PCT) / United States."
+      "citation_html": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., & Leon-Garza, H. (2024). <em>Interaction-based rendering of spatial environments</em> (Patent No. US12026298B2). United States."
     },
     {
       "key": "mukhopadhyay2024digital",
@@ -4551,43 +4560,6 @@
         "chicago": "<strong>Pena-Rios, A.</strong>, Luna-Ramirez, W. A., and Ferreyra, E., eds. 2024. \"Digital Twins and Future Intelligent Educational Environments.\" <em>Education Sciences</em>."
       },
       "citation_html": "<strong>Pena-Rios, A.</strong>, Luna-Ramirez, W. A., & Ferreyra, E. (Guest Eds.). (2024). Digital Twins and Future Intelligent Educational Environments [Special issue]. <em>Education Sciences</em>."
-    },
-    {
-      "key": "pena-rios2024interactionbased",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.",
-        "title": "Interaction-based rendering of spatial environments",
-        "type": "patent",
-        "location": "United States",
-        "number": "US12026298B2",
-        "date": "2024-07-02",
-        "holder": "British Telecommunications PLC",
-        "note": "Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
-        "url": "https://patents.google.com/patent/US12026298B2/en"
-      },
-      "year": 2024,
-      "title": "Interaction-based rendering of spatial environments",
-      "author": "Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/US12026298B2/en",
-      "patent_status": {
-        "status": "granted",
-        "label": "Granted Patent",
-        "term": "Patent"
-      },
-      "note": "Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.",
-      "raw_bib": "@patent{pena-rios2024interactionbased,\n  author = {Pena-Rios, A. and Oplatek, T. and Hagras, H. and Conway, A. and Owusu, G. and Leon-Garza, H.},\n  title = {Interaction-based rendering of spatial environments},\n  type = {patent},\n  location = {United States},\n  number = {US12026298B2},\n  date = {2024-07-02},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. Granted US Patent No. US12026298B2 (Granted 2024-07-02). Family includes: International PCT Pub. No. WO2021144118A1 (2021); UK Priority Application GB2591103A (2020/2021). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/US12026298B2/en},\n}",
-      "citations": {
-        "apa": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., & Leon-Garza, H. (2024). <em>Interaction-based rendering of spatial environments</em> (Patent No. US12026298B2). United States.",
-        "ieee": "<strong>A. Pena-Rios</strong>, T. Oplatek, H. Hagras, A. Conway, G. Owusu, and H. Leon-Garza, \"Interaction-based rendering of spatial environments,\" United States Patent US12026298B2, 2024.",
-        "harvard": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G. and Leon-Garza, H. (2024) <em>Interaction-based rendering of spatial environments</em>. United States Patent US12026298B2.",
-        "acm": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., and Leon-Garza, H. 2024. Interaction-based rendering of spatial environments. United States Patent US12026298B2.",
-        "chicago": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., and Leon-Garza, H. 2024. <em>Interaction-based rendering of spatial environments</em>. United States Patent US12026298B2."
-      },
-      "citation_html": "<strong>Pena-Rios, A.</strong>, Oplatek, T., Hagras, H., Conway, A., Owusu, G., & Leon-Garza, H. (2024). <em>Interaction-based rendering of spatial environments</em> (Patent No. US12026298B2). United States."
     },
     {
       "key": "pena-rios2023guest",
@@ -5167,7 +5139,7 @@
       "entry_type": "article",
       "category": "Journal Articles",
       "fields": {
-        "author": "Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. and Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.",
+        "author": "Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.",
         "title": "A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature",
         "journaltitle": "Virtual Reality & Intelligent Hardware",
         "date": "2022",
@@ -5179,21 +5151,21 @@
       },
       "year": 2022,
       "title": "A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature",
-      "author": "Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. and Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.",
+      "author": "Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.",
       "doi": "10.1016/j.vrih.2022.01.004",
       "doi_url": "https://doi.org/10.1016/j.vrih.2022.01.004",
       "url": "https://doi.org/10.1016/j.vrih.2022.01.004",
       "patent_status": null,
       "note": "",
-      "raw_bib": "@article{mukhopadhyay2022virtual,\n  author = {Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. and Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.},\n  title = {A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature},\n  journaltitle = {Virtual Reality & Intelligent Hardware},\n  date = {2022},\n  volume = {4},\n  number = {1},\n  pages = {55–75},\n  doi = {10.1016/j.vrih.2022.01.004},\n  url = {https://doi.org/10.1016/j.vrih.2022.01.004},\n}",
+      "raw_bib": "@article{mukhopadhyay2022virtual,\n  author = {Mukhopadhyay, A. and Reddy, G. S. R. and Saluja, K. P. S. and Ghosh, S. Murthy, L. R. D. and Peña-Rios, A. and Gopal, G. and Biswas, P.},\n  title = {A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature},\n  journaltitle = {Virtual Reality & Intelligent Hardware},\n  date = {2022},\n  volume = {4},\n  number = {1},\n  pages = {55–75},\n  doi = {10.1016/j.vrih.2022.01.004},\n  url = {https://doi.org/10.1016/j.vrih.2022.01.004},\n}",
       "citations": {
-        "apa": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55–75.",
-        "ieee": "A. Mukhopadhyay, G. S. R. Reddy, K. P. S. Saluja, S. Ghosh, L. R. D. Murthy, <strong>A. Peña-Rios</strong>, G. Gopal, and P. Biswas, \"A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature,\" <em>Virtual Reality & Intelligent Hardware</em>, vol. 4, no. 1, pp. 55–75, 2022.",
-        "harvard": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G. and Biswas, P. (2022) 'A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature', <em>Virtual Reality & Intelligent Hardware</em>, 4(1), pp. 55–75.",
-        "acm": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., and Biswas, P. 2022. A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em> 4, 1 (2022), 55–75.",
-        "chicago": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., and Biswas, P. 2022. \"A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature.\" <em>Virtual Reality & Intelligent Hardware</em> 4 (1): 55–75."
+        "apa": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55–75.",
+        "ieee": "A. Mukhopadhyay, G. S. R. Reddy, K. P. S. Saluja, S. M. L. R. D. Ghosh, <strong>A. Peña-Rios</strong>, G. Gopal, and P. Biswas, \"A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature,\" <em>Virtual Reality & Intelligent Hardware</em>, vol. 4, no. 1, pp. 55–75, 2022.",
+        "harvard": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G. and Biswas, P. (2022) 'A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature', <em>Virtual Reality & Intelligent Hardware</em>, 4(1), pp. 55–75.",
+        "acm": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., and Biswas, P. 2022. A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em> 4, 1 (2022), 55–75.",
+        "chicago": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., and Biswas, P. 2022. \"A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature.\" <em>Virtual Reality & Intelligent Hardware</em> 4 (1): 55–75."
       },
-      "citation_html": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S., Murthy, L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55–75."
+      "citation_html": "Mukhopadhyay, A., Reddy, G. S. R., Saluja, K. P. S., Ghosh, S. M. L. R. D., <strong>Peña-Rios, A.</strong>, Gopal, G., & Biswas, P. (2022). A Virtual Reality-Based Digital Twin of Office Spaces with Social Distance Measurement Feature. <em>Virtual Reality & Intelligent Hardware</em>, <em>4</em>(1), 55–75."
     },
     {
       "key": "mukhopadhyay2021generating",
@@ -5454,6 +5426,43 @@
       "citation_html": "<strong>Peña-Rios, A.</strong>, Economou, D., & Mentzelopoulos, M. (Guest Eds.). (2020). Special Issue on Exploring Immersive Technologies in Learning [Special issue]. <em>Journal of Universal Computer Science</em>."
     },
     {
+      "key": "pena-rios2020classification",
+      "entry_type": "patent",
+      "category": "Patents",
+      "fields": {
+        "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
+        "title": "Classification of Knowledge Management Assets",
+        "type": "patent",
+        "location": "European Patent Office",
+        "number": "EP3624065B1",
+        "date": "2020",
+        "holder": "British Telecommunications PLC",
+        "note": "Consolidated Patent Family. Granted European Patent No. EP3624065B1 (Application EP3624065A1, Pub. 2020-03-18). US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
+        "url": "https://patents.google.com/patent/EP3624065A1/"
+      },
+      "year": 2020,
+      "title": "Classification of Knowledge Management Assets",
+      "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://patents.google.com/patent/EP3624065A1/",
+      "patent_status": {
+        "status": "granted",
+        "label": "Granted Patent",
+        "term": "Patent"
+      },
+      "note": "Consolidated Patent Family. Granted European Patent No. EP3624065B1 (Application EP3624065A1, Pub. 2020-03-18). US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
+      "raw_bib": "@patent{pena-rios2020classification,\n  author = {Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.},\n  title = {Classification of Knowledge Management Assets},\n  type = {patent},\n  location = {European Patent Office},\n  number = {EP3624065B1},\n  date = {2020},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. Granted European Patent No. EP3624065B1 (Application EP3624065A1, Pub. 2020-03-18). US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP3624065A1/},\n}",
+      "citations": {
+        "apa": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2020). <em>Classification of Knowledge Management Assets</em> (Patent No. EP3624065B1). European Patent Office.",
+        "ieee": "<strong>A. Pena-Rios</strong>, C. Di Cairano-Gilfedder, H. Hagras, and G. Owusu, \"Classification of Knowledge Management Assets,\" European Patent Office Patent EP3624065B1, 2020.",
+        "harvard": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H. and Owusu, G. (2020) <em>Classification of Knowledge Management Assets</em>. European Patent Office Patent EP3624065B1.",
+        "acm": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., and Owusu, G. 2020. Classification of Knowledge Management Assets. European Patent Office Patent EP3624065B1.",
+        "chicago": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., and Owusu, G. 2020. <em>Classification of Knowledge Management Assets</em>. European Patent Office Patent EP3624065B1."
+      },
+      "citation_html": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2020). <em>Classification of Knowledge Management Assets</em> (Patent No. EP3624065B1). European Patent Office."
+    },
+    {
       "key": "leon-garza2020bangbig",
       "entry_type": "inproceedings",
       "category": "Conference Papers",
@@ -5613,43 +5622,6 @@
         "chicago": "Economou, D., Klippel, A., Dodds, H., <strong>Peña-Rios, A.</strong>, Lee, M. J. W., Beck, D., Pirker, J., Dengel, A., Peres, T. M., and Richter, J., eds. 2020. <em>Immersive Learning Research Network. Proceedings of 6th International Conference, iLRN 2020</em>. Immersive Learning Research Network."
       },
       "citation_html": "Economou, D., Klippel, A., Dodds, H., <strong>Peña-Rios, A.</strong>, Lee, M. J. W., Beck, D., Pirker, J., Dengel, A., Peres, T. M., & Richter, J. (Eds.). (2020). <em>Immersive Learning Research Network. Proceedings of 6th International Conference, iLRN 2020</em>. Immersive Learning Research Network."
-    },
-    {
-      "key": "pena-rios2018classification",
-      "entry_type": "patent",
-      "category": "Patents",
-      "fields": {
-        "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
-        "title": "Classification of Knowledge Management Assets",
-        "type": "patentapp",
-        "location": "European Patent Office / United States",
-        "number": "EP3624065A1",
-        "date": "2020-03-18",
-        "holder": "British Telecommunications PLC",
-        "note": "Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
-        "url": "https://patents.google.com/patent/EP3624065A1/"
-      },
-      "year": 2020,
-      "title": "Classification of Knowledge Management Assets",
-      "author": "Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.",
-      "doi": "",
-      "doi_url": "",
-      "url": "https://patents.google.com/patent/EP3624065A1/",
-      "patent_status": {
-        "status": "application",
-        "label": "Patent Application",
-        "term": "Patent Application"
-      },
-      "note": "Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.",
-      "raw_bib": "@patent{pena-rios2018classification,\n  author = {Pena-Rios, A. and Di Cairano-Gilfedder, C. and Hagras, H. and Owusu, G.},\n  title = {Classification of Knowledge Management Assets},\n  type = {patentapp},\n  location = {European Patent Office / United States},\n  number = {EP3624065A1},\n  date = {2020-03-18},\n  holder = {British Telecommunications PLC},\n  note = {Consolidated Patent Family. European Patent Application EP3624065A1 (Pub. 2020-03-18); US Counterpart Application Pub. No. US20200159774A1 (2020). Priority GB1815124.1 (2018). Assignee: British Telecommunications PLC.},\n  url = {https://patents.google.com/patent/EP3624065A1/},\n}",
-      "citations": {
-        "apa": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2020). <em>Classification of Knowledge Management Assets</em> (Patent Application No. EP3624065A1). European Patent Office / United States.",
-        "ieee": "<strong>A. Pena-Rios</strong>, C. Di Cairano-Gilfedder, H. Hagras, and G. Owusu, \"Classification of Knowledge Management Assets,\" European Patent Office / United States Patent Application EP3624065A1, 2020.",
-        "harvard": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H. and Owusu, G. (2020) <em>Classification of Knowledge Management Assets</em>. European Patent Office / United States Patent Application EP3624065A1.",
-        "acm": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., and Owusu, G. 2020. Classification of Knowledge Management Assets. European Patent Office / United States Patent Application EP3624065A1.",
-        "chicago": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., and Owusu, G. 2020. <em>Classification of Knowledge Management Assets</em>. European Patent Office / United States Patent Application EP3624065A1."
-      },
-      "citation_html": "<strong>Pena-Rios, A.</strong>, Di Cairano-Gilfedder, C., Hagras, H., & Owusu, G. (2020). <em>Classification of Knowledge Management Assets</em> (Patent Application No. EP3624065A1). European Patent Office / United States."
     },
     {
       "key": "beck2019workshop",
@@ -6199,6 +6171,40 @@
         "chicago": "Felemban, S., Gardner, M., Callaghan, V., and <strong>Peña-Rios, A.</strong> 2017. \"Towards Observing and Assessing Collaborative Learning Activities in Immersive Environments.\" In <em>Communications in Computer and Information Science</em>, 47–59. Springer."
       },
       "citation_html": "Felemban, S., Gardner, M., Callaghan, V., & <strong>Peña-Rios, A.</strong> (2017). Towards Observing and Assessing Collaborative Learning Activities in Immersive Environments. In <em>Communications in Computer and Information Science</em> (pp. 47–59). Springer."
+    },
+    {
+      "key": "ibanez2017augmented",
+      "entry_type": "article",
+      "category": "Journal Articles",
+      "fields": {
+        "author": "Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ramón and Delgado Kloos, Carlos",
+        "title": "Augmented Reality Trends in Education",
+        "journaltitle": "Immersive Learning Research - Academic",
+        "date": "2017",
+        "volume": "1",
+        "number": "2",
+        "pages": "181",
+        "publisher": "Immersive Learning Research Network",
+        "doi": "10.56198/1301",
+        "url": "https://publications.immersivelrn.org/academic/article/view/1301"
+      },
+      "year": 2017,
+      "title": "Augmented Reality Trends in Education",
+      "author": "Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ramón and Delgado Kloos, Carlos",
+      "doi": "10.56198/1301",
+      "doi_url": "https://doi.org/10.56198/1301",
+      "url": "https://publications.immersivelrn.org/academic/article/view/1301",
+      "patent_status": null,
+      "note": "",
+      "raw_bib": "@article{ibanez2017augmented,\n  author = {Ibáñez, María Blanca and Di Serio, Ángela and Barrón, María Lucía and Peña-Rios, Anasol and Zatarain Cabada, Ramón and Delgado Kloos, Carlos},\n  title = {Augmented Reality Trends in Education},\n  journaltitle = {Immersive Learning Research - Academic},\n  date = {2017},\n  volume = {1},\n  number = {2},\n  pages = {181},\n  publisher = {Immersive Learning Research Network},\n  doi = {10.56198/1301},\n  url = {https://publications.immersivelrn.org/academic/article/view/1301},\n}",
+      "citations": {
+        "apa": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., & Delgado Kloos, C. (2017). Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em>, <em>1</em>(2), 181.",
+        "ieee": "M. B. Ibáñez, Á. Di Serio, M. L. Barrón, <strong>A. Peña-Rios</strong>, R. Zatarain Cabada, and C. Delgado Kloos, \"Augmented Reality Trends in Education,\" <em>Immersive Learning Research - Academic</em>, vol. 1, no. 2, pp. 181, 2017.",
+        "harvard": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R. and Delgado Kloos, C. (2017) 'Augmented Reality Trends in Education', <em>Immersive Learning Research - Academic</em>, 1(2), pp. 181.",
+        "acm": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., and Delgado Kloos, C. 2017. Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em> 1, 2 (2017), 181.",
+        "chicago": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., and Delgado Kloos, C. 2017. \"Augmented Reality Trends in Education.\" <em>Immersive Learning Research - Academic</em> 1 (2): 181."
+      },
+      "citation_html": "Ibáñez, M. B., Di Serio, Á., Barrón, M. L., <strong>Peña-Rios, A.</strong>, Zatarain Cabada, R., & Delgado Kloos, C. (2017). Augmented Reality Trends in Education. <em>Immersive Learning Research - Academic</em>, <em>1</em>(2), 181."
     },
     {
       "key": "pena-rios2016exploring",

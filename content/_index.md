@@ -5,6 +5,8 @@ draft: false
 toc: false
 ShowShareButtons: true
 hideMeta: true
+aliases:
+  - /contact/
 ---
 
 # About
@@ -26,3 +28,61 @@ I sit on the Executive Board of two non-profits: [Immersive Learning Research Ne
 - Ambient intelligence
 - Human-computer interaction (including Interfaces and Human-AI Interaction)
 - Cyber-physical systems
+
+# Contact
+
+## Email
+
+<div class="contact-email">
+<strong>acpena{at}ieee.org</strong>
+</div>
+
+## Academic Profiles
+
+<div class="contact-links">
+<a href="https://www.essex.ac.uk/people/penar50207/anasol-pena-rios" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">🏫</span>
+  <span class="contact-link-text">University of Essex Profile</span>
+</a>
+<a href="http://scholar.google.com/citations?user=6-UsGYsAAAAJ" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">📚</span>
+  <span class="contact-link-text">Google Scholar</span>
+</a>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=36835270200" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">📖</span>
+  <span class="contact-link-text">Scopus</span>
+</a>
+<a href="https://www.webofscience.com/wos/author/record/527452" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">🔬</span>
+  <span class="contact-link-text">Web of Science</span>
+</a>
+<a href="https://orcid.org/0000-0001-7109-9501" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">🆔</span>
+  <span class="contact-link-text">ORCID</span>
+</a>
+<a href="https://www.researchgate.net/profile/Anasol-Pena-Rios" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">🔬</span>
+  <span class="contact-link-text">ResearchGate</span>
+</a>
+<a href="https://loop.frontiersin.org/people/1050127/overview" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">📰</span>
+  <span class="contact-link-text">Frontiers</span>
+</a>
+<a href="https://sciprofiles.com/profile/prlosana" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">👤</span>
+  <span class="contact-link-text">SciProfile</span>
+</a>
+</div>
+
+## Professional Networks
+
+<div class="contact-links">
+<a href="http://uk.linkedin.com/in/prlosana" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">💼</span>
+  <span class="contact-link-text">LinkedIn</span>
+</a>
+<a href="https://github.com/prlosana" class="contact-link" target="_blank" rel="noopener noreferrer">
+  <span class="contact-link-icon">💻</span>
+  <span class="contact-link-text">GitHub</span>
+</a>
+</div>

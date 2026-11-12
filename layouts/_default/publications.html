@@ -1,0 +1,355 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+  <div class="pub-toolbar">
+    <div class="pub-meta-line">
+      <span class="pub-count-badge">📚 {{ site.Data.publications.summary.total_publications }} Publications ({{ site.Data.publications.summary.earliest_year }}–{{ site.Data.publications.summary.latest_year }})</span>
+      <a href="/publications.bib" class="pub-download-btn" download>📥 Download .bib</a>
+    </div>
+
+    <div class="pub-search-wrapper">
+      <input type="text" id="pub-search-input" placeholder="Search by title, author, year, venue, keyword..." aria-label="Search publications" />
+    </div>
+
+    <div class="pub-filter-pills" id="pub-filter-pills">
+      <button type="button" class="pub-pill active" data-filter="all">All ({{ site.Data.publications.summary.total_publications }})</button>
+      <button type="button" class="pub-pill" data-filter="Journal Articles">Journals</button>
+      <button type="button" class="pub-pill" data-filter="Conference Papers">Conferences</button>
+      <button type="button" class="pub-pill" data-filter="Proceedings">Proceedings</button>
+      <button type="button" class="pub-pill" data-filter="Patents">Patents</button>
+      <button type="button" class="pub-pill" data-filter="Books,Book Chapters">Books &amp; Chapters</button>
+      <button type="button" class="pub-pill" data-filter="Special Issues">Special Issues</button>
+      <button type="button" class="pub-pill" data-filter="Theses">Theses</button>
+    </div>
+  </div>
+
+  <div id="pub-container" class="pub-container">
+    {{ range site.Data.publications.years }}
+    <div class="pub-year-group" data-year="{{ .year }}">
+      <h2 class="pub-year-heading">{{ .year }}</h2>
+
+      {{ range .categories }}
+      <div class="pub-cat-group" data-category="{{ .name }}">
+        <h3 class="pub-cat-heading">{{ .name }}</h3>
+        <ol class="pub-list">
+          {{ range .entries }}
+          <li class="pub-item" data-category="{{ .category }}" data-year="{{ .year }}" data-search="{{ lower .title }} {{ lower .author }} {{ lower .fields.publisher }} {{ lower .fields.journal }} {{ lower .fields.booktitle }} {{ .year }} {{ lower .category }}">
+            <div class="pub-citation">
+              {{ .citation_html | safeHTML }}
+            </div>
+
+            <div class="pub-actions">
+              {{ if .doi_url }}
+              <a href="{{ .doi_url }}" target="_blank" rel="noopener noreferrer" class="pub-btn">DOI</a>
+              {{ end }}
+              {{ if and .url (ne .url .doi_url) }}
+              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="pub-btn">Link</a>
+              {{ end }}
+              <button type="button" class="pub-btn pub-btn-bib" onclick="toggleBib('{{ .key }}')">BibTeX</button>
+            </div>
+
+            <div id="bib-{{ .key }}" class="pub-bibtex-block" style="display: none;">
+              <pre><code>{{ .raw_bib }}</code></pre>
+              <button type="button" class="pub-copy-btn" onclick="copyBibText('{{ .key }}', this)">Copy BibTeX</button>
+            </div>
+          </li>
+          {{ end }}
+        </ol>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div id="pub-no-results" class="pub-no-results" style="display: none;">
+      <p>No publications match your filter.</p>
+    </div>
+  </div>
+</article>
+
+<style>
+  .pub-toolbar {
+    margin-block: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .pub-meta-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .pub-count-badge {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    font-weight: 500;
+  }
+
+  .pub-download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    color: var(--primary);
+    border: 1px solid var(--border);
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .pub-download-btn:hover {
+    background: var(--border);
+  }
+
+  .pub-search-wrapper input {
+    inline-size: 100%;
+    padding: 0.65rem 0.9rem;
+    font-size: 0.95rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--entry);
+    color: var(--primary);
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .pub-search-wrapper input:focus {
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 2px rgba(120, 120, 120, 0.15);
+  }
+
+  .pub-filter-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .pub-pill {
+    padding: 0.25rem 0.65rem;
+    font-size: 0.8rem;
+    border-radius: 999px;
+    background: var(--code-bg);
+    color: var(--secondary);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .pub-pill:hover {
+    color: var(--primary);
+    border-color: var(--secondary);
+  }
+
+  .pub-pill.active {
+    background: var(--primary);
+    color: var(--theme);
+    border-color: var(--primary);
+  }
+
+  .pub-year-group {
+    margin-block-start: 2rem;
+  }
+
+  .pub-year-heading {
+    margin: 0;
+    padding-block-end: 0.3rem;
+    border-block-end: 2px solid var(--border);
+    font-size: 1.5rem;
+    color: var(--primary);
+  }
+
+  .pub-cat-heading {
+    margin-block-start: 1.25rem;
+    margin-block-end: 0.5rem;
+    font-size: 1.15rem;
+    color: var(--secondary);
+    font-weight: 600;
+  }
+
+  .pub-list {
+    margin: 0;
+    padding-inline-start: 1.2rem;
+  }
+
+  .pub-item {
+    margin-block-end: 1rem;
+    line-height: 1.55;
+    color: var(--content);
+  }
+
+  .pub-citation {
+    margin-block-end: 0.35rem;
+  }
+
+  .pub-citation a {
+    word-break: break-all;
+    color: var(--secondary);
+    text-decoration: underline;
+  }
+
+  .pub-citation a:hover {
+    color: var(--primary);
+  }
+
+  .pub-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-block-start: 0.25rem;
+  }
+
+  .pub-btn {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 4px;
+    background: var(--code-bg);
+    color: var(--secondary);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.15s;
+  }
+
+  .pub-btn:hover {
+    color: var(--primary);
+    border-color: var(--secondary);
+    background: var(--border);
+  }
+
+  .pub-bibtex-block {
+    position: relative;
+    margin-block-start: 0.5rem;
+    padding: 0.75rem;
+    background: var(--code-block-bg);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+  }
+
+  .pub-bibtex-block pre {
+    margin: 0;
+    overflow-x: auto;
+    font-size: 0.8rem;
+    color: var(--primary);
+  }
+
+  .pub-copy-btn {
+    position: absolute;
+    inset-block-start: 0.5rem;
+    inset-inline-end: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    background: var(--code-bg);
+    color: var(--primary);
+    border: 1px solid var(--border);
+    cursor: pointer;
+  }
+
+  .pub-copy-btn:hover {
+    background: var(--border);
+  }
+
+  .pub-no-results {
+    text-align: center;
+    padding: 2rem;
+    color: var(--secondary);
+  }
+</style>
+
+<script>
+  function toggleBib(key) {
+    const box = document.getElementById("bib-" + key);
+    if (!box) return;
+    box.style.display = box.style.display === "none" ? "block" : "none";
+  }
+
+  function copyBibText(key, btn) {
+    const box = document.getElementById("bib-" + key);
+    if (!box) return;
+    const text = box.querySelector("code").innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      const orig = btn.innerText;
+      btn.innerText = "Copied!";
+      setTimeout(() => { btn.innerText = orig; }, 2000);
+    });
+  }
+
+  (function initPubFilters() {
+    const searchInput = document.getElementById("pub-search-input");
+    const pillsContainer = document.getElementById("pub-filter-pills");
+    const noResults = document.getElementById("pub-no-results");
+    if (!searchInput || !pillsContainer) return;
+
+    let activeCategory = "all";
+
+    function filterPubs() {
+      const query = (searchInput.value || "").trim().toLowerCase();
+      const items = document.querySelectorAll(".pub-item");
+      let totalVisible = 0;
+
+      items.forEach((item) => {
+        const text = (item.getAttribute("data-search") || "").toLowerCase();
+        const cat = item.getAttribute("data-category") || "";
+
+        let matchesCat = false;
+        if (activeCategory === "all") {
+          matchesCat = true;
+        } else {
+          const allowedCats = activeCategory.split(",");
+          matchesCat = allowedCats.includes(cat);
+        }
+
+        const matchesQuery = !query || text.includes(query);
+        const isVisible = matchesCat && matchesQuery;
+
+        item.style.display = isVisible ? "" : "none";
+        if (isVisible) totalVisible++;
+      });
+
+      // Show/hide empty category blocks and year blocks
+      document.querySelectorAll(".pub-cat-group").forEach((group) => {
+        const visibleInCat = group.querySelectorAll('.pub-item:not([style*="display: none"])');
+        group.style.display = visibleInCat.length > 0 ? "" : "none";
+      });
+
+      document.querySelectorAll(".pub-year-group").forEach((yearGroup) => {
+        const visibleInYear = yearGroup.querySelectorAll('.pub-item:not([style*="display: none"])');
+        yearGroup.style.display = visibleInYear.length > 0 ? "" : "none";
+      });
+
+      if (noResults) {
+        noResults.style.display = totalVisible === 0 ? "block" : "none";
+      }
+    }
+
+    searchInput.addEventListener("input", filterPubs);
+
+    pillsContainer.addEventListener("click", (e) => {
+      const pill = e.target.closest(".pub-pill");
+      if (!pill) return;
+      pillsContainer.querySelectorAll(".pub-pill").forEach((p) => p.classList.remove("active"));
+      pill.classList.add("active");
+      activeCategory = pill.getAttribute("data-filter") || "all";
+      filterPubs();
+    });
+  })();
+</script>
+
+{{- end }}

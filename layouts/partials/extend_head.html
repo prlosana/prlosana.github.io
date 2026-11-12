@@ -1,6 +1,7 @@
 {{- /* Head custom content area start */ -}}
-{{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
-{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300..700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 {{- /* Head custom content area end */ -}}
 
 <style>
@@ -217,60 +218,6 @@
   }
 }
 
-/* Horizontal bars under h2 headings (##) */
-h2 {
-  position: relative;
-  padding-bottom: 8px;
-  margin-bottom: 20px;
-}
-
-h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 80px;
-  height: 3px;
-  background: var(--primary);
-  border-radius: 2px;
-}
-
-/* Responsive h2 bars */
-@media (max-width: 768px) {
-  h2::after {
-    width: 40px;
-    height: 2px;
-  }
-}
-
-/* Ensure consistent background color across all pages */
-body {
-  background: var(--theme) !important;
-}
-
-.main {
-  background: var(--theme) !important;
-}
-
-.list {
-  background: var(--theme) !important;
-}
-
-.post-single {
-  background: var(--theme) !important;
-}
-
-.post-entry {
-  background: var(--theme) !important;
-}
-
-/* Override any grey backgrounds to use theme color */
-[class*="bg-"] {
-  background: var(--theme) !important;
-}
-
-/* Hide "Powered by Hugo & PaperMod" text in footer */
-/* This CSS is no longer needed since we're using a custom footer template */
 </style>
 
 <!-- Google Analytics (GA4) -->

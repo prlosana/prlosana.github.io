@@ -457,9 +457,9 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
 
         <div class="entry-content">
           
-          <p><p>The abstract of my PhD thesis entitled &ldquo;Exploring Mixed Reality in Distributed Collaborative Learning Environments&rdquo;, was selected for publication at the <a href="http://www.comp.hkbu.edu.hk/~cib/2017/Aug/abstract/iib_vol18no1_abstract.pdf">IEEE Intelligent Informatics</a> (August 2017 issue).</p>
+          <p>The abstract of my PhD thesis entitled &ldquo;Exploring Mixed Reality in Distributed Collaborative Learning Environments&rdquo;, was selected for publication at the <a href="http://www.comp.hkbu.edu.hk/~cib/2017/Aug/abstract/iib_vol18no1_abstract.pdf">IEEE Intelligent Informatics</a> (August 2017 issue).</p>
 <p>My PhD research explored possible interactions using a novel mixed reality framework (computational model, conceptual architecture and proof-of-concept implementation) that enabled geographically dispersed learners to perform co-creative teamwork using a computer-based prototype comprising hardware and software components. </p>
-<p>The thesis reported on evaluations performed with students from eight different universities in six countries, namely China, Malaysia, Mexico, UAE, USA and UK; providing an important insight to the role of social interactions in distance learning, and demonstrating that the inclusion of a physical component made a positive difference to students’ learning experience, supporting the use of mixed reality objects in educational activities. </p></p>
+<p>The thesis reported on evaluations performed with students from eight different universities in six countries, namely China, Malaysia, Mexico, UAE, USA and UK; providing an important insight to the role of social interactions in distance learning, and demonstrating that the inclusion of a physical component made a positive difference to students’ learning experience, supporting the use of mixed reality objects in educational activities. </p>
           
         </div>
 
@@ -487,12 +487,12 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
 
         <div class="entry-content">
           
-          <p><div class="img-wrap-left">
+          <div class="img-wrap-left">
 <img src="/images/9Dec-KTP.jpg" alt="KTP Awards 2016" />
 <figcaption>KTP Awards 2016</figcaption>
 </div>
 <p>Knowledge Transfer Partnerships (KTP) is a three-way partnership between a business, an academic institution and a graduate. The central objective is to help businesses to improve their competitiveness and productivity through the better use of knowledge, technology and skills that reside within the UK knowledge base.</p>
-<p>The 2016 Essex KTP awards were presented to the winners on 6th December by Prof Heather Laurie, Pro-Vice-Chancellor Research. Dr John Woods (CSEE) won the Best Academic award. Dr Anasol Pena Rios (CSEE) was awarded the Best KTP Associate award and Signal Media was awarded the best KTP partnership award.</p></p>
+<p>The 2016 Essex KTP awards were presented to the winners on 6th December by Prof Heather Laurie, Pro-Vice-Chancellor Research. Dr John Woods (CSEE) won the Best Academic award. Dr Anasol Pena Rios (CSEE) was awarded the Best KTP Associate award and Signal Media was awarded the best KTP partnership award.</p>
           
         </div>
 
@@ -542,6 +542,37 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
     padding: 1.5rem;
     background: var(--entry);
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    overflow: hidden;
+  }
+
+  .post-entry .entry-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .post-entry .img-wrap-left,
+  .post-entry .img-wrap-right {
+    max-width: 200px;
+    margin: 0 1.25rem 1rem 0;
+  }
+
+  .post-entry .img-wrap-left img,
+  .post-entry .img-wrap-right img {
+    border-radius: var(--md-shape-corner-m, 12px);
+    box-shadow: var(--md-elevation-1, 0 1px 3px rgba(0, 0, 0, 0.1));
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .post-entry .img-wrap-left figcaption,
+  .post-entry .img-wrap-right figcaption {
+    font-size: 0.75rem;
+    color: var(--secondary);
+    text-align: center;
+    margin-top: 0.35rem;
+    font-style: italic;
   }
 
   .post-entry:hover {

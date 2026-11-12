@@ -45,15 +45,10 @@ mainSections = []
     url = "/projects/"
     weight = 40
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 50
-  [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 60
+    weight = 50
 
 # PaperMod theme configuration
 [params]

@@ -3,6 +3,7 @@ title: "Projects"
 date: 2025-08-26T21:59:47
 draft: false
 type: "page"
+layout: "projects"
 toc: false
 hideMeta: true
 ---

@@ -19,29 +19,29 @@ This repository contains the source code for the personal and academic website o
 
 ### Prerequisites
 * **Node.js**: `>= 22.12.0` (Node 26 recommended)
-* **Package Manager**: `npm`
+* **Package Manager**: `pnpm`
 
 ### Local Development
 
 1. Install dependencies:
    ```bash
-   npm install
+   pnpm install
    ```
 
 2. Start the local development server:
    ```bash
-   npm run dev
+   pnpm dev
    ```
    Open [http://localhost:4321](http://localhost:4321) in your browser.
 
 3. Type and lint checks:
    ```bash
-   npm run check
+   pnpm check
    ```
 
 4. Build for production (outputs to `docs/`):
    ```bash
-   npm run build
+   pnpm build
    ```
 
 ---

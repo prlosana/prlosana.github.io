@@ -1,1 +1,0 @@
-import{t as e}from"./scroll.DLem16cm.js";var t=null;function n(){requestAnimationFrame(()=>{t&&t.cleanup(),t=new e(`.toc-summary-container`,`[data-heading-link]`),t.init()})}function r(){t?.cleanup(),t=null}document.addEventListener(`astro:page-load`,n),document.addEventListener(`astro:after-swap`,n),document.addEventListener(`astro:before-swap`,r);

@@ -29,10 +29,10 @@ hideMeta: true
 <!--endtab-->
 
 <!--tab:2025-->
-- **Finalist: Transformation Leader of the Year**, [Computing Women in Tech Excellence Awards](https://womentechexcellence.co.uk/), UK (2025)
-- **Finalist: Woman in Technology**, [ITP Telecoms Awards](https://www.theitp.org/annual-awards/), UK (2025)
-- **Leadership in Innovation, AI & Technical Excellence Award**, [BT Group](https://www.bt.com/) Tech Fellowship (2025)
-- **Outstanding Board Service Award**, 11th International Conference of the [Immersive Learning Research Network](https://immersivelrn.org/) (2025)
+- **Finalist: Transformation Leader of the Year**, [Computing Women in Tech Excellence Awards](https://womentechexcellence.co.uk/), UK (November 2025)
+- **Finalist: Woman in Technology**, [ITP Telecoms Awards](https://www.theitp.org/annual-awards/), UK (October 2025)
+- **Leadership in Innovation, AI & Technical Excellence Award**, [BT Group](https://www.bt.com/) Tech Fellowship, UK (July 2025)
+- **Outstanding Board Service Award**, 11th International Conference of the [Immersive Learning Research Network](https://immersivelrn.org/) (June 2025)
 <!--endtab-->
 
 <!--tab:2024-->

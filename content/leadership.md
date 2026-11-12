@@ -36,32 +36,121 @@ hideMeta: true
 <!--endtab-->
 
 <!--tab:2024-->
-- **Finalist: AI Innovation (Infrastructure & Space Management Digital Twin)**, [The National AI Awards](https://thenationalaiawards.com/), UK (2024)
+- **Finalist: AI Innovation (Infrastructure & Space Management Digital Twin)**, [The National AI Awards](https://thenationalaiawards.com/), UK (September 2024)
 <!--endtab-->
 
 <!--tab:2023-->
-- **Outstanding Board Service Award**, 9th International Conference of the [Immersive Learning Research Network](https://immersivelrn.org/) (2023)
+- **Outstanding Board Service Award**, 9th International Conference of the [Immersive Learning Research Network](https://immersivelrn.org/) (June 2023)
 <!--endtab-->
 
 <!--tab:2020-->
-- **Winner**, [WeAreTechWomen TechWomen100 Awards](https://wearetechwomen.com/anasol-pena-rios-bt/), UK (2020)
+- **Winner**, [WeAreTechWomen TechWomen100 Awards](https://wearetechwomen.com/anasol-pena-rios-bt/), UK (November 2020)
 <!--endtab-->
 
 <!--tab:2018-->
-- **Highly Commended: Information Technology (Future Field Force Using Mixed Reality)**, [IET Innovation Awards](http://www.ietinnovationawards.org/), UK (2018)
-- **Finalist: Rising Star**, [Computing Women in Tech Excellence Awards](https://womentechexcellence.co.uk/), UK (2018)
+- **Highly Commended: Information Technology (Future Field Force Using Mixed Reality)**, [IET Innovation Awards](https://www.theiet.org/), UK (November 2018)
+- **Finalist: Rising Star**, [Computing Women in Tech Excellence Awards](https://womentechexcellence.co.uk/), UK (November 2018)
 <!--endtab-->
 
 <!--tab:2016-->
-- **Winner: Best Knowledge Transfer Project Associate**, KTP Awards, [University of Essex](https://www.essex.ac.uk/), UK (2016)
+- **Winner: Best Knowledge Transfer Project Associate**, KTP Awards, [University of Essex](https://www.essex.ac.uk/), UK (December 2016)
 <!--endtab-->
 
 <!--tab:2014-->
-- **Best Video Award**, 10th International Conference on Intelligent Environments (IE'14), Shanghai, China (2014)
+- **Best Video Award**, 10th International Conference on Intelligent Environments (IE'14), Shanghai, China (July 2014)
 <!--endtab-->
 
 <!--tab:2001-->
-- Undergraduate Best Grades Award (2nd Semester). Instituto Politécnico Nacional, Mexico. January 2001.
+- Undergraduate Best Grades Award (2nd Semester). Instituto Politécnico Nacional, Mexico (January 2001)
+<!--endtab-->
+{{< /tabs >}}
+
+### Invited Talks & Keynotes
+
+{{< tabs >}}
+<!--tab:2025-->
+- **"Beyond Reality: Exploring the Frontiers of Immersive Technologies"**, Tech Fellowship - Tech Talk Series, Online, 19-Feb-25
+<!--endtab-->
+
+<!--tab:2024-->
+- **"The Role of AI in Digital Twins"**, CSEE AI Symposium, University of Essex, 19-Apr-24
+- **"Digital Twins research and use cases"**, BT India Research Centre (BTIRC) Tech Talk, Online, 23-May-24
+- **"Digital Twins and AI"**, Tech Fellowship AI Squad Meeting, Tech Talk, Online, 21-Jun-24
+- **"Digital Twins research and use cases"**, CX Weekly Knowledge Share Meeting, Online, 27-Jun-24
+- **"Human Factors in XR"**, Semana de la Ergonomía y Diseño, Unidad de Posgrado, UNAM, Online (Nacional Autonomous University of Mexico), 16-Oct-24
+- **"BT Future Field Force Research"**, University of Essex CSEE, University of Essex, 31-Oct-24
+- **"Future Field Force: Leveraging Digital Twins"**, Immersive Technologies and AI for Smarter Telecoms, School of Computing Sciences Seminars, University of East Anglia, 01-Nov-24
+- **"Human-AI Collaboration in Industry 5.0"**, Seminar “Artificial Intelligence and Social Problems”, Online (Universidad Autónoma Metropolitana, Mexico), 11-Dec-24
+<!--endtab-->
+
+<!--tab:2023-->
+- Panellist at ["Extended Reality Day - Live Q&A"](https://atadastral.co.uk/bsw/2023/). Panel organised as part of BT's British Science Week 2023. Online. 14 March 2023. 
+- **"Future Field Force & Network Operations"** Guest lecture at the Department of Computer Science, City, University of London, UK. April 3, 2023.
+- Panellist at ["Digital Twins Interoperability Workshop"](https://cp.catapult.org.uk/summit/connected-digital-twins-summit-2023/speakers/). Panel organised as part of the 2023 Connected Digital Twins Summit. London. 22 June 2023.
+- Panellist at "Technical Considerations for Designing and Implementing Immersive Learning Applications". Panel organised as part of the 2023 9th International Conference of the Immersive Learning Research Network. San Luis Obispo, California, USA. 28 June 2023.
+- Panellist at ["Digital Futures Seminar - Augmented Reality"](https://www.uos.ac.uk/content/digital-futures-institute-news-and-events). Panel organised as part of the Digital Futures Institute Seminar Series, University of Suffolk. DigiTech Centre, Adastral Park, Ipswich, UK. 11 October 2023.
+<!--endtab-->
+
+<!--tab:2022-->
+- Panellist at [IEEE EdSoc "Tomorrow’s Classroom Ecosystem" Webinar](https://ieee-edusociety.org/tomorrows-classroom-ecosystem-webinar). Panel organised as part of the IEEE Education Week 2022. Online. 05 April 2022.
+- Panellist at "Challenges and Opportunities With the Next Generation of Wearable Health Solutions Designed With Digital Twins". Panel organised as part of the 23rd IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM). Belfast, NI. 14 June 2022.
+- ["Are Immersive Technologies the Future of Human Interactions?"](https://suffolkbusinessexpo.co.uk/schedule/technology-day/). Invited Speaker at the Festival of Suffolk 2022 - Technology Day. Ipswich, UK. 21 June 2022.
+- "Digital Twins, Immersive Technologies and the Workplace of the Future". Presentation at 1st Int. Workshop on Analytics, Learning & Collaboration in eXtended Reality (XR-WALK) at 2022 ACM Interactive Media Experiences (IMX) Conference. Aveiro, Portugal. 24 June 2022.
+<!--endtab-->
+
+<!--tab:2021-->
+- **“The Augmented Employee: Immersive Technologies in Field Service Operations”**. Invited seminar at the School of Computer Science & Engineering, University of Westminster, UK. Online. February 24, 2021.
+- “AI and Immersive Technologies“ Guest lecture at the Department of Computer Science, University of Exeter, UK. Online. March 2, 2021.
+- "[International Women's Day Celebrations](https://le.ac.uk/iwd/events/wednesday-10-march)", School of Informatics, University of Leicester, UK. Online. March 10, 2021.
+- "[Immersive Technologies in the Workplace](https://cambum.net/Inclusive_ARVR/)". Invited talk at the *ACM CHI 2021: Adaptive Accessible AR/VR Sytems* workshop. May 9, 2021.
+- "[Future Field and Network Operations](https://vimeo.com/547911996)". Invited talk at the first Essex BT/Openreach alumni meeting event, University of Essex, UK. Online. May 10, 2021.
+- "[AI, digital twins and immersive technologies](https://i-construct.org.uk/events/42)". I-Construct, Innovation Hub, UK. Online. May 19, 2021.
+- **"BT Labs: BT’s Research and Academic Collaboration"**. Wales Tech Week 2021, UK. Online. June 21, 2021.
+- **"The journey from AI innovation to AI implementation: Barriers and enablers"**. Panel discussion at the 63rd Annual Conference of the Operational Research Society. Online. September 13th, 2021.
+<!--endtab-->
+
+<!--tab:2020-->
+- **“The Augmented Employee: Immersive Technologies in Field Service Operations”**. Invited (online) talk at the Doctoral Program in Web Science and Technology (Programa do Retiro Doutoral).  Universidad de Trás-os-Montes e Alto Douro (UTAD) & Universidade Aberta (*UAb*), Lisbon, Portugal. June 30, 2020.
+- “ Challenges regarding Research in STEAM Areas during the Health Emergency”. Webinar organised by Gender Indicators and Statistics CDMX, Mexico. Online. August 28, 2020.
+- “Digital Twins and Applications of Cross-Reality Interactions in Field Service Operations”. International Workshop on Cross-Reality (XR) Interaction. ACM Interactive Surfaces and Spaces (ISS 2020). November 8th, 2020.
+<!--endtab-->
+
+<!--tab:2019-->
+- **“The Augmented Employee: Immersive Technologies in Field Service Operations”**. Plenary talk at the 5th International Immersive Learning Research Network Conference (iLRN). London, UK. June 24-27, 2019.
+- **"Heads-Up, Hands-Free / Remote Collaboration”**. Roundtable discussion at Enterprise Wearable Technology Summit 2019 (EWTS). Dallas, Tx.
+September 17, 2019.
+- **"Tecnologías Inmersivas en los Servicios de Campo”**. Invited Talk as part of the Seminar Series on Artificial Intelligence and Social Issues.
+Metropolitan Autonomous University (UAM). Mexico City, Mexico. September 26, 2019.
+- "New perspectives on business challenges, funding opportunities and innovation (Expert Panel)”. Expert panel to discuss new perspectives on business challenges, funding opportunities and innovation, from companies including BT, Filament and Cloudfm alongside Essex academics. University of
+Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester, UK. December 10, 2019.
+<!--endtab-->
+
+<!--tab:2018-->
+- **“Immersive Technologies in Field Service Operations”**. Plenary talk at the II International Conference on Theoretical and Applied Computer Science and Engineering. Istanbul, Turkey. June 29-30, 2018.
+- **"Immersive Technologies in Field Service Operations”**. Invited talk at the 10th Computer Science and Electronic Engineering Conference (CEEC). University of Essex, Colchester, UK. 19 Sept 2018.
+<!--endtab-->
+
+<!--tab:2017-->
+- **“Immersive Technologies in Field Service Operations”** Presented at Ada Lovelace Day (Women in STEM). University of Essex, Colchester, UK. 10 Oct 2017.
+- **"Challenges and Opportunities for KTP Associates"** Presented at the University of Essex' "Winter Celebration of KTP 2017". Wivenhoe House Hotel, Wivenhoe, UK. 12 Dec 2017.
+<!--endtab-->
+
+<!--tab:2016-->
+- "Exploring Mixed Reality in Distributed Collaborative Learning Environments**"**,Seminar presented at Middlesex University, UK. 10 Feb 2016.
+- Invited talk at the inauguration of the Tommy Flowers Institute, Adastral Park, Ipswich, UK. September 2016.
+<!--endtab-->
+
+<!--tab:2014-->
+- "Mixed reality collaborative environments", Invited presentation at "Creativity, Ideas & Innovation" Workshop. The Business School - Canterbury
+Christ Church University, UK. 18 Nov 2014.
+<!--endtab-->
+
+<!--tab:2013-->
+- "Towards blended reality on collaborative laboratory activities using smart objects"
+- Invited talk at Espacios Educativos Especulares-EEE (Educational Reflected Spaces) Anual
+Meeting. Universidad Carlos III de Madrid, Spain. 27-28 May 2013.¦ [Slides](http://es.slideshare.net/prlosana/uc3-m-presentation) ¦ [Photos](https://storify.com/dleony/project-eee-meeting-2013)
+- Invited as a Mixed-Reality Specialist/Consultor to MobileSummer 2013 (Mobiilikesäkoulu 2013). Mustiala Park,
+Tammela, Finland. 23-24 May 2013.
 <!--endtab-->
 {{< /tabs >}}
 
@@ -69,13 +158,13 @@ hideMeta: true
 
 {{< tabs >}}
 <!--tab:Current Appointments-->
-- **Director of Publications**, [Immersive Learning Research Network (iLRN)](https://immersivelrn.org/)
-- **Editorial Board Member**, [*EAI Endorsed Transactions on e-Learning*](https://publications.eai.eu/index.php/el)
-- **Review Editor**, [*Frontiers in Computer Science*](https://www.frontiersin.org/journals/computer-science) (Human-Media Interaction) & [*Frontiers in Virtual Reality*](https://www.frontiersin.org/journals/virtual-reality) (Virtual Reality in Industry)
+- **Director of Publications**, [Immersive Learning Research Network (iLRN)](https://immersivelrn.org/) (2018–Present)
+- **Editorial Board Member**, [*EAI Endorsed Transactions on e-Learning*](https://publications.eai.eu/index.php/el) (2020–Present)
+- **Review Editor**, [*Frontiers in Computer Science*](https://www.frontiersin.org/journals/computer-science) (Human-Media Interaction) & [*Frontiers in Virtual Reality*](https://www.frontiersin.org/journals/virtual-reality) (Virtual Reality in Industry) (2020–Present)
 <!--endtab-->
 
 <!--tab:Past Appointments-->
-- **Publications & Proceedings Editor**, [*iLRN Conference Proceedings*](https://publications.immersivelrn.org/) (2018–2026)
+- **Publications & Proceedings Editor**, [*iLRN Conference Proceedings*](https://publications.immersivelrn.org/) (2018–2025)
 - **Guest Editor**, [*Computers & Education: X Reality*](https://www.sciencedirect.com/journal/computers-and-education-x-reality), Special Issue: ["Immersive Learning: from Theory to Practice, building Evidence-based Frameworks"](https://www.sciencedirect.com/special-issue/10ZJJ34NK48) (2025)
 - **Guest Editor**, [*Frontiers in Human Dynamics*](https://www.frontiersin.org/journals/human-dynamics), Thematic Issue: ["Multimodality in Immersive Technologies for Remote Working"](https://www.frontiersin.org/research-topics/38740/multimodality-in-immersive-technologies-for-remote-working) (2025)
 - **Guest Editor**, [*Education Sciences*](https://www.mdpi.com/journal/education), Special Issue: ["Digital Twins and Future Intelligent Educational Environments"](https://www.mdpi.com/journal/education/special_issues/education_enviroment) (2024)
@@ -93,36 +182,34 @@ hideMeta: true
 
 {{< tabs >}}
 <!--tab:2023-->
-- **General Chair** at the [9th Immersive Learning Research Network Conference 2023 (iLRN'23)](http://www.immersivelrn.org/ilrn2023), Online (18-20 May, 2023) and in Person in San Luis Obispo, California, USA (26-29 June, 2023).
+- **General Chair**, 9th International Conference of the Immersive Learning Research Network (iLRN 2023), San Luis Obispo, California, USA & Online (18–29 June 2023). [Springer CCIS Volume 1904 Proceedings](https://doi.org/10.1007/978-3-031-47328-9) · [iLRN Academic Proceedings](https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2023)
 <!--endtab-->
 
 <!--tab:2022-->
-- **General Chair** at the [8th Immersive Learning Research Network Conference 2022 (iLRN'22)](http://www.immersivelrn.org/ilrn2022), May 30, 2022 - June 4, 2022. Online and in Person in Vienna, Austria.
-- **Co-organiser and Workshop Chair** of the  1st Workshop on Analytics, Learning & Collaboration in eXtended Reality (XRWALC'22) @ ACM Interactive Media Experiences (ACM IMX 2022), June 22-24, 2022. Aveiro, Portugal.
+- **General Chair**, 8th International Conference of the Immersive Learning Research Network (iLRN 2022), Vienna, Austria & Online (30 May – 4 June 2022). [IEEE Xplore Proceedings](https://ieeexplore.ieee.org/xpl/conhome/9815865/proceeding) · [iLRN Academic Proceedings](https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2022)
+- **Co-organiser & Workshop Chair**, [1st Workshop on Analytics, Learning & Collaboration in eXtended Reality (XRWALC 2022)](http://xrwalc2022.di.fc.ul.pt/) @ ACM IMX 2022, Aveiro, Portugal (22–24 June 2022)
 <!--endtab-->
 
 <!--tab:2021-->
-- **Publications Chair** at the [Immersive Learning Research Network Conference 2021 (iLRN'21)](http://www.immersivelrn.org/ilrn2021/), Online.
-- **Special Track Chair** of XR & Immersive Learning Environments at the IEEE International Conference on Engineering, Technology and Education (TALE
-2021), Dec.5-8, 2021. Wuhan, China.
+- **Special Track Chair (XR & Immersive Learning Environments)**, [IEEE International Conference on Engineering, Technology and Education (TALE 2021)](https://ieeexplore.ieee.org/xpl/conhome/9678523/proceeding), Wuhan, China & Online (5–8 December 2021)
+- **Publications Chair**, 7th International Conference of the Immersive Learning Research Network (iLRN 2021), Online (17 May – 10 June 2021). [IEEE Xplore Proceedings](https://ieeexplore.ieee.org/xpl/conhome/9459238/proceeding) · [iLRN Academic Proceedings](https://publications.immersivelrn.org/index.php/academic/issue/view/ilrn2021)
 <!--endtab-->
 
 <!--tab:2020-->
-- **Publications Chair** at the [Immersive Learning Research Network Conference 2020 (iLRN'20)](http://www.immersivelrn.org/ilrn2020/), Online.
+- **Publications Chair**, 6th International Conference of the Immersive Learning Research Network (iLRN 2020), Online (21–25 June 2020). [IEEE Xplore Proceedings](https://ieeexplore.ieee.org/xpl/conhome/9144365/proceeding) · [iLRN Academic Proceedings](https://publications.immersivelrn.org/index.php/academic/issue/view/ilrn2020)
 <!--endtab-->
 
 <!--tab:2019-->
-- **Publications Co-Chair & Publicity Co-Director** at the Immersive Learning Research Network Conference 2019 (iLRN'19), London, UK
+- **Publications Co-Chair & Publicity Co-Director**, 5th International Conference of the Immersive Learning Research Network (iLRN 2019), London, UK (23–27 June 2019). [IEEE Xplore Proceedings](https://ieeexplore.ieee.org/xpl/conhome/8856230/proceeding)
 <!--endtab-->
 
 <!--tab:2018-->
-- **Registration Chair & Publications Co-Chair** at the Immersive Learning Research Network Conference 2018 (iLRN'18), Montana, USA
-- **Publicity & Social Media Chair** at the 2nd EAI International Conference on Technology, Innovation & Entrepreneurship (TIE'18), London, UK
+- **Publications Co-Chair & Registration Chair**, 4th International Conference of the Immersive Learning Research Network (iLRN 2018), Missoula, Montana, USA (24–29 June 2018). [iLRN 2018 Proceedings Archive](https://publications.immersivelrn.org/index.php/academic/issue/archive)
+- **Publicity & Social Media Chair**, 2nd EAI International Conference on Technology, Innovation & Entrepreneurship (TIE 2018), London, UK (2018). [Springer Innovations in Communications Proceedings](https://doi.org/10.1007/978-3-030-15389-2)
 <!--endtab-->
 
 <!--tab:2017-->
-- **Co-Organiser** of the Special Session on Fuzzy Logic and Computational Intelligence applications for Computer-Supported Collaborative Work at the
-2017 IEEE Conference on Fuzzy Systems, Naples, Italy
+- **Co-Organiser** of the Special Session on Fuzzy Logic and Computational Intelligence applications for Computer-Supported Collaborative Work at the 2017 IEEE Conference on Fuzzy Systems, Naples, Italy
 - **Co-Organiser** of the Imagine 2017 workshop and #iLRN17_SFP competition at the Immersive Learning Research Network Conference 2017 (iLRN’17), Coimbra, Portugal.
 - **Registration, Publicity & Web Chair** at the Immrsive Learning Research Network Conference 2017 (iLRN'17), Coimbra, Portugal
 - **Publicity & Social Media Chair** at the 1st EAI International Conference on Technology, Innovation & Entrepreneurship (TIE'17), Canterbury, UK
@@ -160,132 +247,7 @@ Shanghai, China
 
 {{< /tabs >}}
 
-### Professional Affiliations & Senior Memberships
-
-{{< tabs >}}
-<!--tab:Current-->
-- **Senior Member (SMIEEE)**, [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/) (2018–Present)
-- **Member (MITP)**, [Institute of Telecommunications Professionals (ITP)](https://www.theitp.org/)(2026–Present)
-- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/) (2025–Present)
-<!--endtab-->
-
-<!--tab:Past-->
-- **Professional Member (MBCS)**, [British Computer Society (BCS)](https://www.bcs.org/) (2015–2019)
-- **Professional Member**, [Association for Computing Machinery (ACM)](https://www.acm.org/) (2015–2019, 2021–2022)
-- **Associate Member**, [Association for Learning Technology (ALT)](https://www.alt.ac.uk/) (2020–2023)
-- **Member**, Mexican Thematic Network for Educational Technology (RedLaTE), [CONAHCYT](https://conahcyt.mx/) (2017–2023)
-- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/) (2016-2020)
-- **Member**, [Interaction Design Foundation (IxDF)](https://www.interaction-design.org/) (2015–2018)
-<!--endtab-->
-{{< /tabs >}}
-
-### Research Supervision & Mentorship
-
-{{< primary-tabs >}}
-
-<!--primary-tab:Doctoral Dissertations (PhD)-->
-{{< secondary-tabs >}}
-<!--tab:Current-->
-- **Pranjal Jain**, *“Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing”*, PhD in Computer Science, Swansea University, UK (Expected 2026). *(Industrial Supervisor)*
-- **Shima Yekkehbash Heidari**, *“Exploring Intelligent Immersive Systems for Field Service Operations”*, PhD in Management and Business, Cardiff Business School, Cardiff University, UK (Expected 2026). *(Industrial Supervisor)*
-- **Umer Iqbal**, PhD in Computer Science, University of Leicester, UK (Expected 2026). *(Industrial Supervisor)*
-<!--endtab-->
-
-<!--tab:Completed-->
-- **Zi-Chuan Zhao**, *“Digital Twins for Asset Monitoring and Advanced Simulation”*, PhD in Computer Science, University of Essex, UK (2025). *(Industrial Supervisor)*
-- **Saad Zia**, PhD in Computer Science, University of Leicester, UK (2025). *(Industrial Supervisor)*
-- **Hugo León Garza**, *“Exploiting Mixed Reality Technology for Network Design”*, PhD in Computer Science, University of Essex, UK (2023). *(Industrial Supervisor)*
-<!--endtab-->
-{{< /secondary-tabs >}}
-<!--endprimary-tab-->
-
-<!--primary-tab:Postgraduate & Master’s Dissertations (MSc, MBA, MA, MTech)-->
-{{< secondary-tabs >}}
-<!--tab:2025-->
-- **Amer Haitham Ahmed Harfoush**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
-- **Aly Konsowa**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
-- **Can Kocyigitoglu**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
-- **Mark Hanna**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
-- **Mazen Mohmed Nasr Mohamed Ahmed**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
-- **Melissa Turk**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
-- **Yahia M. I. M. I. Mady**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2024-->
-- **Adham Aboulkheir**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
-- **Bahaaeldin Hassan**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
-- **Daniel Nunes Lopez**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
-- **Jera Makar**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
-- **Kirollos Hanna**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
-- **Oreanu Olayemi**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
-- **Saeed Abokhatwa**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2023-->
-- **Abhishek Kumar**, *“A Study of Deep Learning Methods for Human Activity Recognition”*, MTech in Data Science and Business Analytics, Indian Institute of Science, India (2023). *(Industrial Supervisor)*
-- **Haziq Arbab**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2023). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2022-->
-- **Ozkan Bahceci**, *“Supervised Machine Learning Hand Gesture Classification in Virtual Reality”*, MSc in Data Science, University of Exeter, UK (2022). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2021-->
-- **Mart van Saane**, *“A Web VR Visualisation Tool for Construction 4.0”*, MSc in Computer Games, University of Essex, UK (2021). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2020-->
-- **Parastoo Azizinezhad**, *“Smart Object Detection Using AR”*, MSc in Intelligent Systems and Robotics, University of Essex, UK (2020). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2019-->
-- **Athar Mushtaq**, *“Case Study — Digital Twin: Transforming Asset-Intensive Industry”*, MBA, Business School, Cardiff University, UK (2019). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2018-->
-- **Alexandros Katsiamakas**, *“Immersive Maps for Field Engineers”*, MSc in Computer Games, University of Essex, UK (2018). *(Industrial Supervisor)*
-- **Tomas Oplatek**, *“An Immersive Virtual Reality Lobby for Mobile Training”*, MSc in Computer Games, University of Essex, UK (2018). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2017-->
-- **Jodi Bernhart**, *“Uses and Benefits of AR in Industrial Settings”*, MA in Learning Design and Technology, San Diego State University, USA (2017). *(Co-Advisor)*
-- **Kevin White**, *“Uses and Benefits of AR in Industrial Settings”*, MA in Learning Design and Technology, San Diego State University, USA (2017). *(Co-Advisor)*
-- **Kyung Hee Cho**, *“A Web-Based Knowledge Management System for BT”*, MSc in Advanced Computer Science, University of Essex, UK (2017). *(Industrial Supervisor)*
-<!--endtab-->
-{{< /secondary-tabs >}}
-<!--endprimary-tab-->
-
-<!--primary-tab:Undergraduate & Degree Apprenticeships (BSc, BEng)-->
-{{< secondary-tabs >}}
-<!--tab:2023-->
-- **Ben Newman**, *“Device Agnostic Multiuser Collaboration Platform for Digital Twin Consolidation”*, BSc Digital and Technology Solutions Degree Apprenticeship, University of Exeter, UK (2023). *(Industrial Supervisor)*
-<!--endtab-->
-<!--tab:2021-->
-- **Jorge Luis Meneses Vargas**, BEng in Information Technologies and Systems, Universidad Autónoma Metropolitana, Mexico (2021). *(Co-Advisor)*
-- **Rodrigo Vázquez Espino**, BEng in Information Technologies and Systems, Universidad Autónoma Metropolitana, Mexico (2021). *(Co-Advisor)*
-<!--endtab-->
-{{< /secondary-tabs >}}
-<!--endprimary-tab-->
-
-{{< /primary-tabs >}}
-
-### Grants, Fellowships & Funding
-
-{{< tabs >}}
-<!--tab:2020-->
-- **Co-Investigator**, "Sistema de gestión de riesgo personal basado en agentes autónomos"
-30 Oct 2020 – 29 Oct 2023 Acuerdo DCCD.CD.06.12.20. Universidad Autónoma Metropolitana (UAM), Mexico.
-<!--endtab-->
-
-<!--tab:2009-->
-- **University of Essex Full PhD Studentship**, University of Essex, UK. October 2009.
-4-year fully-funded PhD studentship within the Intelligent Environments Group (IEG) working for the Scale-Up joint project between the University of Essex (UK) and King Abdulaziz University (KSA).
-<!--endtab-->
-
-<!--tab:2011-->
-- **Santander Universities Scholarship**. Santander Universities, UK. October 2009.
-Merit-based mobility grant given by Santander Universities to international students for postgraduate courses at a university within the Santander Universities network.
-<!--endtab-->
-
-<!--tab:2009-->
-- **FIDERH - Central Bank of Mexico Studentship**. Central Bank of Mexico, Mexico. October 2009.
-Educational loan scheme for postgraduate studies awarded based on demonstrated academic/professional merit as determined by FIDERH scholarship committee. FIDERH is a Federal Trust managed by the Central Bank of Mexico, which for over 40 years has been supporting graduate studies.
-<!--endtab-->
-{{< /tabs >}}
-
-### Technical Program Committee / Reviewer
+### Technical Program Committees & Peer Review
 
 {{< tabs >}}
 <!--tab:2023-->
@@ -380,96 +342,108 @@ Europe. London, UK, 28-29 November 2013.
 <!--endtab-->
 {{< /tabs >}}
 
-### Invited Talks
+### Research Supervision & Mentorship
+
+{{< primary-tabs >}}
+
+<!--primary-tab:Doctoral Dissertations (PhD)-->
+{{< secondary-tabs >}}
+<!--tab:Current-->
+- **Pranjal Jain**, *“Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing”*, PhD in Computer Science, Swansea University, UK (Expected 2026). *(Industrial Supervisor)*
+- **Shima Yekkehbash Heidari**, *“Exploring Intelligent Immersive Systems for Field Service Operations”*, PhD in Management and Business, Cardiff Business School, Cardiff University, UK (Expected 2026). *(Industrial Supervisor)*
+- **Umer Iqbal**, PhD in Computer Science, University of Leicester, UK (Expected 2026). *(Industrial Supervisor)*
+<!--endtab-->
+
+<!--tab:Completed-->
+- **Zi-Chuan Zhao**, *“Digital Twins for Asset Monitoring and Advanced Simulation”*, PhD in Computer Science, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Saad Zia**, PhD in Computer Science, University of Leicester, UK (2025). *(Industrial Supervisor)*
+- **Hugo León Garza**, [*“An Explainable AI Approach to Process Data in Mixed Reality Environments for Field Service Operations”*](https://repository.essex.ac.uk/35929/), PhD in Computer Science, University of Essex Repository, UK (2023). *(Industrial Supervisor)*
+<!--endtab-->
+{{< /secondary-tabs >}}
+<!--endprimary-tab-->
+
+<!--primary-tab:Master’s Dissertations (MSc, MBA, MA, MTech)-->
+{{< secondary-tabs >}}
+<!--tab:2025-->
+- **Amer Haitham Ahmed Harfoush**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Aly Konsowa**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Can Kocyigitoglu**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Mark Hanna**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Mazen Mohmed Nasr Mohamed Ahmed**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Melissa Turk**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+- **Yahia M. I. M. I. Mady**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2024-->
+- **Adham Aboulkheir**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Bahaaeldin Hassan**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Daniel Nunes Lopez**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Jera Makar**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Kirollos Hanna**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Oreanu Olayemi**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+- **Saeed Abokhatwa**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2023-->
+- **Abhishek Kumar**, *“A Study of Deep Learning Methods for Human Activity Recognition”*, MTech in Data Science and Business Analytics, Indian Institute of Science, India (2023). *(Industrial Supervisor)*
+- **Haziq Arbab**, MSc in Intelligent Systems and Robotics, University of Essex, UK (2023). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2022-->
+- **Ozkan Bahceci**, *“Supervised Machine Learning Hand Gesture Classification in Virtual Reality”*, MSc in Data Science, University of Exeter, UK (2022). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2021-->
+- **Mart van Saane**, *“A Web VR Visualisation Tool for Construction 4.0”*, MSc in Computer Games, University of Essex, UK (2021). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2020-->
+- **Parastoo Azizinezhad**, *“Smart Object Detection Using AR”*, MSc in Intelligent Systems and Robotics, University of Essex, UK (2020). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2019-->
+- **Athar Mushtaq**, *“Case Study — Digital Twin: Transforming Asset-Intensive Industry”*, MBA, Business School, Cardiff University, UK (2019). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2018-->
+- **Alexandros Katsiamakas**, *“Immersive Maps for Field Engineers”*, MSc in Computer Games, University of Essex, UK (2018). *(Industrial Supervisor)*
+- **Tomas Oplatek**, *“An Immersive Virtual Reality Lobby for Mobile Training”*, MSc in Computer Games, University of Essex, UK (2018). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2017-->
+- **Jodi Bernhart**, *“Uses and Benefits of AR in Industrial Settings”*, MA in Learning Design and Technology, San Diego State University, USA (2017). *(Co-Advisor)*
+- **Kevin White**, *“Uses and Benefits of AR in Industrial Settings”*, MA in Learning Design and Technology, San Diego State University, USA (2017). *(Co-Advisor)*
+- **Kyung Hee Cho**, *“A Web-Based Knowledge Management System for BT”*, MSc in Advanced Computer Science, University of Essex, UK (2017). *(Industrial Supervisor)*
+<!--endtab-->
+{{< /secondary-tabs >}}
+<!--endprimary-tab-->
+
+<!--primary-tab:Undergraduate & Degree Apprenticeships (BSc, BEng)-->
+{{< secondary-tabs >}}
+<!--tab:2023-->
+- **Ben Newman**, *“Device Agnostic Multiuser Collaboration Platform for Digital Twin Consolidation”*, BSc Digital and Technology Solutions Degree Apprenticeship, University of Exeter, UK (2023). *(Industrial Supervisor)*
+<!--endtab-->
+<!--tab:2021-->
+- **Jorge Luis Meneses Vargas**, BEng in Information Technologies and Systems, Universidad Autónoma Metropolitana, Mexico (2021). *(Co-Advisor)*
+- **Rodrigo Vázquez Espino**, BEng in Information Technologies and Systems, Universidad Autónoma Metropolitana, Mexico (2021). *(Co-Advisor)*
+<!--endtab-->
+{{< /secondary-tabs >}}
+<!--endprimary-tab-->
+
+{{< /primary-tabs >}}
+
+### Professional Affiliations & Senior Memberships
 
 {{< tabs >}}
-<!--tab:2025-->
-- **"Beyond Reality: Exploring the Frontiers of Immersive Technologies"**, Tech Fellowship - Tech Talk Series, Online, 19-Feb-25
+<!--tab:Current-->
+- **Senior Member (SMIEEE)**, [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/) (2018–Present)
+- **Member (MITP)**, [Institute of Telecommunications Professionals (ITP)](https://www.theitp.org/)(2026–Present)
+- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/) (2025–Present)
 <!--endtab-->
 
-<!--tab:2024-->
-- **"The Role of AI in Digital Twins"**, CSEE AI Symposium, University of Essex, 19-Apr-24
-- **"Digital Twins research and use cases"**, BT India Research Centre (BTIRC) Tech Talk, Online, 23-May-24
-- **"Digital Twins and AI"**, Tech Fellowship AI Squad Meeting, Tech Talk, Online, 21-Jun-24
-- **"Digital Twins research and use cases"**, CX Weekly Knowledge Share Meeting, Online, 27-Jun-24
-- **"Human Factors in XR"**, Semana de la Ergonomía y Diseño, Unidad de Posgrado, UNAM, Online (Nacional Autonomous University of Mexico), 16-Oct-24
-- **"BT Future Field Force Research"**, University of Essex CSEE, University of Essex, 31-Oct-24
-- **"Future Field Force: Leveraging Digital Twins"**, Immersive Technologies and AI for Smarter Telecoms, School of Computing Sciences Seminars, University of East Anglia, 01-Nov-24
-- **"Human-AI Collaboration in Industry 5.0"**, Seminar “Artificial Intelligence and Social Problems”, Online (Universidad Autónoma Metropolitana, Mexico), 11-Dec-24
-<!--endtab-->
-
-<!--tab:2023-->
-- Panellist at ["Extended Reality Day - Live Q&A"](https://atadastral.co.uk/bsw/2023/). Panel organised as part of BT's British Science Week 2023. Online. 14 March 2023. 
-- **"Future Field Force & Network Operations"** Guest lecture at the Department of Computer Science, City, University of London, UK. April 3, 2023.
-- Panellist at ["Digital Twins Interoperability Workshop"](https://cp.catapult.org.uk/summit/connected-digital-twins-summit-2023/speakers/). Panel organised as part of the 2023 Connected Digital Twins Summit. London. 22 June 2023.
-- Panellist at "Technical Considerations for Designing and Implementing Immersive Learning Applications". Panel organised as part of the 2023 9th International Conference of the Immersive Learning Research Network. San Luis Obispo, California, USA. 28 June 2023.
-- Panellist at ["Digital Futures Seminar - Augmented Reality"](https://www.uos.ac.uk/content/digital-futures-institute-news-and-events). Panel organised as part of the Digital Futures Institute Seminar Series, University of Suffolk. DigiTech Centre, Adastral Park, Ipswich, UK. 11 October 2023.
-<!--endtab-->
-
-<!--tab:2022-->
-- Panellist at [IEEE EdSoc "Tomorrow’s Classroom Ecosystem" Webinar](https://ieee-edusociety.org/tomorrows-classroom-ecosystem-webinar). Panel organised as part of the IEEE Education Week 2022. Online. 05 April 2022.
-- Panellist at "Challenges and Opportunities With the Next Generation of Wearable Health Solutions Designed With Digital Twins". Panel organised as part of the 23rd IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM). Belfast, NI. 14 June 2022.
-- ["Are Immersive Technologies the Future of Human Interactions?"](https://suffolkbusinessexpo.co.uk/schedule/technology-day/). Invited Speaker at the Festival of Suffolk 2022 - Technology Day. Ipswich, UK. 21 June 2022.
-- "Digital Twins, Immersive Technologies and the Workplace of the Future". Presentation at 1st Int. Workshop on Analytics, Learning & Collaboration in eXtended Reality (XR-WALK) at 2022 ACM Interactive Media Experiences (IMX) Conference. Aveiro, Portugal. 24 June 2022.
-<!--endtab-->
-
-<!--tab:2021-->
-- **“The Augmented Employee: Immersive Technologies in Field Service Operations”**. Invited seminar at the School of Computer Science & Engineering, University of Westminster, UK. Online. February 24, 2021.
-- “AI and Immersive Technologies“ Guest lecture at the Department of Computer Science, University of Exeter, UK. Online. March 2, 2021.
-- "[International Women's Day Celebrations](https://le.ac.uk/iwd/events/wednesday-10-march)", School of Informatics, University of Leicester, UK. Online. March 10, 2021.
-- "[Immersive Technologies in the Workplace](https://cambum.net/Inclusive_ARVR/)". Invited talk at the *ACM CHI 2021: Adaptive Accessible AR/VR Sytems* workshop. May 9, 2021.
-- "[Future Field and Network Operations](https://vimeo.com/547911996)". Invited talk at the first Essex BT/Openreach alumni meeting event, University of Essex, UK. Online. May 10, 2021.
-- "[AI, digital twins and immersive technologies](https://i-construct.org.uk/events/42)". I-Construct, Innovation Hub, UK. Online. May 19, 2021.
-- **"BT Labs: BT’s Research and Academic Collaboration"**. Wales Tech Week 2021, UK. Online. June 21, 2021.
-- **"The journey from AI innovation to AI implementation: Barriers and enablers"**. Panel discussion at the 63rd Annual Conference of the Operational Research Society. Online. September 13th, 2021.
-<!--endtab-->
-
-<!--tab:2020-->
-- **“The Augmented Employee: Immersive Technologies in Field Service Operations”**. Invited (online) talk at the Doctoral Program in Web Science and Technology (Programa do Retiro Doutoral).  Universidad de Trás-os-Montes e Alto Douro (UTAD) & Universidade Aberta (*UAb*), Lisbon, Portugal. June 30, 2020.
-- “ Challenges regarding Research in STEAM Areas during the Health Emergency”. Webinar organised by Gender Indicators and Statistics CDMX, Mexico. Online. August 28, 2020.
-- “Digital Twins and Applications of Cross-Reality Interactions in Field Service Operations”. International Workshop on Cross-Reality (XR) Interaction. ACM Interactive Surfaces and Spaces (ISS 2020). November 8th, 2020.
-<!--endtab-->
-
-<!--tab:2019-->
-- **“The Augmented Employee: Immersive Technologies in Field Service Operations”**. Plenary talk at the 5th International Immersive Learning Research Network Conference (iLRN). London, UK. June 24-27, 2019.
-- **"Heads-Up, Hands-Free / Remote Collaboration”**. Roundtable discussion at Enterprise Wearable Technology Summit 2019 (EWTS). Dallas, Tx.
-September 17, 2019.
-- **"Tecnologías Inmersivas en los Servicios de Campo”**. Invited Talk as part of the Seminar Series on Artificial Intelligence and Social Issues.
-Metropolitan Autonomous University (UAM). Mexico City, Mexico. September 26, 2019.
-- "New perspectives on business challenges, funding opportunities and innovation (Expert Panel)”. Expert panel to discuss new perspectives on business challenges, funding opportunities and innovation, from companies including BT, Filament and Cloudfm alongside Essex academics. University of
-Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester, UK. December 10, 2019.
-<!--endtab-->
-
-<!--tab:2018-->
-- **“Immersive Technologies in Field Service Operations”**. Plenary talk at the II International Conference on Theoretical and Applied Computer Science and Engineering. Istanbul, Turkey. June 29-30, 2018.
-- **"Immersive Technologies in Field Service Operations”**. Invited talk at the 10th Computer Science and Electronic Engineering Conference (CEEC). University of Essex, Colchester, UK. 19 Sept 2018.
-<!--endtab-->
-
-<!--tab:2017-->
-- **“Immersive Technologies in Field Service Operations”** Presented at Ada Lovelace Day (Women in STEM). University of Essex, Colchester, UK. 10 Oct 2017.
-- **"Challenges and Opportunities for KTP Associates"** Presented at the University of Essex' "Winter Celebration of KTP 2017". Wivenhoe House Hotel, Wivenhoe, UK. 12 Dec 2017.
-<!--endtab-->
-
-<!--tab:2016-->
-- "Exploring Mixed Reality in Distributed Collaborative Learning Environments**"**,Seminar presented at Middlesex University, UK. 10 Feb 2016.
-- Invited talk at the inauguration of the Tommy Flowers Institute, Adastral Park, Ipswich, UK. September 2016.
-<!--endtab-->
-
-<!--tab:2014-->
-- "Mixed reality collaborative environments", Invited presentation at "Creativity, Ideas & Innovation" Workshop. The Business School - Canterbury
-Christ Church University, UK. 18 Nov 2014.
-<!--endtab-->
-
-<!--tab:2013-->
-- "Towards blended reality on collaborative laboratory activities using smart objects"
-- Invited talk at Espacios Educativos Especulares-EEE (Educational Reflected Spaces) Anual
-Meeting. Universidad Carlos III de Madrid, Spain. 27-28 May 2013.¦ [Slides](http://es.slideshare.net/prlosana/uc3-m-presentation) ¦ [Photos](https://storify.com/dleony/project-eee-meeting-2013)
-- Invited as a Mixed-Reality Specialist/Consultor to MobileSummer 2013 (Mobiilikesäkoulu 2013). Mustiala Park,
-Tammela, Finland. 23-24 May 2013.
+<!--tab:Past-->
+- **Professional Member (MBCS)**, [British Computer Society (BCS)](https://www.bcs.org/) (2015–2019)
+- **Professional Member**, [Association for Computing Machinery (ACM)](https://www.acm.org/) (2015–2019, 2021–2022)
+- **Associate Member**, [Association for Learning Technology (ALT)](https://www.alt.ac.uk/) (2020–2023)
+- **Member**, Mexican Thematic Network for Educational Technology (RedLaTE), [CONAHCYT](https://conahcyt.mx/) (2017–2023)
+- **Affiliate**, [Chartered Management Institute (CMI)](https://www.managers.org.uk/) (2016-2020)
+- **Member**, [Interaction Design Foundation (IxDF)](https://www.interaction-design.org/) (2015–2018)
 <!--endtab-->
 {{< /tabs >}}
 
-### In The Media
+### In The Media & Public Engagement
 
 {{< tabs >}}
 <!--tab:2023-->
@@ -530,4 +504,20 @@ Tammela, Finland. 23-24 May 2013.
 - ["Graphological System"](https://youtu.be/Bor2Psrr6X4). Interview broadcast at Mexican TV News’ national channel "Canal Once", July 29th, 2004.
 <!--endtab-->
 
+{{< /tabs >}}
+
+### Grants, Fellowships & Funding
+
+{{< tabs >}}
+<!--tab:2020-->
+- **Co-Investigator**, *“Sistema de gestión de riesgo personal basado en agentes autónomos”*, Universidad Autónoma Metropolitana (UAM), Mexico — Grant: DCCD.CD.06.12.20 (October 2020 – October 2023)
+<!--endtab-->
+
+<!--tab:2011-->
+- **Awardee**, *Full PhD Studentship*, University of Essex & King Abdulaziz University Scale-Up Project, UK (October 2009 – October 2013)
+<!--endtab-->
+
+<!--tab:2009-->
+- **Awardee**, *Santander Universities Scholarship*, Mobility Grant for Postgraduate Studies, UK (October 2009)
+- **Recipient**, *FIDERH Graduate Studentship*, Central Bank of Mexico (Banco de México), Mexico (October 2009)<!--endtab-->
 {{< /tabs >}}

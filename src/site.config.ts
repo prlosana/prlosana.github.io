@@ -55,7 +55,6 @@ export const PROFILE: ProfileConfig = {
   name: "Dr. Anasol Peña-Rios",
   tagline: "Distinguished Engineer & Research Technical Manager",
   email: "acpena@ieee.org",
-  location: "United Kingdom",
   links: {
     email: "mailto:acpena@ieee.org",
     github: "https://github.com/prlosana",
@@ -112,9 +111,7 @@ export const PUB_CONFIG: PublicationConfig = {
 }
 
 export const FOOTER: FooterConfig = {
-  credits: true,
-  sourceCode: "https://github.com/prlosana/prlosana.github.io",
-  sourceContent: "https://github.com/prlosana/prlosana.github.io/tree/main/src/content",
+  credits: false,
   footerLinks: [],
 }
 

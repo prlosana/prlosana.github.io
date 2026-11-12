@@ -67,7 +67,7 @@ export const PROFILE: ProfileConfig = {
   highlightLinks: ["googleScholar", "linkedin", "github"],
   linksPlacement: {
     header: false,
-    about: ["github", "linkedin", "googleScholar", "orcid", "scopus", "researchgate"],
+    about: ["email", "github", "linkedin", "googleScholar", "orcid", "scopus", "researchgate"],
     footer: false,
   },
 }

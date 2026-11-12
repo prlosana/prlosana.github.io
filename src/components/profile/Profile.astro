@@ -6,7 +6,6 @@ import Badge from "@/components/base/Badge.astro"
 import Icon from "@/components/base/Icon.astro"
 import avatar from "@/assets/avatar.png"
 
-import EmailLink from "./EmailLink.astro"
 import Pronunciation from "./Pronunciation.astro"
 import ProfileLinks from "./ProfileLinks.astro"
 import { getProfileLinkPlacement } from "./helper"
@@ -51,24 +50,24 @@ const aboutLinks = getProfileLinkPlacement("about")
         <p class="profile-tagline">{profile.tagline}</p>
       </div>
 
-      <div class="profile-meta">
-        <EmailLink email={profile.email} />
-
-        {profile.phone && (
+      {(profile.phone || profile.pronunciation) && (
+        <div class="profile-meta">
+          {profile.phone && (
             <span class="profile-contact-item">
               <Icon name="mingcute:phone-line" />
               <span>{profile.phone}</span>
             </span>
           )}
 
-        {profile.pronunciation && (
+          {profile.pronunciation && (
             <Pronunciation
               name={profile.name}
               text={profile.pronunciation}
               audio={profile.pronunciationAudioPath}
             />
           )}
-      </div>
+        </div>
+      )}
 
       {aboutLinks.length > 0 && (
         <div class="profile-social-links">

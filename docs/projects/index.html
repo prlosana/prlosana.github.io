@@ -22,7 +22,7 @@ Knowledge Transfer Partnership (KTP) project between British Telecommunications 
 A 5-year joint project between the University of Essex, UK and King Abdulaziz University, KSA. Its purpose was to investigate the Scaling-Up of Intelligent Environments from the current small scale, beyond four walls to the large-scale.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/projects/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b3af704325957ed8b19cfc69b003dc52595a1d4c8ec7d7fe7c1199edaf009180.css" integrity="sha256-s69wQyWVftixnPxpsAPcUllaHUyOx9f&#43;fBGZ7a8AkYA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.06868996b41c6db0afae9de7eff2d1b76ce3e0d98a7fde14e5130850c4783ccc.css" integrity="sha256-BoaJlrQcbbCvrp3n7/LRt2zj4NmKf94U5RMIUMR4PMw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -518,13 +518,13 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
 
 <style>
   .projects-posts-section {
-    margin-block-start: 3rem;
+    margin-block-start: 2.5rem;
     padding-block-start: 1.5rem;
     border-block-start: 2px solid var(--border);
   }
 
   .projects-posts-heading {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-block-end: 1rem;
     color: var(--primary);
@@ -532,63 +532,17 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
 
   .posts-grid {
     display: grid;
-    gap: 1.5rem;
+    gap: 1rem;
     margin-block-start: 1rem;
   }
 
   .post-entry {
     border: 1px solid var(--border);
     border-radius: var(--md-shape-corner-l, 16px);
-    padding: 1.5rem;
+    padding: 1rem 1.25rem;
     background: var(--entry);
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
     overflow: hidden;
-  }
-
-  .post-entry .entry-content {
-    display: block !important;
-    overflow: visible !important;
-    -webkit-line-clamp: unset !important;
-    -webkit-box-orient: unset !important;
-    max-height: none !important;
-    margin-block-end: 1rem;
-    color: var(--content);
-    line-height: 1.6;
-    font-size: 0.95rem;
-  }
-
-  .post-entry .entry-content::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .post-entry .img-wrap-left,
-  .post-entry .img-wrap-right {
-    float: left;
-    max-width: 240px;
-    width: auto;
-    margin: 0 1.25rem 1rem 0;
-  }
-
-  .post-entry .img-wrap-left img,
-  .post-entry .img-wrap-right img {
-    border-radius: var(--md-shape-corner-m, 12px);
-    box-shadow: var(--md-elevation-1, 0 1px 3px rgba(0, 0, 0, 0.1));
-    width: 100%;
-    max-height: 200px;
-    height: auto;
-    object-fit: contain;
-    display: block;
-  }
-
-  .post-entry .img-wrap-left figcaption,
-  .post-entry .img-wrap-right figcaption {
-    font-size: 0.75rem;
-    color: var(--secondary);
-    text-align: center;
-    margin-top: 0.35rem;
-    font-style: italic;
   }
 
   .post-entry:hover {
@@ -598,8 +552,9 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
   }
 
   .entry-header h2 {
-    margin: 0 0 0.75rem 0;
-    font-size: 1.35rem;
+    margin: 0 0 0.4rem 0;
+    font-size: 1.15rem;
+    line-height: 1.35;
   }
 
   .entry-header h2 a {
@@ -611,12 +566,81 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
     text-decoration: underline;
   }
 
+  .post-entry .entry-content {
+    display: block !important;
+    overflow: visible !important;
+    -webkit-line-clamp: unset !important;
+    line-clamp: unset !important;
+    -webkit-box-orient: unset !important;
+    max-height: none !important;
+    margin-block-end: 0.5rem;
+    color: var(--content);
+    line-height: 1.5;
+    font-size: 0.9rem;
+  }
+
+  .post-entry .entry-content p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+    margin: 0 0 0.4rem 0;
+  }
+
+  .post-entry .entry-content p ~ p {
+    display: none;
+  }
+
+  .post-entry .entry-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .post-entry .img-wrap-left,
+  .post-entry .img-wrap-right {
+    float: left;
+    max-width: 170px;
+    width: auto;
+    margin: 0 1rem 0.5rem 0;
+  }
+
+  .post-entry .img-wrap-left img,
+  .post-entry .img-wrap-right img {
+    border-radius: var(--md-shape-corner-m, 10px);
+    box-shadow: var(--md-elevation-1, 0 1px 3px rgba(0, 0, 0, 0.1));
+    width: 100%;
+    max-height: 115px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+  .post-entry .img-wrap-left figcaption,
+  .post-entry .img-wrap-right figcaption {
+    font-size: 0.72rem;
+    color: var(--secondary);
+    text-align: center;
+    margin-top: 0.25rem;
+    font-style: italic;
+    line-height: 1.2;
+  }
+
+  .post-entry .entry-content .img-wrap-left ~ .img-wrap-left,
+  .post-entry .entry-content .img-wrap-left ~ .img-wrap-right,
+  .post-entry .entry-content .img-wrap-right ~ .img-wrap-left,
+  .post-entry .entry-content .img-wrap-right ~ .img-wrap-right {
+    display: none;
+  }
+
   .entry-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--secondary);
+    padding-top: 0.2rem;
   }
 
   .entry-footer time {
@@ -626,24 +650,41 @@ A 5-year joint project between the University of Essex, UK and King Abdulaziz Un
   .categories {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.4rem;
+    gap: 0.35rem;
   }
 
   .category {
     background: var(--code-bg);
     color: var(--secondary);
-    padding: 0.2rem 0.6rem;
+    padding: 0.15rem 0.5rem;
     border-radius: var(--md-shape-full, 9999px);
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     font-weight: 500;
     border: 1px solid var(--border);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 640px) {
+    .post-entry {
+      padding: 1rem;
+    }
+
+    .post-entry .img-wrap-left,
+    .post-entry .img-wrap-right {
+      float: none;
+      max-width: 100%;
+      margin: 0 0 0.75rem 0;
+    }
+
+    .post-entry .img-wrap-left img,
+    .post-entry .img-wrap-right img {
+      max-height: 150px;
+      margin: 0 auto;
+    }
+
     .entry-footer {
       flex-direction: column;
       align-items: flex-start;
-      gap: 0.5rem;
+      gap: 0.4rem;
     }
   }
 </style>

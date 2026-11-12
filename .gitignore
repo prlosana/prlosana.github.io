@@ -3,6 +3,10 @@ public/
 resources/
 .hugo_build.lock
 
+# Node & Package Managers
+node_modules/
+.pnpm-store/
+
 # OS
 .DS_Store
 Thumbs.db

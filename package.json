@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Academic portfolio website for Dr. Anasol Peña-Rios",
+  "packageManager": "pnpm@12.16.1",
   "scripts": {
     "dev": "python3 scripts/build_publications.py && hugo server -D",
     "build": "python3 scripts/build_publications.py && hugo --minify",

@@ -3,6 +3,7 @@
 build_publications.py
 Parses static/publications.bib (BibLaTeX format) into data/publications.json for Hugo.
 Supports multiple citation styles: APA, IEEE, Harvard, ACM, and Chicago.
+Includes patent status chips (Granted Patent vs Patent Application) and note sections.
 """
 
 import json
@@ -142,6 +143,28 @@ def punct(text: str, p: str = ".") -> str:
         return text
     return f"{text}{p}"
 
+def get_patent_status(fields: dict) -> dict:
+    raw_type = fields.get("type", "").lower().strip()
+    howpub = fields.get("howpublished", "").lower().strip()
+
+    # Check granted first
+    if raw_type == "patent" or "granted" in howpub:
+        return {"status": "granted", "label": "Granted Patent", "term": "Patent"}
+
+    # Check applications
+    if raw_type in ["patentapp", "patentus", "patentde", "patentfr", "patentgb"] or "app" in raw_type or "app" in howpub:
+        return {"status": "application", "label": "Patent Application", "term": "Patent Application"}
+
+    if raw_type:
+        is_app = "app" in raw_type
+        return {
+            "status": "application" if is_app else "granted",
+            "label": "Patent Application" if is_app else "Granted Patent",
+            "term": "Patent Application" if is_app else "Patent"
+        }
+
+    return {"status": "application", "label": "Patent Application", "term": "Patent Application"}
+
 def determine_category(etype: str, fields: dict) -> str:
     title = fields.get("title", "").lower()
     note = fields.get("note", "").lower()
@@ -188,6 +211,8 @@ def build_all_citations(entry_obj: dict) -> dict:
 
     number_pat = fields.get("number", fields.get("patentnumber", ""))
     location = fields.get("location", fields.get("nationality", fields.get("address", ""))).rstrip(".")
+    pat_status = get_patent_status(fields)
+    pat_term = pat_status["term"]
 
     thesistype = fields.get("type", "").lower()
     if "master" in thesistype or etype == "mastersthesis":
@@ -218,7 +243,7 @@ def build_all_citations(entry_obj: dict) -> dict:
                 citations["apa"] = f"{lead} (Eds.). ({year}). <em>{title}</em>. {pub}."
             elif cat == "Patents":
                 lead = a_dot if a_dot else (punct(holders) if holders else "<strong>Peña-Rios, A.</strong>.")
-                pat_str = f" (Patent No. {number_pat})" if number_pat else ""
+                pat_str = f" ({pat_term} No. {number_pat})" if number_pat else ""
                 loc_str = f" {location}." if location else (f" {pub}." if pub else " Google Patents.")
                 citations["apa"] = f"{lead} ({year}). <em>{title}</em>{pat_str}.{loc_str}"
             elif cat == "Special Issues":
@@ -257,7 +282,7 @@ def build_all_citations(entry_obj: dict) -> dict:
                 citations["ieee"] = f"{lead}, Eds., <em>{title}</em>. {pub}, {year}."
             elif cat == "Patents":
                 lead = authors if authors else (holders if holders else "<strong>A. Peña-Rios</strong>")
-                citations["ieee"] = f'{lead}, "{title}," {location} Patent {number_pat}, {year}.'
+                citations["ieee"] = f'{lead}, "{title}," {location} {pat_term} {number_pat}, {year}.'
             elif cat == "Special Issues":
                 lead = editors if editors else authors
                 citations["ieee"] = f'{lead}, Guest Eds., "{title}," <em>{journal}</em>, {year}.'
@@ -293,7 +318,7 @@ def build_all_citations(entry_obj: dict) -> dict:
                 citations["harvard"] = f"{lead} (eds.) ({year}) <em>{title}</em>. {pub}."
             elif cat == "Patents":
                 lead = authors if authors else (holders if holders else "<strong>Peña-Rios, A.</strong>")
-                citations["harvard"] = f"{lead} ({year}) <em>{title}</em>. {location} Patent {number_pat}."
+                citations["harvard"] = f"{lead} ({year}) <em>{title}</em>. {location} {pat_term} {number_pat}."
             elif cat == "Special Issues":
                 lead = editors if editors else authors
                 citations["harvard"] = f"{lead} (Guest eds.) ({year}) '{title}', <em>{journal}</em> [Special issue]."
@@ -330,7 +355,7 @@ def build_all_citations(entry_obj: dict) -> dict:
                 citations["acm"] = f"{lead} (Eds.). {year}. <em>{title}</em>. {pub}."
             elif cat == "Patents":
                 lead = a_dot if a_dot else (punct(holders) if holders else "<strong>Peña-Rios, A.</strong>.")
-                citations["acm"] = f"{lead} {year}. {title}. {location} Patent {number_pat}."
+                citations["acm"] = f"{lead} {year}. {title}. {location} {pat_term} {number_pat}."
             elif cat == "Special Issues":
                 lead = punct(editors) if editors else a_dot
                 citations["acm"] = f"{lead} (Eds.). {year}. {title}. <em>{journal}</em>."
@@ -367,7 +392,7 @@ def build_all_citations(entry_obj: dict) -> dict:
                 citations["chicago"] = f"{lead}, eds. {year}. <em>{title}</em>. {pub}."
             elif cat == "Patents":
                 lead = a_dot if a_dot else (punct(holders) if holders else "<strong>Peña-Rios, A.</strong>.")
-                citations["chicago"] = f'{lead} {year}. <em>{title}</em>. {location} Patent {number_pat}.'
+                citations["chicago"] = f'{lead} {year}. <em>{title}</em>. {location} {pat_term} {number_pat}.'
             elif cat == "Special Issues":
                 lead = editors if editors else authors
                 citations["chicago"] = f'{lead}, eds. {year}. "{title}." <em>{journal}</em>.'
@@ -429,6 +454,10 @@ def main():
         raw_bib_lines.append("}")
         raw_bib = "\n".join(raw_bib_lines)
 
+        pat_status = get_patent_status(fields) if cat == "Patents" else None
+        raw_note = fields.get("note", "").strip()
+        note_val = "" if raw_note.lower() == "special issue" else raw_note
+
         entry_obj = {
             "key": key,
             "entry_type": etype,
@@ -440,6 +469,8 @@ def main():
             "doi": fields.get("doi", ""),
             "doi_url": f"https://doi.org/{fields.get('doi')}" if fields.get("doi") else "",
             "url": fields.get("url", ""),
+            "patent_status": pat_status,
+            "note": note_val,
             "raw_bib": raw_bib,
         }
         all_citations = build_all_citations(entry_obj)

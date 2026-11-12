@@ -55,7 +55,7 @@
         <h3 class="pub-cat-heading">{{ .name }}</h3>
         <ol class="pub-list">
           {{ range .entries }}
-          <li class="pub-item" data-category="{{ .category }}" data-year="{{ .year }}" data-search="{{ lower .title }} {{ lower .author }} {{ lower .fields.publisher }} {{ lower .fields.journal }} {{ lower .fields.journaltitle }} {{ lower .fields.booktitle }} {{ .year }} {{ lower .category }}">
+          <li class="pub-item" data-category="{{ .category }}" data-year="{{ .year }}" data-search="{{ lower .title }} {{ lower .author }} {{ lower .fields.publisher }} {{ lower .fields.journal }} {{ lower .fields.journaltitle }} {{ lower .fields.booktitle }} {{ .year }} {{ lower .category }} {{ lower .note }}">
             <div class="pub-citation"
                  data-apa="{{ .citations.apa }}"
                  data-ieee="{{ .citations.ieee }}"
@@ -66,6 +66,20 @@
             </div>
 
             <div class="pub-actions">
+              {{ if .patent_status }}
+              <span class="pub-status-chip pub-status-{{ .patent_status.status }}">
+                {{ if eq .patent_status.status "granted" }}
+                <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" aria-hidden="true">
+                  <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/>
+                </svg>
+                {{ else }}
+                <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" aria-hidden="true">
+                  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1.5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-2.75H7.25A.75.75 0 0 1 6.5 7.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                </svg>
+                {{ end }}
+                {{ .patent_status.label }}
+              </span>
+              {{ end }}
               {{ if .doi_url }}
               <a href="{{ .doi_url }}" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn-doi">DOI</a>
               {{ end }}
@@ -74,6 +88,12 @@
               {{ end }}
               <button type="button" class="pub-btn pub-btn-bib" onclick="toggleBib('{{ .key }}')">BibLaTeX</button>
             </div>
+
+            {{ if .note }}
+            <div class="pub-note">
+              <span class="pub-note-label">Note:</span> {{ .note }}
+            </div>
+            {{ end }}
 
             <div id="bib-{{ .key }}" class="pub-bibtex-block" style="display: none;">
               <pre><code>{{ .raw_bib }}</code></pre>
@@ -305,6 +325,70 @@
 
   .pub-btn:hover {
     background: var(--border);
+  }
+
+  /* Patent Status Chip */
+  .pub-status-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.15rem 0.55rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    border-radius: var(--md-shape-full, 9999px);
+    line-height: 1.2;
+    user-select: none;
+  }
+
+  .pub-status-chip svg {
+    flex-shrink: 0;
+  }
+
+  /* Granted Patent: M3 Emerald/Success Tonal */
+  .pub-status-granted {
+    background: rgba(34, 197, 94, 0.14);
+    color: #15803d;
+    border: 1px solid rgba(34, 197, 94, 0.35);
+  }
+
+  body.dark .pub-status-granted,
+  :root[class~="dark"] .pub-status-granted {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+    border-color: rgba(74, 222, 128, 0.35);
+  }
+
+  /* Patent Application: M3 Amber/Pending Tonal */
+  .pub-status-application {
+    background: rgba(245, 158, 11, 0.14);
+    color: #b45309;
+    border: 1px solid rgba(245, 158, 11, 0.35);
+  }
+
+  body.dark .pub-status-application,
+  :root[class~="dark"] .pub-status-application {
+    background: rgba(245, 158, 11, 0.2);
+    color: #fbbf24;
+    border-color: rgba(251, 191, 36, 0.35);
+  }
+
+  /* Note Section */
+  .pub-note {
+    margin-block-start: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    color: var(--secondary);
+    background: var(--entry);
+    border-inline-start: 3px solid var(--primary);
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+
+  .pub-note-label {
+    font-weight: 600;
+    color: var(--primary);
+    margin-inline-end: 0.3rem;
   }
 
   .pub-bibtex-block {

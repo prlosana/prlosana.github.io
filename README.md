@@ -14,7 +14,7 @@ This is the Hugo-based personal and academic portfolio website for **Dr. Anasol 
 - **Navigation Structure**:
   - **About Me (`/`)**: Professional biography, research highlights, and integrated Contact section
   - **Publications (`/publications/`)**: Interactive list with multi-style citations (APA, IEEE, Harvard, ACM, Chicago, MLA), category filtering, search, and patent status chips
-  - **Leadership & Volunteering (`/leadership/`)**: Interactive tabbed view of leadership roles, honours, awards, and community service
+  - **Leadership & Service (`/leadership/`)**: Interactive tabbed view of leadership roles, honours, awards, and community service
   - **Projects (`/projects/`)**: Research initiatives, PhD work, and consolidated Posts section with compact card summaries
   - **Search (`/search/`)**: Real-time client-side search powered by Fuse.js
 
@@ -155,7 +155,7 @@ prlosana-hugo/
 │       └── material3.css   # Material Design 3 theme extensions & chips
 ├── content/                # Content markdown files
 │   ├── _index.md           # About Me (Home) page with integrated Contact section
-│   ├── leadership.md       # Leadership & Volunteering content
+│   ├── leadership.md       # Leadership & Service content
 │   ├── projects.md         # Projects page content
 │   ├── publications.md     # Publications page entrypoint
 │   ├── search.md           # Search page entrypoint

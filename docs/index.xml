@@ -106,7 +106,7 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140115086000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494064993492000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -121,10 +121,10 @@
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140115086000-0&#34;
+                id=&#34;tab-btn-tabs-1794494064993492000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140115086000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993492000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           Current
         &lt;/button&gt;
@@ -143,17 +143,17 @@
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140115086000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993492000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140115086000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993492000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Editorial Board Member&lt;/strong&gt;, &lt;a href=&#34;https://www.theitp.org/meet-the-team&#34;&gt;Institute of Telecommunications Professional (ITP) Journal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editorial Board Member&lt;/strong&gt;, &lt;a href=&#34;https://www.theitp.org/meet-the-team&#34;&gt;Institute of Telecommunications Professionals (ITP) Journal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Director of Publications &amp;amp; Member of the Board of Directors&lt;/strong&gt;, &lt;a href=&#34;https://www.immersivelrn.org/about/leadership-board/&#34;&gt;Immersive Learning Research Network (iLRN)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Board Member&lt;/strong&gt;, &lt;a href=&#34;https://ieee-edusociety.org/committee/committee-chairs-members&#34;&gt;Technical Committee on Immersive Learning Environments&lt;/a&gt;, &lt;a href=&#34;https://ieee-edusociety.org/&#34;&gt;IEEE Education Society&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Advisory Group Member&lt;/strong&gt;, &lt;a href=&#34;https://digitaltwinhub.co.uk/about/advisory-group/&#34;&gt;Digital Twin Hub (DT Hub UK)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Advisory Group Member&lt;/strong&gt;, &lt;a href=&#34;https://creative-science.org/about-csf/&#34;&gt;Creative Science Foundation (CSf)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Founding Partner &amp;amp; Member&lt;/strong&gt;, &lt;a href=&#34;https://www.women4ainnovation.org/about-us&#34;&gt;Women4AInnovation Futures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Co-Founder &amp;amp; Member&lt;/strong&gt;, &lt;a href=&#34;https://www.women4ainnovation.org/about-us&#34;&gt;Women4AInnovation Futures&lt;/a&gt; (April 2024–Present) — &lt;em&gt;A UK-based knowledge hub and network of senior female leaders bridging scholarly research with executive practice to catalyze Generative Artificial Intelligence for organizational governance and innovation.&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -443,38 +443,10 @@
   
   
 
-  
-  
-    
-    
-    
-    
-    
-    
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-    
-    
-  
-
-  
-  
 
 
 
-
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140116090000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494064993677000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -489,92 +461,82 @@
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-0&#34;
+                id=&#34;tab-btn-tabs-1794494064993677000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993677000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           Current
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-1&#34;
+                id=&#34;tab-btn-tabs-1794494064993677000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-1&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993677000-1&#34;
                 class=&#34;tab-button &#34;&gt;
           2025
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-2&#34;
+                id=&#34;tab-btn-tabs-1794494064993677000-2&#34;
                 data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-2&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993677000-2&#34;
                 class=&#34;tab-button &#34;&gt;
           2024
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-3&#34;
+                id=&#34;tab-btn-tabs-1794494064993677000-3&#34;
                 data-index=&#34;3&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-3&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993677000-3&#34;
                 class=&#34;tab-button &#34;&gt;
           2023
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-4&#34;
+                id=&#34;tab-btn-tabs-1794494064993677000-4&#34;
                 data-index=&#34;4&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-4&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993677000-4&#34;
                 class=&#34;tab-button &#34;&gt;
           2020
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-5&#34;
+                id=&#34;tab-btn-tabs-1794494064993677000-5&#34;
                 data-index=&#34;5&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-5&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993677000-5&#34;
                 class=&#34;tab-button &#34;&gt;
           2018
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-6&#34;
+                id=&#34;tab-btn-tabs-1794494064993677000-6&#34;
                 data-index=&#34;6&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-6&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993677000-6&#34;
                 class=&#34;tab-button &#34;&gt;
           2016
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-7&#34;
+                id=&#34;tab-btn-tabs-1794494064993677000-7&#34;
                 data-index=&#34;7&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-7&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064993677000-7&#34;
                 class=&#34;tab-button &#34;&gt;
           2014
-        &lt;/button&gt;
-      
-        &lt;button type=&#34;button&#34; 
-                role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140116090000-8&#34;
-                data-index=&#34;8&#34;
-                aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140116090000-8&#34;
-                class=&#34;tab-button &#34;&gt;
-          2001
         &lt;/button&gt;
       
     &lt;/div&gt;
@@ -591,21 +553,21 @@
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993677000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993677000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Distinguished Engineer (Tech Fellowship), BT Group, UK&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.essex.ac.uk/people/penar50207/anasol-pena-rios&#34;&gt;Honorary Senior Lecturer&lt;/a&gt;, University of Essex, UK&lt;/li&gt;
-&lt;li&gt;iLRN&amp;rsquo;s &lt;a href=&#34;https://www.immersivelrn.org/initiatives/circle-of-scholars/&#34;&gt;Circle of Scholars Member&lt;/a&gt;, The Immersive Learning Research Network, USA.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distinguished Engineer (Tech Fellowship)&lt;/strong&gt;, &lt;a href=&#34;https://www.bt.com/&#34;&gt;BT Group&lt;/a&gt;, UK — &lt;em&gt;One of the highest technical recognition within BT Group, awarded to only 50 engineers across the global enterprise.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.essex.ac.uk/people/penar50207/anasol-pena-rios&#34;&gt;&lt;strong&gt;Honorary Senior Lecturer&lt;/strong&gt;&lt;/a&gt;, School of Computer Science and Electronic Engineering, University of Essex, UK&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Member&lt;/strong&gt;, &lt;a href=&#34;https://www.immersivelrn.org/initiatives/circle-of-scholars/&#34;&gt;Circle of Scholars&lt;/a&gt;, The Immersive Learning Research Network, USA&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993677000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993677000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Finalist: Transformation Leader of the Year&lt;/strong&gt;, &lt;a href=&#34;https://womentechexcellence.co.uk/&#34;&gt;Computing Women in Tech Excellence Awards&lt;/a&gt;, UK (November 2025)&lt;/li&gt;
@@ -616,9 +578,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993677000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993677000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Finalist: AI Innovation (Infrastructure &amp;amp; Space Management Digital Twin)&lt;/strong&gt;, &lt;a href=&#34;https://thenationalaiawards.com/&#34;&gt;The National AI Awards&lt;/a&gt;, UK (September 2024)&lt;/li&gt;
@@ -626,9 +588,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993677000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993677000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Outstanding Board Service Award&lt;/strong&gt;, 9th International Conference of the &lt;a href=&#34;https://immersivelrn.org/&#34;&gt;Immersive Learning Research Network&lt;/a&gt; (June 2023)&lt;/li&gt;
@@ -636,9 +598,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-4&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993677000-4&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-4&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993677000-4&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Winner&lt;/strong&gt;, &lt;a href=&#34;https://wearetechwomen.com/anasol-pena-rios-bt/&#34;&gt;WeAreTechWomen TechWomen100 Awards&lt;/a&gt;, UK (November 2020)&lt;/li&gt;
@@ -646,9 +608,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-5&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993677000-5&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-5&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993677000-5&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Highly Commended: Information Technology (Future Field Force Using Mixed Reality)&lt;/strong&gt;, &lt;a href=&#34;https://www.theiet.org/&#34;&gt;IET Innovation Awards&lt;/a&gt;, UK (November 2018)&lt;/li&gt;
@@ -657,9 +619,9 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-6&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993677000-6&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-6&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993677000-6&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Winner: Best Knowledge Transfer Project Associate&lt;/strong&gt;, KTP Awards, &lt;a href=&#34;https://www.essex.ac.uk/&#34;&gt;University of Essex&lt;/a&gt;, UK (December 2016)&lt;/li&gt;
@@ -667,22 +629,12 @@
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-7&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064993677000-7&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-7&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064993677000-7&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Best Video Award&lt;/strong&gt;, 10th International Conference on Intelligent Environments (IE&#39;14), Shanghai, China (July 2014)&lt;/li&gt;
-&lt;/ul&gt;
-
-      &lt;/div&gt;
-    
-      &lt;div id=&#34;tab-panel-tabs-1794492140116090000-8&#34;
-           role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140116090000-8&#34;
-           class=&#34;tab-panel &#34;&gt;
-        &lt;ul&gt;
-&lt;li&gt;Undergraduate Best Grades Award (2nd Semester). Instituto Politécnico Nacional, Mexico (January 2001)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -1077,27 +1029,6 @@
   
   
     
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -1231,13 +1162,6 @@
   
   
     
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -1273,27 +1197,6 @@
   
   
     
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -1304,7 +1207,7 @@
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140118605000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494064994115000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -1319,120 +1222,120 @@
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-0&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           2025
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-1&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-1&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-1&#34;
                 class=&#34;tab-button &#34;&gt;
           2024
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-2&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-2&#34;
                 data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-2&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-2&#34;
                 class=&#34;tab-button &#34;&gt;
           2023
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-3&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-3&#34;
                 data-index=&#34;3&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-3&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-3&#34;
                 class=&#34;tab-button &#34;&gt;
           2022
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-4&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-4&#34;
                 data-index=&#34;4&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-4&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-4&#34;
                 class=&#34;tab-button &#34;&gt;
           2021
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-5&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-5&#34;
                 data-index=&#34;5&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-5&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-5&#34;
                 class=&#34;tab-button &#34;&gt;
           2020
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-6&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-6&#34;
                 data-index=&#34;6&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-6&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-6&#34;
                 class=&#34;tab-button &#34;&gt;
           2019
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-7&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-7&#34;
                 data-index=&#34;7&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-7&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-7&#34;
                 class=&#34;tab-button &#34;&gt;
           2018
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-8&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-8&#34;
                 data-index=&#34;8&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-8&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-8&#34;
                 class=&#34;tab-button &#34;&gt;
           2017
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-9&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-9&#34;
                 data-index=&#34;9&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-9&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-9&#34;
                 class=&#34;tab-button &#34;&gt;
           2016
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-10&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-10&#34;
                 data-index=&#34;10&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-10&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-10&#34;
                 class=&#34;tab-button &#34;&gt;
           2014
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140118605000-11&#34;
+                id=&#34;tab-btn-tabs-1794494064994115000-11&#34;
                 data-index=&#34;11&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140118605000-11&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994115000-11&#34;
                 class=&#34;tab-button &#34;&gt;
           2013
         &lt;/button&gt;
@@ -1451,159 +1354,152 @@
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Beyond Reality: Exploring the Frontiers of Immersive Technologies&amp;rdquo;&lt;/strong&gt;, Tech Fellowship - Tech Talk Series, Online, 19-Feb-25&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Beyond Reality: Exploring the Frontiers of Immersive Technologies&amp;rdquo;&lt;/strong&gt;, Tech Fellowship — Tech Talk Series, Online (19 February 2025)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Role of AI in Digital Twins&amp;rdquo;&lt;/strong&gt;, CSEE AI Symposium, University of Essex, 19-Apr-24&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Digital Twins research and use cases&amp;rdquo;&lt;/strong&gt;, BT India Research Centre (BTIRC) Tech Talk, Online, 23-May-24&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Digital Twins and AI&amp;rdquo;&lt;/strong&gt;, Tech Fellowship AI Squad Meeting, Tech Talk, Online, 21-Jun-24&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Digital Twins research and use cases&amp;rdquo;&lt;/strong&gt;, CX Weekly Knowledge Share Meeting, Online, 27-Jun-24&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Human Factors in XR&amp;rdquo;&lt;/strong&gt;, Semana de la Ergonomía y Diseño, Unidad de Posgrado, UNAM, Online (Nacional Autonomous University of Mexico), 16-Oct-24&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;BT Future Field Force Research&amp;rdquo;&lt;/strong&gt;, University of Essex CSEE, University of Essex, 31-Oct-24&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Future Field Force: Leveraging Digital Twins&amp;rdquo;&lt;/strong&gt;, Immersive Technologies and AI for Smarter Telecoms, School of Computing Sciences Seminars, University of East Anglia, 01-Nov-24&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Human-AI Collaboration in Industry 5.0&amp;rdquo;&lt;/strong&gt;, Seminar “Artificial Intelligence and Social Problems”, Online (Universidad Autónoma Metropolitana, Mexico), 11-Dec-24&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Role of AI in Digital Twins&amp;rdquo;&lt;/strong&gt;, CSEE AI Symposium, University of Essex, UK (19 April 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Digital Twins Research and Use Cases&amp;rdquo;&lt;/strong&gt;, BT India Research Centre (BTIRC) Tech Talk, Online (23 May 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Digital Twins and AI&amp;rdquo;&lt;/strong&gt;, Tech Fellowship AI Squad Meeting, Tech Talk, Online (21 June 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Digital Twins Research and Use Cases&amp;rdquo;&lt;/strong&gt;, CX Weekly Knowledge Share Meeting, Online (27 June 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Human Factors in XR&amp;rdquo;&lt;/strong&gt;, Semana de la Ergonomía y Diseño, Unidad de Posgrado, UNAM, Mexico (16 October 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;BT Future Field Force Research&amp;rdquo;&lt;/strong&gt;, University of Essex CSEE Seminars, Colchester, UK (31 October 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Future Field Force: Leveraging Digital Twins&amp;rdquo;&lt;/strong&gt;, Immersive Technologies and AI for Smarter Telecoms, School of Computing Sciences Seminars, University of East Anglia, UK (1 November 2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Human-AI Collaboration in Industry 5.0&amp;rdquo;&lt;/strong&gt;, Seminar on Artificial Intelligence and Social Problems, Universidad Autónoma Metropolitana, Mexico (11 December 2024)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Panellist at &lt;a href=&#34;https://atadastral.co.uk/bsw/2023/&#34;&gt;&amp;ldquo;Extended Reality Day - Live Q&amp;amp;A&amp;rdquo;&lt;/a&gt;. Panel organised as part of BT&amp;rsquo;s British Science Week 2023. Online. 14 March 2023.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Future Field Force &amp;amp; Network Operations&amp;rdquo;&lt;/strong&gt; Guest lecture at the Department of Computer Science, City, University of London, UK. April 3, 2023.&lt;/li&gt;
-&lt;li&gt;Panellist at &lt;a href=&#34;https://cp.catapult.org.uk/summit/connected-digital-twins-summit-2023/speakers/&#34;&gt;&amp;ldquo;Digital Twins Interoperability Workshop&amp;rdquo;&lt;/a&gt;. Panel organised as part of the 2023 Connected Digital Twins Summit. London. 22 June 2023.&lt;/li&gt;
-&lt;li&gt;Panellist at &amp;ldquo;Technical Considerations for Designing and Implementing Immersive Learning Applications&amp;rdquo;. Panel organised as part of the 2023 9th International Conference of the Immersive Learning Research Network. San Luis Obispo, California, USA. 28 June 2023.&lt;/li&gt;
-&lt;li&gt;Panellist at &lt;a href=&#34;https://www.uos.ac.uk/content/digital-futures-institute-news-and-events&#34;&gt;&amp;ldquo;Digital Futures Seminar - Augmented Reality&amp;rdquo;&lt;/a&gt;. Panel organised as part of the Digital Futures Institute Seminar Series, University of Suffolk. DigiTech Centre, Adastral Park, Ipswich, UK. 11 October 2023.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &lt;a href=&#34;https://atadastral.co.uk/bsw/2023/&#34;&gt;&amp;ldquo;Extended Reality Day — Live Q&amp;amp;A&amp;rdquo;&lt;/a&gt;, BT British Science Week 2023, Online (14 March 2023)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Future Field Force &amp;amp; Network Operations&amp;rdquo;&lt;/strong&gt;, Guest Lecture, Department of Computer Science, City, University of London, UK (3 April 2023)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &lt;a href=&#34;https://cp.catapult.org.uk/summit/connected-digital-twins-summit-2023/speakers/&#34;&gt;&amp;ldquo;Digital Twins Interoperability Workshop&amp;rdquo;&lt;/a&gt;, Connected Digital Twins Summit 2023, London, UK (22 June 2023)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &amp;ldquo;Technical Considerations for Designing and Implementing Immersive Learning Applications&amp;rdquo;, 9th International Conference of the Immersive Learning Research Network (iLRN 2023), San Luis Obispo, California, USA (28 June 2023)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &lt;a href=&#34;https://www.uos.ac.uk/content/digital-futures-institute-news-and-events&#34;&gt;&amp;ldquo;Digital Futures Seminar — Augmented Reality&amp;rdquo;&lt;/a&gt;, Digital Futures Institute Seminar Series, University of Suffolk, Adastral Park, Ipswich, UK (11 October 2023)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Panellist at &lt;a href=&#34;https://ieee-edusociety.org/tomorrows-classroom-ecosystem-webinar&#34;&gt;IEEE EdSoc &amp;ldquo;Tomorrow’s Classroom Ecosystem&amp;rdquo; Webinar&lt;/a&gt;. Panel organised as part of the IEEE Education Week 2022. Online. 05 April 2022.&lt;/li&gt;
-&lt;li&gt;Panellist at &amp;ldquo;Challenges and Opportunities With the Next Generation of Wearable Health Solutions Designed With Digital Twins&amp;rdquo;. Panel organised as part of the 23rd IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM). Belfast, NI. 14 June 2022.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://suffolkbusinessexpo.co.uk/schedule/technology-day/&#34;&gt;&amp;ldquo;Are Immersive Technologies the Future of Human Interactions?&amp;rdquo;&lt;/a&gt;. Invited Speaker at the Festival of Suffolk 2022 - Technology Day. Ipswich, UK. 21 June 2022.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Digital Twins, Immersive Technologies and the Workplace of the Future&amp;rdquo;. Presentation at 1st Int. Workshop on Analytics, Learning &amp;amp; Collaboration in eXtended Reality (XR-WALK) at 2022 ACM Interactive Media Experiences (IMX) Conference. Aveiro, Portugal. 24 June 2022.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &lt;a href=&#34;https://ieee-edusociety.org/tomorrows-classroom-ecosystem-webinar&#34;&gt;IEEE EdSoc &amp;ldquo;Tomorrow’s Classroom Ecosystem&amp;rdquo; Webinar&lt;/a&gt;, IEEE Education Week 2022, Online (5 April 2022)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &amp;ldquo;Challenges and Opportunities with the Next Generation of Wearable Health Solutions Designed with Digital Twins&amp;rdquo;, 23rd IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM), Belfast, UK (14 June 2022)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invited Speaker&lt;/strong&gt;, &lt;a href=&#34;https://suffolkbusinessexpo.co.uk/schedule/technology-day/&#34;&gt;&amp;ldquo;Are Immersive Technologies the Future of Human Interactions?&amp;rdquo;&lt;/a&gt;, Festival of Suffolk 2022 — Technology Day, Ipswich, UK (21 June 2022)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Digital Twins, Immersive Technologies and the Workplace of the Future&amp;rdquo;&lt;/strong&gt;, 1st International Workshop on Analytics, Learning &amp;amp; Collaboration in eXtended Reality (XR-WALK) @ ACM IMX 2022, Aveiro, Portugal (24 June 2022)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-4&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-4&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-4&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-4&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;“The Augmented Employee: Immersive Technologies in Field Service Operations”&lt;/strong&gt;. Invited seminar at the School of Computer Science &amp;amp; Engineering, University of Westminster, UK. Online. February 24, 2021.&lt;/li&gt;
-&lt;li&gt;“AI and Immersive Technologies“ Guest lecture at the Department of Computer Science, University of Exeter, UK. Online. March 2, 2021.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://le.ac.uk/iwd/events/wednesday-10-march&#34;&gt;International Women&amp;rsquo;s Day Celebrations&lt;/a&gt;&amp;rdquo;, School of Informatics, University of Leicester, UK. Online. March 10, 2021.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://cambum.net/Inclusive_ARVR/&#34;&gt;Immersive Technologies in the Workplace&lt;/a&gt;&amp;rdquo;. Invited talk at the &lt;em&gt;ACM CHI 2021: Adaptive Accessible AR/VR Sytems&lt;/em&gt; workshop. May 9, 2021.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://vimeo.com/547911996&#34;&gt;Future Field and Network Operations&lt;/a&gt;&amp;rdquo;. Invited talk at the first Essex BT/Openreach alumni meeting event, University of Essex, UK. Online. May 10, 2021.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;&lt;a href=&#34;https://i-construct.org.uk/events/42&#34;&gt;AI, digital twins and immersive technologies&lt;/a&gt;&amp;rdquo;. I-Construct, Innovation Hub, UK. Online. May 19, 2021.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;BT Labs: BT’s Research and Academic Collaboration&amp;rdquo;&lt;/strong&gt;. Wales Tech Week 2021, UK. Online. June 21, 2021.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;The journey from AI innovation to AI implementation: Barriers and enablers&amp;rdquo;&lt;/strong&gt;. Panel discussion at the 63rd Annual Conference of the Operational Research Society. Online. September 13th, 2021.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Augmented Employee: Immersive Technologies in Field Service Operations&amp;rdquo;&lt;/strong&gt;, Invited Seminar, School of Computer Science &amp;amp; Engineering, University of Westminster, UK (24 February 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;AI and Immersive Technologies&amp;rdquo;&lt;/strong&gt;, Guest Lecture, Department of Computer Science, University of Exeter, UK (2 March 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speaker&lt;/strong&gt;, &lt;a href=&#34;https://le.ac.uk/iwd/events/wednesday-10-march&#34;&gt;&amp;ldquo;International Women&amp;rsquo;s Day Celebrations&amp;rdquo;&lt;/a&gt;, School of Informatics, University of Leicester, UK (10 March 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invited Speaker&lt;/strong&gt;, &lt;a href=&#34;https://cambum.net/Inclusive_ARVR/&#34;&gt;&amp;ldquo;Immersive Technologies in the Workplace&amp;rdquo;&lt;/a&gt;, ACM CHI 2021: Adaptive Accessible AR/VR Systems Workshop, Online (9 May 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invited Speaker&lt;/strong&gt;, &lt;a href=&#34;https://vimeo.com/547911996&#34;&gt;&amp;ldquo;Future Field and Network Operations&amp;rdquo;&lt;/a&gt;, Essex BT/Openreach Alumni Meeting, University of Essex, UK (10 May 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invited Speaker&lt;/strong&gt;, &lt;a href=&#34;https://i-construct.org.uk/events/42&#34;&gt;&amp;ldquo;AI, Digital Twins and Immersive Technologies&amp;rdquo;&lt;/a&gt;, I-Construct Innovation Hub, UK (19 May 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;BT Labs: BT’s Research and Academic Collaboration&amp;rdquo;&lt;/strong&gt;, Wales Tech Week 2021, Online (21 June 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &amp;ldquo;The Journey from AI Innovation to AI Implementation: Barriers and Enablers&amp;rdquo;, 63rd Annual Conference of the Operational Research Society (OR63), Online (13 September 2021)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-5&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-5&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-5&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-5&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;“The Augmented Employee: Immersive Technologies in Field Service Operations”&lt;/strong&gt;. Invited (online) talk at the Doctoral Program in Web Science and Technology (Programa do Retiro Doutoral).  Universidad de Trás-os-Montes e Alto Douro (UTAD) &amp;amp; Universidade Aberta (&lt;em&gt;UAb&lt;/em&gt;), Lisbon, Portugal. June 30, 2020.&lt;/li&gt;
-&lt;li&gt;“ Challenges regarding Research in STEAM Areas during the Health Emergency”. Webinar organised by Gender Indicators and Statistics CDMX, Mexico. Online. August 28, 2020.&lt;/li&gt;
-&lt;li&gt;“Digital Twins and Applications of Cross-Reality Interactions in Field Service Operations”. International Workshop on Cross-Reality (XR) Interaction. ACM Interactive Surfaces and Spaces (ISS 2020). November 8th, 2020.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Augmented Employee: Immersive Technologies in Field Service Operations&amp;rdquo;&lt;/strong&gt;, Invited Talk, Doctoral Program in Web Science and Technology, UTAD &amp;amp; Universidade Aberta, Lisbon, Portugal (30 June 2020)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speaker&lt;/strong&gt;, &amp;ldquo;Challenges Regarding Research in STEAM Areas During the Health Emergency&amp;rdquo;, Gender Indicators and Statistics Webinar, Mexico City, Mexico (28 August 2020)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Digital Twins and Applications of Cross-Reality Interactions in Field Service Operations&amp;rdquo;&lt;/strong&gt;, International Workshop on Cross-Reality (XR) Interaction, ACM Interactive Surfaces and Spaces (ISS 2020), Online (8 November 2020)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-6&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-6&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-6&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-6&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;“The Augmented Employee: Immersive Technologies in Field Service Operations”&lt;/strong&gt;. Plenary talk at the 5th International Immersive Learning Research Network Conference (iLRN). London, UK. June 24-27, 2019.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Heads-Up, Hands-Free / Remote Collaboration”&lt;/strong&gt;. Roundtable discussion at Enterprise Wearable Technology Summit 2019 (EWTS). Dallas, Tx.
-September 17, 2019.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Tecnologías Inmersivas en los Servicios de Campo”&lt;/strong&gt;. Invited Talk as part of the Seminar Series on Artificial Intelligence and Social Issues.
-Metropolitan Autonomous University (UAM). Mexico City, Mexico. September 26, 2019.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;New perspectives on business challenges, funding opportunities and innovation (Expert Panel)”. Expert panel to discuss new perspectives on business challenges, funding opportunities and innovation, from companies including BT, Filament and Cloudfm alongside Essex academics. University of
-Essex, KTP Winter Celebration 20189, Research and Enterprise Office. Colchester, UK. December 10, 2019.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plenary Speaker&lt;/strong&gt;, &lt;strong&gt;“The Augmented Employee: Immersive Technologies in Field Service Operations”&lt;/strong&gt;, 5th International Conference of the Immersive Learning Research Network (iLRN 2019), London, UK (24–27 June 2019)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &lt;strong&gt;&amp;ldquo;Heads-Up, Hands-Free / Remote Collaboration&amp;rdquo;&lt;/strong&gt;, Roundtable Discussion, Enterprise Wearable Technology Summit (EWTS 2019), Dallas, Texas, USA (17 September 2019)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Tecnologías Inmersivas en los Servicios de Campo&amp;rdquo;&lt;/strong&gt;, Invited Lecture, Seminar Series on Artificial Intelligence and Social Issues, Universidad Autónoma Metropolitana (UAM), Mexico City, Mexico (26 September 2019)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Panellist&lt;/strong&gt;, &amp;ldquo;New Perspectives on Business Challenges, Funding Opportunities and Innovation&amp;rdquo;, KTP Winter Celebration, University of Essex, Colchester, UK (10 December 2019)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-7&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-7&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-7&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-7&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;“Immersive Technologies in Field Service Operations”&lt;/strong&gt;. Plenary talk at the II International Conference on Theoretical and Applied Computer Science and Engineering. Istanbul, Turkey. June 29-30, 2018.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Immersive Technologies in Field Service Operations”&lt;/strong&gt;. Invited talk at the 10th Computer Science and Electronic Engineering Conference (CEEC). University of Essex, Colchester, UK. 19 Sept 2018.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plenary Speaker&lt;/strong&gt;, &lt;strong&gt;“Immersive Technologies in Field Service Operations”&lt;/strong&gt;, 2nd International Conference on Theoretical and Applied Computer Science and Engineering (ICTACSE 2018), Istanbul, Turkey (29–30 June 2018)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Immersive Technologies in Field Service Operations&amp;rdquo;&lt;/strong&gt;, Invited Talk, 10th Computer Science and Electronic Engineering Conference (CEEC 2018), University of Essex, Colchester, UK (19 September 2018)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-8&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-8&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-8&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-8&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;“Immersive Technologies in Field Service Operations”&lt;/strong&gt; Presented at Ada Lovelace Day (Women in STEM). University of Essex, Colchester, UK. 10 Oct 2017.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Challenges and Opportunities for KTP Associates&amp;rdquo;&lt;/strong&gt; Presented at the University of Essex&amp;rsquo; &amp;ldquo;Winter Celebration of KTP 2017&amp;rdquo;. Wivenhoe House Hotel, Wivenhoe, UK. 12 Dec 2017.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Immersive Technologies in Field Service Operations&amp;rdquo;&lt;/strong&gt;, Ada Lovelace Day (Women in STEM), University of Essex, Colchester, UK (10 October 2017)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Challenges and Opportunities for KTP Associates&amp;rdquo;&lt;/strong&gt;, University of Essex Winter Celebration of KTP, Wivenhoe, UK (12 December 2017)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-9&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-9&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-9&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-9&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&amp;ldquo;Exploring Mixed Reality in Distributed Collaborative Learning Environments**&amp;rdquo;**,Seminar presented at Middlesex University, UK. 10 Feb 2016.&lt;/li&gt;
-&lt;li&gt;Invited talk at the inauguration of the Tommy Flowers Institute, Adastral Park, Ipswich, UK. September 2016.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Exploring Mixed Reality in Distributed Collaborative Learning Environments&amp;rdquo;&lt;/strong&gt;, Seminar, Middlesex University, London, UK (10 February 2016)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invited Speaker&lt;/strong&gt;, Inauguration of the Tommy Flowers Institute, Adastral Park, Ipswich, UK (September 2016)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-10&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-10&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-10&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-10&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&amp;ldquo;Mixed reality collaborative environments&amp;rdquo;, Invited presentation at &amp;ldquo;Creativity, Ideas &amp;amp; Innovation&amp;rdquo; Workshop. The Business School - Canterbury
-Christ Church University, UK. 18 Nov 2014.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Mixed Reality Collaborative Environments&amp;rdquo;&lt;/strong&gt;, Invited Presentation, Creativity, Ideas &amp;amp; Innovation Workshop, Canterbury Christ Church University, UK (18 November 2014)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140118605000-11&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994115000-11&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140118605000-11&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994115000-11&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&amp;ldquo;Towards blended reality on collaborative laboratory activities using smart objects&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Invited talk at Espacios Educativos Especulares-EEE (Educational Reflected Spaces) Anual
-Meeting. Universidad Carlos III de Madrid, Spain. 27-28 May 2013.¦ &lt;a href=&#34;http://es.slideshare.net/prlosana/uc3-m-presentation&#34;&gt;Slides&lt;/a&gt; ¦ &lt;a href=&#34;https://storify.com/dleony/project-eee-meeting-2013&#34;&gt;Photos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Invited as a Mixed-Reality Specialist/Consultor to MobileSummer 2013 (Mobiilikesäkoulu 2013). Mustiala Park,
-Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Towards Blended Reality on Collaborative Laboratory Activities Using Smart Objects&amp;rdquo;&lt;/strong&gt;, Invited Talk, Espacios Educativos Especulares (EEE) Annual Meeting, Universidad Carlos III de Madrid, Spain (27–28 May 2013)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Invited Specialist&lt;/strong&gt;, MobileSummer 2013 (Mobiilikesäkoulu 2013), Mustiala Park, Tammela, Finland (23–24 May 2013)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -1760,13 +1656,10 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
   
   
 
-  
-  
 
 
 
-
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140120290000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494064994988000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -1781,20 +1674,20 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120290000-0&#34;
+                id=&#34;tab-btn-tabs-1794494064994988000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120290000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994988000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           Current Appointments
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120290000-1&#34;
+                id=&#34;tab-btn-tabs-1794494064994988000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120290000-1&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064994988000-1&#34;
                 class=&#34;tab-button &#34;&gt;
           Past Appointments
         &lt;/button&gt;
@@ -1813,9 +1706,9 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120290000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994988000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120290000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994988000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Director of Publications&lt;/strong&gt;, &lt;a href=&#34;https://immersivelrn.org/&#34;&gt;Immersive Learning Research Network (iLRN)&lt;/a&gt; (2018–Present)&lt;/li&gt;
@@ -1825,9 +1718,9 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120290000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064994988000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120290000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064994988000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Publications &amp;amp; Proceedings Editor&lt;/strong&gt;, &lt;a href=&#34;https://publications.immersivelrn.org/&#34;&gt;&lt;em&gt;iLRN Conference Proceedings&lt;/em&gt;&lt;/a&gt; (2018–2025)&lt;/li&gt;
@@ -1884,34 +1777,6 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
   
   
     
-    
-    
-  
-
-  
-  
-
-  
-  
-    
-    
-    
-    
-    
-    
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
       
     
   
@@ -1934,6 +1799,13 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
     
     
     
+    
+  
+
+  
+  
+    
+      
     
   
 
@@ -1982,21 +1854,7 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
   
   
     
-    
-    
-  
-
-  
-  
-
-  
-  
-    
-    
-    
-    
-    
-    
+      
     
   
 
@@ -2060,20 +1918,6 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
     
     
     
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
-      
     
   
 
@@ -2234,6 +2078,34 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
   
   
     
+    
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
       
     
   
@@ -2276,6 +2148,27 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
   
   
     
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
     
     
   
@@ -2313,11 +2206,36 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
 
   
   
+    
+    
+    
+    
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+    
+    
+  
+
+  
+  
 
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140120748000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494064995247000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -2332,120 +2250,120 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-0&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           2023
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-1&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-1&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-1&#34;
                 class=&#34;tab-button &#34;&gt;
           2022
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-2&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-2&#34;
                 data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-2&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-2&#34;
                 class=&#34;tab-button &#34;&gt;
           2021
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-3&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-3&#34;
                 data-index=&#34;3&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-3&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-3&#34;
                 class=&#34;tab-button &#34;&gt;
           2020
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-4&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-4&#34;
                 data-index=&#34;4&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-4&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-4&#34;
                 class=&#34;tab-button &#34;&gt;
           2019
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-5&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-5&#34;
                 data-index=&#34;5&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-5&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-5&#34;
                 class=&#34;tab-button &#34;&gt;
           2018
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-6&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-6&#34;
                 data-index=&#34;6&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-6&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-6&#34;
                 class=&#34;tab-button &#34;&gt;
           2017
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-7&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-7&#34;
                 data-index=&#34;7&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-7&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-7&#34;
                 class=&#34;tab-button &#34;&gt;
           2016
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-8&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-8&#34;
                 data-index=&#34;8&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-8&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-8&#34;
                 class=&#34;tab-button &#34;&gt;
           2015
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-9&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-9&#34;
                 data-index=&#34;9&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-9&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-9&#34;
                 class=&#34;tab-button &#34;&gt;
           2014
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-10&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-10&#34;
                 data-index=&#34;10&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-10&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-10&#34;
                 class=&#34;tab-button &#34;&gt;
           2013
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140120748000-11&#34;
+                id=&#34;tab-btn-tabs-1794494064995247000-11&#34;
                 data-index=&#34;11&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140120748000-11&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995247000-11&#34;
                 class=&#34;tab-button &#34;&gt;
           2012
         &lt;/button&gt;
@@ -2464,138 +2382,160 @@ Tammela, Finland. 23-24 May 2013.&lt;/li&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;General Chair&lt;/strong&gt;, 9th International Conference of the Immersive Learning Research Network (iLRN 2023), San Luis Obispo, California, USA &amp;amp; Online (18–29 June 2023). &lt;a href=&#34;https://doi.org/10.1007/978-3-031-47328-9&#34;&gt;Springer CCIS Volume 1904 Proceedings&lt;/a&gt; · &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2023&#34;&gt;iLRN Academic Proceedings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;General Chair&lt;/strong&gt;, 9th International Conference of the Immersive Learning Research Network (iLRN 2023), San Luis Obispo, California, USA &amp;amp; Online (18–29 June 2023)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1007/978-3-031-47328-9&#34;&gt;Springer CCIS Volume 1904 Proceedings&lt;/a&gt; · &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2023&#34;&gt;iLRN Academic Proceedings&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;General Chair&lt;/strong&gt;, 8th International Conference of the Immersive Learning Research Network (iLRN 2022), Vienna, Austria &amp;amp; Online (30 May – 4 June 2022). &lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9815865/proceeding&#34;&gt;IEEE Xplore Proceedings&lt;/a&gt; · &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2022&#34;&gt;iLRN Academic Proceedings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;General Chair&lt;/strong&gt;, 8th International Conference of the Immersive Learning Research Network (iLRN 2022), Vienna, Austria &amp;amp; Online (30 May – 4 June 2022)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9815865/proceeding&#34;&gt;IEEE Xplore Proceedings&lt;/a&gt; · &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/view/iLRN2022&#34;&gt;iLRN Academic Proceedings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Co-organiser &amp;amp; Workshop Chair&lt;/strong&gt;, &lt;a href=&#34;http://xrwalc2022.di.fc.ul.pt/&#34;&gt;1st Workshop on Analytics, Learning &amp;amp; Collaboration in eXtended Reality (XRWALC 2022)&lt;/a&gt; @ ACM IMX 2022, Aveiro, Portugal (22–24 June 2022)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Special Track Chair (XR &amp;amp; Immersive Learning Environments)&lt;/strong&gt;, &lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9678523/proceeding&#34;&gt;IEEE International Conference on Engineering, Technology and Education (TALE 2021)&lt;/a&gt;, Wuhan, China &amp;amp; Online (5–8 December 2021)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Publications Chair&lt;/strong&gt;, 7th International Conference of the Immersive Learning Research Network (iLRN 2021), Online (17 May – 10 June 2021). &lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9459238/proceeding&#34;&gt;IEEE Xplore Proceedings&lt;/a&gt; · &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/view/ilrn2021&#34;&gt;iLRN Academic Proceedings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publications Chair&lt;/strong&gt;, 7th International Conference of the Immersive Learning Research Network (iLRN 2021), Online (17 May – 10 June 2021)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9459238/proceeding&#34;&gt;IEEE Xplore Proceedings&lt;/a&gt; · &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/view/ilrn2021&#34;&gt;iLRN Academic Proceedings&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Publications Chair&lt;/strong&gt;, 6th International Conference of the Immersive Learning Research Network (iLRN 2020), Online (21–25 June 2020). &lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9144365/proceeding&#34;&gt;IEEE Xplore Proceedings&lt;/a&gt; · &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/view/ilrn2020&#34;&gt;iLRN Academic Proceedings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publications Chair&lt;/strong&gt;, 6th International Conference of the Immersive Learning Research Network (iLRN 2020), Online (21–25 June 2020)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9144365/proceeding&#34;&gt;IEEE Xplore Proceedings&lt;/a&gt; · &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/view/ilrn2020&#34;&gt;iLRN Academic Proceedings&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-4&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-4&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-4&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-4&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Publications Co-Chair &amp;amp; Publicity Co-Director&lt;/strong&gt;, 5th International Conference of the Immersive Learning Research Network (iLRN 2019), London, UK (23–27 June 2019). &lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/8856230/proceeding&#34;&gt;IEEE Xplore Proceedings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publications Co-Chair &amp;amp; Publicity Co-Director&lt;/strong&gt;, 5th International Conference of the Immersive Learning Research Network (iLRN 2019), London, UK (23–27 June 2019)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/8856230/proceeding&#34;&gt;IEEE Xplore Proceedings&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-5&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-5&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-5&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-5&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Publications Co-Chair &amp;amp; Registration Chair&lt;/strong&gt;, 4th International Conference of the Immersive Learning Research Network (iLRN 2018), Missoula, Montana, USA (24–29 June 2018). &lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/archive&#34;&gt;iLRN 2018 Proceedings Archive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Publicity &amp;amp; Social Media Chair&lt;/strong&gt;, 2nd EAI International Conference on Technology, Innovation &amp;amp; Entrepreneurship (TIE 2018), London, UK (2018). &lt;a href=&#34;https://doi.org/10.1007/978-3-030-15389-2&#34;&gt;Springer Innovations in Communications Proceedings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publications Co-Chair &amp;amp; Registration Chair&lt;/strong&gt;, 4th International Conference of the Immersive Learning Research Network (iLRN 2018), Missoula, Montana, USA (24–29 June 2018)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://publications.immersivelrn.org/index.php/academic/issue/archive&#34;&gt;iLRN 2018 Proceedings Archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Publicity &amp;amp; Social Media Chair&lt;/strong&gt;, 2nd EAI International Conference on Technology, Innovation &amp;amp; Entrepreneurship (TIE 2018), London, UK (2018)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1007/978-3-030-15389-2&#34;&gt;Springer Innovations in Communications Proceedings&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-6&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-6&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-6&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-6&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt; of the Special Session on Fuzzy Logic and Computational Intelligence applications for Computer-Supported Collaborative Work at the 2017 IEEE Conference on Fuzzy Systems, Naples, Italy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt; of the Imagine 2017 workshop and #iLRN17_SFP competition at the Immersive Learning Research Network Conference 2017 (iLRN’17), Coimbra, Portugal.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Registration, Publicity &amp;amp; Web Chair&lt;/strong&gt; at the Immrsive Learning Research Network Conference 2017 (iLRN&#39;17), Coimbra, Portugal&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Publicity &amp;amp; Social Media Chair&lt;/strong&gt; at the 1st EAI International Conference on Technology, Innovation &amp;amp; Entrepreneurship (TIE&#39;17), Canterbury, UK&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt;, Special Session on Fuzzy Logic and Computational Intelligence Applications for Computer-Supported Collaborative Work, IEEE International Conference on Fuzzy Systems (FUZZ-IEEE 2017), Naples, Italy (9–12 July 2017)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt;, Imagine 2017 Workshop and #iLRN17_SFP Competition, 3rd International Conference of the Immersive Learning Research Network (iLRN 2017), Coimbra, Portugal (26–29 June 2017)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Registration, Publicity &amp;amp; Web Chair&lt;/strong&gt;, 3rd International Conference of the Immersive Learning Research Network (iLRN 2017), Coimbra, Portugal (26–29 June 2017)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publicity &amp;amp; Social Media Chair&lt;/strong&gt;, 1st EAI International Conference on Technology, Innovation &amp;amp; Entrepreneurship (TIE 2017), Canterbury, UK (2017)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-7&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-7&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-7&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-7&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Special Sessions Chair&lt;/strong&gt; at the 8th Computer Science and Electronic Engineering Conference 2016 (CEEC&#39;16),Colchester, UK&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Publicity Chair&lt;/strong&gt; at the &lt;a href=&#34;http://www.immersivelrn.org/ilrn2016/&#34;&gt;Immersive Learning Research Network Conference 2016 (iLRN&#39;16)&lt;/a&gt;, Santa Barbara California, USA&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Publicity Chair&lt;/strong&gt; at the Symposium on Future Intelligent Educational Environments and Learning (SOFIEE&#39;16), London, UK&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt; of the #iLRN16_SFP workshop at the &lt;a href=&#34;http://www.immersivelrn.org/ilrn2016/&#34;&gt;Immersive Learning Research Network Conference 2016 (iLRN&#39;16)&lt;/a&gt;, Santa Barbara California, USA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Special Sessions Chair&lt;/strong&gt;, 8th Computer Science and Electronic Engineering Conference (CEEC 2016), University of Essex, Colchester, UK (28–30 September 2016)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publicity Chair &amp;amp; Workshop Co-Organiser&lt;/strong&gt;, &lt;a href=&#34;http://www.immersivelrn.org/ilrn2016/&#34;&gt;2nd International Conference of the Immersive Learning Research Network (iLRN 2016)&lt;/a&gt;, Santa Barbara, California, USA (28 June – 1 July 2016)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publicity Chair&lt;/strong&gt;, Symposium on Future Intelligent Educational Environments and Learning (SOFIEE 2016), London, UK (12–13 September 2016)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-8&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-8&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-8&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-8&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Special Sessions Chair&lt;/strong&gt; at the 7th Computer Science and Electronic Engineering Conference 2015 (CEEC&#39;15), Colchester, UK&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Publicity Chair&lt;/strong&gt; at the &lt;a href=&#34;http://immersivelrn.org/ilrn2015prague&#34;&gt;Immersive Learning Research Network Conference 2015 (iLRN&#39;15)&lt;/a&gt;, Prague, Czech
-Republic&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Publicity Chair&lt;/strong&gt; at the Symposium on Future Intelligent Educational Environments and Learning (SOFIEE&#39;15), Prague, Czech Republic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Special Sessions Chair&lt;/strong&gt;, 7th Computer Science and Electronic Engineering Conference (CEEC 2015), University of Essex, Colchester, UK (September 2015)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publicity Chair&lt;/strong&gt;, &lt;a href=&#34;http://immersivelrn.org/ilrn2015prague&#34;&gt;1st International Conference of the Immersive Learning Research Network (iLRN 2015)&lt;/a&gt;, Prague, Czech Republic (13–14 July 2015)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publicity Chair&lt;/strong&gt;, Symposium on Future Intelligent Educational Environments and Learning (SOFIEE 2015), Prague, Czech Republic (15–17 July 2015)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-9&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-9&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-9&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-9&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Information Officer&lt;/strong&gt; at the European Chapter of the MediaGrid Immersive Education Initiative (iED) - (From January 2012 until April 2014)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Student Chair&lt;/strong&gt; at &lt;a href=&#34;http://intenv.org/?q=conferences/ie14/committee&#34;&gt;The 10th International Conference on Intelligent Environments 2014 (IE&#39;14)&lt;/a&gt;,
-Shanghai, China&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt; of the 1st Workshop on Hyperrealistic Intelligent Environments 2014 (HyperRealitIE&#39;14), Shanghai, China&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Co-Chair&lt;/strong&gt; at the Workshop on Imagination 2014: Creating the Future (Imagine&#39;14), Shanghai, China&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Information Officer&lt;/strong&gt;, European Chapter of the MediaGrid Immersive Education Initiative (iED) (January 2012 – April 2014)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Student Chair&lt;/strong&gt;, &lt;a href=&#34;http://intenv.org/?q=conferences/ie14/committee&#34;&gt;10th International Conference on Intelligent Environments (IE&#39;14)&lt;/a&gt;, Shanghai, China (30 June – 4 July 2014)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt;, 1st Workshop on Hyperrealistic Intelligent Environments (HyperRealitIE 2014), Shanghai, China (30 June – 1 July 2014)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Co-Chair&lt;/strong&gt;, Workshop on Imagination 2014: Creating the Future (Imagine 2014), Shanghai, China (30 June – 1 July 2014)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-10&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-10&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-10&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-10&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt; of the&lt;a href=&#34;http://europe.immersiveeducation.org/events/ied-europe-summit-2013#committe&#34;&gt; 3rd European Immersive Education Summit 2013 (EiED’13)&lt;/a&gt;, London, UK&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Co-Organiser&lt;/strong&gt;, &lt;a href=&#34;http://europe.immersiveeducation.org/events/ied-europe-summit-2013#committe&#34;&gt;3rd European Immersive Education Summit (EiED 2013)&lt;/a&gt;, London, UK (28–29 November 2013)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140120748000-11&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995247000-11&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140120748000-11&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995247000-11&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Web Chair&lt;/strong&gt; at the&lt;a href=&#34;http://europe.immersiveeducation.org/events/ied-europe-summit-2013#committe&#34;&gt; 2nd European Immersive Education Summit 2012 (EiED’12)&lt;/a&gt;, Paris, France&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Chair&lt;/strong&gt;, &lt;a href=&#34;http://europe.immersiveeducation.org/events/ied-europe-summit-2012#committe&#34;&gt;2nd European Immersive Education Summit (EiED 2012)&lt;/a&gt;, Paris, France (26–27 November 2012)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -2941,13 +2881,6 @@ Shanghai, China&lt;/li&gt;
   
   
     
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -3179,13 +3112,6 @@ Shanghai, China&lt;/li&gt;
   
   
     
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -3259,7 +3185,7 @@ Shanghai, China&lt;/li&gt;
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140123614000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494064995908000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -3274,130 +3200,130 @@ Shanghai, China&lt;/li&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-0&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           2023
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-1&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-1&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-1&#34;
                 class=&#34;tab-button &#34;&gt;
           2022
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-2&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-2&#34;
                 data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-2&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-2&#34;
                 class=&#34;tab-button &#34;&gt;
           2021
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-3&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-3&#34;
                 data-index=&#34;3&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-3&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-3&#34;
                 class=&#34;tab-button &#34;&gt;
           2020
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-4&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-4&#34;
                 data-index=&#34;4&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-4&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-4&#34;
                 class=&#34;tab-button &#34;&gt;
           2019
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-5&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-5&#34;
                 data-index=&#34;5&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-5&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-5&#34;
                 class=&#34;tab-button &#34;&gt;
           2018
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-6&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-6&#34;
                 data-index=&#34;6&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-6&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-6&#34;
                 class=&#34;tab-button &#34;&gt;
           2017
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-7&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-7&#34;
                 data-index=&#34;7&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-7&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-7&#34;
                 class=&#34;tab-button &#34;&gt;
           2016
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-8&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-8&#34;
                 data-index=&#34;8&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-8&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-8&#34;
                 class=&#34;tab-button &#34;&gt;
           2015
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-9&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-9&#34;
                 data-index=&#34;9&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-9&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-9&#34;
                 class=&#34;tab-button &#34;&gt;
           2014
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-10&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-10&#34;
                 data-index=&#34;10&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-10&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-10&#34;
                 class=&#34;tab-button &#34;&gt;
           2013
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-11&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-11&#34;
                 data-index=&#34;11&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-11&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-11&#34;
                 class=&#34;tab-button &#34;&gt;
           2012
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140123614000-12&#34;
+                id=&#34;tab-btn-tabs-1794494064995908000-12&#34;
                 data-index=&#34;12&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140123614000-12&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494064995908000-12&#34;
                 class=&#34;tab-button &#34;&gt;
           2011
         &lt;/button&gt;
@@ -3416,171 +3342,169 @@ Shanghai, China&lt;/li&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;4th EAI International Conference on Technology, Innovation, Entrepreneurship and Education, Cambridge, UK – September 27-28, 2023.&lt;/li&gt;
+&lt;li&gt;4th EAI International Conference on Technology, Innovation, Entrepreneurship and Education, Cambridge, UK (27–28 September 2023)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;The 22nd IEEE International Conference on Advanced Learning Technologies (ICALT 2022) Bucharest, Romania – July 1-4, 2022.&lt;/li&gt;
+&lt;li&gt;22nd IEEE International Conference on Advanced Learning Technologies (ICALT 2022), Bucharest, Romania (1–4 July 2022)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Immersive Learning Research Network Conference 2021 (iLRN’21), Online – May 17-June 10, 2021.&lt;/li&gt;
-&lt;li&gt;International Workshop on the Internet of Smart Things (IST2021), Leuven, Belgium - November 1-4, 2021.&lt;/li&gt;
-&lt;li&gt;IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE), Wuhan, China - December 5-8, 2021.&lt;/li&gt;
+&lt;li&gt;7th International Conference of the Immersive Learning Research Network (iLRN 2021), Online (17 May – 10 June 2021)&lt;/li&gt;
+&lt;li&gt;International Workshop on the Internet of Smart Things (IST 2021), Leuven, Belgium (1–4 November 2021)&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE 2021), Wuhan, China (5–8 December 2021)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Immersive Learning Research Network Conference 2020 (iLRN’20) Online – June 21-25, 2020.&lt;/li&gt;
-&lt;li&gt;Symposium on Future Intelligent Educational Environments (SOFIEE’20), Madrid, Spain – June 22-23, 2020.&lt;/li&gt;
-&lt;li&gt;IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE), Takamatsu, Japan - December 8-11, 2020.&lt;/li&gt;
+&lt;li&gt;6th International Conference of the Immersive Learning Research Network (iLRN 2020), Online (21–25 June 2020)&lt;/li&gt;
+&lt;li&gt;Symposium on Future Intelligent Educational Environments (SOFIEE 2020), Madrid, Spain (22–23 June 2020)&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE 2020), Takamatsu, Japan (8–11 December 2020)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-4&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-4&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-4&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-4&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;Immersive Learning Research Network Conference 2019 (iLRN’19), London, UK – June 24-27, 2019.&lt;/li&gt;
-&lt;li&gt;Intelligent Environments 2019 (IE’19), Rabat, Morocco – June 24-27, 2019.&lt;/li&gt;
-&lt;li&gt;Symposium on Future Intelligent Educational Environments (SOFIEE’19), Rabat, Morocco – June 24-27, 2019.&lt;/li&gt;
-&lt;li&gt;11th Computer Science and Electronic Engineering Conference (CEEC 2019), Colchester, UK - 18-20 September 2019.&lt;/li&gt;
+&lt;li&gt;5th International Conference of the Immersive Learning Research Network (iLRN 2019), London, UK (24–27 June 2019)&lt;/li&gt;
+&lt;li&gt;15th International Conference on Intelligent Environments (IE&#39;19), Rabat, Morocco (24–27 June 2019)&lt;/li&gt;
+&lt;li&gt;Symposium on Future Intelligent Educational Environments (SOFIEE 2019), Rabat, Morocco (24–27 June 2019)&lt;/li&gt;
+&lt;li&gt;11th Computer Science and Electronic Engineering Conference (CEEC 2019), Colchester, UK (18–20 September 2019)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-5&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-5&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-5&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-5&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;10th Computer Science and Electronic Engineering Conference (CEEC 2018), Colchester, UK - 19-21 September 2018.&lt;/li&gt;
-&lt;li&gt;IEEE International Conference on Fuzzy Systems 2018 (FUZZ-IEEE&#39;18), Rio de Janeiro, Brazil - July 9-12, 2017.&lt;/li&gt;
-&lt;li&gt;Immersive Learning Research Network Conference 2018 (iLRN&#39;18), Montana, USA - June 24-29, 2018.&lt;/li&gt;
-&lt;li&gt;Intelligent Environments 2018 (IE&#39;18), Rome, Italy - June 25-28, 2018.&lt;/li&gt;
-&lt;li&gt;Symposium on Future Intelligent Educational Environments (SOFIEE&#39;18), Rome, Italy - June 25, 2018.&lt;/li&gt;
-&lt;li&gt;IEEE International Conference on Computers, Software &amp;amp; Applications - Symposium on Computing Education &amp;amp; Learning Technologies CELT, Tokyo, Japan - July 23-27, 2018.&lt;/li&gt;
-&lt;li&gt;IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE), Wollongong, Australia - December 4-7, 2018.&lt;/li&gt;
+&lt;li&gt;10th Computer Science and Electronic Engineering Conference (CEEC 2018), Colchester, UK (19–21 September 2018)&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Fuzzy Systems (FUZZ-IEEE 2018), World Congress on Computational Intelligence, Rio de Janeiro, Brazil (9–12 July 2018)&lt;/li&gt;
+&lt;li&gt;4th International Conference of the Immersive Learning Research Network (iLRN 2018), Missoula, Montana, USA (24–29 June 2018)&lt;/li&gt;
+&lt;li&gt;14th International Conference on Intelligent Environments (IE&#39;18), Rome, Italy (25–28 June 2018)&lt;/li&gt;
+&lt;li&gt;Symposium on Future Intelligent Educational Environments (SOFIEE 2018), Rome, Italy (25 June 2018)&lt;/li&gt;
+&lt;li&gt;IEEE COMPSAC — Symposium on Computing Education &amp;amp; Learning Technologies (CELT 2018), Tokyo, Japan (23–27 July 2018)&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE 2018), Wollongong, Australia (4–7 December 2018)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-6&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-6&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-6&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-6&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;IEEE International Conference on Fuzzy Systems 2017 (FUZZ-IEEE&#39;17), Naples, Italy - July 9-12, 2017.&lt;/li&gt;
-&lt;li&gt;Immersive Learning Research Network Conference 2017 (iLRN&#39;17), Coimbra, Portugal - June 26-29, 2017.&lt;/li&gt;
-&lt;li&gt;IEEE International Conference on Computers, Software &amp;amp; Applications - Symposium on Computing Education &amp;amp; Learning Technologies CELT
-Atlanta, Georgia, USA - June 10-14, 2017.&lt;/li&gt;
-&lt;li&gt;Symposium on Future Intelligent Educational Environments and Learning (SOFIEE&#39;17), Seoul, South Korea - 21-22 August 2017.&lt;/li&gt;
-&lt;li&gt;MDPI Computers Journal 2017, MDPI AG, St. Alban-Anlage 66, 4052 Basel, Switzerland&lt;/li&gt;
-&lt;li&gt;MDPI Multimodal Technologies and Interaction Journal 2017, MDPI AG, St. Alban-Anlage 66, 4052 Basel, Switzerland&lt;/li&gt;
-&lt;li&gt;MDPI Technologies Journal 2017, MDPI AG, St. Alban-Anlage 66, 4052 Basel, Switzerland&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Fuzzy Systems (FUZZ-IEEE 2017), Naples, Italy (9–12 July 2017)&lt;/li&gt;
+&lt;li&gt;3rd International Conference of the Immersive Learning Research Network (iLRN 2017), Coimbra, Portugal (26–29 June 2017)&lt;/li&gt;
+&lt;li&gt;IEEE COMPSAC — Symposium on Computing Education &amp;amp; Learning Technologies (CELT 2017), Atlanta, Georgia, USA (10–14 June 2017)&lt;/li&gt;
+&lt;li&gt;Symposium on Future Intelligent Educational Environments and Learning (SOFIEE 2017), Seoul, South Korea (21–22 August 2017)&lt;/li&gt;
+&lt;li&gt;Reviewer, &lt;em&gt;Computers&lt;/em&gt;, MDPI (2017)&lt;/li&gt;
+&lt;li&gt;Reviewer, &lt;em&gt;Multimodal Technologies and Interaction&lt;/em&gt;, MDPI (2017)&lt;/li&gt;
+&lt;li&gt;Reviewer, &lt;em&gt;Technologies&lt;/em&gt;, MDPI (2017)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-7&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-7&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-7&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-7&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;8th Computer Science and Electronic Engineering Conference (CEEC 2016), Colchester, UK - 28-30 September 2016.&lt;/li&gt;
-&lt;li&gt;Immersive Learning Research Network Conference (iLRN&#39;16), Santa Barbara, California, USA - 28th June - 1st July 2016.&lt;/li&gt;
-&lt;li&gt;Symposium on Future Intelligent Educational Environments and Learning (SOFIEE&#39;16), London, UK - 12-13 September 2016.&lt;/li&gt;
-&lt;li&gt;The 12th International Conference on Intelligent Environments (IE’16), London, UK - 12-16 September 2016.&lt;/li&gt;
-&lt;li&gt;The 22nd ACM Symposium on Virtual Reality Software and Technology (VRST 2016), Munich, Germany - November 2016.&lt;/li&gt;
-&lt;li&gt;MDPI Technologies Journal 2016, MDPI AG, St. Alban-Anlage 66, 4052 Basel, Switzerland&lt;/li&gt;
+&lt;li&gt;8th Computer Science and Electronic Engineering Conference (CEEC 2016), Colchester, UK (28–30 September 2016)&lt;/li&gt;
+&lt;li&gt;2nd International Conference of the Immersive Learning Research Network (iLRN 2016), Santa Barbara, California, USA (28 June – 1 July 2016)&lt;/li&gt;
+&lt;li&gt;Symposium on Future Intelligent Educational Environments and Learning (SOFIEE 2016), London, UK (12–13 September 2016)&lt;/li&gt;
+&lt;li&gt;12th International Conference on Intelligent Environments (IE&#39;16), London, UK (12–16 September 2016)&lt;/li&gt;
+&lt;li&gt;22nd ACM Symposium on Virtual Reality Software and Technology (VRST 2016), Munich, Germany (November 2016)&lt;/li&gt;
+&lt;li&gt;Reviewer, &lt;em&gt;Technologies&lt;/em&gt;, MDPI (2016)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-8&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-8&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-8&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-8&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;7th Computer Science and Electronic Engineering Conference (CEEC) 2015, Colchester, UK, September 2015.&lt;/li&gt;
-&lt;li&gt;Immersive Learning Research Network Conference (iLRN&#39;15), Prague, Czech Republic, 13-14 July 2015.&lt;/li&gt;
-&lt;li&gt;The 11th International Conference on Intelligent Environments (IE&#39;15), Prague, Czech Republic, 15-17 July 2015.&lt;/li&gt;
-&lt;li&gt;Symposium on Future Intelligent Educational Environments and Learning (SOFIEE&#39;15), Prague, Czech Republic, 15-17 July 2015.&lt;/li&gt;
+&lt;li&gt;7th Computer Science and Electronic Engineering Conference (CEEC 2015), Colchester, UK (September 2015)&lt;/li&gt;
+&lt;li&gt;1st International Conference of the Immersive Learning Research Network (iLRN 2015), Prague, Czech Republic (13–14 July 2015)&lt;/li&gt;
+&lt;li&gt;11th International Conference on Intelligent Environments (IE&#39;15), Prague, Czech Republic (15–17 July 2015)&lt;/li&gt;
+&lt;li&gt;Symposium on Future Intelligent Educational Environments and Learning (SOFIEE 2015), Prague, Czech Republic (15–17 July 2015)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-9&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-9&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-9&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-9&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;6th Computer Science and Electronic Engineering Conference (CEEC) 2014, Colchester, UK, 25 – 26 September 2014.&lt;/li&gt;
-&lt;li&gt;The 10th International Conference on Intelligent Environments (IE&#39;14), Shanghai, China, 30 June - 4 July 2014.&lt;/li&gt;
-&lt;li&gt;Workshop on Creative Science: A discussion about the future (CS&#39;14), Creative Science Foundation (CSf). Shanghai, China, 30 June - 1 July 2014.&lt;/li&gt;
-&lt;li&gt;Workshop Imagination 2014: Creating the Future. What would you build? (Imagine&#39;14), Shanghai, China, 30 June - 1 July 2014.&lt;/li&gt;
-&lt;li&gt;1st Workshop on Hyperrealistic Intelligent Environments(HyperRealitIE&#39;14), Shanghai, China, 30 June - 1 July 2014.&lt;/li&gt;
-&lt;li&gt;Journal of Universal Computer Science (JUCS), Thematic Issue: &lt;em&gt;Immersive Education: What does the future hold?&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;6th Computer Science and Electronic Engineering Conference (CEEC 2014), Colchester, UK (25–26 September 2014)&lt;/li&gt;
+&lt;li&gt;10th International Conference on Intelligent Environments (IE&#39;14), Shanghai, China (30 June – 4 July 2014)&lt;/li&gt;
+&lt;li&gt;Workshop on Creative Science: A Discussion About the Future (CS 2014), Shanghai, China (30 June – 1 July 2014)&lt;/li&gt;
+&lt;li&gt;Workshop on Imagination 2014: Creating the Future (Imagine 2014), Shanghai, China (30 June – 1 July 2014)&lt;/li&gt;
+&lt;li&gt;1st Workshop on Hyperrealistic Intelligent Environments (HyperRealitIE 2014), Shanghai, China (30 June – 1 July 2014)&lt;/li&gt;
+&lt;li&gt;Reviewer, &lt;em&gt;Journal of Universal Computer Science (JUCS)&lt;/em&gt;, Thematic Issue on Immersive Education (2014)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-10&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-10&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-10&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-10&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;The 2013 International Symposium on The Intelligent Campus (IC&#39;13), Special Session: &lt;em&gt;Smart Learning for the Next Generation&lt;/em&gt;. &lt;a href=&#34;http://intelligentcampus.org/&#34;&gt;Intelligent Campus Initiative&lt;/a&gt;. United Arab Emirates, 24-25 November 2013.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://europe.immersiveeducation.org/events/ied-europe-summit-2013#committe&#34;&gt;3rd European Immersive Education Summit (EiED’13)&lt;/a&gt;. Immersive Education
-Europe. London, UK, 28-29 November 2013.&lt;/li&gt;
-&lt;li&gt;Workshop on Creative Science: Exploring the future of Education (CS-L 2013), Creative Science Foundation (CSf). London, UK, 28-29 November 2013.&lt;/li&gt;
-&lt;li&gt;5th Computer Science and Electronic Engineering Conference (CEEC) 2013, Colchester, UK, 17 - 18 Sep 2013.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=25738%C2%A9ownerid=34954&#34;&gt;Journal of Ambient Intelligence and Smart Environments (JAISE) &lt;/a&gt;, Thematic Issue: &lt;em&gt;Designing and Deploying Intelligent Environments&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;International Symposium on The Intelligent Campus (IC&#39;13), Special Session: &lt;em&gt;Smart Learning for the Next Generation&lt;/em&gt;, UAE (24–25 November 2013)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://europe.immersiveeducation.org/events/ied-europe-summit-2013#committe&#34;&gt;3rd European Immersive Education Summit (EiED 2013)&lt;/a&gt;, London, UK (28–29 November 2013)&lt;/li&gt;
+&lt;li&gt;Workshop on Creative Science: Exploring the Future of Education (CS-L 2013), London, UK (28–29 November 2013)&lt;/li&gt;
+&lt;li&gt;5th Computer Science and Electronic Engineering Conference (CEEC 2013), Colchester, UK (17–18 September 2013)&lt;/li&gt;
+&lt;li&gt;Reviewer, &lt;a href=&#34;http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=25738%C2%A9ownerid=34954&#34;&gt;&lt;em&gt;Journal of Ambient Intelligence and Smart Environments (JAISE)&lt;/em&gt;&lt;/a&gt;, Thematic Issue on Intelligent Environments (2013)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-11&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-11&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-11&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-11&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;The 2012 International Symposium on The Intelligent Campus (IC12) iCampus, Theme: &lt;em&gt;Intelligent Educational Environments for the Next Generation&lt;/em&gt;. Intelligent Campus Initiative. Macau, China, 4 December 2012.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://europe.immersiveeducation.org/events/ied-europe-summit-2012#committe&#34;&gt;2nd European Immersive Education Summit (EiED’12)&lt;/a&gt;. Theme: &lt;em&gt;Immersive Education: combining creativity, art and pedagogy.&lt;/em&gt; Immersive Education Europe. Paris, France, 26-27 November 2012.&lt;/li&gt;
+&lt;li&gt;International Symposium on The Intelligent Campus (IC&#39;12), Macau, China (4 December 2012)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://europe.immersiveeducation.org/events/ied-europe-summit-2012#committe&#34;&gt;2nd European Immersive Education Summit (EiED 2012)&lt;/a&gt;, Paris, France (26–27 November 2012)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140123614000-12&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494064995908000-12&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140123614000-12&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494064995908000-12&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;2nd Annual International Creative Science Foundation (CSf) Conference, Creative Science Foundation (CSf). Nottingham, UK, 25-26 July 2011.&lt;/li&gt;
+&lt;li&gt;2nd Annual International Creative Science Foundation Conference (CSf 2011), Nottingham, UK (25–26 July 2011)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -8948,7 +8872,175 @@ Europe. London, UK, 28-29 November 2013.&lt;/li&gt;
   
   
     
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
     
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+    
     
   
 
@@ -8957,12 +9049,33 @@ Europe. London, UK, 28-29 November 2013.&lt;/li&gt;
 
   
   
+    
+    
+    
     
+    
+    
+    
+  
+
+  
+  
     
+      
     
+  
+
+  
+  
     
+      
     
+  
+
+  
+  
     
+      
     
   
 
@@ -10018,7 +10131,7 @@ Europe. London, UK, 28-29 November 2013.&lt;/li&gt;
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;ptabs-1794492140129578000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;ptabs-1794494064997320000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -10033,30 +10146,30 @@ Europe. London, UK, 28-29 November 2013.&lt;/li&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-ptabs-1794492140129578000-0&#34;
+                id=&#34;tab-btn-ptabs-1794494064997320000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-ptabs-1794492140129578000-0&#34;
+                aria-controls=&#34;tab-panel-ptabs-1794494064997320000-0&#34;
                 class=&#34;tab-button m3-primary-tab active&#34;&gt;
           Doctoral Dissertations (PhD)
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-ptabs-1794492140129578000-1&#34;
+                id=&#34;tab-btn-ptabs-1794494064997320000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-ptabs-1794492140129578000-1&#34;
+                aria-controls=&#34;tab-panel-ptabs-1794494064997320000-1&#34;
                 class=&#34;tab-button m3-primary-tab &#34;&gt;
           Master’s Dissertations (MSc, MBA, MA, MTech)
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-ptabs-1794492140129578000-2&#34;
+                id=&#34;tab-btn-ptabs-1794494064997320000-2&#34;
                 data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-ptabs-1794492140129578000-2&#34;
+                aria-controls=&#34;tab-panel-ptabs-1794494064997320000-2&#34;
                 class=&#34;tab-button m3-primary-tab &#34;&gt;
           Undergraduate &amp;amp; Degree Apprenticeships (BSc, BEng)
         &lt;/button&gt;
@@ -10075,11 +10188,11 @@ Europe. London, UK, 28-29 November 2013.&lt;/li&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-ptabs-1794492140129578000-0&#34;
+      &lt;div id=&#34;tab-panel-ptabs-1794494064997320000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-ptabs-1794492140129578000-0&#34;
+           aria-labelledby=&#34;tab-btn-ptabs-1794494064997320000-0&#34;
            class=&#34;tab-panel m3-primary-panel active&#34;&gt;
-        &lt;div class=&#34;tabs-container m3-secondary-tabs&#34; id=&#34;stabs-1794492140128452000&#34;&gt;
+        &lt;div class=&#34;tabs-container m3-secondary-tabs&#34; id=&#34;stabs-1794494064996604000&#34;&gt;
 &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
 &lt;button type=&#34;button&#34;
 class=&#34;tabs-scroll-btn tabs-scroll-prev&#34;
@@ -10094,20 +10207,20 @@ data-scroll=&#34;-160&#34;&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128452000-0&#34;
+id=&#34;tab-btn-stabs-1794494064996604000-0&#34;
 data-index=&#34;0&#34;
 aria-selected=&#34;true&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128452000-0&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996604000-0&#34;
 class=&#34;tab-button m3-secondary-tab active&#34;&gt;
 Current
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128452000-1&#34;
+id=&#34;tab-btn-stabs-1794494064996604000-1&#34;
 data-index=&#34;1&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128452000-1&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996604000-1&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 Completed
 &lt;/button&gt;
@@ -10126,9 +10239,9 @@ data-scroll=&#34;160&#34;&gt;
 
 &lt;div class=&#34;tabs-content&#34;&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128452000-0&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996604000-0&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128452000-0&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996604000-0&#34;
 class=&#34;tab-panel m3-secondary-panel active&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Pranjal Jain&lt;/strong&gt;, &lt;em&gt;“Immersive Data Capture and Presentation for Industrial Decision-Making and Knowledge-Sharing”&lt;/em&gt;, PhD in Computer Science, Swansea University, UK (Expected 2026). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10138,9 +10251,9 @@ class=&#34;tab-panel m3-secondary-panel active&#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128452000-1&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996604000-1&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128452000-1&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996604000-1&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Zi-Chuan Zhao&lt;/strong&gt;, &lt;em&gt;“Digital Twins for Asset Monitoring and Advanced Simulation”&lt;/em&gt;, PhD in Computer Science, University of Essex, UK (2025). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10154,11 +10267,11 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;/div&gt;
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-ptabs-1794492140129578000-1&#34;
+      &lt;div id=&#34;tab-panel-ptabs-1794494064997320000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-ptabs-1794492140129578000-1&#34;
+           aria-labelledby=&#34;tab-btn-ptabs-1794494064997320000-1&#34;
            class=&#34;tab-panel m3-primary-panel &#34;&gt;
-        &lt;div class=&#34;tabs-container m3-secondary-tabs&#34; id=&#34;stabs-1794492140128651000&#34;&gt;
+        &lt;div class=&#34;tabs-container m3-secondary-tabs&#34; id=&#34;stabs-1794494064996739000&#34;&gt;
 &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
 &lt;button type=&#34;button&#34;
 class=&#34;tabs-scroll-btn tabs-scroll-prev&#34;
@@ -10173,90 +10286,90 @@ data-scroll=&#34;-160&#34;&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-0&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-0&#34;
 data-index=&#34;0&#34;
 aria-selected=&#34;true&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-0&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-0&#34;
 class=&#34;tab-button m3-secondary-tab active&#34;&gt;
 2025
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-1&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-1&#34;
 data-index=&#34;1&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-1&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-1&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2024
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-2&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-2&#34;
 data-index=&#34;2&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-2&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-2&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2023
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-3&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-3&#34;
 data-index=&#34;3&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-3&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-3&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2022
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-4&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-4&#34;
 data-index=&#34;4&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-4&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-4&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2021
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-5&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-5&#34;
 data-index=&#34;5&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-5&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-5&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2020
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-6&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-6&#34;
 data-index=&#34;6&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-6&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-6&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2019
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-7&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-7&#34;
 data-index=&#34;7&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-7&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-7&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2018
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140128651000-8&#34;
+id=&#34;tab-btn-stabs-1794494064996739000-8&#34;
 data-index=&#34;8&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140128651000-8&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064996739000-8&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2017
 &lt;/button&gt;
@@ -10275,9 +10388,9 @@ data-scroll=&#34;160&#34;&gt;
 
 &lt;div class=&#34;tabs-content&#34;&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-0&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-0&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-0&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-0&#34;
 class=&#34;tab-panel m3-secondary-panel active&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Amer Haitham Ahmed Harfoush&lt;/strong&gt;, MSc in Intelligent Systems and Robotics, University of Essex, UK (2025). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10291,9 +10404,9 @@ class=&#34;tab-panel m3-secondary-panel active&#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-1&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-1&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-1&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-1&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Adham Aboulkheir&lt;/strong&gt;, MSc in Intelligent Systems and Robotics, University of Essex, UK (2024). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10307,9 +10420,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-2&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-2&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-2&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-2&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Abhishek Kumar&lt;/strong&gt;, &lt;em&gt;“A Study of Deep Learning Methods for Human Activity Recognition”&lt;/em&gt;, MTech in Data Science and Business Analytics, Indian Institute of Science, India (2023). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10318,9 +10431,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-3&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-3&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-3&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-3&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Ozkan Bahceci&lt;/strong&gt;, &lt;em&gt;“Supervised Machine Learning Hand Gesture Classification in Virtual Reality”&lt;/em&gt;, MSc in Data Science, University of Exeter, UK (2022). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10328,9 +10441,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-4&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-4&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-4&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-4&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Mart van Saane&lt;/strong&gt;, &lt;em&gt;“A Web VR Visualisation Tool for Construction 4.0”&lt;/em&gt;, MSc in Computer Games, University of Essex, UK (2021). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10338,9 +10451,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-5&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-5&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-5&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-5&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Parastoo Azizinezhad&lt;/strong&gt;, &lt;em&gt;“Smart Object Detection Using AR”&lt;/em&gt;, MSc in Intelligent Systems and Robotics, University of Essex, UK (2020). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10348,9 +10461,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-6&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-6&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-6&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-6&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Athar Mushtaq&lt;/strong&gt;, &lt;em&gt;“Case Study — Digital Twin: Transforming Asset-Intensive Industry”&lt;/em&gt;, MBA, Business School, Cardiff University, UK (2019). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10358,9 +10471,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-7&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-7&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-7&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-7&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Alexandros Katsiamakas&lt;/strong&gt;, &lt;em&gt;“Immersive Maps for Field Engineers”&lt;/em&gt;, MSc in Computer Games, University of Essex, UK (2018). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10369,9 +10482,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140128651000-8&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064996739000-8&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140128651000-8&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064996739000-8&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Jodi Bernhart&lt;/strong&gt;, &lt;em&gt;“Uses and Benefits of AR in Industrial Settings”&lt;/em&gt;, MA in Learning Design and Technology, San Diego State University, USA (2017). &lt;em&gt;(Co-Advisor)&lt;/em&gt;&lt;/li&gt;
@@ -10385,11 +10498,11 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;/div&gt;
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-ptabs-1794492140129578000-2&#34;
+      &lt;div id=&#34;tab-panel-ptabs-1794494064997320000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-ptabs-1794492140129578000-2&#34;
+           aria-labelledby=&#34;tab-btn-ptabs-1794494064997320000-2&#34;
            class=&#34;tab-panel m3-primary-panel &#34;&gt;
-        &lt;div class=&#34;tabs-container m3-secondary-tabs&#34; id=&#34;stabs-1794492140129413000&#34;&gt;
+        &lt;div class=&#34;tabs-container m3-secondary-tabs&#34; id=&#34;stabs-1794494064997219000&#34;&gt;
 &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
 &lt;button type=&#34;button&#34;
 class=&#34;tabs-scroll-btn tabs-scroll-prev&#34;
@@ -10404,20 +10517,20 @@ data-scroll=&#34;-160&#34;&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140129413000-0&#34;
+id=&#34;tab-btn-stabs-1794494064997219000-0&#34;
 data-index=&#34;0&#34;
 aria-selected=&#34;true&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140129413000-0&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064997219000-0&#34;
 class=&#34;tab-button m3-secondary-tab active&#34;&gt;
 2023
 &lt;/button&gt;
 
 &lt;button type=&#34;button&#34;
 role=&#34;tab&#34;
-id=&#34;tab-btn-stabs-1794492140129413000-1&#34;
+id=&#34;tab-btn-stabs-1794494064997219000-1&#34;
 data-index=&#34;1&#34;
 aria-selected=&#34;false&#34;
-aria-controls=&#34;tab-panel-stabs-1794492140129413000-1&#34;
+aria-controls=&#34;tab-panel-stabs-1794494064997219000-1&#34;
 class=&#34;tab-button m3-secondary-tab &#34;&gt;
 2021
 &lt;/button&gt;
@@ -10436,9 +10549,9 @@ data-scroll=&#34;160&#34;&gt;
 
 &lt;div class=&#34;tabs-content&#34;&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140129413000-0&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064997219000-0&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140129413000-0&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064997219000-0&#34;
 class=&#34;tab-panel m3-secondary-panel active&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Ben Newman&lt;/strong&gt;, &lt;em&gt;“Device Agnostic Multiuser Collaboration Platform for Digital Twin Consolidation”&lt;/em&gt;, BSc Digital and Technology Solutions Degree Apprenticeship, University of Exeter, UK (2023). &lt;em&gt;(Industrial Supervisor)&lt;/em&gt;&lt;/li&gt;
@@ -10446,9 +10559,9 @@ class=&#34;tab-panel m3-secondary-panel active&#34;&gt;
 
 &lt;/div&gt;
 
-&lt;div id=&#34;tab-panel-stabs-1794492140129413000-1&#34;
+&lt;div id=&#34;tab-panel-stabs-1794494064997219000-1&#34;
 role=&#34;tabpanel&#34;
-aria-labelledby=&#34;tab-btn-stabs-1794492140129413000-1&#34;
+aria-labelledby=&#34;tab-btn-stabs-1794494064997219000-1&#34;
 class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Jorge Luis Meneses Vargas&lt;/strong&gt;, BEng in Information Technologies and Systems, Universidad Autónoma Metropolitana, Mexico (2021). &lt;em&gt;(Co-Advisor)&lt;/em&gt;&lt;/li&gt;
@@ -10587,7 +10700,7 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140133813000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494065000288000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -10602,20 +10715,20 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140133813000-0&#34;
+                id=&#34;tab-btn-tabs-1794494065000288000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140133813000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000288000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           Current
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140133813000-1&#34;
+                id=&#34;tab-btn-tabs-1794494065000288000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140133813000-1&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000288000-1&#34;
                 class=&#34;tab-button &#34;&gt;
           Past
         &lt;/button&gt;
@@ -10634,29 +10747,246 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140133813000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000288000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140133813000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000288000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Senior Member (SMIEEE)&lt;/strong&gt;, &lt;a href=&#34;https://www.ieee.org/&#34;&gt;Institute of Electrical and Electronics Engineers (IEEE)&lt;/a&gt; (2018–Present)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Member (MITP)&lt;/strong&gt;, &lt;a href=&#34;https://www.theitp.org/&#34;&gt;Institute of Telecommunications Professionals (ITP)&lt;/a&gt;(2026–Present)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Member (MITP)&lt;/strong&gt;, &lt;a href=&#34;https://www.theitp.org/&#34;&gt;Institute of Telecommunications Professionals (ITP)&lt;/a&gt; (2026–Present)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Affiliate&lt;/strong&gt;, &lt;a href=&#34;https://www.managers.org.uk/&#34;&gt;Chartered Management Institute (CMI)&lt;/a&gt; (2025–Present)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140133813000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000288000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140133813000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000288000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Professional Member (MBCS)&lt;/strong&gt;, &lt;a href=&#34;https://www.bcs.org/&#34;&gt;British Computer Society (BCS)&lt;/a&gt; (2015–2019)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Professional Member&lt;/strong&gt;, &lt;a href=&#34;https://www.acm.org/&#34;&gt;Association for Computing Machinery (ACM)&lt;/a&gt; (2015–2019, 2021–2022)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Associate Member&lt;/strong&gt;, &lt;a href=&#34;https://www.alt.ac.uk/&#34;&gt;Association for Learning Technology (ALT)&lt;/a&gt; (2020–2023)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Member&lt;/strong&gt;, Mexican Thematic Network for Educational Technology (RedLaTE), &lt;a href=&#34;https://conahcyt.mx/&#34;&gt;CONAHCYT&lt;/a&gt; (2017–2023)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Affiliate&lt;/strong&gt;, &lt;a href=&#34;https://www.managers.org.uk/&#34;&gt;Chartered Management Institute (CMI)&lt;/a&gt; (2016-2020)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Affiliate&lt;/strong&gt;, &lt;a href=&#34;https://www.managers.org.uk/&#34;&gt;Chartered Management Institute (CMI)&lt;/a&gt; (2016–2020)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Member&lt;/strong&gt;, &lt;a href=&#34;https://www.interaction-design.org/&#34;&gt;Interaction Design Foundation (IxDF)&lt;/a&gt; (2015–2018)&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;executive-education--professional-development&#34;&gt;Executive Education &amp;amp; Professional Development&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+    
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+      
+    
+  
+
+  
+  
+    
+    
+    
+  
+
+  
+  
+
+
+
+
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494065000496000&#34;&gt;
+  &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
+            aria-label=&#34;Scroll tabs left&#34; 
+            data-scroll=&#34;-200&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;15 18 9 12 15 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+
+    &lt;div class=&#34;tabs-nav&#34; role=&#34;tablist&#34; aria-label=&#34;Sections&#34;&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794494065000496000-0&#34;
+                data-index=&#34;0&#34;
+                aria-selected=&#34;true&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000496000-0&#34;
+                class=&#34;tab-button active&#34;&gt;
+          Executive &amp;amp; Leadership
+        &lt;/button&gt;
+      
+        &lt;button type=&#34;button&#34; 
+                role=&#34;tab&#34;
+                id=&#34;tab-btn-tabs-1794494065000496000-1&#34;
+                data-index=&#34;1&#34;
+                aria-selected=&#34;false&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000496000-1&#34;
+                class=&#34;tab-button &#34;&gt;
+          Technical &amp;amp; Professional Certifications
+        &lt;/button&gt;
+      
+    &lt;/div&gt;
+
+    &lt;button type=&#34;button&#34; 
+            class=&#34;tabs-scroll-btn tabs-scroll-next&#34; 
+            aria-label=&#34;Scroll tabs right&#34; 
+            data-scroll=&#34;200&#34;&gt;
+      &lt;svg viewBox=&#34;0 0 24 24&#34; width=&#34;16&#34; height=&#34;16&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2.5&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+        &lt;polyline points=&#34;9 18 15 12 9 6&#34;&gt;&lt;/polyline&gt;
+      &lt;/svg&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  
+  &lt;div class=&#34;tabs-content&#34;&gt;
+    
+      &lt;div id=&#34;tab-panel-tabs-1794494065000496000-0&#34;
+           role=&#34;tabpanel&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000496000-0&#34;
+           class=&#34;tab-panel active&#34;&gt;
+        &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Leadership: Transforming the Corporation’s Operations, Management, and Mindset to Leverage Data, AI, and Cloud Computing&lt;/strong&gt;, &lt;a href=&#34;https://professional.mit.edu/&#34;&gt;MIT Professional Education&lt;/a&gt;, USA (2025)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commercialisation Skills Development Workshop&lt;/strong&gt;, Pembroke College, &lt;a href=&#34;https://www.cam.ac.uk/&#34;&gt;University of Cambridge&lt;/a&gt;, UK (2025)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leader Lab (Development Program for Future Leaders)&lt;/strong&gt;, &lt;a href=&#34;https://www.bt.com/&#34;&gt;BT Group&lt;/a&gt;, UK (2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Management Accelerator&lt;/strong&gt;, &lt;a href=&#34;https://www.mckinsey.com/&#34;&gt;McKinsey &amp;amp; Company&lt;/a&gt;, USA (2023–2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TechWomen (Development and Leadership Program for Women in Tech)&lt;/strong&gt;, &lt;a href=&#34;https://www.bt.com/&#34;&gt;BT Group&lt;/a&gt;, UK (2018–2019)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Level 5 Award in Management &amp;amp; Leadership&lt;/strong&gt;, &lt;a href=&#34;https://www.managers.org.uk/&#34;&gt;Chartered Management Institute (CMI)&lt;/a&gt; / Ashorne Hill Management College / Innovate UK (2016)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IT Project Management&lt;/strong&gt;, ITAM / Project Management Institute (PMI), Mexico (2008)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Financial Engineering &amp;amp; Economic Feasibility of IT Projects&lt;/strong&gt;, &lt;a href=&#34;https://www.ipn.mx/&#34;&gt;Instituto Politécnico Nacional&lt;/a&gt;, Mexico (2005)&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/div&gt;
+    
+      &lt;div id=&#34;tab-panel-tabs-1794494065000496000-1&#34;
+           role=&#34;tabpanel&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000496000-1&#34;
+           class=&#34;tab-panel &#34;&gt;
+        &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Science Course&lt;/strong&gt;, BT Group, UK (2017)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Certified Ethical Hacker (CEH)&lt;/strong&gt;, &lt;a href=&#34;https://www.eccouncil.org/&#34;&gt;EC-Council&lt;/a&gt;, Mexico (2009)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ISO 9001:2000 Auditor&lt;/strong&gt;, Intélisis, Mexico (2004)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -10925,20 +11255,6 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
   
   
     
-      
-    
-  
-
-  
-  
-    
-      
-    
-  
-
-  
-  
-    
     
     
   
@@ -10954,13 +11270,6 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
     
     
     
-    
-  
-
-  
-  
-    
-      
     
   
 
@@ -11086,13 +11395,10 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
   
   
 
-  
-  
 
 
 
-
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140134076000&#34;&gt;
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494065000663000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -11107,100 +11413,100 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-0&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           2023
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-1&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-1&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-1&#34;
                 class=&#34;tab-button &#34;&gt;
           2021
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-2&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-2&#34;
                 data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-2&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-2&#34;
                 class=&#34;tab-button &#34;&gt;
           2020
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-3&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-3&#34;
                 data-index=&#34;3&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-3&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-3&#34;
                 class=&#34;tab-button &#34;&gt;
           2018
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-4&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-4&#34;
                 data-index=&#34;4&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-4&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-4&#34;
                 class=&#34;tab-button &#34;&gt;
           2017
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-5&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-5&#34;
                 data-index=&#34;5&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-5&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-5&#34;
                 class=&#34;tab-button &#34;&gt;
           2016
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-6&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-6&#34;
                 data-index=&#34;6&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-6&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-6&#34;
                 class=&#34;tab-button &#34;&gt;
           2015
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-7&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-7&#34;
                 data-index=&#34;7&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-7&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-7&#34;
                 class=&#34;tab-button &#34;&gt;
           2014
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-8&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-8&#34;
                 data-index=&#34;8&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-8&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-8&#34;
                 class=&#34;tab-button &#34;&gt;
           2013
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134076000-9&#34;
+                id=&#34;tab-btn-tabs-1794494065000663000-9&#34;
                 data-index=&#34;9&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134076000-9&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065000663000-9&#34;
                 class=&#34;tab-button &#34;&gt;
           2004
         &lt;/button&gt;
@@ -11219,120 +11525,117 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://atadastral.co.uk/bsw/extended-reality/&#34;&gt;&amp;ldquo;Extended Reality Day&amp;rdquo;&lt;/a&gt;, Adastral Park - British Science Week 2023, BT Group. Online. 14 March 2023.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/posts/bt_international-womens-day-activity-7039146173093281792-3rHx?utm_source=share&amp;amp;utm_medium=member_desktop&#34;&gt;&amp;ldquo;International Women’s Day 2023&amp;rdquo;&lt;/a&gt;, BT Group LinkedIn (Online). 8 March 2023.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://atadastral.co.uk/bsw/extended-reality/&#34;&gt;&amp;ldquo;Extended Reality Day&amp;rdquo;&lt;/a&gt;, Adastral Park — British Science Week 2023, BT Group, UK (14 March 2023)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/posts/bt_international-womens-day-activity-7039146173093281792-3rHx?utm_source=share&amp;amp;utm_medium=member_desktop&#34;&gt;&amp;ldquo;International Women’s Day 2023&amp;rdquo;&lt;/a&gt;, BT Group Feature, Online (8 March 2023)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Connected Campus: University of Warwick case study&amp;rdquo;&lt;/strong&gt; Interview at BT Enterprise. 09 January 2021.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Anasol on AI and Immersive Tech&amp;rdquo;. Interview for the BT Careers website. 04 March 2021.&lt;/li&gt;
-&lt;li&gt;&amp;quot; University of Essex celebrates four decades of links with BT&amp;quot;. Press release. The University of Essex, UK. 28 May 2021.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The Connected Campus: University of Warwick Case Study&amp;rdquo;&lt;/strong&gt;, Interview, BT Enterprise (9 January 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Anasol on AI and Immersive Tech&amp;rdquo;&lt;/strong&gt;, Feature Interview, BT Careers (4 March 2021)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;University of Essex Celebrates Four Decades of Links with BT&amp;rdquo;&lt;/strong&gt;, Press Release, University of Essex, UK (28 May 2021)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&amp;ldquo;What Graduate Career opportunities are there in Innovation?&amp;rdquo;, KTN-uk.org. 06 November 2020.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;What Graduate Career Opportunities Are There in Innovation?&amp;rdquo;&lt;/strong&gt;, Feature, Knowledge Transfer Network (KTN), UK (6 November 2020)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-3&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-3&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-3&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-3&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Augmented Reality in Field Engineering Services&amp;rdquo;&lt;/strong&gt; Interview broadcast at BBC One Look East News. 09 Feb 2018.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Could augmented reality make solving engineering problems faster and cheaper?&amp;rdquo;&lt;/strong&gt; Interview at BT.com News. 16 June 2018.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;University of Essex alumna nominated for Computing Women in IT Excellence Awards&amp;rdquo;&lt;/strong&gt; Press release. University of Essex, UK. 26 Nov 2018.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Augmented Reality in Field Engineering Services&amp;rdquo;&lt;/strong&gt;, Television Broadcast Interview, BBC One Look East News (9 February 2018)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Could Augmented Reality Make Solving Engineering Problems Faster and Cheaper?&amp;rdquo;&lt;/strong&gt;, Feature Interview, BT.com News (16 June 2018)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;University of Essex Alumna Nominated for Computing Women in IT Excellence Awards&amp;rdquo;&lt;/strong&gt;, Press Release, University of Essex, UK (26 November 2018)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-4&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-4&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-4&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-4&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;University of Essex and BT win global telecoms award&amp;rdquo;&lt;/strong&gt; Press release. University of Essex, UK. 07 June 2017.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;BT wins IEEE Computational Intelligence Society Outstanding Organisation Award 2017&amp;rdquo;&lt;/strong&gt; Internal Press release. British Telecom, UK. 01 August 2017.&lt;/li&gt;
-&lt;li&gt;PhD Thesis abstract selected for publication at the IEEE Intelligent Informatics Bulletin. IEEE Intelligent Informatics. August 2017 issue.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;University of Essex and BT Win Global Telecoms Award&amp;rdquo;&lt;/strong&gt;, Press Release, University of Essex, UK (7 June 2017)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;BT Wins IEEE Computational Intelligence Society Outstanding Organisation Award 2017&amp;rdquo;&lt;/strong&gt;, Corporate Announcement, British Telecom, UK (1 August 2017)&lt;/li&gt;
+&lt;li&gt;PhD Thesis Abstract Selected for Publication, &lt;em&gt;IEEE Intelligent Informatics Bulletin&lt;/em&gt;, IEEE Computer Society (August 2017)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-5&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-5&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-5&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-5&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;FieldSchedule Virtual Coach&amp;rdquo;&lt;/strong&gt; Presentation at the 2016 BCS Real AI Competition. London, UK. 7 October 2016.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Tommy Flowers Institute Communications&amp;rdquo; Press release. British Telecom Technology, Service &amp;amp; Operations, Strategic University Research, UK.
-11 October 2016.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;ICT research leaders of tomorrow being nurtured by Tommy Flowers Institute&amp;rdquo; Press release. University of Essex, UK. 31 October 2016.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Knowledge Transfer Partnerships - Innovate UK Awards&amp;rdquo;&lt;/strong&gt; Press release. University of Essex, UK. 09 December 2016.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;University of Essex is number one for helping businesses innovate and grow through Knowledge Transfer Partnerships&amp;rdquo; Press release. University of Essex, UK. 12 December 2016.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;University of Essex recognised for success of Knowledge Transfer Partnerships&amp;rdquo; Gradplus.com, 25 December 2016. [Last access: March 2017]&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;University of Essex is number one for helping businesses innovate and grow through Knowledge Transfer Partnerships&amp;rdquo; Business Leader Magazine, December 2016. [Last access: March 2017]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;FieldSchedule Virtual Coach&amp;rdquo;&lt;/strong&gt;, Presentation, BCS Real AI Competition, London, UK (7 October 2016)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Tommy Flowers Institute Communications&amp;rdquo;&lt;/strong&gt;, Research Feature, British Telecom Technology, Service &amp;amp; Operations, UK (11 October 2016)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;ICT Research Leaders of Tomorrow Being Nurtured by Tommy Flowers Institute&amp;rdquo;&lt;/strong&gt;, Press Release, University of Essex, UK (31 October 2016)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Knowledge Transfer Partnerships — Innovate UK Awards&amp;rdquo;&lt;/strong&gt;, Press Release, University of Essex, UK (9 December 2016)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;University of Essex Is Number One for Helping Businesses Innovate and Grow Through Knowledge Transfer Partnerships&amp;rdquo;&lt;/strong&gt;, Press Release, University of Essex, UK (12 December 2016)&lt;/li&gt;
+&lt;li&gt;Feature on Knowledge Transfer Partnership Excellence, &lt;em&gt;Gradplus&lt;/em&gt; &amp;amp; &lt;em&gt;Business Leader Magazine&lt;/em&gt; (December 2016)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-6&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-6&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-6&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-6&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www1.essex.ac.uk/news/event.aspx?e_id=7570&#34;&gt;&amp;ldquo;Blending realities to create a truly global workforce&amp;rdquo;&lt;/a&gt; Press release. University of Essex, UK. 14 April 2015.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;&lt;a href=&#34;http://phys.org/news/2015-04-blending-realities-global-workforce.html&#34;&gt;Blending realities to create a truly global workforce&lt;/a&gt;&amp;rdquo; Phys.org, April 2015.  [Last access: May 2015]&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Blending realities to create a truly global workforce&amp;rdquo; ScienceDaily.com, April 2015. [Last access: April 2021]&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Creative Science: Injecting Innovation into the IT Industry&amp;rdquo; IT Now, British Computer Society, June 2015.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www1.essex.ac.uk/news/event.aspx?e_id=7570&#34;&gt;&amp;ldquo;Blending Realities to Create a Truly Global Workforce&amp;rdquo;&lt;/a&gt;, Press Release, University of Essex, UK (14 April 2015)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://phys.org/news/2015-04-blending-realities-global-workforce.html&#34;&gt;&amp;ldquo;Blending Realities to Create a Truly Global Workforce&amp;rdquo;&lt;/a&gt;, &lt;em&gt;Phys.org&lt;/em&gt; &amp;amp; &lt;em&gt;ScienceDaily&lt;/em&gt; (April 2015)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Creative Science: Injecting Innovation into the IT Industry&amp;rdquo;&lt;/strong&gt;, &lt;em&gt;ITNOW Magazine&lt;/em&gt;, British Computer Society (June 2015)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-7&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-7&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-7&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-7&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.computer.org/csdl/mags/co/2014/05/mco2014050099.pdf&#34;&gt;&amp;ldquo;Science Fiction Prototyping: A New Doorway into Time&amp;rdquo; (article)&lt;/a&gt;. Brian David Johnson, Computer Magazine, IEEE Computer Society, May 2014.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Science Fiction Prototyping: A New Doorway into Time&amp;rdquo; (podcast - Episode 10). Brian David Johnson, Computing Now, IEEE Computer Society, May 2014.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.computer.org/csdl/mags/co/2014/05/mco2014050099.pdf&#34;&gt;&amp;ldquo;Science Fiction Prototyping: A New Doorway into Time&amp;rdquo; (Article)&lt;/a&gt;, Brian David Johnson, &lt;em&gt;Computer Magazine&lt;/em&gt;, IEEE Computer Society (May 2014)&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Science Fiction Prototyping: A New Doorway into Time&amp;rdquo; (Podcast — Episode 10), &lt;em&gt;Computing Now&lt;/em&gt;, IEEE Computer Society (May 2014)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-8&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-8&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-8&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-8&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.embedded.com/design/mcus-processors-and-socs/4437441/Putting-the-Buzz-Back-into-Computer-Science-Education&#34;&gt;&amp;ldquo;Putting the Buzz Back into Computer Science Education&amp;rdquo;&lt;/a&gt; embedded.com, November 2013. [Last access: May 2015]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.embedded.com/design/mcus-processors-and-socs/4437441/Putting-the-Buzz-Back-into-Computer-Science-Education&#34;&gt;&amp;ldquo;Putting the Buzz Back into Computer Science Education&amp;rdquo;&lt;/a&gt;, &lt;em&gt;Embedded.com&lt;/em&gt; (November 2013)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134076000-9&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065000663000-9&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134076000-9&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065000663000-9&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/Bor2Psrr6X4&#34;&gt;&amp;ldquo;Graphological System&amp;rdquo;&lt;/a&gt;. Interview broadcast at Mexican TV News’ national channel &amp;ldquo;Canal Once&amp;rdquo;, July 29th, 2004.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/Bor2Psrr6X4&#34;&gt;&amp;ldquo;Graphological System&amp;rdquo;&lt;/a&gt;, Broadcast Feature, Canal Once National Television News, Mexico (29 July 2004)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;
@@ -11440,17 +11743,17 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
   
   
     
-      
+    
     
   
 
-
-
   
   
 
 
-&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794492140134882000&#34;&gt;
+
+
+&lt;div class=&#34;tabs-container m3-primary-tabs&#34; id=&#34;tabs-1794494065001158000&#34;&gt;
   &lt;div class=&#34;tabs-nav-wrapper&#34;&gt;
     &lt;button type=&#34;button&#34; 
             class=&#34;tabs-scroll-btn tabs-scroll-prev&#34; 
@@ -11465,30 +11768,30 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134882000-0&#34;
+                id=&#34;tab-btn-tabs-1794494065001158000-0&#34;
                 data-index=&#34;0&#34;
                 aria-selected=&#34;true&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134882000-0&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065001158000-0&#34;
                 class=&#34;tab-button active&#34;&gt;
           2020
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134882000-1&#34;
+                id=&#34;tab-btn-tabs-1794494065001158000-1&#34;
                 data-index=&#34;1&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134882000-1&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065001158000-1&#34;
                 class=&#34;tab-button &#34;&gt;
           2011
         &lt;/button&gt;
       
         &lt;button type=&#34;button&#34; 
                 role=&#34;tab&#34;
-                id=&#34;tab-btn-tabs-1794492140134882000-2&#34;
+                id=&#34;tab-btn-tabs-1794494065001158000-2&#34;
                 data-index=&#34;2&#34;
                 aria-selected=&#34;false&#34;
-                aria-controls=&#34;tab-panel-tabs-1794492140134882000-2&#34;
+                aria-controls=&#34;tab-panel-tabs-1794494065001158000-2&#34;
                 class=&#34;tab-button &#34;&gt;
           2009
         &lt;/button&gt;
@@ -11507,9 +11810,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
   
   &lt;div class=&#34;tabs-content&#34;&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134882000-0&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065001158000-0&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134882000-0&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065001158000-0&#34;
            class=&#34;tab-panel active&#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Co-Investigator&lt;/strong&gt;, &lt;em&gt;“Sistema de gestión de riesgo personal basado en agentes autónomos”&lt;/em&gt;, Universidad Autónoma Metropolitana (UAM), Mexico — Grant: DCCD.CD.06.12.20 (October 2020 – October 2023)&lt;/li&gt;
@@ -11517,9 +11820,9 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134882000-1&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065001158000-1&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134882000-1&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065001158000-1&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Awardee&lt;/strong&gt;, &lt;em&gt;Full PhD Studentship&lt;/em&gt;, University of Essex &amp;amp; King Abdulaziz University Scale-Up Project, UK (October 2009 – October 2013)&lt;/li&gt;
@@ -11527,13 +11830,13 @@ class=&#34;tab-panel m3-secondary-panel &#34;&gt;
 
       &lt;/div&gt;
     
-      &lt;div id=&#34;tab-panel-tabs-1794492140134882000-2&#34;
+      &lt;div id=&#34;tab-panel-tabs-1794494065001158000-2&#34;
            role=&#34;tabpanel&#34;
-           aria-labelledby=&#34;tab-btn-tabs-1794492140134882000-2&#34;
+           aria-labelledby=&#34;tab-btn-tabs-1794494065001158000-2&#34;
            class=&#34;tab-panel &#34;&gt;
         &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Awardee&lt;/strong&gt;, &lt;em&gt;Santander Universities Scholarship&lt;/em&gt;, Mobility Grant for Postgraduate Studies, UK (October 2009)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Recipient&lt;/strong&gt;, &lt;em&gt;FIDERH Graduate Studentship&lt;/em&gt;, Central Bank of Mexico (Banco de México), Mexico (October 2009)&lt;!--endtab--&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recipient&lt;/strong&gt;, &lt;em&gt;FIDERH Graduate Studentship&lt;/em&gt;, Central Bank of Mexico (Banco de México), Mexico (October 2009)&lt;/li&gt;
 &lt;/ul&gt;
 
       &lt;/div&gt;

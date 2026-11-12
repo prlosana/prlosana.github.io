@@ -36,7 +36,7 @@ mainSections = []
     weight = 20
   [[menu.main]]
     identifier = "leadership"
-    name = "Leadership & Volunteering"
+    name = "Leadership & Service"
     url = "/leadership/"
     weight = 30
   [[menu.main]]

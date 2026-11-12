@@ -1,0 +1,232 @@
+{{- define "main" }}
+
+<article class="post-single leadership-page">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+
+  <!-- M3 Primary Scrollable Tabs at top of content pane -->
+  <div class="m3-primary-tabs-wrapper">
+    <nav class="m3-primary-tabs-nav" aria-label="Leadership & Volunteering Sections">
+      <div class="m3-primary-tabs-track" id="primaryTabsTrack" role="tablist">
+        <!-- Dynamically populated from sections -->
+      </div>
+    </nav>
+  </div>
+
+  <div class="post-content leadership-content" id="leadershipContent">
+    {{ .Content }}
+  </div>
+</article>
+
+<script>
+(function() {
+  function initPrimaryTabs() {
+    const content = document.getElementById('leadershipContent');
+    const track = document.getElementById('primaryTabsTrack');
+    if (!content || !track) return;
+
+    // Find all H3 headings
+    const headings = Array.from(content.querySelectorAll('h3'));
+    if (headings.length === 0) return;
+
+    // Clear previous buttons
+    track.innerHTML = '';
+
+    // Group content into section panes
+    const panes = [];
+    headings.forEach((h3, index) => {
+      // Get title text excluding any anchor '#' symbol
+      const clone = h3.cloneNode(true);
+      const anchor = clone.querySelector('.anchor');
+      if (anchor) anchor.remove();
+      const title = clone.textContent.trim();
+      const slug = h3.id || 'sec-' + index;
+
+      // Create section pane
+      const pane = document.createElement('div');
+      pane.className = 'leadership-section-pane' + (index === 0 ? ' active' : '');
+      pane.id = 'pane-' + slug;
+      pane.setAttribute('role', 'tabpanel');
+      pane.setAttribute('aria-labelledby', 'tab-' + slug);
+
+      // Create primary tab button
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'm3-primary-tab' + (index === 0 ? ' active' : '');
+      btn.id = 'tab-' + slug;
+      btn.setAttribute('role', 'tab');
+      btn.setAttribute('aria-selected', index === 0 ? 'true' : 'false');
+      btn.setAttribute('aria-controls', 'pane-' + slug);
+      btn.textContent = title;
+
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        activatePrimaryTab(index);
+      });
+
+      track.appendChild(btn);
+
+      // Move elements into pane
+      let current = h3.nextElementSibling;
+      pane.appendChild(h3);
+      while (current && current.tagName !== 'H3') {
+        const next = current.nextElementSibling;
+        pane.appendChild(current);
+        current = next;
+      }
+      panes.push(pane);
+    });
+
+    // Append panes to content container
+    panes.forEach(pane => content.appendChild(pane));
+
+    function activatePrimaryTab(targetIndex) {
+      const allTabs = track.querySelectorAll('.m3-primary-tab');
+      const allPanes = content.querySelectorAll('.leadership-section-pane');
+
+      allTabs.forEach((tab, i) => {
+        const isActive = (i === targetIndex);
+        tab.classList.toggle('active', isActive);
+        tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+
+      allPanes.forEach((pane, i) => {
+        pane.classList.toggle('active', i === targetIndex);
+      });
+
+      // Smooth scroll active tab into view
+      if (allTabs[targetIndex]) {
+        allTabs[targetIndex].scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+        });
+        const targetId = headings[targetIndex].id;
+        if (targetId && history.replaceState) {
+          history.replaceState(null, null, '#' + targetId);
+        }
+      }
+    }
+
+    // Check if initial hash matches any section
+    if (window.location.hash) {
+      const hash = window.location.hash.replace('#', '');
+      const matchIndex = headings.findIndex(h => h.id === hash);
+      if (matchIndex > -1) {
+        activatePrimaryTab(matchIndex);
+      }
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPrimaryTabs);
+  } else {
+    initPrimaryTabs();
+  }
+})();
+</script>
+
+<style>
+/* --------------------------------------------------------------------------
+   M3 Primary Scrollable Tabs (Leadership & Volunteering)
+   -------------------------------------------------------------------------- */
+.m3-primary-tabs-wrapper {
+  margin: 1.25rem 0 2rem 0;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 60px;
+  z-index: 90;
+  background-color: var(--md-sys-color-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.m3-primary-tabs-nav {
+  width: 100%;
+}
+
+.m3-primary-tabs-track {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 0 0.25rem;
+  gap: 0.25rem;
+}
+
+.m3-primary-tabs-track::-webkit-scrollbar {
+  display: none;
+}
+
+.m3-primary-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--md-sys-color-outline);
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 0.8rem 1.15rem;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.m3-primary-tab:hover {
+  color: var(--md-sys-color-primary);
+  background-color: rgba(109, 40, 217, 0.04);
+}
+
+.dark .m3-primary-tab:hover {
+  background-color: rgba(52, 211, 153, 0.06);
+}
+
+.m3-primary-tab.active {
+  color: var(--md-sys-color-primary);
+  font-weight: 600;
+  border-bottom-color: var(--md-sys-color-primary);
+  background-color: transparent;
+}
+
+.dark .m3-primary-tab.active {
+  border-bottom-color: var(--md-sys-color-primary);
+  box-shadow: 0 1px 10px -2px rgba(52, 211, 153, 0.4);
+}
+
+/* Leadership Section Panes */
+.leadership-section-pane {
+  display: none;
+}
+
+.leadership-section-pane.active {
+  display: block;
+  animation: m3FadeIn 0.2s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.leadership-section-pane h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.4rem;
+  color: var(--md-sys-color-on-surface);
+}
+
+@keyframes m3FadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+
+{{- end }}

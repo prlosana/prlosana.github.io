@@ -2,6 +2,8 @@
 title: "Leadership & Volunteering"
 date: 2025-08-26T21:59:47
 draft: false
+type: "page"
+layout: "leadership"
 toc: false
 hideMeta: true
 ---

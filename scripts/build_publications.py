@@ -109,21 +109,18 @@ def build_citation(entry: dict) -> str:
     url = fields.get("url", "")
     number_pat = fields.get("number", fields.get("patentnumber", ""))
 
-    link_target = f"https://doi.org/{doi}" if doi else url
-    link_html = f' <a href="{link_target}" target="_blank" rel="noopener noreferrer">{link_target}</a>' if link_target else ""
-
     if cat == "Proceedings":
         lead = editors if editors else authors
-        return f"{lead} (Eds.). ({year}). <em>{title}</em>. {pub}.{link_html}"
+        return f"{lead} (Eds.). ({year}). <em>{title}</em>. {pub}."
 
     elif cat == "Patents":
         pat_num = f" (Patent No. {number_pat})" if number_pat else ""
         pub_str = f" {pub}." if pub else " Google Patents."
-        return f"{authors}. ({year}). <em>{title}</em>{pat_num}.{pub_str}{link_html}"
+        return f"{authors}. ({year}). <em>{title}</em>{pat_num}.{pub_str}"
 
     elif cat == "Special Issues":
         lead = authors if authors else editors
-        return f"{lead} (Guest Eds.). ({year}). {title} [Special issue]. <em>{journal}</em>.{link_html}"
+        return f"{lead} (Guest Eds.). ({year}). {title} [Special issue]. <em>{journal}</em>."
 
     elif cat == "Journal Articles":
         vol_issue = ""
@@ -132,30 +129,30 @@ def build_citation(entry: dict) -> str:
         elif volume:
             vol_issue = f", <em>{volume}</em>"
         pages_str = f", {pages}" if pages else ""
-        return f"{authors}. ({year}). {title}. <em>{journal}</em>{vol_issue}{pages_str}.{link_html}"
+        return f"{authors}. ({year}). {title}. <em>{journal}</em>{vol_issue}{pages_str}."
 
     elif cat == "Conference Papers":
         pages_str = f" (pp. {pages})" if pages else ""
         pub_str = f" {pub}." if pub else ""
-        return f"{authors}. ({year}). {title}. In <em>{booktitle}</em>{pages_str}.{pub_str}{link_html}"
+        return f"{authors}. ({year}). {title}. In <em>{booktitle}</em>{pages_str}.{pub_str}"
 
     elif cat == "Books":
-        return f"{authors}. ({year}). <em>{title}</em>. {pub}.{link_html}"
+        return f"{authors}. ({year}). <em>{title}</em>. {pub}."
 
     elif cat == "Book Chapters":
         pages_str = f" (pp. {pages})" if pages else ""
         pub_str = f" {pub}." if pub else ""
         in_lead = f" In {editors} (Eds.)," if editors else " In"
-        return f"{authors}. ({year}). {title}.{in_lead} <em>{booktitle}</em>{pages_str}.{pub_str}{link_html}"
+        return f"{authors}. ({year}). {title}.{in_lead} <em>{booktitle}</em>{pages_str}.{pub_str}"
 
     elif cat == "Theses":
         degree = "Doctoral dissertation" if etype == "phdthesis" else "Master's thesis"
         school = fields.get("school", "")
         school_str = f", {school}" if school else ""
-        return f"{authors}. ({year}). <em>{title}</em> [{degree}{school_str}].{link_html}"
+        return f"{authors}. ({year}). <em>{title}</em> [{degree}{school_str}]."
 
     # Default fallback
-    return f"{authors}. ({year}). {title}. <em>{journal or booktitle or pub}</em>.{link_html}"
+    return f"{authors}. ({year}). {title}. <em>{journal or booktitle or pub}</em>."
 
 def main():
     root = Path(__file__).resolve().parent.parent

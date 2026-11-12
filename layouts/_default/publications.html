@@ -50,10 +50,10 @@
 
             <div class="pub-actions">
               {{ if .doi_url }}
-              <a href="{{ .doi_url }}" target="_blank" rel="noopener noreferrer" class="pub-btn">DOI</a>
+              <a href="{{ .doi_url }}" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn-doi">DOI</a>
               {{ end }}
               {{ if and .url (ne .url .doi_url) }}
-              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="pub-btn">Link</a>
+              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn-link">{{ if eq .category "Patents" }}Patent{{ else }}Link{{ end }}</a>
               {{ end }}
               <button type="button" class="pub-btn pub-btn-bib" onclick="toggleBib('{{ .key }}')">BibTeX</button>
             </div>

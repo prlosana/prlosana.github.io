@@ -51,7 +51,7 @@ mainSections = []
     weight = 50
   [[menu.main]]
     identifier = "art"
-    name = "Art"
+    name = "Creative Work"
     url = "/art/"
     weight = 60
 

@@ -39,9 +39,6 @@ My visual arts practice centers on figurative life drawing, human anatomy, and s
 
 A soprano/chorister across major symphonic and sacred choral works, performing in concert halls across the UK.
 
-#### University of Essex Choir
-*[University of Essex Choir](https://www.essex.ac.uk/choir) member across symphonic masterworks and sacred choral literature:*
-
 {{< tabs >}}
 <!--tab:London Appearances-->
 - **Classical Spectacular**, Royal Albert Hall, London, UK (15–18 March 2012)  
@@ -57,45 +54,45 @@ A soprano/chorister across major symphonic and sacred choral works, performing i
 
 <!--tab:2023-->
 - **Christmas Concert: Baroque & Contemporary Carols**, Ivor Crewe Lecture Hall, Colchester (December 2023)  
-  *Purcell: Praise the Lord, O Jerusalem; Charpentier: Laudate Pueri Dominum; Buxtehude: Das neugeborene Kindelein & In Dulci Jubilo; Chilcott: On Christmas Night. Performed with Wivenhoe Youth Choir; conducted by Ben Vonberg-Clark.*
+  *Purcell: Praise the Lord, O Jerusalem; Charpentier: Laudate Pueri Dominum; Buxtehude: Das neugeborene Kindelein & In Dulci Jubilo; Chilcott: On Christmas Night. Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir) and the Wivenhoe Youth Choir. Conducted by Ben Vonberg-Clark.*
 - **Bach: Mass in B Minor (BWV 232)**, Snape Maltings Concert Hall, Suffolk (29 April 2023)  
-  *Performed with the Orchestra of the Age of Enlightenment; conducted by Ben Vonberg-Clark.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir) and the Orchestra of the Age of Enlightenment. Conducted by Ben Vonberg-Clark.*
 <!--endtab-->
 
 <!--tab:2015-->
 - **Elgar: The Kingdom**, Snape Maltings Concert Hall, Suffolk (2 May 2015)  
-  *Performed with Essex Sinfonia; conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir) and Essex Sinfonia. Conducted by Richard Cooke.*
 - **Orff: Carmina Burana & Rachmaninov: Suite No. 2 for Two Pianos (Op. 17)**, Ivor Crewe Lecture Hall, Colchester (7 March 2015)  
-  *Performed with the Percussion Ensemble of London; pianists Richard Pearce and Jonathan Beatty; conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir) and the Percussion Ensemble of London; pianists Richard Pearce and Jonathan Beatty. Conducted by Richard Cooke.*
 - **Monteverdi: Vespers of 1610 (Vespro della Beata Vergine)**, Chelmsford Cathedral, Essex (31 January 2015)  
-  *Performed with the London Handel Orchestra; conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir) and the London Handel Orchestra. Conducted by Richard Cooke.*
 <!--endtab-->
 
 <!--tab:2014-->
 - **Britten: War Requiem (Op. 66)**, Snape Maltings Concert Hall, Suffolk (3 May 2014)  
-  *Performed with Essex Sinfonia; conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir) and Essex Sinfonia. Conducted by Richard Cooke.*
 - **Mozart & Handel: Choral Classics**, Charter Hall, Colchester (1 February 2014)  
-  *Mozart: Coronation Mass (K. 317); Handel: Coronation Anthems & Music for the Royal Fireworks. Performed with the London Handel Orchestra; conducted by Richard Cooke.*
+  *Mozart: Coronation Mass (K. 317); Handel: Coronation Anthems & Music for the Royal Fireworks. PPerformed with the [University of Essex Choir](https://www.essex.ac.uk/choir) and the London Handel Orchestra. Conducted by Richard Cooke.*
 <!--endtab-->
 
 <!--tab:2013-->
 - **Brahms: Ein deutsches Requiem (A German Requiem, Op. 45)**, St Edmundsbury Cathedral, Bury St Edmunds (4 May 2013)  
-  *Conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir). Conducted by Richard Cooke.*
 - **Haydn: The Creation (Die Schöpfung)**, St Edmundsbury Cathedral, Bury St Edmunds (26 January 2013)  
-  *Conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir). Conducted by Richard Cooke.*
 <!--endtab-->
 
 <!--tab:2012-->
 - **Bach: Mass in B Minor (BWV 232)**, Snape Maltings Concert Hall, Suffolk (5 May 2012)  
-  *Conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir). Conducted by Richard Cooke.*
 - **Orff: Carmina Burana**, Charter Hall, Colchester (28 January 2012)  
-  *Conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir). Conducted by Richard Cooke.*
 <!--endtab-->
 
 <!--tab:2010-->
 - **Mendelssohn: Paulus (St. Paul, Op. 36)**, Snape Maltings Concert Hall, Suffolk (5 May 2010)  
-  *Conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir). Conducted by Richard Cooke.*
 - **Handel: Israel in Egypt (HWV 54)**, Chelmsford Cathedral, Essex (30 January 2010)  
-  *Conducted by Richard Cooke.*
+  *Performed with the [University of Essex Choir](https://www.essex.ac.uk/choir). Conducted by Richard Cooke.*
 <!--endtab-->
 {{< /tabs >}}

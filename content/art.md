@@ -8,7 +8,7 @@ hideMeta: true
 
 My work across computing, spatial environments, and emerging technologies has always been anchored in a fundamental question: *how do human beings perceive, interpret, and inhabit space?*
 
-Alongside engineering research, I maintain a continuous creative practice in figurative fine art and classical choral performance. Rather than existing apart from my technical work, these disciplines serve as its perceptual foundation.
+Alongside engineering and research, I maintain a continuous creative practice in figurative fine art and classical choral performance. Rather than existing apart from my technical work, these disciplines serve as its perceptual foundation.
 
 **Figurative Drawing & Spatial Observation**  
 In life drawing, the practice requires unlearning assumptions: observing anatomical structure, weight distribution, and how light describes volume in physical space. This rigorous discipline of looking directly informs my research in digital twins, mixed reality, and spatial computing. Designing authentic cyber-physical environments demands the same sensitivity to human proportion, scale, and subtle physical nuance that traditional drawing cultivates.
@@ -40,14 +40,19 @@ My visual arts practice centers on figurative life drawing, human anatomy, and s
 A soprano/chorister across major symphonic and sacred choral works, performing in concert halls across the UK.
 
 #### University of Essex Choir
-*Choral member across symphonic masterworks and sacred choral literature:*
+*[University of Essex Choir](https://www.essex.ac.uk/choir) member across symphonic masterworks and sacred choral literature:*
 
 {{< tabs >}}
 <!--tab:London Appearances-->
-- **Classical Spectacular**, Royal Albert Hall, London, UK (November 2012)  
-  *Performed with the Royal Choral Society and the University of Essex Choir, accompanied by the Royal Philharmonic Orchestra.*
-- **Classical Spectacular**, Royal Albert Hall, London, UK (November 2009)  
-  *Performed with the Royal Choral Society and the University of Essex Choir, accompanied by the Royal Philharmonic Orchestra.*
+- **Classical Spectacular**, Royal Albert Hall, London, UK (15–18 March 2012)  
+  *Performed with the Royal Choral Society, accompanied by the Royal Philharmonic Orchestra; conducted by John Rigby, featuring soprano Kate Valentine.* 
+
+  *Programme highlights: Orff’s Carmina Burana, Barber’s Adagio for Strings, Pachelbel’s Canon, Puccini’s Nessun Dorma, and Tchaikovsky’s 1812 Overture.*
+
+- **Classical Spectacular**, Royal Albert Hall, London, UK (18–21 March 2010)  
+  *Performed with the Royal Choral Society, accompanied by the Royal Philharmonic Orchestra, The Band of the Welsh Guards, and The Russian Militia.*  
+  
+  *Programme highlights: British patriotic anthems, classical choral staples, and Tchaikovsky’s 1812 Overture.*
 <!--endtab-->
 
 <!--tab:2023-->

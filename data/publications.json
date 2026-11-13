@@ -1,6 +1,6 @@
 {
   "summary": {
-    "total_publications": 101,
+    "total_publications": 103,
     "years_count": 17,
     "latest_year": 2026,
     "earliest_year": 2003
@@ -8,8 +8,80 @@
   "years": [
     {
       "year": 2026,
-      "count": 5,
+      "count": 7,
       "categories": [
+        {
+          "name": "Proceedings",
+          "count": 2,
+          "entries": [
+            {
+              "key": "Lazou2026iLEAD",
+              "entry_type": "proceedings",
+              "category": "Proceedings",
+              "fields": {
+                "editor": "Lazou, Chrysoula and MacDowell, Paula and Fokides, Emmanouel and Pedrosa, Daniela and Dorotea, Nuno and Mikropoulos, Tassos Anastasios and Koutromanos, George and Mystakidis, Stylianos and Economou, Daphne and Krüger, Jule M. and Pena-Rios, Anasol and Richter, Jonathon",
+                "title": "iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)",
+                "booktitle": "iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)",
+                "year": "2026",
+                "publisher": "Immersive Learning Research Network",
+                "address": "Online & Athens, Greece",
+                "isbn": "979-8-9929916-2-8",
+                "doi": "10.56198/LYFRD",
+                "url": "https://publications.immersivelrn.org/practitioner/issue/view/iLRN2026"
+              },
+              "year": 2026,
+              "title": "iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)",
+              "author": "",
+              "doi": "10.56198/LYFRD",
+              "doi_url": "https://doi.org/10.56198/LYFRD",
+              "url": "https://publications.immersivelrn.org/practitioner/issue/view/iLRN2026",
+              "patent_status": null,
+              "note": "",
+              "raw_bib": "@proceedings{Lazou2026iLEAD,\n  editor = {Lazou, Chrysoula and MacDowell, Paula and Fokides, Emmanouel and Pedrosa, Daniela and Dorotea, Nuno and Mikropoulos, Tassos Anastasios and Koutromanos, George and Mystakidis, Stylianos and Economou, Daphne and Krüger, Jule M. and Pena-Rios, Anasol and Richter, Jonathon},\n  title = {iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)},\n  booktitle = {iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)},\n  year = {2026},\n  publisher = {Immersive Learning Research Network},\n  address = {Online & Athens, Greece},\n  isbn = {979-8-9929916-2-8},\n  doi = {10.56198/LYFRD},\n  url = {https://publications.immersivelrn.org/practitioner/issue/view/iLRN2026},\n}",
+              "citations": {
+                "apa": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, & Richter, J. (Eds.). (2026). <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network.",
+                "ieee": "C. Lazou, P. MacDowell, E. Fokides, D. Pedrosa, N. Dorotea, T. A. Mikropoulos, G. Koutromanos, S. Mystakidis, D. Economou, J. M. Krüger, <strong>A. Pena-Rios</strong>, and J. Richter, Eds., <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network, 2026.",
+                "harvard": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong> and Richter, J. (eds.) (2026) <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network.",
+                "acm": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, and Richter, J. (Eds.). 2026. <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network.",
+                "chicago": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, and Richter, J., eds. 2026. <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network."
+              },
+              "citation_html": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, & Richter, J. (Eds.). (2026). <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network."
+            },
+            {
+              "key": "Nikou2026Academic",
+              "entry_type": "proceedings",
+              "category": "Proceedings",
+              "fields": {
+                "editor": "Nikou, Stavros and Bratitsis, Tharrenos and Smith-Nunes, Genevieve and Pedrosa, Daniela and Dorotea, Nuno and Mikropoulos, Tassos Anastasios and Koutromanos, George and Mystakidis, Stylianos and Economou, Daphne and Krüger, Jule M. and Pena-Rios, Anasol and Richter, Jonathon",
+                "title": "Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium",
+                "booktitle": "Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium",
+                "year": "2026",
+                "publisher": "Immersive Learning Research Network",
+                "address": "Online & Athens, Greece",
+                "isbn": "979-8-9929916-1-1",
+                "doi": "10.56198/S7USI",
+                "url": "https://publications.immersivelrn.org/academic/issue/view/iLRN2026_posters_dc"
+              },
+              "year": 2026,
+              "title": "Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium",
+              "author": "",
+              "doi": "10.56198/S7USI",
+              "doi_url": "https://doi.org/10.56198/S7USI",
+              "url": "https://publications.immersivelrn.org/academic/issue/view/iLRN2026_posters_dc",
+              "patent_status": null,
+              "note": "",
+              "raw_bib": "@proceedings{Nikou2026Academic,\n  editor = {Nikou, Stavros and Bratitsis, Tharrenos and Smith-Nunes, Genevieve and Pedrosa, Daniela and Dorotea, Nuno and Mikropoulos, Tassos Anastasios and Koutromanos, George and Mystakidis, Stylianos and Economou, Daphne and Krüger, Jule M. and Pena-Rios, Anasol and Richter, Jonathon},\n  title = {Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium},\n  booktitle = {Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium},\n  year = {2026},\n  publisher = {Immersive Learning Research Network},\n  address = {Online & Athens, Greece},\n  isbn = {979-8-9929916-1-1},\n  doi = {10.56198/S7USI},\n  url = {https://publications.immersivelrn.org/academic/issue/view/iLRN2026_posters_dc},\n}",
+              "citations": {
+                "apa": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, & Richter, J. (Eds.). (2026). <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network.",
+                "ieee": "S. Nikou, T. Bratitsis, G. Smith-Nunes, D. Pedrosa, N. Dorotea, T. A. Mikropoulos, G. Koutromanos, S. Mystakidis, D. Economou, J. M. Krüger, <strong>A. Pena-Rios</strong>, and J. Richter, Eds., <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network, 2026.",
+                "harvard": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong> and Richter, J. (eds.) (2026) <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network.",
+                "acm": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, and Richter, J. (Eds.). 2026. <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network.",
+                "chicago": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, and Richter, J., eds. 2026. <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network."
+              },
+              "citation_html": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, & Richter, J. (Eds.). (2026). <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network."
+            }
+          ]
+        },
         {
           "name": "Patents",
           "count": 1,
@@ -3687,6 +3759,72 @@
     }
   ],
   "all": [
+    {
+      "key": "Lazou2026iLEAD",
+      "entry_type": "proceedings",
+      "category": "Proceedings",
+      "fields": {
+        "editor": "Lazou, Chrysoula and MacDowell, Paula and Fokides, Emmanouel and Pedrosa, Daniela and Dorotea, Nuno and Mikropoulos, Tassos Anastasios and Koutromanos, George and Mystakidis, Stylianos and Economou, Daphne and Krüger, Jule M. and Pena-Rios, Anasol and Richter, Jonathon",
+        "title": "iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)",
+        "booktitle": "iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)",
+        "year": "2026",
+        "publisher": "Immersive Learning Research Network",
+        "address": "Online & Athens, Greece",
+        "isbn": "979-8-9929916-2-8",
+        "doi": "10.56198/LYFRD",
+        "url": "https://publications.immersivelrn.org/practitioner/issue/view/iLRN2026"
+      },
+      "year": 2026,
+      "title": "iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)",
+      "author": "",
+      "doi": "10.56198/LYFRD",
+      "doi_url": "https://doi.org/10.56198/LYFRD",
+      "url": "https://publications.immersivelrn.org/practitioner/issue/view/iLRN2026",
+      "patent_status": null,
+      "note": "",
+      "raw_bib": "@proceedings{Lazou2026iLEAD,\n  editor = {Lazou, Chrysoula and MacDowell, Paula and Fokides, Emmanouel and Pedrosa, Daniela and Dorotea, Nuno and Mikropoulos, Tassos Anastasios and Koutromanos, George and Mystakidis, Stylianos and Economou, Daphne and Krüger, Jule M. and Pena-Rios, Anasol and Richter, Jonathon},\n  title = {iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)},\n  booktitle = {iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)},\n  year = {2026},\n  publisher = {Immersive Learning Research Network},\n  address = {Online & Athens, Greece},\n  isbn = {979-8-9929916-2-8},\n  doi = {10.56198/LYFRD},\n  url = {https://publications.immersivelrn.org/practitioner/issue/view/iLRN2026},\n}",
+      "citations": {
+        "apa": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, & Richter, J. (Eds.). (2026). <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network.",
+        "ieee": "C. Lazou, P. MacDowell, E. Fokides, D. Pedrosa, N. Dorotea, T. A. Mikropoulos, G. Koutromanos, S. Mystakidis, D. Economou, J. M. Krüger, <strong>A. Pena-Rios</strong>, and J. Richter, Eds., <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network, 2026.",
+        "harvard": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong> and Richter, J. (eds.) (2026) <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network.",
+        "acm": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, and Richter, J. (Eds.). 2026. <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network.",
+        "chicago": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, and Richter, J., eds. 2026. <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network."
+      },
+      "citation_html": "Lazou, C., MacDowell, P., Fokides, E., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, & Richter, J. (Eds.). (2026). <em>iLEAD Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026)</em>. Immersive Learning Research Network."
+    },
+    {
+      "key": "Nikou2026Academic",
+      "entry_type": "proceedings",
+      "category": "Proceedings",
+      "fields": {
+        "editor": "Nikou, Stavros and Bratitsis, Tharrenos and Smith-Nunes, Genevieve and Pedrosa, Daniela and Dorotea, Nuno and Mikropoulos, Tassos Anastasios and Koutromanos, George and Mystakidis, Stylianos and Economou, Daphne and Krüger, Jule M. and Pena-Rios, Anasol and Richter, Jonathon",
+        "title": "Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium",
+        "booktitle": "Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium",
+        "year": "2026",
+        "publisher": "Immersive Learning Research Network",
+        "address": "Online & Athens, Greece",
+        "isbn": "979-8-9929916-1-1",
+        "doi": "10.56198/S7USI",
+        "url": "https://publications.immersivelrn.org/academic/issue/view/iLRN2026_posters_dc"
+      },
+      "year": 2026,
+      "title": "Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium",
+      "author": "",
+      "doi": "10.56198/S7USI",
+      "doi_url": "https://doi.org/10.56198/S7USI",
+      "url": "https://publications.immersivelrn.org/academic/issue/view/iLRN2026_posters_dc",
+      "patent_status": null,
+      "note": "",
+      "raw_bib": "@proceedings{Nikou2026Academic,\n  editor = {Nikou, Stavros and Bratitsis, Tharrenos and Smith-Nunes, Genevieve and Pedrosa, Daniela and Dorotea, Nuno and Mikropoulos, Tassos Anastasios and Koutromanos, George and Mystakidis, Stylianos and Economou, Daphne and Krüger, Jule M. and Pena-Rios, Anasol and Richter, Jonathon},\n  title = {Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium},\n  booktitle = {Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium},\n  year = {2026},\n  publisher = {Immersive Learning Research Network},\n  address = {Online & Athens, Greece},\n  isbn = {979-8-9929916-1-1},\n  doi = {10.56198/S7USI},\n  url = {https://publications.immersivelrn.org/academic/issue/view/iLRN2026_posters_dc},\n}",
+      "citations": {
+        "apa": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, & Richter, J. (Eds.). (2026). <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network.",
+        "ieee": "S. Nikou, T. Bratitsis, G. Smith-Nunes, D. Pedrosa, N. Dorotea, T. A. Mikropoulos, G. Koutromanos, S. Mystakidis, D. Economou, J. M. Krüger, <strong>A. Pena-Rios</strong>, and J. Richter, Eds., <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network, 2026.",
+        "harvard": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong> and Richter, J. (eds.) (2026) <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network.",
+        "acm": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, and Richter, J. (Eds.). 2026. <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network.",
+        "chicago": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, and Richter, J., eds. 2026. <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network."
+      },
+      "citation_html": "Nikou, S., Bratitsis, T., Smith-Nunes, G., Pedrosa, D., Dorotea, N., Mikropoulos, T. A., Koutromanos, G., Mystakidis, S., Economou, D., Krüger, J. M., <strong>Pena-Rios, A.</strong>, & Richter, J. (Eds.). (2026). <em>Proceedings of the 12th International Conference of the Immersive Learning Research Network (iLRN 2026) – Selected Academic Contributions: Posters & Doctoral Colloquium</em>. Immersive Learning Research Network."
+    },
     {
       "key": "mady2026fuzzy",
       "entry_type": "article",

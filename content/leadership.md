@@ -10,6 +10,8 @@ hideMeta: true
 
 {{< tabs >}}
 <!--tab:Current-->
+- **Lead**, Tech Fellowship AI Squad, [BT Group](https://www.bt.com/about/bt/research-and-development/tech-fellowship) (October 2024 – December 2026)  
+  *Directing the enterprise technical AI community under BT's Tech Fellowship; scaled specialist membership from 30 to 115 and curated a two-year technical exchange programme comprising 35 internal and external seminars on frontier AI architectures, governance, and industrial implementation.*
 - **Editorial Board Member**, [Institute of Telecommunications Professionals (ITP) Journal](https://www.theitp.org/meet-the-team)
 - **Director of Publications & Member of the Board of Directors**, [Immersive Learning Research Network (iLRN)](https://www.immersivelrn.org/about/leadership-board/)
 - **Board Member**, [Technical Committee on Immersive Learning Environments](https://ieee-edusociety.org/committee/committee-chairs-members), [IEEE Education Society](https://ieee-edusociety.org/)
@@ -23,7 +25,8 @@ hideMeta: true
 
 {{< tabs >}}
 <!--tab:Current-->
-- **Distinguished Engineer (Tech Fellowship)**, [BT Group](https://www.bt.com/), UK — *One of the highest technical recognition within BT Group, awarded to only 50 engineers across the global enterprise.*
+- **Distinguished Engineer (Tech Fellowship)**, [BT Group](https://www.bt.com/about/bt/research-and-development/tech-fellowship), UK  
+  *One of 57 Distinguished Engineers across BT Group's global enterprise (~100k employees), recognized for industry-leading technical authority, driving enterprise change, and technical ambassadorship.*
 - [**Honorary Senior Lecturer**](https://www.essex.ac.uk/people/penar50207/anasol-pena-rios), School of Computer Science and Electronic Engineering, University of Essex, UK
 - **Member**, [Circle of Scholars](https://www.immersivelrn.org/initiatives/circle-of-scholars/), The Immersive Learning Research Network, USA
 <!--endtab-->

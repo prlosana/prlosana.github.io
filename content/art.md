@@ -6,20 +6,15 @@ toc: false
 hideMeta: true
 ---
 
-# Creative Practice
-*Visual Arts & Choral Performance*
-
----
-
 My work across computing, spatial environments, and emerging technologies has always been anchored in a fundamental question: *how do human beings perceive, interpret, and inhabit space?*
 
 Alongside engineering research, I maintain a continuous creative practice in figurative fine art and classical choral performance. Rather than existing apart from my technical work, these disciplines serve as its perceptual foundation.
 
 **Figurative Drawing & Spatial Observation**  
-In life drawing, the practice requires unlearning assumptions—observing anatomical structure, weight distribution, and how light describes volume in physical space. This rigorous discipline of looking directly informs my research in digital twins, mixed reality, and spatial computing. Designing authentic cyber-physical environments demands the same sensitivity to human proportion, scale, and subtle physical nuance that traditional drawing cultivates.
+In life drawing, the practice requires unlearning assumptions: observing anatomical structure, weight distribution, and how light describes volume in physical space. This rigorous discipline of looking directly informs my research in digital twins, mixed reality, and spatial computing. Designing authentic cyber-physical environments demands the same sensitivity to human proportion, scale, and subtle physical nuance that traditional drawing cultivates.
 
 **Choral Performance & Synchronized Collaboration**  
-Singing symphonic choral works within large-scale ensembles—from masterworks at Snape Maltings to performances at the Royal Albert Hall—demands absolute temporal precision, active listening, and individual accountability in service of a collective voice. This practice of real-time coordination mirrors the core challenges of distributed collaborative systems: how independent actors synchronize seamlessly to produce cohesive, harmonious collective outcomes.
+Singing symphonic choral works within large-scale ensembles, from masterworks at Snape Maltings to performances at the Royal Albert Hall, demands absolute temporal precision, active listening, and individual accountability in service of a collective voice. This practice of real-time coordination mirrors the core challenges of distributed collaborative systems: how independent actors synchronize seamlessly to produce cohesive, harmonious collective outcomes.
 
 ---
 
@@ -32,12 +27,11 @@ My visual arts practice centers on figurative life drawing, human anatomy, and s
 - **Exhibition & Pop-Up Shop**, Sarah Hill’s Life Drawing Collective, [The Minories Galleries](https://www.theminories.org/), 74 High St, Colchester, UK (7–9 November 2025) — *Exhibiting Artist, Figurative Original Art & Prints*
 - **Life Lines: Pop-Up Shop & Exhibition**, Sarah Hill’s Life Drawing Collective, [The Minories Galleries](https://www.theminories.org/), 74 High St, Colchester, UK (2–3 November 2024) — *Exhibiting Artist, Figurative Original Art & Prints*
 <!--endtab-->
-
-<!--tab:Focus & Studies-->
-- **Techniques & Mediums:** Live observational life drawing, ink, graphite, pigment washes, and mixed media on heavyweight watercolor paper.
-- **Subjects:** Figurative human anatomy, tonal value, expressive line work, gesture, and volume in physical space.
-<!--endtab-->
 {{< /tabs >}}
+
+**Techniques & Mediums:** Live observational life drawing, soft pastel, graphite, and mixed media on a variety of heavyweight papers.
+
+**Subjects:** Figurative human anatomy, tonal value, expressive line work, gesture, and volume in physical space.
 
 ---
 
@@ -45,7 +39,9 @@ My visual arts practice centers on figurative life drawing, human anatomy, and s
 
 A soprano/chorister across major symphonic and sacred choral works, performing in concert halls across the UK.
 
-#### Royal Albert Hall Performances
+#### University of Essex Choir
+*Choral member across symphonic masterworks and sacred choral literature:*
+
 {{< tabs >}}
 <!--tab:London Appearances-->
 - **Classical Spectacular**, Royal Albert Hall, London, UK (November 2012)  
@@ -53,36 +49,48 @@ A soprano/chorister across major symphonic and sacred choral works, performing i
 - **Classical Spectacular**, Royal Albert Hall, London, UK (November 2009)  
   *Performed with the Royal Choral Society and the University of Essex Choir, accompanied by the Royal Philharmonic Orchestra.*
 <!--endtab-->
-{{< /tabs >}}
 
-#### University of Essex Choir
-*Choral member (2009–2024; 2025–Present), performing major masterworks annually at Snape Maltings Concert Hall, Chelmsford Cathedral, and the Colchester Sports Park / Ivor Crewe Lecture Hall:*
-
-{{< tabs >}}
-<!--tab:2024–2020-->
-- **Elgar: The Apostles**, Snape Maltings Concert Hall, Suffolk (May 2024)
-- **Mendelssohn: Elijah**, Snape Maltings Concert Hall, Suffolk (May 2023)
-- **Vaughan Williams: A Sea Symphony & Toward the Unknown Region**, Snape Maltings Concert Hall, Suffolk (May 2022)
-- **A Concert for Europe (Brahms, Beethoven & European Masters)**, Snape Maltings Concert Hall (October 2021)
-- **Mozart: Requiem & Ave Verum Corpus**, Snape Maltings Concert Hall (March 2020)
+<!--tab:2023-->
+- **Christmas Concert: Baroque & Contemporary Carols**, Ivor Crewe Lecture Hall, Colchester (December 2023)  
+  *Purcell: Praise the Lord, O Jerusalem; Charpentier: Laudate Pueri Dominum; Buxtehude: Das neugeborene Kindelein & In Dulci Jubilo; Chilcott: On Christmas Night. Performed with Wivenhoe Youth Choir; conducted by Ben Vonberg-Clark.*
+- **Bach: Mass in B Minor (BWV 232)**, Snape Maltings Concert Hall, Suffolk (29 April 2023)  
+  *Performed with the Orchestra of the Age of Enlightenment; conducted by Ben Vonberg-Clark.*
 <!--endtab-->
 
-<!--tab:2019–2015-->
-- **Verdi: Requiem**, Snape Maltings Concert Hall, Suffolk (May 2019)
-- **Haydn: The Creation (Die Schöpfung)**, Snape Maltings Concert Hall, Suffolk (May 2018)
-- **Monteverdi: Vespers of 1610**, Chelmsford Cathedral, Essex (November 2017)
-- **Elgar: The Dream of Gerontius**, Snape Maltings Concert Hall, Suffolk (May 2017)
-- **Brahms: Ein deutsches Requiem (A German Requiem)**, Snape Maltings Concert Hall (May 2016)
-- **Handel: Messiah**, Chelmsford Cathedral & Ivor Crewe Lecture Hall, Essex (December 2015)
-- **Walton: Belshazzar's Feast & Bernstein: Chichester Psalms**, Snape Maltings Concert Hall (May 2015)
+<!--tab:2015-->
+- **Elgar: The Kingdom**, Snape Maltings Concert Hall, Suffolk (2 May 2015)  
+  *Performed with Essex Sinfonia; conducted by Richard Cooke.*
+- **Orff: Carmina Burana & Rachmaninov: Suite No. 2 for Two Pianos (Op. 17)**, Ivor Crewe Lecture Hall, Colchester (7 March 2015)  
+  *Performed with the Percussion Ensemble of London; pianists Richard Pearce and Jonathan Beatty; conducted by Richard Cooke.*
+- **Monteverdi: Vespers of 1610 (Vespro della Beata Vergine)**, Chelmsford Cathedral, Essex (31 January 2015)  
+  *Performed with the London Handel Orchestra; conducted by Richard Cooke.*
 <!--endtab-->
 
-<!--tab:2014–2009-->
-- **Britten: War Requiem**, Snape Maltings Concert Hall, Suffolk (May 2014)
-- **Bach: Mass in B Minor (BWV 232)**, Snape Maltings Concert Hall, Suffolk (May 2013)
-- **Dvořák: Stabat Mater**, Snape Maltings Concert Hall, Suffolk (May 2012)
-- **Beethoven: Missa Solemnis**, Snape Maltings Concert Hall, Suffolk (May 2011)
-- **Mahler: Symphony No. 2 ("Resurrection")**, Snape Maltings Concert Hall, Suffolk (May 2010)
-- **Handel: Coronation Anthems & Purcell: Ode to St. Cecilia**, Chelmsford Cathedral, Essex (November 2009)
+<!--tab:2014-->
+- **Britten: War Requiem (Op. 66)**, Snape Maltings Concert Hall, Suffolk (3 May 2014)  
+  *Performed with Essex Sinfonia; conducted by Richard Cooke.*
+- **Mozart & Handel: Choral Classics**, Charter Hall, Colchester (1 February 2014)  
+  *Mozart: Coronation Mass (K. 317); Handel: Coronation Anthems & Music for the Royal Fireworks. Performed with the London Handel Orchestra; conducted by Richard Cooke.*
+<!--endtab-->
+
+<!--tab:2013-->
+- **Brahms: Ein deutsches Requiem (A German Requiem, Op. 45)**, St Edmundsbury Cathedral, Bury St Edmunds (4 May 2013)  
+  *Conducted by Richard Cooke.*
+- **Haydn: The Creation (Die Schöpfung)**, St Edmundsbury Cathedral, Bury St Edmunds (26 January 2013)  
+  *Conducted by Richard Cooke.*
+<!--endtab-->
+
+<!--tab:2012-->
+- **Bach: Mass in B Minor (BWV 232)**, Snape Maltings Concert Hall, Suffolk (5 May 2012)  
+  *Conducted by Richard Cooke.*
+- **Orff: Carmina Burana**, Charter Hall, Colchester (28 January 2012)  
+  *Conducted by Richard Cooke.*
+<!--endtab-->
+
+<!--tab:2010-->
+- **Mendelssohn: Paulus (St. Paul, Op. 36)**, Snape Maltings Concert Hall, Suffolk (5 May 2010)  
+  *Conducted by Richard Cooke.*
+- **Handel: Israel in Egypt (HWV 54)**, Chelmsford Cathedral, Essex (30 January 2010)  
+  *Conducted by Richard Cooke.*
 <!--endtab-->
 {{< /tabs >}}

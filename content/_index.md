@@ -10,14 +10,15 @@ aliases:
 ---
 
 # About
+I am a Computer Scientist, Distinguished Engineer, and Research Technical Manager at BT Group, where I lead applied research in artificial intelligence, digital twins, and immersive technologies. Within BT's [Tech Fellowship](https://www.bt.com/about/bt/research-and-development/tech-fellowship), a peer-reviewed programme evaluating engineers across *Ability, Ambition, and Ambassadorship*, I hold the rank of Distinguished Engineer. Recognized as an industry-facing technical authority driving architectural and technological change, I am one of only 57 Distinguished Engineers across BT Group's global workforce of nearly 100,000. I also serve as an [Honorary Senior Lecturer](https://www.essex.ac.uk/people/penar50207/anasol-pena-rios) in the School of Computer Science and Electronic Engineering at the University of Essex and am a Senior Member of the IEEE (SMIEEE).
 
-I am a Computer Scientist, Distinguished Engineer, and Research Technical Manager at BT Group, where I lead applied research in artificial intelligence, digital twins, and immersive technologies. Within BT's Tech Fellowship, I hold the rank of Distinguished Engineer—the highest technical recognition within the enterprise, awarded to only 50 engineers across a global workforce of nearly 100,000. Concurrently, I serve as an [Honorary Senior Lecturer](https://www.essex.ac.uk/people/penar50207/anasol-pena-rios) in the School of Computer Science and Electronic Engineering at the University of Essex, and I am a Senior Member of the IEEE (SMIEEE).
+With over two decades of international experience across enterprise R&D, engineering, and academia, I focus on applying emerging technologies to scalable, mission-critical systems. I lead initiatives in AI-driven digital twins and spatial computing for national infrastructure and enterprise operations.
 
-With over two decades of international experience bridging enterprise R&D, engineering practice, and academia, my work focuses on translating frontier technologies into scalable, mission-critical systems. I lead initiatives exploring AI-driven digital twins and spatial computing for national infrastructure and enterprise operations, including BT’s strategic alignment with the UK National Digital Twin Programme and large-scale remote collaboration deployments. 
+I hold a PhD in Computer Science and an MSc in Advanced Web Engineering from the University of Essex, and a BEng in Information Technology from the Instituto Politécnico Nacional in Mexico. My research has led to [peer-reviewed academic publications](https://scholar.google.com/citations?user=6-UsGYsAAAAJ&hl=en) and 15 [patent applications and grants](https://patents.google.com/?inventor=anasol&oq=anasol) across UK, European, US, and international jurisdictions. I received the TechWomen100 Award in 2020 and have been nominated for the Computing Women in Tech Excellence Awards (Rising Star, 2018; Transformation Leader of the Year, 2025) and the ITP Telecoms Awards (Woman in Technology, 2025).
 
-I hold a PhD in Computer Science and an MSc in Advanced Web Engineering from the University of Essex, following a BEng in Information Technology from the Instituto Politécnico Nacional in Mexico. Over the course of my career, I have authored more than [peer-reviewed academic publications](https://scholar.google.com/citations?user=6-UsGYsAAAAJ&hl=en) and produced 15 filed and granted [patents](https://patents.google.com/?inventor=anasol&oq=anasol) across the UK, Europe, the US, and internationally. My work has been recognized across the UK technology sector, including winning the TechWomen100 Award in 2020, alongside nominations for the Computing Women in Tech Excellence Awards (Rising Star in 2018; Transformation Leader of the Year in 2025) and the ITP Telecoms Awards (Woman in Technology in 2025).
+Alongside my research, I contribute to academic governance, publishing, and technology policy. I serve on the Board of Directors and as Director of Publications for the [Immersive Learning Research Network (iLRN)](https://immersivelrn.org/) and on the board of the IEEE Education Society's [Technical Committee on Immersive Learning Environments](https://ieee-edusociety.org/technical-committee/tc-ile). I am also a member of the [Advisory Group for the UK Digital Twin Hub (DT Hub)](https://digitaltwinhub.co.uk/about/advisory-group/) and the [Creative Science Foundation (CSf)](https://creative-science.org/). I co-founded Women4AInnovation Futures, a UK-based think tank and leadership network focused on governance, ethics, and innovation in generative AI.
 
-Beyond industrial research, I am deeply committed to international academic governance, editorial stewardship, and technology policy. I serve on the Board of Directors and as Director of Publications for the [Immersive Learning Research Network (iLRN)](https://immersivelrn.org/), and sit on the Board of the IEEE Education Society’s [Technical Committee on Immersive Learning Environments](https://ieee-edusociety.org/technical-committee/tc-ile). I contribute as a member of the [Advisory Group for the UK Digital Twin Hub (DT Hub)](https://digitaltwinhub.co.uk/about/advisory-group/) and the [Creative Science Foundation (CSf)](https://creative-science.org/). Additionally, I am a Co-Founder of Women4AInnovation Futures, a UK-based think tank and leadership network focused on Generative AI governance, ethics, and innovation.
+---
 
 ## Research Areas
 
@@ -31,10 +32,11 @@ Beyond industrial research, I am deeply committed to international academic gove
 
 ### Beyond Research
 
-Alongside scientific research, I maintain an active creative practice in figurative life drawing and classical choral music, with work exhibited in UK galleries and vocal performances at venues including Snape Mailtings and the Royal Albert Hall. Explore this work on my [Creative Practice](/art/) page.
+Alongside scientific research, I maintain an active [creative practice](/art/) in figurative life drawing and classical choral music, with work exhibited in UK galleries and vocal performances at venues including Snape Maltings and the Royal Albert Hall.
 
+---
 
-# Contact
+## Contact
 
 <div class="contact-social-icons">
   <a href="mailto:acpena@ieee.org" class="contact-icon-btn" title="Email (acpena@ieee.org)" aria-label="Email">

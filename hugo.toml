@@ -15,12 +15,12 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+# Main sections (for home page) - empty to prevent posts on home page
+mainSections = []
+
 # Output formats for search
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-# Main sections (for home page) - empty to prevent posts on home page
-mainSections = []
 
 # Menu configuration
 [menu]

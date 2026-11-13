@@ -27,6 +27,13 @@ Beyond industrial research, I am deeply committed to international academic gove
 - **Ambient Intelligence & Pervasive Computing** (Distributed collaborative environments and Internet-of-Things)
 - **Responsible AI & Technology Governance** (AI ethics, gender equality in tech leadership, and innovation processes from idea-generation to execution)
 
+---
+
+### Beyond Research
+
+Alongside scientific research, I maintain an active creative practice in figurative life drawing and classical choral music, with work exhibited in UK galleries and vocal performances at venues including Snape Mailtings and the Royal Albert Hall. Explore this work on my [Creative Practice](/art/) page.
+
+
 # Contact
 
 <div class="contact-social-icons">

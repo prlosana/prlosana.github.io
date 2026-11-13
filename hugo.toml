@@ -49,6 +49,11 @@ mainSections = []
     name = "Search"
     url = "/search/"
     weight = 50
+  [[menu.main]]
+    identifier = "art"
+    name = "Art"
+    url = "/art/"
+    weight = 60
 
 # PaperMod theme configuration
 [params]

@@ -43,8 +43,9 @@
     <nav class="nav">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
+            {{- $subtitle := (site.Params.label.subtitle | default site.Params.subtitle) }}
             {{- if site.Title }}
-            <a href="{{ "" | relLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+            <a href="{{ "" | relLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)" class="logo-brand">
                 {{- if site.Params.label.icon }}
                 {{- $img := resources.Get site.Params.label.icon }}
                 {{- if $img }}
@@ -69,7 +70,10 @@
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
                 {{- end -}}
-                {{- $label_text -}}
+                <span class="logo-title">{{- $label_text -}}</span>
+                {{- with $subtitle }}
+                <span class="logo-subtitle">{{ . }}</span>
+                {{- end }}
             </a>
             {{- end }}
             <div class="logo-switches">

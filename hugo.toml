@@ -59,6 +59,7 @@ mainSections = []
 [params]
   # Site description
   description = "Dr. Anasol Peña-Rios"
+  subtitle = "PhD, SMIEEE, MITP"
   
   # Default theme mode
   defaultTheme = "auto"

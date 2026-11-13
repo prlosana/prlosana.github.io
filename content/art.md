@@ -40,7 +40,7 @@ My visual arts practice centers on figurative life drawing, human anatomy, and s
 A soprano/chorister across major symphonic and sacred choral works, performing in concert halls across the UK.
 
 {{< tabs >}}
-<!--tab:London Appearances-->
+<!--tab:Classical Spectacular-->
 - **Classical Spectacular**, Royal Albert Hall, London, UK (15–18 March 2012)  
   *Performed with the Royal Choral Society, accompanied by the Royal Philharmonic Orchestra; conducted by John Rigby, featuring soprano Kate Valentine.* 
 
